@@ -1070,6 +1070,157 @@ bawxnuengx　（见nuengxbawx）　弟媳
 bawxndu　（见gam）　监视；监督
 bawh　叫牛向右走或向右转
 bawhdauq　叫牛向右后转
+be　片［把肉斜切成薄片］
+be　［方］mej　并生；连体　song boux lwg dox～。两个连体婴儿。
+be　（见roi）　（）梭（芭蕉）
+bez　（见saz）　木排；筏；竹排
+bej　扁［受压力而扁］
+bej　扑克
+bejlez　（见loxlez）　唢呐　（书中误为“哨呐”－［honghlaj］）
+beq　背［一般指背在两侧］　De ～ daehsaw bae hagdangz。他背书包去学校。
+beh　（见deh）　蛔虫
+beh　［方］干
+beh　（见sanj）　繁殖
+beh　（见geibwnh）　粪箕
+behbenj　（见dehbenj）　绦虫
+beb　（见bauz）　（五谷）不饱满；瘪；秕
+beb　（见mboep）　（肚皮）收缩
+bed　大竹箩；大谷箩［约装谷一、二百斤］
+beddoj　（见namhhaj）　白垩
+beg　角力
+beg　白［没有成就或没有效果的］　～byaij baez ndeu　白走一趟
+beg　［方］banj　扳（倒）
+begbeg　白白地；没有效果的；徒然　Gaxgonq ～ vih dicuj guhhong,mbouj ndaej saek maenz cienz。从前白白地替地主打工，没得一文钱。
+begcih　白字；别字；错别字
+begdangz　［方］dangzsa;dangzhau　白糖
+begdaeuz　（见begdiep）　白头帖
+begdiep　［方］begdaeuz；sawraiz　白头帖［过去民间对一些人的阴私进行揭露而写的墙头报］
+begdou　［方］maenzsienq;maenzai;maenzdaengj　门框
+begfanz　［方］fanz　白矾；明矾
+begfwngz　［与fwngzbyouq同］①白手　②徒手　③赤手空拳
+beggen　［方］auqgen;bingq;byoemjmwz;caenqliuj　比臂力
+beggienj　白卷
+beghag　白鹤
+beg'iemq　顽皮；调皮［说辞、做事惹人讨厌］
+beglab　［方］labhau　白腊
+beglaeux　白杨
+begloh　白露［节令名］
+begnem　［与gaijdiuq同］扒手；小偷
+begsaeh　［方］cai;sangsaeh　丧事；白事
+begsai　白费
+begsienj　［方］begsuet;mbitsiet;gaez　头皮［头皮表面脱落下来的碎屑］　（头皮屑－［honghlaj］）
+begsouj　（见fwngzbyouq）　①白手　②徒手　③赤手空拳
+begsuet　（见begsienj）　头皮　（头皮屑）
+begyouz　生抽酱油；双晒油［颜色较淡，比一般酱油好］
+begdoz　（见fangzdoz）鬼缠身［迷信语］
+beigeiq　碑记
+beimoh　墓碑
+beiz　（见vad）　扇（扇子）［摇动扇子］
+beiz　［方］viz　扇子
+beiz　皮［商品或物品的外皮包装物］　Loz haeux neix lienz ～ miz hajcib gaen。这箩谷子连皮共五十斤。
+beiz　（书的）皮面
+beizbwn　羽毛扇
+beizcit　（见siujgvij）　（嘴）馋
+beizgya　（见boizhaq）　陪嫁
+beizhat　用草织的扇子
+beizheiq　脾气
+beizhuj　（见beizsen）　葵扇
+beizlat　（见beizsen）　葵扇
+beizloek　（水车的）辘片
+beizmaklangz　（见beizsen）　葵扇
+beizsen　［方］beizmaklangz;beizlat;beizhuj;vizgox　葵扇
+beizyangj　培养；造就
+beij　较；较量
+beij　比　De ～ mwngz guh ndaej vaiq。他比你做得快。
+beij　（见liuq）　瞄准
+beij　（见raenz）　泌
+beijbaenz　（见lumjbaenz）　好象；比如；例如；似乎
+beijgangj　比如说
+beijgoepgvej　［方］壮族歌圩的一种，流行于东兰一带，每逢旧历正月初旬，男女青年汇聚田野，葬青蛙，然后自由双双对歌预祝一年风调雨顺，交流各人一年之运筹。
+beijlaeh　比例
+beijlez　（见loxlez）唢呐
+beijlumj　譬喻；比方
+beijsiengq　（见lumjbaenz）　好象；比如；例如；似乎
+beijswq　如果
+beix　①兄；姐　②哥哥姐姐　③对兄姐辈及其朋友的尊称
+beix　（见go）　哥哥
+beix　（见cej）　姐姐
+beixbawx　（见sauj;beixnangz）　胞兄嫂
+beixgwiz　（见cejfou）　姐夫
+beixmbwk　（见cej）　姐姐
+beixnangz　［与sauj同］　①内兄嫂　②胞兄嫂
+beixnangzaluz　（见bajliuz）　妯娌
+beixngaenz　女子对男情人的称呼［与beix;gvang同］
+beixnuengx　兄弟姐妹
+beixnuengx　①近亲　②同胞；乡亲
+beixsau　（见cej）　姐姐
+beixsauj　（见sauj；beixnangz）①胞兄嫂　②内兄嫂
+beixyez　（见cejfou）　姐夫
+beixyez　（见biujcejfou）　表姐夫
+beiq　铺（床）
+beihguqnengq　［方］一种小蜻蜓，体细而长
+beihvaiz　（见biengzbeihhak）　大蜻蜓
+bek　［方］dop　拍（手）；鼓掌
+bek　①靶；靶子　②目标
+bek　大蜻蜓
+bek　［方］vajgeng；vajsat　褙子；袼褙［用碎布或旧布加衬纸裱成的厚片，多用来制布鞋］
+bek　（见dek）　裂；裂开；爆裂；破裂
+bek　（见bongj）　刮
+bekbienq　（见biejsaw）　重瓣胃［反刍动物的胃的敏感部分，内壁有书页状的褶，也叫百叶］
+bekfwngz　鼓掌
+bekroemroem　［方］果树由于结果多而下垂
+beksingq　老百姓
+bemx　［方］doenghoz;doiqndej;biuhhoz;biuhsaed;dwglai;dwghoz;hab'eiq;soenghoz　活该；称快　De guh vaihsaeh deng fad,caen ～ lo！他做坏事被处罚，真活该！
+bemqngwngw　［方］鬼鬼祟祟
+bemhbongz　［方］bongqbij;saemciz;hamznaq;fanzrem　（禾稻）含苞
+ben　（见dat）　削
+ben　（见dinz）　黄蜂
+benz　攀；攀登；爬［指往上攀爬］
+benz　（见lah）　蔓延
+benj　板子；木板；板　～　bam　楼板　～　dou　门板
+benj　［方］bamj　扁（形）
+benj　横切薄肉片
+benj　［与faex;guencaiz同］　棺材
+benjbak　［方］　冲突；吵嘴
+benjbangq　扁扁的
+benjbatbat　［方］扁扁的［比benjbangq还扁］
+benjdieb　跳板［搭在车、船等的边沿，便于人上下的长板］
+benjdou　门板
+benq　［方］yangq;baj　（）朵（云）
+benq　［方］anj;biengh;manj;maiq;mangq　片［指面积］　～　naz neix ndei raixcaix。这片田好得很。
+benq　（见bawx）　形容身上长疥疮太多，密密麻麻成片的
+benqcienz　（见gakceij）　椽子
+benqhe　（见muengx）　鱼网；网
+benh　（见daz）　蔓延；攀沿（书中写成“攀延”－［honghlaj］）；伸延
+benh　（见lag）　烧；燎原［火势逐渐地蔓延到别处］
+beng　［方］nengh;caj　扯；拉　～　cag　拉绳子
+bengcag　［方］naenghcag　拨河
+benggvan　（见hwnjgeuq）　抽筋
+benggvan　（见fatfung）　婴儿破伤风［俗称脐带风或四六风］
+bengz　（价钱）贵；宝贵［就价值而言，一般不用在表达抽象概念，如时间、经验宝贵等］
+bengz　（见bungz）　①棚　②棚圈
+bengj　［方］靠；依靠　～　vunz gwn mbouj imq。靠人吃不饱
+bengj　（见ai）　靠；倚靠
+bengjrumq　［与rumqbuh同］衣兜
+bengx　（见fouq）　副［指正副］
+bengx　（见caenh）　尽（力）；尽（量）
+bengq　（吃得肚子）很胀
+bengq　（见ciemz）　拔
+bengh　蹼
+bengh　（见cuengq）放；释放
+bep　（见mbangq）　头发剃或剪不干净，留下东一片西一片的样子
+bet　八；捌　～nyied cib ngux　八月十五
+betfueng　八方
+betlet　（见siujheiq）　小气
+beu　单［只有一层的衣、裤或被单］buh～单衣　denz～单被
+beu　［与daekcoih同］得罪；冒犯
+beuz　瓢；勺子；舀子
+beuz　［方］奔跑
+beuzfaex　（见mbai）　木瓢
+beuzgeng　匙羹
+beuj　（见vuet）　割；砍［用镰刀将荆棘、杂草、小树等全部割光、砍光］
+beuj　①收拾　～　vanj　收拾碗筷　②搬
+beuq　（见samj）　轻撒（粉末）
 bi　［方］baed　①摆；摆动；甩动　②荡（秋千）
 bi　①年　②岁
 bi　（见fangz）　鬼

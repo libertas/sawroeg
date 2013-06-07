@@ -23,7 +23,7 @@
    </size>
   </property>
   <property name="windowTitle">
-   <string>Form</string>
+   <string>Saw Roeg</string>
   </property>
   <widget class="QLineEdit" name="lineEdit">
    <property name="geometry">
@@ -143,38 +143,6 @@
  <resources/>
  <connections>
   <connection>
-   <sender>pushButton_4</sender>
-   <signal>clicked()</signal>
-   <receiver>lineEdit</receiver>
-   <slot>clear()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>469</x>
-     <y>117</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>291</x>
-     <y>20</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>pushButton_4</sender>
-   <signal>clicked()</signal>
-   <receiver>lineEdit_2</receiver>
-   <slot>clear()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>455</x>
-     <y>121</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>334</x>
-     <y>74</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
    <sender>pushButton_3</sender>
    <signal>clicked()</signal>
    <receiver>MainWindow</receiver>
@@ -190,5 +158,90 @@
     </hint>
    </hints>
   </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>searchCuengh()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>424</x>
+     <y>32</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>486</x>
+     <y>6</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>search()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>439</x>
+     <y>74</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>489</x>
+     <y>59</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>lineEdit</sender>
+   <signal>returnPressed()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>searchCuengh()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>165</x>
+     <y>12</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>149</x>
+     <y>-1</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>lineEdit_2</sender>
+   <signal>returnPressed()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>search()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>164</x>
+     <y>65</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>148</x>
+     <y>52</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_4</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>clearText()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>437</x>
+     <y>119</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>438</x>
+     <y>152</y>
+    </hint>
+   </hints>
+  </connection>
  </connections>
+ <slots>
+  <slot>search()</slot>
+  <slot>searchCuengh()</slot>
+  <slot>clearText()</slot>
+ </slots>
 </ui>
