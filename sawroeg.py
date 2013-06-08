@@ -26,13 +26,12 @@ class MainWindow(QtGui.QWidget,mainwindow.Ui_MainWindow):
 		self.lineEdit_2.setText("")
 	
 	def searchCuengh(self):
-		if self.searchingCuengh==False:
-			self.textBrowser.setText(self.bro_text)
-			self.searchingCuengh=True
 		self.textBrowser.setText(searchCuengh(self.lineEdit.text()))
+		self.searchingCuengh=True
 	
 	def search(self):
-		self.textBrowser.setText(self.bro_text)
+		if self.searchingCuengh==True:
+			self.textBrowser.setText(self.bro_text)
 		self.textBrowser.find(self.lineEdit_2.text())
 		self.searchingCuengh=False
 		
