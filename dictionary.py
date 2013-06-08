@@ -1,11 +1,9 @@
 
-import sawguq
-
-def searchCuengh(key):
-	key0=key[0].upper()
-	guq=sawguq.sawguq[key0]
-	pos=guq.index(key)
-	if pos!=0:
-		pos=guq.index("\n"+key)+1
-	return guq[pos:]
-
+def searchCuengh(key,string):
+	tlist=string.rsplit("\n")
+	result=""
+	for i in tlist:
+		if i.startswith(key):
+			result+=i
+			result+="\n"
+	return result
