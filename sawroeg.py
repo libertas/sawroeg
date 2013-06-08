@@ -37,13 +37,9 @@ class MainWindow(QtGui.QWidget,mainwindow.Ui_MainWindow):
 	def searchCuengh(self):
 		key=self.lineEdit.text()
 		self.textBrowser.setText(searchCuengh(key,sawguq[key[0].upper()]))
-		self.searchingCuengh=True
 	
 	def search(self):
-		if self.searchingCuengh==True:
-			self.textBrowser.setText(self.bro_text)
-		self.textBrowser.find(self.lineEdit_2.text())
-		self.searchingCuengh=False
+		self.textBrowser.setText(search(self.lineEdit_2.text()))
 		
 	
 if __name__=="__main__":
