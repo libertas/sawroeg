@@ -22,7 +22,7 @@ class MainWindow(QtGui.QWidget,mainwindow.Ui_MainWindow):
 		
 		for i in sawguq:
 			self.bro_text+=sawguq[i]
-		self.textBrowser.setText(add_index_number(self.bro_text))
+		self.clearText()
 	
 	def move_to_center(self):
 		screen = QtGui.QDesktopWidget().screenGeometry()
@@ -30,7 +30,7 @@ class MainWindow(QtGui.QWidget,mainwindow.Ui_MainWindow):
 		self.move((screen.width()-size.width())/2, (screen.height()-size.height())/2)
 	
 	def clearText(self):
-		self.textBrowser.setText(self.bro_text)
+		self.textBrowser.setText(add_index_number(self.bro_text))
 		self.lineEdit.setText("")
 		self.lineEdit_2.setText("")
 	
@@ -40,6 +40,27 @@ class MainWindow(QtGui.QWidget,mainwindow.Ui_MainWindow):
 	
 	def search(self):
 		self.textBrowser.setText(search(self.lineEdit_2.text()))
+	
+	def about(self):
+		try:
+			text_about="Sawroeg:Sawloih Cuengh-Gun duh Daegroeg\n"
+		except:
+			pass
+		
+		try:
+			text_about+="\n"
+			text_about+="\n"
+			text_about+=open("README.md").read()
+		except:
+			pass
+		
+		try:
+			text_about+="\n"
+			text_about+="\n"
+			text_about+=open("COPYING").read()
+			self.textBrowser.setText(text_about)
+		except:
+			pass
 		
 	
 if __name__=="__main__":

@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'mainwindow.ui'
 #
-# Created: Fri Jun  7 19:38:37 2013
+# Created: Wed Jun 12 19:54:48 2013
 #      by: PyQt4 UI code generator 4.9.3
 #
 # WARNING! All changes made in this file will be lost!
@@ -48,6 +48,9 @@ class Ui_MainWindow(object):
         self.pushButton_4 = QtGui.QPushButton(MainWindow)
         self.pushButton_4.setGeometry(QtCore.QRect(390, 100, 91, 31))
         self.pushButton_4.setObjectName(_fromUtf8("pushButton_4"))
+        self.pushButton_5 = QtGui.QPushButton(MainWindow)
+        self.pushButton_5.setGeometry(QtCore.QRect(450, 250, 31, 28))
+        self.pushButton_5.setObjectName(_fromUtf8("pushButton_5"))
 
         self.retranslateUi(MainWindow)
         QtCore.QObject.connect(self.pushButton_3, QtCore.SIGNAL(_fromUtf8("clicked()")), MainWindow.close)
@@ -56,6 +59,7 @@ class Ui_MainWindow(object):
         QtCore.QObject.connect(self.lineEdit, QtCore.SIGNAL(_fromUtf8("returnPressed()")), MainWindow.searchCuengh)
         QtCore.QObject.connect(self.lineEdit_2, QtCore.SIGNAL(_fromUtf8("returnPressed()")), MainWindow.search)
         QtCore.QObject.connect(self.pushButton_4, QtCore.SIGNAL(_fromUtf8("clicked()")), MainWindow.clearText)
+        QtCore.QObject.connect(self.pushButton_5, QtCore.SIGNAL(_fromUtf8("clicked()")), MainWindow.about)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
     def retranslateUi(self, MainWindow):
@@ -66,4 +70,5 @@ class Ui_MainWindow(object):
         self.label_2.setText(QtGui.QApplication.translate("MainWindow", "2.Cuengh rox Gun", None, QtGui.QApplication.UnicodeUTF8))
         self.pushButton_3.setText(QtGui.QApplication.translate("MainWindow", "&Ndaep", None, QtGui.QApplication.UnicodeUTF8))
         self.pushButton_4.setText(QtGui.QApplication.translate("MainWindow", "&Baet", None, QtGui.QApplication.UnicodeUTF8))
+        self.pushButton_5.setText(QtGui.QApplication.translate("MainWindow", "?", None, QtGui.QApplication.UnicodeUTF8))
 
