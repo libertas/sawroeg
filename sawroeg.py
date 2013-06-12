@@ -22,7 +22,7 @@ class MainWindow(QtGui.QWidget,mainwindow.Ui_MainWindow):
 		
 		for i in sawguq:
 			self.bro_text+=sawguq[i]
-		self.textBrowser.setText(self.bro_text)
+		self.textBrowser.setText(add_index_number(self.bro_text))
 	
 	def move_to_center(self):
 		screen = QtGui.QDesktopWidget().screenGeometry()
