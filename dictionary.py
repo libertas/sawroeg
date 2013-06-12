@@ -1,4 +1,14 @@
 
+def add_index_number(string):
+	tlist=string.rsplit("\n")
+	result=""
+	n=1
+	for i in tlist:
+		if i != "":
+			result+="%d.%s\n"%(n,i)
+		n+=1
+	return result
+
 def searchCuengh(key,string):
 	tlist=string.rsplit("\n")
 	result=""
@@ -6,7 +16,7 @@ def searchCuengh(key,string):
 		if i.startswith(key):
 			result+=i
 			result+="\n"
-	return result
+	return add_index_number(result)
 
 def search(key):
 	string=""
@@ -19,4 +29,4 @@ def search(key):
 		if key in i:
 			result+=i
 			result+="\n"
-	return result
+	return add_index_number(result)
