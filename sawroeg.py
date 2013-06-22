@@ -4,7 +4,6 @@ from PyQt4 import QtGui
 import sys
 
 from dictionary import *
-from sawguq import sawguq
 import mainwindow
 
 
@@ -20,6 +19,7 @@ class MainWindow(QtGui.QWidget,mainwindow.Ui_MainWindow):
 		self.searchingCuengh=False
 		self.bro_text=""
 		
+		from sawguq import sawguq
 		for i in sawguq:
 			self.bro_text+=sawguq[i]
 		self.clearText()
@@ -32,14 +32,10 @@ class MainWindow(QtGui.QWidget,mainwindow.Ui_MainWindow):
 	def clearText(self):
 		self.textBrowser.setText(add_index_number(self.bro_text))
 		self.lineEdit.setText("")
-		self.lineEdit_2.setText("")
 	
-	def searchCuengh(self):
+	def newSearch(self):
 		key=self.lineEdit.text()
-		self.textBrowser.setText(searchCuengh(key,sawguq[key[0].upper()]))
-	
-	def search(self):
-		self.textBrowser.setText(search(self.lineEdit_2.text()))
+		self.textBrowser.setText(newSearch(key))
 	
 	def about(self):
 		try:

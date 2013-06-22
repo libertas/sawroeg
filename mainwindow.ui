@@ -104,7 +104,7 @@
    <sender>lineEdit</sender>
    <signal>returnPressed()</signal>
    <receiver>MainWindow</receiver>
-   <slot>search()</slot>
+   <slot>newSearch()</slot>
    <hints>
     <hint type="sourcelabel">
      <x>165</x>
@@ -113,38 +113,6 @@
     <hint type="destinationlabel">
      <x>149</x>
      <y>-1</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>pushButton</sender>
-   <signal>clicked()</signal>
-   <receiver>MainWindow</receiver>
-   <slot>search()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>261</x>
-     <y>18</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>285</x>
-     <y>10</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>pushButton_2</sender>
-   <signal>clicked()</signal>
-   <receiver>MainWindow</receiver>
-   <slot>about()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>395</x>
-     <y>33</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>356</x>
-     <y>15</y>
     </hint>
    </hints>
   </connection>
@@ -165,24 +133,56 @@
    </hints>
   </connection>
   <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>about()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>389</x>
+     <y>37</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>406</x>
+     <y>-5</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
    <sender>pushButton_4</sender>
    <signal>clicked()</signal>
    <receiver>MainWindow</receiver>
    <slot>clearText()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>329</x>
-     <y>30</y>
+     <x>334</x>
+     <y>36</y>
     </hint>
     <hint type="destinationlabel">
-     <x>306</x>
-     <y>27</y>
+     <x>375</x>
+     <y>1</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>newSearch()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>266</x>
+     <y>24</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>247</x>
+     <y>29</y>
     </hint>
    </hints>
   </connection>
  </connections>
  <slots>
-  <slot>search()</slot>
+  <slot>newSearch()</slot>
   <slot>clearText()</slot>
   <slot>about()</slot>
  </slots>
