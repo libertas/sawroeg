@@ -26,6 +26,8 @@ def add_index_number(string):
 	return result
 
 def newSearch(key):
+	if key=="":
+		return ""
 	try:
 		result="A:\n"
 		result+=searchCuengh(key,sawguq[key[0].upper()])

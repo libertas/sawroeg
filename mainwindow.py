@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'mainwindow.ui'
 #
-# Created: Sat Jun 22 18:38:06 2013
+# Created: Sun Jun 23 17:27:38 2013
 #      by: PyQt4 UI code generator 4.9.3
 #
 # WARNING! All changes made in this file will be lost!
@@ -21,13 +21,13 @@ class Ui_MainWindow(object):
         MainWindow.setMinimumSize(QtCore.QSize(0, 0))
         MainWindow.setMaximumSize(QtCore.QSize(494, 347))
         self.lineEdit = QtGui.QLineEdit(MainWindow)
-        self.lineEdit.setGeometry(QtCore.QRect(10, 10, 231, 41))
+        self.lineEdit.setGeometry(QtCore.QRect(80, 10, 171, 41))
         self.lineEdit.setObjectName(_fromUtf8("lineEdit"))
         self.textBrowser = QtGui.QTextBrowser(MainWindow)
         self.textBrowser.setGeometry(QtCore.QRect(10, 60, 471, 281))
         self.textBrowser.setObjectName(_fromUtf8("textBrowser"))
         self.pushButton = QtGui.QPushButton(MainWindow)
-        self.pushButton.setGeometry(QtCore.QRect(250, 10, 51, 41))
+        self.pushButton.setGeometry(QtCore.QRect(260, 10, 51, 41))
         self.pushButton.setObjectName(_fromUtf8("pushButton"))
         self.pushButton_2 = QtGui.QPushButton(MainWindow)
         self.pushButton_2.setGeometry(QtCore.QRect(380, 20, 31, 28))
@@ -36,8 +36,11 @@ class Ui_MainWindow(object):
         self.pushButton_3.setGeometry(QtCore.QRect(420, 10, 61, 41))
         self.pushButton_3.setObjectName(_fromUtf8("pushButton_3"))
         self.pushButton_4 = QtGui.QPushButton(MainWindow)
-        self.pushButton_4.setGeometry(QtCore.QRect(310, 10, 61, 41))
+        self.pushButton_4.setGeometry(QtCore.QRect(320, 10, 51, 41))
         self.pushButton_4.setObjectName(_fromUtf8("pushButton_4"))
+        self.comboBox = QtGui.QComboBox(MainWindow)
+        self.comboBox.setGeometry(QtCore.QRect(10, 10, 61, 41))
+        self.comboBox.setObjectName(_fromUtf8("comboBox"))
 
         self.retranslateUi(MainWindow)
         QtCore.QObject.connect(self.lineEdit, QtCore.SIGNAL(_fromUtf8("returnPressed()")), MainWindow.newSearch)
