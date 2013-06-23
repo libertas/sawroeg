@@ -2,6 +2,19 @@
 from sawguq import sawguq
 from sawgeq import sawgeq
 
+def remove_the_same(string):
+	tlist=string.rsplit("\n")
+	result=""
+	for i in tlist:
+		tlist_2=result.rsplit("\n")
+		n=True
+		for j in tlist_2:
+			if i==j:
+				n=False
+		if n:
+			result+=i+"\n"
+	return result
+
 def add_index_number(string):
 	tlist=string.rsplit("\n")
 	result=""
@@ -31,7 +44,7 @@ def searchCuengh(key,string):
 		if i.startswith(key):
 			result+=i
 			result+="\n"
-	return add_index_number(result)
+	return add_index_number(remove_the_same(result))
 
 def search(key,guq=sawguq,AeuCohSaw=False):
 	result=""
@@ -44,4 +57,4 @@ def search(key,guq=sawguq,AeuCohSaw=False):
 				if AeuCohSaw:
 					result+="    --<<"+i+">>"
 				result+="\n"
-	return add_index_number(result)
+	return add_index_number(remove_the_same(result))
