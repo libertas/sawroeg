@@ -23,6 +23,10 @@ class MainWindow(QtGui.QWidget,mainwindow.Ui_MainWindow):
 		self.comboBox.addItem("A")
 		self.comboBox.addItem("B")
 		self.comboBox.addItem("C")
+		self.comboBox.addItem("AB")
+		self.comboBox.addItem("AC")
+		self.comboBox.addItem("BC")
+		self.comboBox.addItem("ABC")
 		
 		from sawguq import sawguq
 		for i in sawguq:
@@ -40,8 +44,7 @@ class MainWindow(QtGui.QWidget,mainwindow.Ui_MainWindow):
 	
 	def newSearch(self):
 		key=self.lineEdit.text()
-		self.textBrowser.setText(newSearch(key))
-		self.textBrowser.find(self.comboBox.currentText()+":")
+		self.textBrowser.setText(newSearch(key,self.comboBox.currentText()))
 	
 	def about(self):
 		try:

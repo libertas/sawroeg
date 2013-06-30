@@ -25,18 +25,36 @@ def add_index_number(string):
 		n+=1
 	return result
 
-def newSearch(key):
+def newSearch(key,group=""):
 	if key=="":
 		return ""
-	try:
-		result="A:\n"
-		result+=searchCuengh(key,sawguq[key[0].upper()])
-		result+="\nB:\n"
-		result+=search(key)
-		result+="\nC:\n"
-		result+=search(key,sawgeq,True)
-	except:
-		result=search(key)
+	
+	result=""
+	
+	if "A" in group:
+		try:
+			result+="A:\n"
+			result+=searchCuengh(key,sawguq[key[0].upper()])
+			result+="\n"
+		except:
+			return search(key)
+	
+	if "B" in group:
+		try:
+			result+="B:\n"
+			result+=search(key)
+			result+="\n"
+		except:
+			return search(key)
+	
+	if "C" in group:
+		try:
+			result+="C:\n"
+			result+=search(key,sawgeq,True)
+			result+="\n"
+		except:
+			return search(key)
+			
 	return result
 
 def searchCuengh(key,string):
