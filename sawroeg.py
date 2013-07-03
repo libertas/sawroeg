@@ -2,6 +2,7 @@
 
 from PyQt4 import QtGui
 import sys
+import re
 
 from dictionary import *
 import mainwindow
