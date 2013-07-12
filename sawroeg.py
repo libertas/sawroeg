@@ -2,6 +2,7 @@
 
 from PyQt4 import QtGui
 import sys
+import re
 
 from dictionary import *
 import mainwindow
@@ -63,9 +64,10 @@ class MainWindow(QtGui.QWidget,mainwindow.Ui_MainWindow):
 			text_about+="\n"
 			text_about+="\n"
 			text_about+=open("COPYING").read()
-			self.textBrowser.setText(text_about)
 		except:
 			pass
+		
+		self.textBrowser.setText(text_about)
 		
 	
 if __name__=="__main__":
