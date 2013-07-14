@@ -56,7 +56,7 @@ class MainWindow(QtGui.QWidget,mainwindow.Ui_MainWindow):
 		try:
 			text_about+="\n"
 			text_about+="\n"
-			text_about+=open("README.md").read()
+			text_about+=open("README").read()
 		except:
 			pass
 		
