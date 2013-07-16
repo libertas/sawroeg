@@ -8,7 +8,8 @@ if os.name=="posix":
 	python_name="python3" #change it if it's not "python3"
 	
 	system("cp -r ./ /opt/sawroeg/")
-	system('echo "cd /opt/sawroeg/;'+python_name+' /opt/sawroeg/sawroeg.py" > /usr/local/bin/sawroeg')
+	system('echo "cd /opt/sawroeg/\n'+python_name+' /opt/sawroeg/sawroeg.py" > /usr/local/bin/sawroeg')
+	system("chmod +rx /opt/sawroeg")
 	system("chmod +x /usr/local/bin/sawroeg")
 
 elif os.name=="nt":
