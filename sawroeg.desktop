@@ -1,0 +1,13 @@
+[Desktop Entry]
+Categories=GNOME;KDE;Qt;
+Comment=Sawloih Cuengh-Gun duh Daegroeg
+Exec=sawroeg
+GenericName=Sawroeg
+Icon=/opt/sawroeg/sawroeg.ico
+Name=Sawroeg
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
