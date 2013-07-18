@@ -48,10 +48,8 @@ class MainWindow(QtGui.QWidget,mainwindow.Ui_MainWindow):
 		self.textBrowser.setText(newSearch(key,self.comboBox.currentText()))
 	
 	def about(self):
-		try:
-			text_about="Sawroeg:Sawloih Cuengh-Gun duh Daegroeg\n"
-		except:
-			pass
+		text_about="Sawroeg:Sawloih Cuengh-Gun duh Daegroeg\n"
+		text_about+="Email: horizonvei@gmail.com"
 		
 		try:
 			text_about+="\n"
