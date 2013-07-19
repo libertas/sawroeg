@@ -1,8 +1,16 @@
 #! /usr/bin/env python3
 
 from PyQt4 import QtGui
-import sys
-import re
+
+try:
+	import sys
+except:
+	pass
+
+try:
+	import re
+except:
+	pass
 
 from dictionary import *
 import mainwindow
