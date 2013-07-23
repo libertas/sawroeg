@@ -16,9 +16,9 @@ for word in open('sawguq.txt', 'r').read().splitlines():
     else:
         sawguq[idx] = [word]
 sawguq_py = open('sawguq.py', 'w')
-sawguq_py.write('sawguq = {\n')
+sawguq_py.write('sawguq = [\n')
 for word in sorted(sawguq):
     sawguq[word].sort()
-    sawguq_py.write('    %s: %s,\n' % (repr(word), repr(sawguq[word])))
-sawguq_py.write('}\n')
+    sawguq_py.write('    %s,\n' % repr((word, sawguq[word])))
+sawguq_py.write(']\n')
 sawguq_py.close()
