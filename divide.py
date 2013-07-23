@@ -6,7 +6,8 @@ from sawguq_old import sawguq
 sawguq_split = '\n'.join((sawguq[i] for i in sawguq)).splitlines()
 sawguq_dict = {}
 for word in sawguq_split:
-    word = word.replace('\u3000', '\x20').strip()
+    word = word.replace('\u3000', '\x20').replace('(', '（').replace(
+        ')', '）').strip()
     if not word:
         continue
     try:
