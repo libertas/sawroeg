@@ -17150,7 +17150,7 @@ ndaw　里；内
 ndawaek　胸膛
 ndawbiengz　[方]　人间
 ndawcib　[方]gacib　中旬
-ndawco上旬；月初
+ndawco　上旬；月初
 ndawgai　市区
 ndawlaep　暗中；暗地
 ndawhoengq　空间
