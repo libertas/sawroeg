@@ -12,12 +12,17 @@ r1=dict()
 for k in r:
 	for i in k:
 		try:
-			n=i.index("　")
+			n=i.index(" ")
 		except:
 			continue
+		
 		j=i[:n]
-		r1[j]=i
+		if not j in r1:
+			r1[j]=list()
+		else:
+			pass
+		r1[j].append(i)
 
-print(r1)
+print(repr(r1))
 
 
