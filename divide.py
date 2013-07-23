@@ -22,6 +22,6 @@ for k in r:
 			pass
 		r1[j].append(i)
 
-print(repr(r1))
+print("sawguq="+repr(r1))
 
 
