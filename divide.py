@@ -1,6 +1,5 @@
-
-from sawguq import sawguq
-from sawgeq import sawgeq
+#!/usr/bin/env python3
+from sawguq_old import sawguq
 
 r=list()
 for j in sawguq:
