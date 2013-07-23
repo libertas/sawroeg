@@ -14438,8 +14438,7 @@ loeklak　[方]　①意外　②偶尔
 loeknaemx　(见loekraemx)　水车
 loekngaz　(见loekgawq)　齿轮
 loekraemx　[方]loek；loeknaemx；saj　水牢
-loekrumz　[方]fungci；lwgrumz　风车[利用风力的动力机械装置，可以带动
-其它机器，用来提水、磨米等]
+loekrumz　[方]fungci；lwgrumz　风车[利用风力的动力机械装置，可以带动其它机器，用来提水、磨米等]
 loeksaj　土纺纱机上的转轮
 loem　亏空，亏本
 loem　[方]　(穿)通　Aen loz neix daej de cungj ～ liux lo．这个箩的底都完全穿了。
@@ -18323,8 +18322,7 @@ nwnj　[方]daw　被虫咬或被鞭打后皮肤所起的红疙瘩或血痕
 nwnjnannan　[方]　皮肤起很多的红疙瘩
 nwnjroedroed　[方]　皮肤起很多的红疙瘩
 nwnx　(见gyan)　吞
-nwnh　[方]lengq　零碎　Aeu baengz　～ daeuj guh daejhaiz．拿碎布来做鞋
-底。
+nwnh　[方]lengq　零碎　Aeu baengz　～ daeuj guh daejhaiz．拿碎布来做鞋底。
 nwngq　(见haenx)　那
 nwngq　食欲不振
 nwt　(见cik)　炎热
@@ -18507,8 +18505,7 @@ nyezdawh　一种游戏[把很多筷子放在手背上，然后把手翻过来�
 nyezdoih　孩子们；小朋友们
 nyezheiq　稚气
 nyezvaiz　[方]　牧童
-nyex　[方]ciuyex；ciufei；ye；do'nye；dohyeh　惹;
-招惹
+nyex　[方]ciuyex；ciufei；ye；do'nye；dohyeh　惹;招惹
 nyeq　(见caenx)　挤
 nyeq　(见haebgyawh)　哮喘；气喘
 nyeh　(见fug)　服;屈服
