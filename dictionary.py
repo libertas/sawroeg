@@ -1,13 +1,25 @@
 
+import bisect
+
 from sawguq import sawguq
 from sawgeq import sawgeq
 
 
-def searchWord(key, from_begin=True):
+def searchWord(key, from_begin=False):
     if from_begin:
-        return (word for word in sawguq if word[0].startswith(key))
+        for i in range(bisect.bisect_left(sawguq, (key,)), len(sawguq)):
+            word = sawguq[i]
+            if not word[0].startswith(key):
+                break
+            yield word
     else:
-        return (word for word in sawguq if key in word[0])
+        # Require Python 3.3
+        # yield from searchWord(key, from_begin=True)
+        # yield from (word for word in sawguq if key in word[0][1:])
+        for i in searchWord(key, from_begin=True):
+            yield i
+        for i in (word for word in sawguq if key in word[0][1:]):
+            yield i
 
 
 def searchExamples(key):
