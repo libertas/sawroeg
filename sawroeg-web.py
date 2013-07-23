@@ -10,22 +10,29 @@ import dictionary
 
 class SearchHandler(tornado.web.RequestHandler):
     def get(self):
+        start = 0
         try:
             start = max(int(self.get_argument("start")), 0)
         except (ValueError, tornado.web.MissingArgumentError):
-            start = 0
+            pass
+        has_count = False
+        count = 500
         try:
             count = max(int(self.get_argument("count")), 1)
-            count_ = True
+            has_count = True
         except (ValueError, tornado.web.MissingArgumentError):
-            count = 500
-            count_ = False
+            pass
+        key = ''
         try:
             key = self.get_argument("key")
         except tornado.web.MissingArgumentError:
-            key = ''
+            pass
         result = list(dictionary.searchWord(key)) if key else []
-        self.render("sawroeg-web.html", key=key, start=start, count=count, count_=count_, result=result[start:start+count], total_count=len(result))
+        template_args = {
+            "key": key, "start": start, "count": count, "has_count": has_count,
+            "total_count": len(result), "result": result[start:start+count]
+        }
+        self.render("sawroeg-web.html", **template_args)
 
 
 if __name__ == "__main__":

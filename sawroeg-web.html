@@ -9,7 +9,7 @@
 <form>
 <input type="text" name="key"{% if key %} value="{{ key }}"{% end %} />
 <input type="submit" value="ra" />
-{% if count_ %}<input type="hidden" value={{ count }} />
+{% if has_count %}<input type="hidden" value={{ count }} />
 {% end %}</form>
 <hr />
 {% if start>0 %}<a href="?key={{ key }}&start={{ max(start-count, 0) }}&count={{ count }}">Previous page</a>
