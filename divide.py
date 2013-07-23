@@ -11,7 +11,7 @@ r1=dict()
 for k in r:
 	for i in k:
 		try:
-			n=i.index(" ")
+			n=i.index("　")
 		except:
 			continue
 		
