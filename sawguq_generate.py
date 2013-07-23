@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 
-sawguq_split = open('sawguq.txt', 'r').read().splitlines()
-sawguq_dict = {}
-for word in sawguq_split:
+sawguq = {}
+for word in open('sawguq.txt', 'r').read().splitlines():
     word = word.replace('\u3000', '\x20').replace('(', '（').replace(
         ')', '）').strip()
     if not word:
@@ -12,12 +11,14 @@ for word in sawguq_split:
     except ValueError:
         raise ValueError('Misformed line: %s' % repr(word))
     idx = idx.strip('-').lower()
-    if idx in sawguq_dict:
-        sawguq_dict[idx].append(word)
+    if idx in sawguq:
+        sawguq[idx].append(word)
     else:
-        sawguq_dict[idx] = [word]
-print('sawguq = {')
-for word in sorted(sawguq_dict):
-    sawguq_dict[word].sort()
-    print('    %s: %s,' % (repr(word), repr(sawguq_dict[word])))
-print('}')
+        sawguq[idx] = [word]
+sawguq_py = open('sawguq.py', 'w')
+sawguq_py.write('sawguq = {\n')
+for word in sorted(sawguq):
+    sawguq[word].sort()
+    sawguq_py.write('    %s: %s,\n' % (repr(word), repr(sawguq[word])))
+sawguq_py.write('}\n')
+sawguq_py.close()
