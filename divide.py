@@ -13,11 +13,13 @@ for word in sawguq_split:
         idx, content = word.split(' ', 1)
     except ValueError:
         raise ValueError('Misformed line: %s' % repr(word))
+    idx = idx.strip('-').lower()
     if idx in sawguq_dict:
-        sawguq_dict[idx].append(content)
+        sawguq_dict[idx].append(word)
     else:
-        sawguq_dict[idx] = [content]
+        sawguq_dict[idx] = [word]
 print('sawguq = {')
 for word in sorted(sawguq_dict):
+    sawguq_dict[word].sort()
     print('    %s: %s,' % (repr(word), repr(sawguq_dict[word])))
 print('}')
