@@ -34,7 +34,3 @@ def newSearch(key,group):
 	for i in result:
 		value+=i
 	return value
-
-if __name__=="__main__":
-	for i in searchExamples("goengbingz"):
-		print(i)
