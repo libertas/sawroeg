@@ -1,7 +1,7 @@
 
-sawgeq={}
+sawgeq = {}
 
-sawgeq["FWEN CIENZYIENGZ"]="""FWEN CIENZYIENGZ
+sawgeq["FWEN CIENZYIENGZ"] = """FWEN CIENZYIENGZ
 DAIH’IT BOUHFAENH
 1.Fwen goek
 Gaem bit sij sawceih (cih)
@@ -1783,7 +1783,7 @@ Geiqmaeuz sou gag ngvanh
 *Bonj sawfwen neix Gvangjsih Minzcuz Cuzbanjse 1984 nienz 10 nyied cuzbanj.
 """
 
-sawgeq["GINGSEI BOHROXDOH"]="""GINGSEI BOHROXDOH
+sawgeq["GINGSEI BOHROXDOH"] = """GINGSEI BOHROXDOH
 
 Cien fanh mbaw rong faex
 Mbouj couq ndaej duj va
@@ -7664,7 +7664,7 @@ Yienh gaiq yah daengqdoengz
 
 ------ 2009-4-13 coih baenz"""
 
-sawgeq["MOZ YIZ DAIHVUENGZ"]="""MUZLUZ
+sawgeq["MOZ YIZ DAIHVUENGZ"] = """MUZLUZ
 
 Vah Haidaeuz…………………………………………………( 1 )
 Fwen Nduj…………………………………………………….( 1 )
@@ -15388,7 +15388,7 @@ Fanh seiq hawj Moz Yiz dang vuengz!
 ------Daegdenz Ranzcung
 Bi 2009 Ndwen5 Ngoenz19 lukhaeuj"""
 
-sawgeq["DAHGYAX CAEUQ DAHBENGZ"]="""DAHGYAX CAEUQ DAHBENGZ
+sawgeq["DAHGYAX CAEUQ DAHBENGZ"] = """DAHGYAX CAEUQ DAHBENGZ
 
              VAH HAIDAEUZ
  Heiqcuengh baihbaek  youq Cingcauz Cienzlongz  samcib bi(1765nienz) laizyouz youq Gvangjsij Dienzlinz yen , youq Dienzlinz yen ciuhciuh cienz ndaej songbak lai bi .  heiqcuengh baihbaek ciengq \ doeg cungj gangj vahcuengh , coenzvah gyaeu’ndei ,ciengq diuq caeuq yienj duzdwz , yinyoz gujbuz ndei dingq，youq cienzgoz heiqcungj baihndaw gag miz daegsaek . 2006nienz,  heiqcuengh baihbaek ndaej daengz guekgya daih’it baez sij roengz gaep feihvuzgyiz vwnzva yizcanj baujhuq hanghmoeg .bi 2007 ndwen 4 ngoenz 27 daengz 30hauh ,cunghgung dienzlinz yen veij . yen yinzminz cwngfuj banh baenz daih’it baez Gvangjsij  heiqcuengh baihbaek vwnzva yisuzcez .  《dahgyax caeuq dahbengz》  couh deng deuz   heiqcuengh baihbaek conzdungj cezmuz ndeu .
