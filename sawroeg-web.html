@@ -1,14 +1,22 @@
+<!DOCTYPE html>
 <html>
-<head>Sawroeg:Sawroeg Cuengh-Gun duh Daegroeg</head>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Sawroeg: Sawroeg Cuengh-Gun duh Daegroeg</title>
+</head>
 <body>
-	<form>
-		<p>
-			<input type="text" name="key">
-			<input type=submit value='ra'>
-		</p>
-	</form>
-	{% for i in items %}
-	<p>{{i}}</p>
-	{% end %}
-</body>
+<h1>Sawroeg: Sawroeg Cuengh-Gun duh Daegroeg</h1>
+<form>
+<input type="text" name="key"{% if key %} value="{{ key }}"{% end %} />
+<input type="submit" value="ra" />
+{% if count_ %}<input type="hidden" value={{ count }} />
+{% end %}</form>
+<hr />
+{% if start>0 %}<a href="?key={{ key }}&start={{ max(start-count, 0) }}&count={{ count }}">Previous page</a>
+{% end %}{% if result %}<ol{% if start>0 %} start="{{ start+1 }}"{% end %}>
+{% for word in result %}<li>{% for desc in word[1] %}<div>{{ desc }}</div>{% end %}</li>
+{% end %}</ol>
+{% if total_count>start+count %}<a href="?key={{ key }}&start={{ start+count }}&count={{ count }}">Next page</a>
+{% end %}{% elif key %}<div>No results.</div>
+{% end %}</body>
 </html>
