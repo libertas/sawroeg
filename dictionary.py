@@ -5,14 +5,9 @@ from sawgeq import sawgeq
 
 def searchWord(key, from_begin=True):
     if from_begin:
-        if key in sawguq:
-            for i in sawguq[key]:
-                yield i
+        return ((word, sawguq[word]) for word in sawguq if word.startswith(key))
     else:
-        for i in sawguq.values():
-            for j in i:
-                if key in j:
-                    yield j
+        return ((word, sawguq[word]) for word in sawguq if key in word)
 
 
 def searchExamples(key):
