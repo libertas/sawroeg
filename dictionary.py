@@ -6,6 +6,7 @@ from sawgeq import sawgeq
 
 
 def searchWord(key, from_begin=False):
+    key = str(key).lower()
     if from_begin:
         for i in range(bisect.bisect_left(sawguq, (key,)), len(sawguq)):
             word = sawguq[i]
