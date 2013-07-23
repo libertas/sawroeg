@@ -23,6 +23,18 @@ def searchExamples(key):
 				result+="%s    --<<%s>>\n"%(j,i)
 				yield result
 
+def newSearch(key,group):
+	if group=="Gyaeuj":
+		result=searchWord(key,True)
+	elif group=="Gyang":
+		result=searchWord(key,False)
+	elif group=="Laeh":
+		result=searchExamples(key)
+	value=""
+	for i in result:
+		value+=i
+	return value
+
 if __name__=="__main__":
 	for i in searchExamples("goengbingz"):
 		print(i)
