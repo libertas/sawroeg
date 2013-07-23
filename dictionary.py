@@ -31,6 +31,8 @@ def newSearch(key,group):
     elif group=="Laeh":
         result=searchExamples(key)
     value=""
+    n=0
     for i in result:
-        value+=i
+        n+=1
+        value+="%d.%s\n"%(n,i)
     return value

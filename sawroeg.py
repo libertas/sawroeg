@@ -26,7 +26,6 @@ class MainWindow(QtGui.QWidget,mainwindow.Ui_MainWindow):
         
         #setup sawloih
         self.searchingCuengh=False
-        self.bro_text=""
         
         #setup comboBox
         self.comboBox.addItem("Gyaeuj")#Head
@@ -34,8 +33,6 @@ class MainWindow(QtGui.QWidget,mainwindow.Ui_MainWindow):
         self.comboBox.addItem("Laeh")#Examples
         
         from sawguq import sawguq
-        for i in sawguq:
-            self.bro_text+=str(sawguq[i])
         self.clearText()
     
     def move_to_center(self):
@@ -44,7 +41,6 @@ class MainWindow(QtGui.QWidget,mainwindow.Ui_MainWindow):
         self.move((screen.width()-size.width())/2, (screen.height()-size.height())/2)
     
     def clearText(self):
-        self.textBrowser.setText(self.bro_text)
         self.lineEdit.setText("")
     
     def newSearch(self):
