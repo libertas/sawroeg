@@ -13,9 +13,11 @@ def searchWord(key, from_begin=False):
                 break
             yield word
     else:
-        # Require Python 3.3
+        # Require Python 3.3:
         # yield from searchWord(key, from_begin=True)
         # yield from (word for word in sawguq if key in word[0][1:])
+        #
+        # Or, use the following:
         for i in searchWord(key, from_begin=True):
             yield i
         for i in (word for word in sawguq if key in word[0][1:]):
