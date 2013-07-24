@@ -48,7 +48,7 @@ def newSearch(key, group):
         result = searchExamples(key)
     value = ""
     n = 0
-    if group!="Laeh":
+    if group != "Laeh":
         for i in result:
             for j in i[1]:
                 n += 1
