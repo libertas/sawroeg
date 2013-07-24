@@ -30,7 +30,8 @@ def newSearch(key, group):
     else:
         for i in result:
             n += 1
-            value += "%d.%s\n" % (n, i)
+            if not i in value:
+                value += "%d.%s\n" % (n, i)
     return value
 
 
