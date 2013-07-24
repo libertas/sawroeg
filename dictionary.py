@@ -46,7 +46,13 @@ def newSearch(key, group):
         result = searchExamples(key)
     value = ""
     n = 0
-    for i in result:
-        n += 1
-        value += "%d.%s\n" % (n, i)
+    if group!="Laeh":
+        for i in result:
+            for j in i[1]:
+                n += 1
+                value += "%d.%s\n" % (n, j)
+    else:
+        for i in result:
+            n += 1
+            value += "%d.%s\n" % (n, i)
     return value
