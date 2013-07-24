@@ -42,9 +42,9 @@ def searchWordByZh(key, from_begin=False):
     for i in sawguq:
         for sentence in i[1]:
             if key in sentence:
-                tmp_list=list()
+                tmp_list = list()
                 tmp_list.append(sentence)
-                yield (i,tmp_list)
+                yield (i, tmp_list)
 
 
 def searchExamples(key):
