@@ -9766,7 +9766,7 @@ sawguq = [
     ('hiqroenx', ['hiqroenx （见diemcaw） 喘气；呼大气']),
     ('hit', ['hit 接受教训[一个人做过某件错事或吃过某种亏，受到现实教训后，不敢再犯或再做]', 'hit （见guh） 做']),
     ('hitdaeuz', ['hitdaeuz （见guhdaeuz） 做头；为首']),
-    ('hiuq（原词条为hinq，honghlaj根据giengz词条更正）', ['hiuq（原词条为hinq，honghlaj根据giengz词条更正） （见giengz） 强[与“优越”“好”同义，多用于比较]']),
+    ('hiuq', ['hiuq （原词条为hinq，honghlaj根据giengz词条更正） （见giengz） 强[与“优越”“好”同义，多用于比较]']),
     ('hix', ['hix [与caemh；goj同] [方]yax 也 Mwngz bae gou ～ bae. 你去我也去。', 'hix [与goj同] [方]cix；lawj 也；又']),
     ('hixliu', ['hixliu （见cixliux） 也罢']),
     ('hixnaengz', ['hixnaengz [方]youxnaengz；angqnaengz；simsoz；nyengj 索性 guh couh ～ guh sat cij yietbaeg．当做就索性做完了才休息']),
