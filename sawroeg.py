@@ -16,9 +16,7 @@ except NameError:
 
 
 def newSearch(key, group):
-    if group == "Gyaeuj":
-        result = searchWord(key, True)
-    elif group == "Gyang":
+    if group == "Saw":
         result = searchWord(key, False)
     elif group == "Laeh":
         result = searchExamples(key)
@@ -48,8 +46,7 @@ class MainWindow(QtGui.QWidget, mainwindow.Ui_MainWindow):
         self.searchingCuengh = False
 
         #setup comboBox
-        self.comboBox.addItem("Gyaeuj")  # Head
-        self.comboBox.addItem("Gyang")  # Mid
+        self.comboBox.addItem("Saw")  # Word
         self.comboBox.addItem("Laeh")  # Examples
 
         from sawguq import sawguq
