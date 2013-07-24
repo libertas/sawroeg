@@ -7,6 +7,17 @@ import tornado.web
 
 import dictionary
 
+def iter_slice(iter_in, start=0, count=500):
+    end = start+count
+    n = 0
+    result = list()
+    for i in iter_in:
+        if n>=start:
+            result.append(i)
+            if n >= end-1:
+                return result
+        n += 1
+
 
 class SearchHandler(tornado.web.RequestHandler):
     def get(self):
@@ -27,16 +38,16 @@ class SearchHandler(tornado.web.RequestHandler):
             key = self.get_argument("key")
         except tornado.web.MissingArgumentError:
             pass
-        result = list(dictionary.searchWord(key)) if key else []
+        result = iter_slice(dictionary.searchWord(key), start, count)
         template_args = {
-            "key": key, "start": start, "count": count, "has_count": has_count,
-            "total_count": len(result), "result": result[start:start+count]
+            "key": key, "start": start, "count": count,
+            "has_count": has_count, "result": result
         }
         self.render("sawroeg-web.html", **template_args)
 
 
 if __name__ == "__main__":
-    tornado.options.define("debug", default=False, help="enabling debugging features", type=bool)
+    tornado.options.define("debug", default=True, help="enabling debugging features", type=bool)
     tornado.options.define("port", default=7777, help="run on the given port", type=int)
     tornado.options.parse_command_line()
     app_settings = {
