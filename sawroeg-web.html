@@ -12,11 +12,11 @@
 {% if has_count %}<input type="hidden" value={{ count }} />
 {% end %}</form>
 <hr />
-{% if start>0 %}<a href="?key={{ key }}&start={{ max(start-count, 0) }}&count={{ count }}">Previous page</a>
+{% if start>0 %}<a href="?key={{ key }}&start={{ max(start-count, 0) }}&count={{ count }}">Mbaw gonq</a>
 {% end %}{% if result %}<ol{% if start>0 %} start="{{ start+1 }}"{% end %}>
 {% for word in result %}<li>{% for desc in word[1] %}<div>{{ desc }}</div>{% end %}</li>
 {% end %}</ol>
-{% if total_count>start+count %}<a href="?key={{ key }}&start={{ start+count }}&count={{ count }}">Next page</a>
+{% if total_count>start+count %}<a href="?key={{ key }}&start={{ start+count }}&count={{ count }}">Mbaw laeng</a>
 {% end %}{% elif key %}<div>No results.</div>
 {% end %}</body>
 </html>
