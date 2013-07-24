@@ -39,7 +39,7 @@ def searchWordByZha(key, from_begin=False):
 def searchWordByZh(key, from_begin=False):
     assert from_begin is False
     key = str(key)
-    return (word for word in sawguq if key in word[0])
+    return (word for word in sawguq if key in word[1])
 
 
 def searchExamples(key):
