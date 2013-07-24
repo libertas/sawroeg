@@ -16,7 +16,7 @@
 {% end %}{% if result %}<ol{% if start>0 %} start="{{ start+1 }}"{% end %}>
 {% for word in result %}<li>{% for desc in word[1] %}<div>{{ desc }}</div>{% end %}</li>
 {% end %}</ol>
-<a href="?q={{ key }}&start={{ start+count }}&count={{ count }}">Mbaw laeng</a>
-{% elif key %}<div>Ndi miz liux.</div>
+{% if total_count>start+count %}<a href="?q={{ key }}&start={{ start+count }}&count={{ count }}">Mbaw laeng</a>
+{% end %}{% elif key %}<div>Ndi miz liux.</div>
 {% end %}</body>
 </html>
