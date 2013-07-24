@@ -7,6 +7,14 @@ from sawgeq import sawgeq
 
 
 def searchWord(key, from_begin=False):
+    try:
+        str(key).encode('iso-8859-1')
+    except UnicodeEncodeError:
+        return searchWordByZh(key)
+    return searchWordByZha(key, from_begin=from_begin)
+
+
+def searchWordByZha(key, from_begin=False):
     key = str(key).lower()
     if from_begin:
         for i in range(bisect.bisect_left(sawguq, (key,)), len(sawguq)):
@@ -26,6 +34,12 @@ def searchWord(key, from_begin=False):
         for i in (word for word in sawguq if not word[0].startswith(key) and
                   key in word[0]):
             yield i
+
+
+def searchWordByZh(key, from_begin=False):
+    assert from_bdgin is False
+    key = str(key)
+    return (word for word in sawguq if key in word[0])
 
 
 def searchExamples(key):
