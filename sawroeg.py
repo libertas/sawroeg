@@ -50,14 +50,12 @@ class MainWindow(QtGui.QWidget, mainwindow.Ui_MainWindow):
         self.textBrowser.setText(newSearch(key, self.comboBox.currentText()))
 
     def about(self):
-        text_about = "Sawroeg: Sawloih Cuengh-Gun duh Daegroeg\n"
-        text_about += "Email: horizonvei@gmail.com"
-
+        text_about=str()
         try:
-            text_about += "\n\n"
             text_about += open("README", "r").read()
         except FileNotFoundError:
-            pass
+            text_about += "Sawroeg: Sawloih Cuengh-Gun duh Daegroeg\n"
+            text_about += "Email: horizonvei@gmail.com"
 
         try:
             text_about += "\n\n"
