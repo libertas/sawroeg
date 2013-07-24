@@ -39,12 +39,10 @@ def searchWordByZha(key, from_begin=False):
 def searchWordByZh(key, from_begin=False):
     assert from_begin is False
     key = str(key)
-    for i in sawguq:
-        for sentence in i[1]:
-            if key in sentence:
-                tmp_list = list()
-                tmp_list.append(sentence)
-                yield (i, tmp_list)
+    for word, descs in sawguq:
+        res_list = [desc for desc in descs if key in desc]
+        if res_list:
+            yield (word, res_list)
 
 
 def searchExamples(key):
