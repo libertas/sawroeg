@@ -7,12 +7,13 @@ import tornado.web
 
 import dictionary
 
+
 def iter_slice(iter_in, start=0, count=500):
     end = start+count
     n = 0
     result = list()
     for i in iter_in:
-        if n>=start:
+        if n >= start:
             result.append(i)
             if n >= end-1:
                 return result
