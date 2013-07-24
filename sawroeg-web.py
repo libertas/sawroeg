@@ -36,7 +36,7 @@ class SearchHandler(tornado.web.RequestHandler):
             pass
         key = ''
         try:
-            key = self.get_argument("key")
+            key = self.get_argument("q")
         except tornado.web.MissingArgumentError:
             pass
         result = iter_slice(dictionary.searchWord(key), start, count)

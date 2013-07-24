@@ -7,16 +7,16 @@
 <body>
 <h1>Sawroeg: Sawroeg Cuengh-Gun duh Daegroeg</h1>
 <form>
-<input type="text" name="key"{% if key %} value="{{ key }}"{% end %} />
+<input type="text" name="q"{% if key %} value="{{ key }}"{% end %} />
 <input type="submit" value="ra" />
 {% if has_count %}<input type="hidden" value={{ count }} />
 {% end %}</form>
 <hr />
-{% if start>0 %}<a href="?key={{ key }}&start={{ max(start-count, 0) }}&count={{ count }}">Mbaw gonq</a>
+{% if start>0 %}<a href="?q={{ key }}&start={{ max(start-count, 0) }}&count={{ count }}">Mbaw gonq</a>
 {% end %}{% if result %}<ol{% if start>0 %} start="{{ start+1 }}"{% end %}>
 {% for word in result %}<li>{% for desc in word[1] %}<div>{{ desc }}</div>{% end %}</li>
 {% end %}</ol>
-<a href="?key={{ key }}&start={{ start+count }}&count={{ count }}">Mbaw laeng</a>
+<a href="?q={{ key }}&start={{ start+count }}&count={{ count }}">Mbaw laeng</a>
 {% elif key %}<div>Ndi miz liux.</div>
 {% end %}</body>
 </html>
