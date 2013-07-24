@@ -35,7 +35,7 @@ def searchExamples(key):
         tlist = string.rsplit("\n")
         for j in tlist:
             if key in j:
-                result += "%s    --<<%s>>\n" % (j, i)
+                result = "%s    --<<%s>>\n" % (j, i)
                 yield result
 
 
