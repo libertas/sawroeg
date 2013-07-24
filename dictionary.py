@@ -17,12 +17,14 @@ def searchWord(key, from_begin=False):
     else:
         # Require Python 3.3:
         # yield from searchWord(key, from_begin=True)
-        # yield from (word for word in sawguq if key in word[0][1:])
+        # yield from (word for word in sawguq if not word[0].startswith(key)
+        #             and key in word[0])
         #
         # Or, use the following:
         for i in searchWord(key, from_begin=True):
             yield i
-        for i in (word for word in sawguq if key in word[0][1:]):
+        for i in (word for word in sawguq if not word[0].startswith(key) and
+                  key in word[0]):
             yield i
 
 
