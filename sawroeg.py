@@ -15,6 +15,27 @@ except NameError:
     FileNotFoundError = IOError
 
 
+def newSearch(key, group):
+    if group == "Gyaeuj":
+        result = searchWord(key, True)
+    elif group == "Gyang":
+        result = searchWord(key, False)
+    elif group == "Laeh":
+        result = searchExamples(key)
+    value = ""
+    n = 0
+    if group != "Laeh":
+        for i in result:
+            for j in i[1]:
+                n += 1
+                value += "%d.%s\n" % (n, j)
+    else:
+        for i in result:
+            n += 1
+            value += "%d.%s\n" % (n, i)
+    return value
+
+
 class MainWindow(QtGui.QWidget, mainwindow.Ui_MainWindow):
     def __init__(self, parent=None):
         # get main window
