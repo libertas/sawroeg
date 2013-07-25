@@ -2,8 +2,9 @@
 body {
     margin-top: 0pt;
     margin-left: 0pt;
-    font-family: "Helvetica Neue", "Nimbus Sans L", "DejaVu Sans", "Droid Sans",
-        Helvetica, Arial, "Droid Sans Fallback", "Heiti SC", STXihei, STHeiti,
+    font-family: "Helvetica Neue", "Nimbus Sans L", "DejaVu Sans",
+        "Droid Sans", Helvetica, Arial, "Heiti SC", STXihei, STHeiti,
+        "WenQuanYi Micro Hei Light", "Droid Sans Fallback",
         "WenQuanYi Micro Hei", "WenQuanYi Zen Hei", "Microsoft YaHei", SimSun,
         sans-serif;
 }
