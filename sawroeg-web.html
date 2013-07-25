@@ -8,7 +8,9 @@
 <body>
 <div id="topbanner">
 <h1>Sawroeg: Sawloih Cuengh-Gun duh Daegroeg</h1>
-<form><input type="text" id="q" name="q"{% if key %} value="{{ key }}"{% end %} placeholder="Saw" /><input type="submit" id="btn_submit" value="Ra" />{% if has_count %}<input type="hidden" value={{ count }} />{% end %}</form>
+<form action="?" method="GET">
+<input type="text" id="q" name="q"{% if key %} value="{{ key }}"{% end %} placeholder="Saw" /><input type="submit" id="btn_submit" value="Ra" />{% if has_count %}<input type="hidden" value={{ count }} />{% end %}
+</form>
 </div>
 <div id="results">
 {% if start>0 %}<a href="?q={{ key }}&start={{ max(start-count, 0) }}&count={{ count }}">Mbaw gonq ←</a>
@@ -17,12 +19,12 @@
 {% end %}</ol>
 {% if total_count>start+count %}<a href="?q={{ key }}&start={{ start+count }}&count={{ count }}">Mbaw laeng →</a>
 {% end %}{% elif key %}<div>Ndi miz liux. :-(</div>
+{% else %}<div>Type words to begin.</div>
 {% end %}</div>
-
-
+<div id="footer">
 <hr />
-<p><a href=https://github.com/libertas/sawroeg>Sawroeg</a> dwg aen hanghmoeg ndeu youq laj <a href={{ static_url('COPYING.html') }}>GPLv3.</a></p>
-<p><a href={{ static_url('CREDITS.txt') }}>Gyo'mbaiq.</a></p>
-
+<div><a href="https://github.com/libertas/sawroeg" target="_blank">Sawroeg</a> dwg aen hanghmoeg ndeu youq laj <a href="{{ static_url('COPYING.html') }}">GPLv3</a>.</div>
+<div><a href="{{ static_url('CREDITS.txt') }}">Gyo'mbaiq</a>.</div>
+</div>
 </body>
 </html>

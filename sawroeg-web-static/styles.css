@@ -1,9 +1,9 @@
 
-body {
+html, body {
     margin-top: 0pt;
     margin-left: 0pt;
     font-family: "Helvetica Neue", "Nimbus Sans L", "DejaVu Sans",
-        "Droid Sans", Helvetica, Arial, "Heiti SC", STXihei, STHeiti,
+        "Droid Sans", Helvetica, Arial, STXihei, "Heiti SC", STHeiti,
         "WenQuanYi Micro Hei Light", "Droid Sans Fallback",
         "WenQuanYi Micro Hei", "WenQuanYi Zen Hei", "Microsoft YaHei", SimSun,
         sans-serif;
@@ -23,7 +23,12 @@ body {
 #results {
     margin-top: 80pt;
     margin-left: 14pt;
-    padding-bottom: 2em;
+}
+
+#footer {
+    margin-top: 28pt;
+    margin-left: 14pt;
+    padding-bottom: 14pt;
 }
 
 #topbanner h1 {
@@ -50,6 +55,25 @@ input:hover, input:active, input:focus {
     background-color: white !important;
     transition: box-shadow .5s ease, background-color .1s linear;
     box-shadow: 0pt 0pt 12pt white;
+}
+
+a:link, a:visited {
+    color: blue;
+    text-decoration: none;
+    transition: text-shadow .5s ease, color .1s linear;
+}
+
+a:hover {
+    color: red;
+    text-decoration: none;
+    text-shadow: 0pt 0pt 10pt red;
+    transition: text-shadow .5s ease, color .1s linear;
+}
+
+a:active, a:focus {
+    color: red;
+    text-decoration: none;
+    transition: text-shadow .5s ease, color .1s linear;
 }
 
 #q {
