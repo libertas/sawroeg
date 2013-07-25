@@ -1,8 +1,4 @@
 
-html, body {
-    height: 100%;
-}
-
 #topbanner {
     position: fixed;
     top: 0pt;
@@ -17,6 +13,7 @@ html, body {
 
 #results {
     margin-top: 80pt;
+    padding-bottom: 2em;
 }
 
 #topbanner h1 {
