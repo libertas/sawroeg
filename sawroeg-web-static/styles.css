@@ -9,33 +9,31 @@ body {
         sans-serif;
 }
 
-#topbanner {
-    position: fixed;
-    top: 0pt;
-    width: 100%;
-    height: 64pt;
-    background-color: rgba(102, 204, 255, .75);
-    padding-left: 14pt;
-    box-shadow: 0pt 0pt 10pt gray;
-    white-space: nowrap;
-}
-
-#results {
-    margin-top: 80pt;
-    margin-left: 14pt;
-}
-
-#footer {
-    margin-top: 28pt;
-    margin-left: 14pt;
-    margin-right: 14pt;
-    padding-bottom: 14pt;
-}
-
-#topbanner h1 {
+h1 {
     font-size: 14pt;
     font-weight: bold;
     text-shadow: 0pt 0pt 10pt white;
+    margin-top: 10pt;
+    margin-bottom: 8pt;
+}
+
+a:link, a:visited {
+    color: blue;
+    text-decoration: none;
+    transition: text-shadow .5s ease, color .1s linear;
+}
+
+a:hover {
+    color: red;
+    text-decoration: none;
+    text-shadow: 0pt 0pt 10pt red;
+    transition: text-shadow .5s ease, color .1s linear;
+}
+
+a:active, a:focus {
+    color: red;
+    text-decoration: none;
+    transition: text-shadow .5s ease, color .1s linear;
 }
 
 input {
@@ -58,30 +56,47 @@ input:hover, input:active, input:focus {
     box-shadow: 0pt 0pt 12pt white;
 }
 
-a:link, a:visited {
-    color: blue;
-    text-decoration: none;
-    transition: text-shadow .5s ease, color .1s linear;
+hr {
+    width: 80%;
+    border-style: none;
+    color: white;
+    background-color: lightgray;
+    box-shadow: 0pt 0pt 5pt gray;
+    height: 1px;
 }
 
-a:hover {
-    color: red;
-    text-decoration: none;
-    text-shadow: 0pt 0pt 10pt red;
-    transition: text-shadow .5s ease, color .1s linear;
+#topbanner {
+    position: fixed;
+    top: 0pt;
+    width: 100%;
+    height: 64pt;
+    background-color: rgba(102, 204, 255, .75);
+    padding-left: 14pt;
+    box-shadow: 0pt 0pt 10pt gray;
+    white-space: nowrap;
 }
 
-a:active, a:focus {
-    color: red;
-    text-decoration: none;
-    transition: text-shadow .5s ease, color .1s linear;
+#formcontainer {
+    max-width: 320pt;
+    padding-right: 14pt;
+}
+
+#qcontainer {
+    display: block;
+    margin-right: 75pt;
 }
 
 #q {
+    width: 100%;
     background-color: #ececec;
-    width: 240pt;
     border-top-right-radius: 0pt;
     border-bottom-right-radius: 0pt;
+}
+
+#submitcontainer {
+    display: block;
+    float: right;
+    margin-right: 14pt;
 }
 
 #btn_submit {
@@ -90,11 +105,51 @@ a:active, a:focus {
     border-bottom-left-radius: 0pt;
 }
 
-#footer hr {
-    width: 80%;
-    border-style: none;
-    color: white;
-    background-color: lightgray;
-    box-shadow: 0pt 0pt 5pt gray;
-    height: 1px;
+#results {
+    margin-top: 80pt;
+    margin-left: 14pt;
 }
+
+#footer {
+    margin-top: 28pt;
+    margin-left: 14pt;
+    margin-right: 14pt;
+    padding-bottom: 14pt;
+}
+
+@media all and (max-width: 340pt) {
+h1 {
+    font-size: 12pt;
+}
+}
+
+@media all and (max-width: 280pt) {
+h1 {
+    font-size: 10pt;
+}
+}
+
+@media all and (max-width: 240pt) {
+h1 {
+    font-size: 9pt;
+}
+}
+
+@media all and (max-width: 210pt) {
+h1 {
+    font-size: 8pt;
+}
+}
+
+@media all and (max-width: 195pt) {
+h1 {
+    font-size: 7pt;
+}
+}
+
+@media all and (max-width: 175pt) {
+h1 {
+    font-size: 6pt;
+}
+}
+
