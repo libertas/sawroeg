@@ -13,7 +13,7 @@
 </div>
 <div id="results">
 {% if start>0 %}<a href="?q={{ key }}&start={{ max(start-count, 0) }}&count={{ count }}">Mbaw gonq</a>
-{% end %}{% if result %}<ol{% if start>0 %} start="{{ start+1 }}"{% end %}>
+{% end %}{% if result %}<ol{% if start>0 %} start="{{ start+1 }}"{% end %} style="padding-left: {{ len(str(start+count))/2.0+2 }}em">
 {% for word in result %}<li>{% for desc in word[1] %}<div>{{ desc }}</div>{% end %}</li>
 {% end %}</ol>
 {% if total_count>start+count %}<a href="?q={{ key }}&start={{ start+count }}&count={{ count }}">Mbaw laeng</a>
