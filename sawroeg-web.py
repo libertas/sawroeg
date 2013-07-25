@@ -41,10 +41,12 @@ if __name__ == "__main__":
     tornado.options.parse_command_line()
     app_settings = {
         'gzip': True,
-        'debug': tornado.options.options.debug
+        'debug': tornado.options.options.debug,
+        'static_path': 'sawroeg-web-static'
     }
     application = tornado.web.Application([
-        ("/.*", SearchHandler),
+        ("/sawroeg", SearchHandler),
+        ("/.*", tornado.web.RedirectHandler, {'url': '/sawroeg'})
     ], **app_settings)
     server = tornado.httpserver.HTTPServer(application)
     server.bind(tornado.options.options.port, 'localhost')
