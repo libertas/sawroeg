@@ -78,6 +78,7 @@ hr {
 }
 
 #formcontainer {
+    min-width: 128pt;
     max-width: 320pt;
     padding-right: 14pt;
 }
@@ -125,39 +126,63 @@ hr {
 }
 }
 
-@media all and (max-width: 340pt) {
+@media all and (min-width: 280pt) and (max-width: 340pt) {
 h1 {
     font-size: 12pt;
 }
 }
 
-@media all and (max-width: 280pt) {
+@media all and (min-width: 240pt) and (max-width: 280pt) {
 h1 {
     font-size: 10pt;
 }
 }
 
-@media all and (max-width: 240pt) {
+@media all and (min-width: 210pt) and (max-width: 240pt) {
 h1 {
     font-size: 9pt;
 }
 }
 
-@media all and (max-width: 210pt) {
+@media all and (min-width: 195pt) and (max-width: 210pt) {
 h1 {
     font-size: 8pt;
 }
+
+#qcontainer {
+    margin-right: 65pt;
 }
 
-@media all and (max-width: 195pt) {
+#btn_submit{
+    width: 50pt;
+}
+}
+
+@media all and (min-width: 175pt) and (max-width: 195pt) {
 h1 {
     font-size: 7pt;
+}
+
+#qcontainer {
+    margin-right: 65pt;
+}
+
+#btn_submit{
+    width: 50pt;
 }
 }
 
 @media all and (max-width: 175pt) {
 h1 {
     font-size: 6pt;
+}
+
+#qcontainer {
+    margin-right: 65pt;
+}
+
+#btn_submit{
+    width: 50pt;
 }
 }
 
