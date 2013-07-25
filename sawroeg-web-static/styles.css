@@ -1,5 +1,5 @@
 
-html, body {
+body {
     margin-top: 0pt;
     margin-left: 0pt;
     font-family: "Helvetica Neue", "Nimbus Sans L", "DejaVu Sans",
@@ -28,6 +28,7 @@ html, body {
 #footer {
     margin-top: 28pt;
     margin-left: 14pt;
+    margin-right: 14pt;
     padding-bottom: 14pt;
 }
 
@@ -38,7 +39,7 @@ html, body {
 }
 
 input {
-    border: none;
+    border-style: none;
     border-radius: 8pt;
     height: 16pt;
     background-color: #f7f7f7;
@@ -87,4 +88,13 @@ a:active, a:focus {
     width: 60pt;
     border-top-left-radius: 0pt;
     border-bottom-left-radius: 0pt;
+}
+
+#footer hr {
+    width: 80%;
+    border-style: none;
+    color: white;
+    background-color: lightgray;
+    box-shadow: 0pt 0pt 5pt gray;
+    height: 1px;
 }
