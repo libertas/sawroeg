@@ -8,15 +8,15 @@
 <body>
 <div id="topbanner">
 <h1>Sawroeg: Sawroeg Cuengh-Gun duh Daegroeg</h1>
-<form><input type="text" id="q" name="q"{% if key %} value="{{ key }}"{% end %} placeholder="saw" /><input type="submit" id="btn_submit" value="ra" />{% if has_count %}<input type="hidden" value={{ count }} />{% end %}</form>
+<form><input type="text" id="q" name="q"{% if key %} value="{{ key }}"{% end %} placeholder="Saw yaekseiz" /><input type="submit" id="btn_submit" value="Ra" />{% if has_count %}<input type="hidden" value={{ count }} />{% end %}</form>
 </div>
 <div id="results">
-{% if start>0 %}<a href="?q={{ key }}&start={{ max(start-count, 0) }}&count={{ count }}">Mbaw gonq</a>
+{% if start>0 %}<a href="?q={{ key }}&start={{ max(start-count, 0) }}&count={{ count }}">Mbaw gonq ←</a>
 {% end %}{% if result %}<ol{% if start>0 %} start="{{ start+1 }}"{% end %} style="padding-left: {{ (len(str(start+count))+3)/2.0 }}em; margin-left: 0pt">
 {% for word in result %}<li>{% for desc in word[1] %}<div>{{ desc }}</div>{% end %}</li>
 {% end %}</ol>
-{% if total_count>start+count %}<a href="?q={{ key }}&start={{ start+count }}&count={{ count }}">Mbaw laeng</a>
-{% end %}{% elif key %}<div>Ndi miz liux.</div>
+{% if total_count>start+count %}<a href="?q={{ key }}&start={{ start+count }}&count={{ count }}">Mbaw laeng →</a>
+{% end %}{% elif key %}<div>Ndi miz liux. :-(</div>
 {% end %}</div>
 </body>
 </html>
