@@ -73,6 +73,7 @@ hr {
     background-color: rgba(102, 204, 255, .75);
     padding-left: 14pt;
     box-shadow: 0pt 0pt 10pt gray;
+    box-sizing: border-box;
     white-space: nowrap;
 }
 
@@ -115,6 +116,12 @@ hr {
     margin-left: 14pt;
     margin-right: 14pt;
     padding-bottom: 14pt;
+}
+
+@media all and (max-height: 192pt) {
+#topbanner {
+    position: absolute;
+}
 }
 
 @media all and (max-width: 340pt) {
