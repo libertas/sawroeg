@@ -8,7 +8,7 @@
 <body>
 <div id="topbanner">
 <h1>Sawroeg: Sawroeg Cuengh-Gun duh Daegroeg</h1>
-<form><input type="text" id="q" name="q"{% if key %} value="{{ key }}"{% end %} placeholder="keyword" /><input type="submit" id="btn_submit" value="ra" />{% if has_count %}<input type="hidden" value={{ count }} />{% end %}</form>
+<form><input type="text" id="q" name="q"{% if key %} value="{{ key }}"{% end %} placeholder="saw" /><input type="submit" id="btn_submit" value="ra" />{% if has_count %}<input type="hidden" value={{ count }} />{% end %}</form>
 </div>
 <div id="results">
 {% if start>0 %}<a href="?q={{ key }}&start={{ max(start-count, 0) }}&count={{ count }}">Mbaw gonq</a>
