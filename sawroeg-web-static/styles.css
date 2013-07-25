@@ -1,18 +1,18 @@
 
 body {
-    margin-top: 0pt;
-    margin-left: 0pt;
     font-family: "Helvetica Neue", "Nimbus Sans L", "DejaVu Sans",
         "Droid Sans", Helvetica, Arial, STXihei, "Heiti SC", STHeiti,
         "WenQuanYi Micro Hei Light", "Droid Sans Fallback",
         "WenQuanYi Micro Hei", "WenQuanYi Zen Hei", "Microsoft YaHei", SimSun,
         sans-serif;
+    margin-top: 0pt;
+    margin-left: 0pt;
 }
 
 h1 {
+    text-shadow: 0pt 0pt 10pt white;
     font-size: 14pt;
     font-weight: bold;
-    text-shadow: 0pt 0pt 10pt white;
     margin-top: 10pt;
     margin-bottom: 8pt;
 }
@@ -20,49 +20,49 @@ h1 {
 a:link, a:visited {
     color: blue;
     text-decoration: none;
-    transition: text-shadow .5s ease, color .1s linear;
+    transition: color .1s linear, text-shadow .5s ease;
 }
 
 a:hover {
     color: red;
     text-decoration: none;
     text-shadow: 0pt 0pt 10pt red;
-    transition: text-shadow .5s ease, color .1s linear;
+    transition: color .1s linear, text-shadow .5s ease;
 }
 
 a:active, a:focus {
     color: red;
     text-decoration: none;
-    transition: text-shadow .5s ease, color .1s linear;
+    transition: color .1s linear, text-shadow .5s ease;
 }
 
 input {
-    border-style: none;
-    border-radius: 8pt;
     height: 16pt;
     background-color: #f7f7f7;
-    transition: box-shadow .5s ease, background-color .1s linear;
-    font-size: 12pt;
+    border-style: none;
+    border-radius: 8pt;
     box-sizing: border-box;
-    padding-left: 8pt;
-    padding-right: 8pt;
+    font-size: 12pt;
     padding-top: 0pt;
+    padding-right: 8pt;
     padding-bottom: 0pt;
+    padding-left: 8pt;
+    transition: background-color .1s linear, box-shadow .5s ease;
 }
 
 input:hover, input:active, input:focus {
     background-color: white !important;
-    transition: box-shadow .5s ease, background-color .1s linear;
     box-shadow: 0pt 0pt 12pt white;
+    transition: background-color .1s linear, box-shadow .5s ease;
 }
 
 hr {
     width: 80%;
-    border-style: none;
-    color: white;
-    background-color: lightgray;
-    box-shadow: 0pt 0pt 5pt gray;
     height: 1px;
+    background-color: lightgray;
+    border-style: none;
+    box-shadow: 0pt 0pt 5pt gray;
+    color: white;
 }
 
 #topbanner {
@@ -71,9 +71,9 @@ hr {
     width: 100%;
     height: 64pt;
     background-color: rgba(102, 204, 255, .75);
-    padding-left: 14pt;
     box-shadow: 0pt 0pt 10pt gray;
     box-sizing: border-box;
+    padding-left: 14pt;
     white-space: nowrap;
 }
 
@@ -113,9 +113,9 @@ hr {
 
 #footer {
     margin-top: 28pt;
-    margin-left: 14pt;
     margin-right: 14pt;
     padding-bottom: 14pt;
+    margin-left: 14pt;
 }
 
 @media all and (max-height: 192pt) {
