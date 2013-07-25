@@ -1,22 +1,24 @@
 Sawroeg
 
-EMail:horizonvei@gmail.com
+E-mail: horizonvei@gmail.com
 
 Aen Sawloih Cuengh-Gun ndeu Daegroeg aeu Python caeuq Qt raiz baenz.
 
-Danghnaeuz mwngz siengj yungh,dauqraiz roxnaeuz dauqfatbauq aen aen'unq neix,mwngz deng bae yawj caeuq souj COPYING.
+Danghnaeuz mwngz siengj yungh, dauqraiz roxnaeuz dauqfatbauq aen aen'unq neix,
+mwngz deng bae yawj caeuq souj COPYING.
 
 Mwngz deng ancueng Python3 caeuq PyQt4.
 
-Danghnaeuz mwngz youq gwnz Linux,FreeBSD roxnaeuz aen Unix-like OS wnq,mwngz aeu "setup.py" ma ancang Sawroeg goj ndaej.
+Danghnaeuz mwngz youq gwnz Linux, FreeBSD roxnaeuz aen Unix-like OS wnq, mwngz
+aeu "setup.py" ma ancang Sawroeg goj ndaej.
 
 Guh yiengh neix:
-	python3 setup.py
+    python3 setup.py
 
 Youq gwnz Windows:
-	1.Bae
-	https://github.com/libertas/sawroeg/releases
+    1. Bae
+       https://github.com/libertas/sawroeg/releases
 	
-	2.Naenz dieg heu ma aeu banjbonj mwngz siengj aeu
+    2. Naenz dieg heu ma aeu banjbonj mwngz siengj aeu
 	
-	3.Ancang de
+    3. Ancang de
