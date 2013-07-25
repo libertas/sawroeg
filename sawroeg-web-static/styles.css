@@ -1,12 +1,73 @@
 
 body {
-    margin-top: 0pt;
-    margin-left: 0pt;
     font-family: "Helvetica Neue", "Nimbus Sans L", "DejaVu Sans",
         "Droid Sans", Helvetica, Arial, STXihei, "Heiti SC", STHeiti,
         "WenQuanYi Micro Hei Light", "Droid Sans Fallback",
         "WenQuanYi Micro Hei", "WenQuanYi Zen Hei", "Microsoft YaHei", SimSun,
         sans-serif;
+    margin-top: 0pt;
+    margin-left: 0pt;
+}
+
+h1 {
+    text-shadow: 0pt 0pt 10pt white;
+    font-size: 14pt;
+    font-weight: bold;
+    margin-top: 10pt;
+    margin-bottom: 8pt;
+}
+
+a:link, a:visited {
+    color: blue;
+    text-decoration: none;
+    transition: color .1s linear, text-shadow .5s ease;
+}
+
+a:hover {
+    color: red;
+    text-decoration: none;
+    text-shadow: 0pt 0pt 10pt red;
+    transition: color .1s linear, text-shadow .5s ease;
+}
+
+a:active, a:focus {
+    color: red;
+    text-decoration: none;
+    transition: color .1s linear, text-shadow .5s ease;
+}
+
+input {
+    height: 16pt;
+    background-color: #f7f7f7;
+    border-style: none;
+    border-radius: 8pt;
+    box-sizing: border-box;
+    font-family: "Helvetica Neue", "Nimbus Sans L", "DejaVu Sans",
+        "Droid Sans", Helvetica, Arial, STXihei, "Heiti SC", STHeiti,
+        "WenQuanYi Micro Hei Light", "Droid Sans Fallback",
+        "WenQuanYi Micro Hei", "WenQuanYi Zen Hei", "Microsoft YaHei", SimSun,
+        sans-serif;
+    font-size: 12pt;
+    padding-top: 0pt;
+    padding-right: 8pt;
+    padding-bottom: 0pt;
+    padding-left: 8pt;
+    transition: background-color .1s linear, box-shadow .5s ease;
+}
+
+input:hover, input:active, input:focus {
+    background-color: white !important;
+    box-shadow: 0pt 0pt 12pt white;
+    transition: background-color .1s linear, box-shadow .5s ease;
+}
+
+hr {
+    width: 80%;
+    height: 1px;
+    background-color: lightgray;
+    border-style: none;
+    box-shadow: 0pt 0pt 5pt gray;
+    color: white;
 }
 
 #topbanner {
@@ -15,9 +76,41 @@ body {
     width: 100%;
     height: 64pt;
     background-color: rgba(102, 204, 255, .75);
-    padding-left: 14pt;
     box-shadow: 0pt 0pt 10pt gray;
+    box-sizing: border-box;
+    padding-left: 14pt;
     white-space: nowrap;
+}
+
+#formcontainer {
+    min-width: 128pt;
+    max-width: 320pt;
+    padding-right: 14pt;
+}
+
+#qcontainer {
+    display: block;
+    margin-right: 75pt;
+}
+
+#q {
+    width: 100%;
+    background-color: #ececec;
+    border-top-right-radius: 0pt;
+    border-bottom-right-radius: 0pt;
+    padding-right: 0pt;
+}
+
+#submitcontainer {
+    display: block;
+    float: right;
+    margin-right: 14pt;
+}
+
+#btn_submit {
+    width: 60pt;
+    border-top-left-radius: 0pt;
+    border-bottom-left-radius: 0pt;
 }
 
 #results {
@@ -27,74 +120,74 @@ body {
 
 #footer {
     margin-top: 28pt;
-    margin-left: 14pt;
     margin-right: 14pt;
     padding-bottom: 14pt;
+    margin-left: 14pt;
 }
 
-#topbanner h1 {
-    font-size: 14pt;
-    font-weight: bold;
-    text-shadow: 0pt 0pt 10pt white;
+@media all and (max-height: 192pt) {
+#topbanner {
+    position: absolute;
+}
 }
 
-input {
-    border-style: none;
-    border-radius: 8pt;
-    height: 16pt;
-    background-color: #f7f7f7;
-    transition: box-shadow .5s ease, background-color .1s linear;
+@media all and (min-width: 280pt) and (max-width: 340pt) {
+h1 {
     font-size: 12pt;
-    box-sizing: border-box;
-    padding-left: 8pt;
-    padding-right: 8pt;
-    padding-top: 0pt;
-    padding-bottom: 0pt;
+}
 }
 
-input:hover, input:active, input:focus {
-    background-color: white !important;
-    transition: box-shadow .5s ease, background-color .1s linear;
-    box-shadow: 0pt 0pt 12pt white;
+@media all and (min-width: 240pt) and (max-width: 280pt) {
+h1 {
+    font-size: 10pt;
+}
 }
 
-a:link, a:visited {
-    color: blue;
-    text-decoration: none;
-    transition: text-shadow .5s ease, color .1s linear;
+@media all and (min-width: 210pt) and (max-width: 240pt) {
+h1 {
+    font-size: 9pt;
+}
 }
 
-a:hover {
-    color: red;
-    text-decoration: none;
-    text-shadow: 0pt 0pt 10pt red;
-    transition: text-shadow .5s ease, color .1s linear;
+@media all and (min-width: 195pt) and (max-width: 210pt) {
+h1 {
+    font-size: 8pt;
 }
 
-a:active, a:focus {
-    color: red;
-    text-decoration: none;
-    transition: text-shadow .5s ease, color .1s linear;
+#qcontainer {
+    margin-right: 65pt;
 }
 
-#q {
-    background-color: #ececec;
-    width: 240pt;
-    border-top-right-radius: 0pt;
-    border-bottom-right-radius: 0pt;
+#btn_submit{
+    width: 50pt;
+}
 }
 
-#btn_submit {
-    width: 60pt;
-    border-top-left-radius: 0pt;
-    border-bottom-left-radius: 0pt;
+@media all and (min-width: 175pt) and (max-width: 195pt) {
+h1 {
+    font-size: 7pt;
 }
 
-#footer hr {
-    width: 80%;
-    border-style: none;
-    color: white;
-    background-color: lightgray;
-    box-shadow: 0pt 0pt 5pt gray;
-    height: 1px;
+#qcontainer {
+    margin-right: 65pt;
 }
+
+#btn_submit{
+    width: 50pt;
+}
+}
+
+@media all and (max-width: 175pt) {
+h1 {
+    font-size: 6pt;
+}
+
+#qcontainer {
+    margin-right: 65pt;
+}
+
+#btn_submit{
+    width: 50pt;
+}
+}
+

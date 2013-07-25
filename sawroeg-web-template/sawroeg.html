@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zha">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Sawroeg: Sawloih Cuengh-Gun duh Daegroeg</title>
+<meta name="description" content="Sawroeg: Sawloih Cuengh-Gun duh Daegroeg" />
+<meta name="robots" content="noindex, nofollow" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" type="text/css" href="{{ static_url('styles.css') }}" />
+</head>
+<body>
+<div id="topbanner">
+<h1>Sawroeg: Sawloih Cuengh-Gun duh Daegroeg</h1>
+<div id="formcontainer">
+<form action="?" method="GET">
+<span id="submitcontainer"><input type="submit" id="btn_submit" value="Ra" /></span>
+<span id="qcontainer"><input type="text" id="q" name="q"{% if key %} value="{{ key }}"{% end %} placeholder="Saw" /></span>
+{% if has_count %}<input type="hidden" value="{{ count }}" />
+{% end %}</form>
+</div>
+</div>
+<div id="results">
+{% if start>0 %}<a href="?q={{ key }}&start={{ max(start-count, 0) }}&count={{ count }}">Mbaw gonq ←</a>
+{% end %}{% if result %}<ol{% if start>0 %} start="{{ start+1 }}"{% end %} style="padding-left: {{ (len(str(start+count))+3)/2.0 }}em; margin-left: 0pt">
+{% for word in result %}<li>{% for desc in word[1] %}<div>{{ desc }}</div>{% end %}</li>
+{% end %}</ol>
+{% if total_count>start+count %}<a href="?q={{ key }}&start={{ start+count }}&count={{ count }}">Mbaw laeng →</a>
+{% end %}{% elif key %}<div>Ndi miz liux. :-(</div>
+{% else %}<div>Raiz saw youq gwnz neix ma ra.</div>
+{% end %}</div>
+<div id="footer">
+<hr />
+<div><a href="https://github.com/libertas/sawroeg" target="_blank">Sawroeg</a> dwg aen hanghmoeg ndeu youq laj <a href="{{ static_url('COPYING.html') }}" target="_blank">GPLv3</a>.</div>
+<div><a href="{{ static_url('CREDITS.txt') }}" target="_blank">Gyo'mbaiq</a>.</div>
+</div>
+</body>
+</html>
