@@ -92,6 +92,7 @@ hr {
     background-color: #ececec;
     border-top-right-radius: 0pt;
     border-bottom-right-radius: 0pt;
+    padding-right: 0pt;
 }
 
 #submitcontainer {
