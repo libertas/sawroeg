@@ -3,8 +3,9 @@ body {
     margin-top: 0pt;
     margin-left: 0pt;
     font-family: "Helvetica Neue", "Nimbus Sans L", "DejaVu Sans", "Droid Sans",
-        Arial, "Droid Sans Fallback", "WenQuanYi Micro Hei",
-        "WenQuanYi Zen Hei", "Microsoft YaHei", SimSun, sans-serif;
+        Arial, "Droid Sans Fallback", "Heiti SC", STXihei, STHeiti
+        "WenQuanYi Micro Hei", "WenQuanYi Zen Hei", "Microsoft YaHei", SimSun,
+        sans-serif;
 }
 
 #topbanner {
