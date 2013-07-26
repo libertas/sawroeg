@@ -20,7 +20,7 @@ elif os.name == "nt":
             name="sawroeg",
             version="0.1",
             description="Aen Sawloih Cuengh-Gun ndeu",
-            executables=[cx_Freeze.Executable("sawroeg.py", base=base, icon="sawroeg.ico")]
+            executables=[cx_Freeze.Executable("sawroeg.py", base=base, icon="icons/sawroeg.ico")]
         )
 else:
     raise RuntimeError('Unknown operating system type: %s' % repr(os.name))

@@ -42,7 +42,7 @@ class MainWindow(QtGui.QWidget, mainwindow.Ui_MainWindow):
         self.setupUi(self)
 
         # setup icon
-        self.setWindowIcon(QtGui.QIcon("sawroeg.png"))
+        self.setWindowIcon(QtGui.QIcon("icons/sawroeg.png"))
 
         # move the window to center
         self.move_to_center()
