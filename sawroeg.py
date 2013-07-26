@@ -75,14 +75,14 @@ class MainWindow(QtGui.QWidget, mainwindow.Ui_MainWindow):
     def about(self):
         text_about=str()
         try:
-            text_about += open("README", "r").read()
+            text_about += open("README", "r", encoding="utf-8").read()
         except FileNotFoundError:
             text_about += "Sawroeg: Sawloih Cuengh-Gun duh Daegroeg\n"
             text_about += "Email: horizonvei@gmail.com"
 
         try:
             text_about += "\n\n"
-            text_about += open("COPYING", "r").read()
+            text_about += open("COPYING", "r",encoding="utf-8").read()
         except FileNotFoundError:
             pass
 
