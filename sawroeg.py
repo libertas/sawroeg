@@ -41,12 +41,16 @@ class MainWindow(QtGui.QWidget, mainwindow.Ui_MainWindow):
         QtGui.QWidget.__init__(self)
         self.setupUi(self)
 
+        # setup icon
+        self.setWindowIcon(QtGui.QIcon("sawroeg.png"))
+
+        # move the window to center
         self.move_to_center()
 
         # setup sawloih
         self.searchingCuengh = False
 
-        #setup comboBox
+        # setup comboBox
         self.comboBox.addItem("Saw")  # Word
         self.comboBox.addItem("Laeh")  # Examples
 
