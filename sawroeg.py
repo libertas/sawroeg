@@ -88,7 +88,7 @@ class MainWindow(QtGui.QWidget, mainwindow.Ui_MainWindow):
             text_about += "\n\n"
             text_about += open("COPYING", "r",encoding="utf-8").read()
         except FileNotFoundError:
-            pass
+            text_about += "This software is under GPLv3\n"
 
         self.textBrowser.setText(text_about)
 
