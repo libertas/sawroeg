@@ -67,6 +67,7 @@ class MainWindow(QtGui.QWidget, mainwindow.Ui_MainWindow):
 
     def clearText(self):
         self.lineEdit.setText("")
+        self.textBrowser.setText("")
 
     def newSearch(self):
         key = self.lineEdit.text()
