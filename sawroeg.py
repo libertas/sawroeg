@@ -16,6 +16,9 @@ except NameError:
 
 
 def newSearch(key, group):
+    if not key:
+        return ""
+
     if group == "Saw":
         result = searchWord(key, False)
     elif group == "Laeh":
