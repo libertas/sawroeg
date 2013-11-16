@@ -17,7 +17,9 @@ with open('sawguq.txt', 'r') as f:
         else:
             sawguq[idx] = [word]
 with open('sawguq.py', 'w') as f:
-    f.write('sawguq = [\n')
+    f.write('''# -*- coding: utf-8 -*-
+from __future__ import unicode_literals\n
+sawguq = [\n''')
     for word in sorted(sawguq):
         sawguq[word].sort()
         f.write('    %s,\n' % repr((word, sawguq[word])))
