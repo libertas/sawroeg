@@ -4,6 +4,7 @@ import os
 import sys
 if os.name == "posix":
     python_name = "python3"  # change it if it's not "python3"
+    os.system("mkdir -p /opt/sawroeg/")
     os.system("cp -r ./ /opt/sawroeg/")
     os.system("ln /opt/sawroeg/sawroeg.desktop /usr/local/share/applications/sawroeg.desktop")
     os.system('echo "cd /opt/sawroeg/\n'+python_name+' /opt/sawroeg/sawroeg.py" > /usr/local/bin/sawroeg')
