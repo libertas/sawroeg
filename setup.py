@@ -2,11 +2,10 @@
 
 import os
 import sys
-
 if os.name == "posix":
     python_name = "python3"  # change it if it's not "python3"
     os.system("cp -r ./ /opt/sawroeg/")
-    os.system("ln /opt/sawroeg/sawroeg.desktop /usr/share/applications/sawroeg.desktop")
+    os.system("ln /opt/sawroeg/sawroeg.desktop /usr/local/share/applications/sawroeg.desktop")
     os.system('echo "cd /opt/sawroeg/\n'+python_name+' /opt/sawroeg/sawroeg.py" > /usr/local/bin/sawroeg')
     os.system("chmod +rx /opt/sawroeg")
     os.system("chmod +x /usr/local/bin/sawroeg")
