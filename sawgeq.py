@@ -1,3 +1,10 @@
+# -*- coding: utf-8 -*-
+from __future__ import unicode_literals
+
+from platform import python_version
+if python_version().startswith('2'):
+    str=unicode
+
 
 sawgeq = {}
 

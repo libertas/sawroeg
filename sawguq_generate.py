@@ -18,7 +18,13 @@ with open('sawguq.txt', 'r') as f:
             sawguq[idx] = [word]
 with open('sawguq.py', 'w') as f:
     f.write('''# -*- coding: utf-8 -*-
-from __future__ import unicode_literals\n
+from __future__ import unicode_literals
+
+from platform import python_version
+if python_version().startswith('2'):
+    str=unicode
+
+\n
 sawguq = [\n''')
     for word in sorted(sawguq):
         sawguq[word].sort()

@@ -1,3 +1,12 @@
+# -*- coding: utf-8 -*-
+from __future__ import unicode_literals
+
+from platform import python_version
+if python_version().startswith('2'):
+    str=unicode
+
+
+
 sawguq = [
     ('a', ['a 乌鸦 [与roegga同]', 'a 呀 Caezgya vaiq daeuj ～！大家快来呀!', 'a （见le） 呢 [语气词，表示疑问]']),
     ('adgyad', ['adgyad （见hwetraez） 懒洋洋的']),
