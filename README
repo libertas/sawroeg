@@ -15,6 +15,16 @@ aeu "setup.py" ma ancang Sawroeg goj ndaej.
 Guh yiengh neix:
     python3 setup.py
 
+Danghnaeuz mwngz itdingh siengj yungh Python2,mwngz dengh:
+    1.Haeuj bae setup.py,gaij
+            python_name = "python3"
+      baenz
+            python_name = "python2.7"
+      bae
+    
+    2.Ancang:
+        python setup.py
+
 Youq gwnz Windows:
     1. Bae
        https://github.com/libertas/sawroeg/releases
