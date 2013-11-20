@@ -5,17 +5,19 @@ import sys
 import getopt
 
 def print_help():
-    print("""Usage:%s [-h|-H] [--help|--prefix|--pyname]"""%Dsys.argv[0])
+    print("""Usage:%s [-h|-H] [--help|--prefix|--pyname]"""%sys.argv[0])
 
 if os.name == "posix":
     try:
         opts, args = getopt.getopt(sys.argv[1:], "hH", ["help", "prefix=","pyname="])
     except getopt.GetoptError:
-        pass
+        print("Option Error")
+        exit()
     
     for opt,result in opts:
-        if opt in ("-h","H","--help"):
+        if opt in ("-h","-H","--help"):
             print_help()
+            exit()
         
         if opt in ("--prefix="):
             prefix=result
