@@ -5,16 +5,22 @@ import sys
 import getopt
 
 def print_help():
-    print("""Usage:%s [-h|-H] [--help|--prefix|--pyname]"""%sys.argv[0])
+    print("""Usage:%s [-h|-H] [--help|--prefix|--pyname|--remove]"""%sys.argv[0])
 
 if os.name == "posix":
     try:
-        opts, args = getopt.getopt(sys.argv[1:], "hH", ["help", "prefix=","pyname="])
+        opts, args = getopt.getopt(sys.argv[1:], "hH", ["help", "prefix=","pyname=","remove"])
     except getopt.GetoptError:
         print("Option Error")
         exit()
     
+    python_name = "python3"
+    REMOVE=False
+    
     for opt,result in opts:
+        if opt in ("--remove"):
+            REMOVE=True
+        
         if opt in ("-h","-H","--help"):
             print_help()
             exit()
@@ -24,17 +30,19 @@ if os.name == "posix":
         else:
             prefix="/usr/local/"
         
-        if opt in ("--pyname"):
+        if opt in ("--pyname="):
             python_name=result
-        else:
-            python_name = "python3"
     
-    os.system("mkdir -p /opt/sawroeg/")
-    os.system("cp -r ./ /opt/sawroeg/")
-    os.system("ln /opt/sawroeg/sawroeg.desktop %s/share/applications/sawroeg.desktop"%prefix)
-    os.system('echo "cd /opt/sawroeg/\n'+python_name+' /opt/sawroeg/sawroeg.py" > %s/bin/sawroeg'%prefix)
-    os.system("chmod +rx /opt/sawroeg")
-    os.system("chmod +x %s/bin/sawroeg"%prefix)
+    if REMOVE:
+        os.system("rm -fr /opt/sawroeg")
+        os.system("rm %s/bin/sawroeg %s/share/applications/sawroeg.desktop"%(prefix,prefix))
+    else:
+        os.system("mkdir -p /opt/sawroeg/")
+        os.system("cp -r ./ /opt/sawroeg/")
+        os.system("ln /opt/sawroeg/sawroeg.desktop %s/share/applications/sawroeg.desktop"%prefix)
+        os.system('echo "cd /opt/sawroeg/\n'+python_name+' /opt/sawroeg/sawroeg.py" > %s/bin/sawroeg'%prefix)
+        os.system("chmod +rx /opt/sawroeg")
+        os.system("chmod +x %s/bin/sawroeg"%prefix)
 elif os.name == "nt":
     if len(sys.argv) == 1:
         os.system("setup.py build")
