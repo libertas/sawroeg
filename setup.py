@@ -5,7 +5,7 @@ import sys
 import getopt
 
 def print_help():
-    print("""Usage:%s [-h|-H] [--help|--prefix|--pyname|--remove]"""%sys.argv[0])
+    print("""Usage:%s [-h|-H] [--help|--prefix|--pyname|--remove]""" % sys.argv[0])
 
 if os.name == "posix":
     try:
@@ -16,8 +16,8 @@ if os.name == "posix":
     
     #default settings
     python_name = "python3"
-    prefix="/usr/local/"
-    REMOVE=False
+    prefix = "/usr/local/"
+    REMOVE = False
     
     for opt,result in opts:
         if opt in ("--remove"):
@@ -35,14 +35,14 @@ if os.name == "posix":
     
     if REMOVE:
         os.system("rm -fr /opt/sawroeg")
-        os.system("rm %s/bin/sawroeg %s/share/applications/sawroeg.desktop"%(prefix,prefix))
+        os.system("rm %s/bin/sawroeg %s/share/applications/sawroeg.desktop" % (prefix, prefix))
     else:
         os.system("mkdir -p /opt/sawroeg/")
         os.system("cp -r ./ /opt/sawroeg/")
-        os.system("ln /opt/sawroeg/sawroeg.desktop %s/share/applications/sawroeg.desktop"%prefix)
-        os.system('echo "cd /opt/sawroeg/\n%s /opt/sawroeg/sawroeg.py" > %s/bin/sawroeg'%(python_name,prefix))
+        os.system("ln /opt/sawroeg/sawroeg.desktop %s/share/applications/sawroeg.desktop" % prefix)
+        os.system('echo "cd /opt/sawroeg/\n%s /opt/sawroeg/sawroeg.py" > %s/bin/sawroeg' % (python_name, prefix))
         os.system("chmod +rx /opt/sawroeg")
-        os.system("chmod +x %s/bin/sawroeg"%prefix)
+        os.system("chmod +x %s/bin/sawroeg" % prefix)
 elif os.name == "nt":#Build-only
     if len(sys.argv) == 1:
         os.system("setup.py build")
