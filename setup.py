@@ -14,7 +14,9 @@ if os.name == "posix":
         print("Option Error")
         exit()
     
+    #default settings
     python_name = "python3"
+    prefix="/usr/local/"
     REMOVE=False
     
     for opt,result in opts:
@@ -27,8 +29,6 @@ if os.name == "posix":
         
         if opt in ("--prefix="):
             prefix=result
-        else:
-            prefix="/usr/local/"
         
         if opt in ("--pyname="):
             python_name=result
@@ -40,10 +40,10 @@ if os.name == "posix":
         os.system("mkdir -p /opt/sawroeg/")
         os.system("cp -r ./ /opt/sawroeg/")
         os.system("ln /opt/sawroeg/sawroeg.desktop %s/share/applications/sawroeg.desktop"%prefix)
-        os.system('echo "cd /opt/sawroeg/\n'+python_name+' /opt/sawroeg/sawroeg.py" > %s/bin/sawroeg'%prefix)
+        os.system('echo "cd /opt/sawroeg/\n%s /opt/sawroeg/sawroeg.py" > %s/bin/sawroeg'%(python_name,prefix))
         os.system("chmod +rx /opt/sawroeg")
         os.system("chmod +x %s/bin/sawroeg"%prefix)
-elif os.name == "nt":
+elif os.name == "nt":#Build-only
     if len(sys.argv) == 1:
         os.system("setup.py build")
     else:
