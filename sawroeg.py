@@ -85,9 +85,9 @@ class MainWindow(QtGui.QWidget, mainwindow.Ui_MainWindow):
 
     def about(self):
         text_about = "%s\n\n%s"
-        text_about_default = """Sawroeg: Sawloih Cuengh-Gun duh Daegroeg
-Email: horizonvei@gmail.com\n
-This software is under GPLv3\n"""
+        text_about_default = """Sawroeg: Sawloih Cuengh-Gun duh Daegroeg"""\
+                             """Email: horizonvei@gmail.com\n"""\
+                             """This software is under GPLv3\n"""
 
         try:
             text_about = text_about % (
