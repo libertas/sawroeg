@@ -87,7 +87,7 @@ class MainWindow(QtGui.QWidget, mainwindow.Ui_MainWindow):
         try:
             text_about += open("README", "r", encoding="utf-8").read()
         except TypeError:
-			text_about += open("README", "r").read()
+            text_about += open("README", "r").read()
         except FileNotFoundError:
             text_about += "Sawroeg: Sawloih Cuengh-Gun duh Daegroeg\n"
             text_about += "Email: horizonvei@gmail.com"
@@ -96,7 +96,7 @@ class MainWindow(QtGui.QWidget, mainwindow.Ui_MainWindow):
             text_about += "\n\n"
             text_about += open("COPYING", "r",encoding="utf-8").read()
         except TypeError:
-			text_about += open("README", "r").read()
+            text_about += open("README", "r").read()
         except FileNotFoundError:
             text_about += "This software is under GPLv3\n"
 
