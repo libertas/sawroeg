@@ -90,10 +90,16 @@ Email: horizonvei@gmail.com\n
 This software is under GPLv3\n"""
 
         try:
-            text_about = text_about % (open("README", "r", encoding="utf-8").read(), open("COPYING", "r",encoding="utf-8").read())
+            text_about = text_about % (
+                open("README", "r", encoding="utf-8").read(),
+                open("COPYING", "r", encoding="utf-8").read()
+                )#In Python3
         except TypeError:
             try:
-                text_about = text_about % (open("README", "r").read(), open("README", "r").read())
+                text_about = text_about % (
+                    open("README", "r").read().decode('utf-8'),
+                    open("COPYING", "r").read().decode('utf-8')
+                    )#In Python2
             except FileNotFoundError:
                 text_about = text_about_default
         except FileNotFoundError:
