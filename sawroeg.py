@@ -5,6 +5,7 @@ from  __future__ import unicode_literals
 from platform import python_version
 if python_version().startswith('2'):
     str=unicode
+    FileNotFoundError=IOError
 
 import re
 import sys
@@ -83,22 +84,20 @@ class MainWindow(QtGui.QWidget, mainwindow.Ui_MainWindow):
         self.textBrowser.setText(newSearch(key, self.comboBox.currentText()))
 
     def about(self):
-        text_about=str()
-        try:
-            text_about += open("README", "r", encoding="utf-8").read()
-        except TypeError:
-            text_about += open("README", "r").read()
-        except FileNotFoundError:
-            text_about += "Sawroeg: Sawloih Cuengh-Gun duh Daegroeg\n"
-            text_about += "Email: horizonvei@gmail.com"
+        text_about = "%s\n\n%s"
+        text_about_default = """Sawroeg: Sawloih Cuengh-Gun duh Daegroeg
+Email: horizonvei@gmail.com\n
+This software is under GPLv3\n"""
 
         try:
-            text_about += "\n\n"
-            text_about += open("COPYING", "r",encoding="utf-8").read()
+            text_about = text_about % (open("README", "r", encoding="utf-8").read(), open("COPYING", "r",encoding="utf-8").read())
         except TypeError:
-            text_about += open("README", "r").read()
+            try:
+                text_about = text_about % (open("README", "r").read(), open("README", "r").read())
+            except FileNotFoundError:
+                text_about = text_about_default
         except FileNotFoundError:
-            text_about += "This software is under GPLv3\n"
+            text_about = text_about_default
 
         self.textBrowser.setText(text_about)
 
