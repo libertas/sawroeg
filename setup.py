@@ -3,6 +3,7 @@
 import os
 import sys
 import getopt
+import info
 
 def print_help():
     print("""Usage:%s [-h|-H] [--help|--prefix|--pyname|--remove]""" % sys.argv[0])
@@ -37,7 +38,7 @@ if os.name == "posix":
         os.system("rm -fr /opt/sawroeg")
         os.system("rm %s/bin/sawroeg %s/share/applications/sawroeg.desktop" % (prefix, prefix))
     else:
-        os.system("mkdir -p /opt/sawroeg/")
+        os.system("mkdir -p /opt/sawroeg/ %s/share/applications/ %s/bin/" % (prefix, prefix))
         os.system("cp -r ./ /opt/sawroeg/")
         os.system("ln /opt/sawroeg/sawroeg.desktop %s/share/applications/sawroeg.desktop" % prefix)
         os.system('echo "cd /opt/sawroeg/\n%s /opt/sawroeg/sawroeg.py" > %s/bin/sawroeg' % (python_name, prefix))
@@ -51,7 +52,7 @@ elif os.name == "nt":#Build-only
         base = "Win32GUI"
         cx_Freeze.setup(
             name="sawroeg",
-            version="0.1",
+            version=info.version,
             description="Aen Sawloih Cuengh-Gun ndeu",
             executables=[cx_Freeze.Executable("sawroeg.py", base=base, icon="icons/sawroeg.ico")]
         )
