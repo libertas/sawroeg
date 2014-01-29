@@ -14,6 +14,7 @@ from PyQt4 import QtGui
 
 from dictionary import *
 import mainwindow
+import info
 
 
 try:
@@ -50,6 +51,9 @@ class MainWindow(QtGui.QWidget, mainwindow.Ui_MainWindow):
         # get main window
         QtGui.QWidget.__init__(self)
         self.setupUi(self)
+        
+        # set window title
+        self.setWindowTitle("Saw Roeg %s" % info.version)
 
         # setup icon
         self.setWindowIcon(QtGui.QIcon("icons/sawroeg.png"))
