@@ -16,6 +16,10 @@ import tornado.web
 
 import dictionary
 
+try:
+    tornado.web.MissingArgumentError
+except AttributeError:
+    tornado.web.MissingArgumentError = tornado.web.HTTPError
 
 class SearchHandler(tornado.web.RequestHandler):
     def get(self):
