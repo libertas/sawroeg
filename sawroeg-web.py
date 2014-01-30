@@ -14,7 +14,7 @@ import tornado.ioloop
 import tornado.options
 import tornado.web
 
-import dictionary
+import dictionary,info
 
 try:
     tornado.web.MissingArgumentError
@@ -43,7 +43,8 @@ class SearchHandler(tornado.web.RequestHandler):
         result = list(dictionary.searchWord(key)) if key else []
         template_args = {
             "key": key, "start": start, "count": count, "has_count": has_count,
-            "total_count": len(result), "result": result[start:start+count]
+            "total_count": len(result), "result": result[start:start+count],
+            "version": info.version
         }
         self.render("sawroeg.html", **template_args)
 
