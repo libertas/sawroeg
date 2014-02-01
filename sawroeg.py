@@ -85,7 +85,12 @@ class MainWindow(QtGui.QWidget, mainwindow.Ui_MainWindow):
 
     def newSearch(self):
         key = self.lineEdit.text()
-        self.textBrowser.setText(newSearch(key, self.comboBox.currentText()))
+        levenshtein = self.levenshtein.isChecked()
+        result = newSearch(key, self.comboBox.currentText())
+        if levenshtein:
+            import accurate_search
+            result = accurate_search.byLevenshtein(key, result)
+        self.textBrowser.setText(result)
 
     def about(self):
         text_about = "%s\n\n%s"
