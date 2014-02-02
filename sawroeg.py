@@ -82,6 +82,8 @@ class MainWindow(QtGui.QWidget, mainwindow.Ui_MainWindow):
 
     def newSearch(self):
         key = self.lineEdit.text()
+        if python_version().startswith("2"):
+            key = unicode(key.toUtf8(), "utf8", "ignore")
         levenshtein = self.levenshtein.isChecked()
         result_yield = newSearch(key, self.comboBox.currentText())
         if levenshtein:
