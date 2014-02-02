@@ -1,11 +1,7 @@
 try:
     import Levenshtein
-except ImportError:
-    try:
-        import ctypes
-        Levenshtein = ctypes.CDLL("levenshtein.so")
-    except:
-        import levenshtein as Levenshtein
+except:
+    import levenshtein as Levenshtein
 
 def byLevenshtein(key,result_yield):
     lang="zha"
