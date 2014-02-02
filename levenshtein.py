@@ -1,3 +1,12 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+from  __future__ import unicode_literals
+
+from platform import python_version
+if python_version().startswith('2'):
+    str=unicode
+    FileNotFoundError=IOError
+
 def distance(s, t):
   m, n = len(s), len(t)
   if not (m and n):
