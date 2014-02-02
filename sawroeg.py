@@ -25,7 +25,7 @@ except NameError:
 
 def newSearch(key, group):
     if not key:
-        return ""
+        yield ""
 
     if group == "Saw":
         result = searchWord(key, False)
@@ -36,14 +36,11 @@ def newSearch(key, group):
     if group != "Laeh":
         for i in result:
             for j in i[1]:
-                n += 1
-                value += "%d.%s\n" % (n, j)
+                yield j
     else:
         for i in result:
-            n += 1
             if not i in value:
-                value += "%d.%s\n" % (n, i)
-    return value
+                yield i
 
 
 class MainWindow(QtGui.QWidget, mainwindow.Ui_MainWindow):
@@ -86,10 +83,15 @@ class MainWindow(QtGui.QWidget, mainwindow.Ui_MainWindow):
     def newSearch(self):
         key = self.lineEdit.text()
         levenshtein = self.levenshtein.isChecked()
-        result = newSearch(key, self.comboBox.currentText())
+        result_yield = newSearch(key, self.comboBox.currentText())
         if levenshtein:
             import accurate_search
-            result = accurate_search.byLevenshtein(key, result)
+            result_yield = accurate_search.byLevenshtein(key, result_yield)
+        result = ""
+        n = 1
+        for i in result_yield:
+            result += "%d.%s\n" % (n, i)
+            n += 1
         self.textBrowser.setText(result)
 
     def about(self):
