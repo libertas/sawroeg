@@ -21,6 +21,10 @@ try:
 except AttributeError:
     tornado.web.MissingArgumentError = tornado.web.HTTPError
 
+def getResult(result):
+    for i in result:
+        yield i[1][0]
+
 class SearchHandler(tornado.web.RequestHandler):
     def get(self):
         start = 0
@@ -46,7 +50,12 @@ class SearchHandler(tornado.web.RequestHandler):
             key = self.get_argument("q")
         except tornado.web.MissingArgumentError:
             pass
-        result = list(dictionary.searchWord(key)) if key else []
+        tmp = getResult(dictionary.searchWord(key))
+        if new_engine:
+            import accurate_search
+            result = list(accurate_search.byLevenshtein(key, tmp)) if key else []
+        else:
+            result = list(tmp) if key else []
         template_args = {
             "key": key, "start": start, "count": count, "has_count": has_count,
             "total_count": len(result), "result": result[start:start+count],

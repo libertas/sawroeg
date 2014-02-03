@@ -22,7 +22,7 @@ def byLevenshtein(key,result_yield):
     if lang == "zha":
         for i in result_yield:
             tmp=i.split(" ")[0]
-            result_list2d.append([Levenshtein.distance(key,tmp), i])
+            result_list2d.append([Levenshtein.distance(key, tmp), i])
     else:
         for i in result_yield:
             result_list2d.append([Levenshtein.distance(key,i), i])
