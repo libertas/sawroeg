@@ -36,7 +36,7 @@ a:active, a:focus {
     transition: color .1s linear, text-shadow .5s ease;
 }
 
-input {
+input.input_glow {
     height: 16pt;
     background-color: #f7f7f7;
     border-style: none;
@@ -55,7 +55,7 @@ input {
     transition: background-color .1s linear, box-shadow .5s ease;
 }
 
-input:hover, input:active, input:focus {
+input:hover.input_glow, input:active.input_glow, input:focus.input_glow {
     background-color: white !important;
     box-shadow: 0pt 0pt 12pt white;
     transition: background-color .1s linear, box-shadow .5s ease;
@@ -74,7 +74,7 @@ hr {
     position: fixed;
     top: 0pt;
     width: 100%;
-    height: 64pt;
+    height: 72pt;
     background-color: rgba(102, 204, 255, .75);
     box-shadow: 0pt 0pt 10pt gray;
     box-sizing: border-box;
@@ -111,6 +111,14 @@ hr {
     width: 60pt;
     border-top-left-radius: 0pt;
     border-bottom-left-radius: 0pt;
+}
+
+#newenginecontainer {
+    margin-top: 2pt;
+}
+
+#newengine {
+    vertical-align: middle;
 }
 
 #results {
