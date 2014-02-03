@@ -35,6 +35,12 @@ class SearchHandler(tornado.web.RequestHandler):
             has_count = True
         except (ValueError, tornado.web.MissingArgumentError):
             pass
+        new_engine = False
+        try:
+            self.get_argument("new_engine")
+            new_engine = True
+        except tornado.web.MissingArgumentError:
+            pass
         key = ''
         try:
             key = self.get_argument("q")
@@ -44,7 +50,7 @@ class SearchHandler(tornado.web.RequestHandler):
         template_args = {
             "key": key, "start": start, "count": count, "has_count": has_count,
             "total_count": len(result), "result": result[start:start+count],
-            "version": info.version
+            "version": info.version, "new_engine": new_engine
         }
         self.render("sawroeg.html", **template_args)
 

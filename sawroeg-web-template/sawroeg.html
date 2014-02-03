@@ -16,7 +16,7 @@
 <form action="?" method="GET">
 <span id="submitcontainer"><input type="submit" id="btn_submit" class="input_glow" value="Ra" /></span>
 <span id="qcontainer"><input type="text" id="q" name="q" class="input_glow"{% if key %} value="{{ key }}"{% end %} placeholder="Saw" /></span>
-<div id="newenginecontainer"><input type="checkbox" id="new_engine" name="new_engine" checked="checked" /><label for="new_engine">yinxgingzmoq</label></div>
+<div id="newenginecontainer"><input type="checkbox" id="new_engine" name="new_engine"{% if new_engine %} checked="checked"{% end %} /><label for="new_engine">yinxgingz moq (sawqhengz)</label></div>
 {% if has_count %}<input type="hidden" value="{{ count }}" />
 {% end %}</form>
 </div>
