@@ -30,7 +30,7 @@
     <rect>
      <x>80</x>
      <y>10</y>
-     <width>151</width>
+     <width>171</width>
      <height>41</height>
     </rect>
    </property>
@@ -39,9 +39,9 @@
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>50</y>
+     <y>70</y>
      <width>471</width>
-     <height>281</height>
+     <height>271</height>
     </rect>
    </property>
   </widget>
@@ -110,27 +110,30 @@
   <widget class="QCheckBox" name="levenshtein">
    <property name="geometry">
     <rect>
-     <x>230</x>
-     <y>30</y>
+     <x>80</x>
+     <y>50</y>
      <width>21</width>
      <height>16</height>
     </rect>
    </property>
    <property name="text">
-    <string>Cinj</string>
+    <string/>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
    </property>
   </widget>
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>230</x>
-     <y>10</y>
-     <width>21</width>
+     <x>100</x>
+     <y>50</y>
+     <width>91</width>
      <height>16</height>
     </rect>
    </property>
    <property name="text">
-    <string>Cinj</string>
+    <string>Yinxgingz Moq</string>
    </property>
   </widget>
  </widget>

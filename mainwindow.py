@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'mainwindow.ui'
 #
-# Created: Mon Feb  3 18:25:04 2014
+# Created: Mon Feb  3 20:19:58 2014
 #      by: PyQt4 UI code generator 4.9.3
 #
 # WARNING! All changes made in this file will be lost!
@@ -21,10 +21,10 @@ class Ui_MainWindow(object):
         MainWindow.setMinimumSize(QtCore.QSize(0, 0))
         MainWindow.setMaximumSize(QtCore.QSize(494, 347))
         self.lineEdit = QtGui.QLineEdit(MainWindow)
-        self.lineEdit.setGeometry(QtCore.QRect(80, 10, 151, 41))
+        self.lineEdit.setGeometry(QtCore.QRect(80, 10, 171, 41))
         self.lineEdit.setObjectName(_fromUtf8("lineEdit"))
         self.textBrowser = QtGui.QTextBrowser(MainWindow)
-        self.textBrowser.setGeometry(QtCore.QRect(10, 50, 471, 281))
+        self.textBrowser.setGeometry(QtCore.QRect(10, 70, 471, 271))
         self.textBrowser.setObjectName(_fromUtf8("textBrowser"))
         self.pushButton = QtGui.QPushButton(MainWindow)
         self.pushButton.setGeometry(QtCore.QRect(260, 10, 51, 41))
@@ -42,10 +42,12 @@ class Ui_MainWindow(object):
         self.comboBox.setGeometry(QtCore.QRect(10, 10, 61, 41))
         self.comboBox.setObjectName(_fromUtf8("comboBox"))
         self.levenshtein = QtGui.QCheckBox(MainWindow)
-        self.levenshtein.setGeometry(QtCore.QRect(230, 30, 21, 16))
+        self.levenshtein.setGeometry(QtCore.QRect(80, 50, 21, 16))
+        self.levenshtein.setText(_fromUtf8(""))
+        self.levenshtein.setChecked(True)
         self.levenshtein.setObjectName(_fromUtf8("levenshtein"))
         self.label = QtGui.QLabel(MainWindow)
-        self.label.setGeometry(QtCore.QRect(230, 10, 21, 16))
+        self.label.setGeometry(QtCore.QRect(100, 50, 91, 16))
         self.label.setObjectName(_fromUtf8("label"))
 
         self.retranslateUi(MainWindow)
@@ -62,6 +64,5 @@ class Ui_MainWindow(object):
         self.pushButton_2.setText(QtGui.QApplication.translate("MainWindow", "?", None, QtGui.QApplication.UnicodeUTF8))
         self.pushButton_3.setText(QtGui.QApplication.translate("MainWindow", "N&daep", None, QtGui.QApplication.UnicodeUTF8))
         self.pushButton_4.setText(QtGui.QApplication.translate("MainWindow", "&Baet", None, QtGui.QApplication.UnicodeUTF8))
-        self.levenshtein.setText(QtGui.QApplication.translate("MainWindow", "Cinj", None, QtGui.QApplication.UnicodeUTF8))
-        self.label.setText(QtGui.QApplication.translate("MainWindow", "Cinj", None, QtGui.QApplication.UnicodeUTF8))
+        self.label.setText(QtGui.QApplication.translate("MainWindow", "Yinxgingz Moq", None, QtGui.QApplication.UnicodeUTF8))
 
