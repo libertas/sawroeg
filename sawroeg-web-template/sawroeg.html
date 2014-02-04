@@ -21,12 +21,13 @@
 {% end %}</form>
 </div>
 </div>
+{% set shownextpage=False %}
 <div id="results">
 {% if start>0 %}<a href="?q={{ key }}&start={{ max(start-count, 0) }}&count={{ count }}">Mbaw gonq ←</a>
 {% end %}{% if result %}<ol{% if start>0 %} start="{{ start+1 }}"{% end %} style="padding-left: {{ (len(str(start+count))+3)/2.0 }}em; margin-left: 0pt">
-{% for desc in result %}<li><div>{{ desc }}</div></li>
-{% end %}</ol>
-{% if total_count>start+count %}<a href="?q={{ key }}&start={{ start+count }}&count={{ count }}">Mbaw laeng →</a>
+{% for n,desc in enumerate(result) %}<li><div>{{ desc }}</div></li>
+{% if n==count %}{% set shownextpage=True %}{% end %}{% end %}</ol>
+{% if shownextpage%}<a href="?q={{ key }}&start={{ start+count }}&count={{ count }}">Mbaw laeng →</a>
 {% end %}{% elif key %}<div>Ndi miz liux. :-(</div>
 {% else %}<div>Raiz saw youq gwnz neix ma ra.</div>
 {% end %}</div>

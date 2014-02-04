@@ -21,9 +21,13 @@ try:
 except AttributeError:
     tornado.web.MissingArgumentError = tornado.web.HTTPError
 
-def getResult(result):
+def getResult(result, start, count):
+    n = 0
+    end = start + count
     for i in result:
-        yield i[1][0]
+        if n >= start and n <=end:#the last one is given as a mark,not a item to be shown
+           yield i[1][0]
+        n += 1
 
 class SearchHandler(tornado.web.RequestHandler):
     def get(self):
@@ -50,16 +54,15 @@ class SearchHandler(tornado.web.RequestHandler):
             key = self.get_argument("q")
         except tornado.web.MissingArgumentError:
             pass
-        tmp = getResult(dictionary.searchWord(key))
+        tmp = getResult(dictionary.searchWord(key), start, count)
         if new_engine:
             import accurate_search
-            result = list(accurate_search.byLevenshtein(key, tmp)) if key else []
+            result = accurate_search.byLevenshtein(key, tmp) if key else []
         else:
-            result = list(tmp) if key else []
+            result = tmp if key else []
         template_args = {
             "key": key, "start": start, "count": count, "has_count": has_count,
-            "total_count": len(result), "result": result[start:start+count],
-            "version": info.version, "new_engine": new_engine
+            "result": result, "version": info.version, "new_engine": new_engine
         }
         self.render("sawroeg.html", **template_args)
 
