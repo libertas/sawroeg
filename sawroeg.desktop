@@ -1,13 +1,12 @@
 [Desktop Entry]
-Categories=GNOME;KDE;Qt;
+Encoding=UTF-8
+GenericName=Sawroeg
+Name=Sawroeg
 Comment=Sawloih Cuengh-Gun duh Daegroeg
 Exec=sawroeg
-GenericName=Sawroeg
 Icon=/opt/sawroeg/icons/sawroeg.png
-Name=Sawroeg
-Path=
-StartupNotify=true
 Terminal=false
-TerminalOptions=
 Type=Application
+StartupNotify=true
+Categories=Utility;Dictionary;
 X-KDE-SubstituteUID=false
