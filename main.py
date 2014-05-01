@@ -1,8 +1,13 @@
 #This is made for Kivy on Android
 
 from  __future__ import unicode_literals
-str=unicode
 
+from platform import python_version
+if python_version().startswith('2'):
+    str=unicode
+    FileNotFoundError=IOError
+
+import kivy
 from kivy.app import App
 from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.textinput import TextInput
@@ -63,6 +68,30 @@ class TestApp(App):
 
 if __name__ == '__main__':
     
+    #Solve the problem of fonts
+    from kivy.resources import resource_add_path
+    from kivy.core.text import LabelBase, DEFAULT_FONT
+    def add_paths(*paths):
+        for p in reversed(paths):
+            resource_add_path(p)
+
+    def set_regular(family, *filenames):
+        for f in filenames:
+            try:
+                LabelBase.register(family, f)
+                break
+            except IOError:
+                continue
+        else:
+            raise IOError, 'No appropriate fonts for Kivy UI'
+    
+    add_paths('/system/fonts', '/data/fonts')
+    set_regular(DEFAULT_FONT,
+        'DroidSansFallback.ttf',
+    )
+    
+    
+    #Begin
     text=""
     
     text_input=TextInput(multiline=False) #get input from this widget
