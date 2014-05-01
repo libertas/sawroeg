@@ -9,9 +9,10 @@ if python_version().startswith('2'):
 
 import kivy
 from kivy.app import App
-from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.textinput import TextInput
 from kivy.uix.button import Button
+from kivy.uix.checkbox import CheckBox
+from kivy.uix.stacklayout import StackLayout
 
 from dictionary import *
 
@@ -38,7 +39,7 @@ def Create_NewSearch(instance):
         key = instance.text
         if python_version().startswith("2"):
             key = unicode(key)
-        levenshtein = False
+        levenshtein = checkbox.active
         result_yield = newSearch(key, "Saw")
         if levenshtein:
             import accurate_search
@@ -50,12 +51,12 @@ def Create_NewSearch(instance):
             n += 1
         text_output._refresh_text(result)
 
-class RootWidget(BoxLayout):
+class RootWidget(StackLayout):
     def __init__(self, **kwargs):
         super(RootWidget, self).__init__(**kwargs)
-        self.orientation="vertical"
-        self.cols=2
+        self.cols=3
         self.add_widget(text_input)
+        self.add_widget(checkbox)
         self.add_widget(text_output)
         
         
@@ -94,9 +95,12 @@ if __name__ == '__main__':
     #Begin
     text=""
     
-    text_input=TextInput(multiline=False) #get input from this widget
+    text_input=TextInput(width=100, size_hint=(0.8,0), multiline=False) #get input from this widget
     text_input.bind(on_text_validate=Create_NewSearch)
     
-    text_output=TextInput(text="Ndi miz")
+    checkbox=CheckBox(width=2, size_hint=(0.2, 0))
+    checkbox.active=True #Enable Levenshtein Distance
+    
+    text_output=TextInput(text="Sawroeg youq Android~\n")
     
     TestApp().run()
