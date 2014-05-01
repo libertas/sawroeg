@@ -61,10 +61,16 @@ class RootWidget(StackLayout):
         
         
 
-class TestApp(App):
+class Sawroeg(App):
 
     def build(self):
         return RootWidget()
+    
+    def on_pause(self):
+        return True
+    
+    def on_resume(self):
+        pass
 
 
 if __name__ == '__main__':
@@ -103,4 +109,4 @@ if __name__ == '__main__':
     
     text_output=TextInput(text="Sawroeg youq Android~\n")
     
-    TestApp().run()
+    Sawroeg().run()
