@@ -62,7 +62,6 @@ class RootWidget(StackLayout):
         self.add_widget(checkbox)
         self.add_widget(text_output)
         
-        
 
 class Sawroeg(App):
 
@@ -112,5 +111,10 @@ if __name__ == '__main__':
     checkbox.active=True #Enable Levenshtein Distance
     
     text_output=TextInput(text="Sawroeg youq Android~\n")
+    try:
+        from kivy.properties import BooleanProperty
+        text_output.readonly = BooleanProperty(True)
+    except ImportError:
+        text_output.readonly = True
     
     Sawroeg().run()
