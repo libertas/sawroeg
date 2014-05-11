@@ -37,6 +37,9 @@ def newSearch(key, group):
 
 def Create_NewSearch(instance):
         key = instance.text
+        if key == "":
+            text_output._refresh_text("Raiz saw youq gwnz neix ma ra.")
+            return False
         if python_version().startswith("2"):
             key = unicode(key)
         levenshtein = checkbox.active
