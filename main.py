@@ -94,12 +94,13 @@ if __name__ == '__main__':
                 continue
         else:
             raise IOError, 'No appropriate fonts for Kivy UI'
-    
-    add_paths('/system/fonts', '/data/fonts')
-    set_regular(DEFAULT_FONT,
-        'DroidSansFallback.ttf',
-    )
-    
+    try:
+        add_paths('/system/fonts', '/data/fonts')
+        set_regular(DEFAULT_FONT,
+            'DroidSansFallback.ttf',
+        )
+    except IOError:
+        pass
     
     #Begin
     text=""
