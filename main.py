@@ -41,7 +41,7 @@ def Create_NewSearch(instance):
             text_output._refresh_text("Raiz saw youq gwnz neix ma ra.")
             return False
         if python_version().startswith("2"):
-            key = unicode(key)
+            key = key.decode("utf-8")
         levenshtein = checkbox.active
         result_yield = newSearch(key, "Saw")
         if levenshtein:
