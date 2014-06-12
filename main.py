@@ -10,9 +10,9 @@ if python_version().startswith('2'):
 import kivy
 from kivy.app import App
 from kivy.uix.textinput import TextInput
-from kivy.uix.button import Button
 from kivy.uix.checkbox import CheckBox
 from kivy.uix.stacklayout import StackLayout
+from kivy.uix.slider import Slider
 
 from dictionary import *
 import info
@@ -58,10 +58,10 @@ def Create_NewSearch(instance):
 class RootWidget(StackLayout):
     def __init__(self, **kwargs):
         super(RootWidget, self).__init__(**kwargs)
-        self.cols=3
         self.add_widget(text_input)
         self.add_widget(checkbox)
         self.add_widget(text_output)
+        self.add_widget(slider)
         
 
 class Sawroeg(App):
@@ -105,13 +105,16 @@ if __name__ == '__main__':
     #Begin
     text=""
     
-    text_input=TextInput(width=100, size_hint=(0.8,0), multiline=False) #get input from this widget
+    text_input=TextInput(width=100, size_hint=(0.8,0.07), multiline=False) #get input from this widget
     text_input.bind(on_text_validate=Create_NewSearch)
     
-    checkbox=CheckBox(width=2, size_hint=(0.2, 0))
+    checkbox=CheckBox(width=2, size_hint=(0.2, 0.07))
     checkbox.active=True #Enable Levenshtein Distance
     
-    text_output=TextInput(text="Sawroeg-%s youq Android~\n" % info.version)
+    text_output=TextInput(text="Sawroeg-%s youq Android~\n" % info.version ,size_hint=(0.87,0.93))
+    
+    slider = Slider(min=0, max=100, value=100, size_hint=(0.12,0.93),orientation="vertical")
+    
     try:
         from kivy.properties import BooleanProperty
         text_output.readonly = BooleanProperty(True)
