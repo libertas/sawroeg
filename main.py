@@ -55,14 +55,12 @@ def Create_NewSearch(instance):
             result += "%d.%s\n" % (n, i)
             n += 1
         text_output._refresh_text(result)
+        global textlines
+        textlines = text_output.get_cursor_from_index(result)[1]
 
 def on_slider_changed(instance, event):
-    text = text_output.text.decode("utf-8")
-    textlines = text_output.get_cursor_from_index(len(text))[1]
     value = 100 - instance.value
     text_output.cursor = (0, int(value * textlines / 100))
-    print ("%f * %d / 100 = %d" %(value, textlines, int(value * textlines / 100)))
-    print (text_input.cursor_index())
 
 class RootWidget(StackLayout):
     def __init__(self, **kwargs):
@@ -112,6 +110,8 @@ if __name__ == '__main__':
         pass
     
     #Begin
+    textlines=1
+    
     text_input=TextInput(width=100, size_hint=(0.8,0.07), multiline=False) #get input from this widget
     text_input.bind(on_text_validate=Create_NewSearch)
     
