@@ -37,6 +37,7 @@ def newSearch(key, group):
                 yield i
 
 def Create_NewSearch(instance):
+        slider.value = 100
         key = instance.text
         if key == "":
             text_output._refresh_text("Raiz saw youq gwnz neix ma ra.")
@@ -54,6 +55,14 @@ def Create_NewSearch(instance):
             result += "%d.%s\n" % (n, i)
             n += 1
         text_output._refresh_text(result)
+
+def on_slider_changed(instance, event):
+    text = text_output.text.decode("utf-8")
+    textlines = text_output.get_cursor_from_index(len(text))[1]
+    value = 100 - instance.value
+    text_output.cursor = (0, int(value * textlines / 100))
+    print ("%f * %d / 100 = %d" %(value, textlines, int(value * textlines / 100)))
+    print (text_input.cursor_index())
 
 class RootWidget(StackLayout):
     def __init__(self, **kwargs):
@@ -103,8 +112,6 @@ if __name__ == '__main__':
         pass
     
     #Begin
-    text=""
-    
     text_input=TextInput(width=100, size_hint=(0.8,0.07), multiline=False) #get input from this widget
     text_input.bind(on_text_validate=Create_NewSearch)
     
@@ -113,7 +120,8 @@ if __name__ == '__main__':
     
     text_output=TextInput(text="Sawroeg-%s youq Android~\n" % info.version ,size_hint=(0.87,0.93))
     
-    slider = Slider(min=0, max=100, value=100, size_hint=(0.12,0.93),orientation="vertical")
+    slider = Slider(min=0, max=100, value=100, size_hint=(0.12,0.9),orientation="vertical")
+    slider.bind(on_touch_move=on_slider_changed)
     
     try:
         from kivy.properties import BooleanProperty
