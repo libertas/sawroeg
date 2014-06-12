@@ -59,8 +59,8 @@ def Create_NewSearch(instance):
         textlines = text_output.get_cursor_from_index(result)[1]
 
 def on_slider_changed(instance, event):
-    value = 100 - instance.value
-    text_output.cursor = (0, int(value * textlines / 100))
+    value_ratio = 1 - instance.value_normalized
+    text_output.cursor = (0, int(value_ratio * textlines))
 
 class RootWidget(StackLayout):
     def __init__(self, **kwargs):
