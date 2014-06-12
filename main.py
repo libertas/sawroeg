@@ -92,7 +92,7 @@ if __name__ == '__main__':
             except IOError:
                 continue
         else:
-            raise IOError, 'No appropriate fonts for Kivy UI'
+            raise IOError('No appropriate fonts for Kivy UI')
     try:
         add_paths('/system/fonts', '/data/fonts')
         set_regular(DEFAULT_FONT,
