@@ -15,6 +15,7 @@ from kivy.uix.checkbox import CheckBox
 from kivy.uix.stacklayout import StackLayout
 
 from dictionary import *
+import info
 
 def newSearch(key, group):
     if not key:
@@ -110,7 +111,7 @@ if __name__ == '__main__':
     checkbox=CheckBox(width=2, size_hint=(0.2, 0))
     checkbox.active=True #Enable Levenshtein Distance
     
-    text_output=TextInput(text="Sawroeg youq Android~\n")
+    text_output=TextInput(text="Sawroeg-%s youq Android~\n" % info.version)
     try:
         from kivy.properties import BooleanProperty
         text_output.readonly = BooleanProperty(True)
