@@ -25,7 +25,11 @@ def byLevenshtein(key,result_yield):
             result_list2d.append([Levenshtein.distance(key, tmp), i])
     else:
         for i in result_yield:
-            result_list2d.append([Levenshtein.distance(key,i), i])
+            list_tmp=i.split(" ")
+            list_distance=[]
+            for tmp in list_tmp:
+                list_distance.append(Levenshtein.distance(key,tmp))
+            result_list2d.append([min(list_distance), i])
     result_list2d.sort()
     result = ""
     for i in result_list2d:
