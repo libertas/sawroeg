@@ -7,6 +7,8 @@ if python_version().startswith('2'):
     str=unicode
     FileNotFoundError=IOError
 
+from re import split
+
 try:
     import Levenshtein
 except:
@@ -25,10 +27,11 @@ def byLevenshtein(key,result_yield):
             result_list2d.append([Levenshtein.distance(key, tmp), i])
     else:
         for i in result_yield:
-            list_tmp=i.split(" ")
+            list_tmp=split("[\[\]\（\）\ \；\，\。\,\．]",i)
             list_distance=[]
             for tmp in list_tmp:
-                list_distance.append(Levenshtein.distance(key,tmp))
+                if key in tmp:
+                    list_distance.append(Levenshtein.distance(key,tmp))
             result_list2d.append([min(list_distance), i])
     result_list2d.sort()
     result = ""
