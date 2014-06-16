@@ -57,6 +57,8 @@ def searchExamples(key):
         string = sawgeq[i]
         tlist = string.rsplit("\n")
         for j in tlist:
-            if key in j:
-                result = "%s    --<<%s>>\n" % (j, i)
-                yield result
+            for k in j.split(" "):
+                if key == k:
+                    result = "%s    --<<%s>>\n" % (j, i)
+                    yield result
+                    break
