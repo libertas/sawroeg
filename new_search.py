@@ -8,13 +8,16 @@ if python_version().startswith('2'):
     FileNotFoundError=IOError
 
 from dictionary import *
+import accurate_search
 
-def newSearch(key, group):
+def newSearch(key, group, levenshtein):
     if not key:
         yield ""
 
     if group == "Saw":
         result = searchWord(key, False)
+        if levenshtein:
+            result = accurate_search.byLevenshtein(key, result)
     elif group == "Laeh":
         result = searchExamples(key)
     value = ""

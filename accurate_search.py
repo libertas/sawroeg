@@ -23,16 +23,16 @@ def byLevenshtein(key,result_yield):
     result_list2d = []
     if lang == "zha":
         for i in result_yield:
-            tmp=i.split(" ")[0]
-            result_list2d.append([Levenshtein.distance(key, tmp), i])
+            result_list2d.append([Levenshtein.distance(key, i[0]), i])
     else:
         for i in result_yield:
-            list_tmp=split("[\[\]\（\）\ \；\，\。\,\．]",i)
-            list_distance=[]
-            for tmp in list_tmp:
-                if key in tmp:
-                    list_distance.append(Levenshtein.distance(key,tmp))
-            result_list2d.append([min(list_distance), i])
+            for j in i[1]:
+                list_tmp=split("[\[\]\（\）\ \；\，\。\,\．]",j)
+                list_distance=[]
+                for tmp in list_tmp:
+                    if key in tmp:
+                        list_distance.append(Levenshtein.distance(key,tmp))
+                result_list2d.append([min(list_distance), i])
     result_list2d.sort()
     result = ""
     for i in result_list2d:

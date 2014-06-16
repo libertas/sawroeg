@@ -28,10 +28,7 @@ def Create_NewSearch(instance):
         if python_version().startswith("2"):
             key = key.decode("utf-8")
         levenshtein = checkbox.active
-        result_yield = newSearch(key, "Saw")
-        if levenshtein:
-            import accurate_search
-            result_yield = accurate_search.byLevenshtein(key, result_yield)
+        result_yield = newSearch(key, "Saw", levenshtein)
         result = ""
         n = 1
         for i in result_yield:

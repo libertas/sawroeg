@@ -66,10 +66,7 @@ class MainWindow(QtGui.QWidget, mainwindow.Ui_MainWindow):
         if python_version().startswith("2"):
             key = unicode(key.toUtf8(), "utf8", "ignore")
         levenshtein = self.levenshtein.isChecked()
-        result_yield = newSearch(key, self.comboBox.currentText())
-        if levenshtein:
-            import accurate_search
-            result_yield = accurate_search.byLevenshtein(key, result_yield)
+        result_yield = newSearch(key, self.comboBox.currentText(), levenshtein)
         result = ""
         n = 1
         for i in result_yield:
