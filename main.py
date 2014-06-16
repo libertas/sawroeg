@@ -14,27 +14,10 @@ from kivy.uix.checkbox import CheckBox
 from kivy.uix.stacklayout import StackLayout
 from kivy.uix.slider import Slider
 
-from dictionary import *
 import info
 
-def newSearch(key, group):
-    if not key:
-        yield ""
+from new_search import newSearch
 
-    if group == "Saw":
-        result = searchWord(key, False)
-    elif group == "Laeh":
-        result = searchExamples(key)
-    value = ""
-    n = 0
-    if group != "Laeh":
-        for i in result:
-            for j in i[1]:
-                yield j
-    else:
-        for i in result:
-            if not i in value:
-                yield i
 
 def Create_NewSearch(instance):
         slider.value = 100
