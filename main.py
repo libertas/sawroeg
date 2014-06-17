@@ -36,7 +36,7 @@ def on_slider_changed(instance, event):
     value_ratio = 1 - instance.value_normalized
     if value_ratio == 1:
         try:
-            text_output.setText()
+            text_output.addText()
             slider.value_ratio = 1
         except AttributeError:
             pass
@@ -54,17 +54,23 @@ class RootWidget(StackLayout):
 
 class TextBrowser(TextInput):#There can only be 1 TextBrowser
     def __browser_init__(self):
-        self.text_count = 1
+        self.text_count = 0
         self.result = ""
     
     def setGenerator(self,generator):
         self.__browser_init__()
         self.text_generator = generator
-        
-    def setText(self):
-        count = 1
+    
+    def setText(self):#set the current text of the browser
+        self.list_result = []
         for i in self.text_generator:
-            self.result += "%d.%s\n" % (self.text_count, i)
+            self.list_result.append((self.text_count, i))
+        self.addText()
+        
+    def addText(self):#put some text from buffer to the widget
+        count = 0
+        for i in self.list_result[self.text_count + count :]:
+            self.result += "%d.%s\n" % i
             self.text_count += 1
             count += 1
             if count == 100:
