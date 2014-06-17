@@ -13,9 +13,8 @@ from kivy.uix.textinput import TextInput
 from kivy.uix.checkbox import CheckBox
 from kivy.uix.stacklayout import StackLayout
 from kivy.uix.slider import Slider
-
+from time import sleep
 import info
-
 from new_search import newSearch
 
 
@@ -31,7 +30,6 @@ def Create_NewSearch(instance):
         result_yield = newSearch(key, "Saw", levenshtein)
         
         text_output.setGenerator(result_yield)
-        text_output.setText()
 
 
 def on_slider_changed(instance, event):
@@ -42,8 +40,7 @@ def on_slider_changed(instance, event):
             slider.value_ratio = 1
         except AttributeError:
             pass
-    else:
-        text_output.cursor = (0, int(value_ratio * text_output.text_count))
+    text_output.cursor = (0, int(value_ratio * text_output.text_count))
 
 class RootWidget(StackLayout):
     def __init__(self, **kwargs):
@@ -62,22 +59,24 @@ class TextBrowser(TextInput):#There can only be 1 TextBrowser
     def setGenerator(self,generator):
         self.__browser_init__()
         self.text_generator = generator
+        self.getText()
     
-    def setText(self):#set the current text of the browser
+    def getText(self):#set the current text of the browser
         self.list_result = []
-        for i in self.text_generator:
-            self.list_result.append((self.text_count, i))
+        for n,i in enumerate(self.text_generator):
+            self.list_result.append((n + 1, i))
         self.addText()
         
     def addText(self):#put some text from buffer to the widget
         count = 0
-        for i in self.list_result[self.text_count + count :]:
+        for i in self.list_result[self.text_count:]:
             self.result += "%d.%s\n" % i
             self.text_count += 1
             count += 1
-            if count == 100:
+            if count == 50:
                 break
         self._refresh_text(self.result)
+        sleep(0.1)
         
 
 
