@@ -14,27 +14,10 @@ from kivy.uix.checkbox import CheckBox
 from kivy.uix.stacklayout import StackLayout
 from kivy.uix.slider import Slider
 
-from dictionary import *
 import info
 
-def newSearch(key, group):
-    if not key:
-        yield ""
+from new_search import newSearch
 
-    if group == "Saw":
-        result = searchWord(key, False)
-    elif group == "Laeh":
-        result = searchExamples(key)
-    value = ""
-    n = 0
-    if group != "Laeh":
-        for i in result:
-            for j in i[1]:
-                yield j
-    else:
-        for i in result:
-            if not i in value:
-                yield i
 
 def Create_NewSearch(instance):
         slider.value = 100
@@ -45,22 +28,20 @@ def Create_NewSearch(instance):
         if python_version().startswith("2"):
             key = key.decode("utf-8")
         levenshtein = checkbox.active
-        result_yield = newSearch(key, "Saw")
-        if levenshtein:
-            import accurate_search
-            result_yield = accurate_search.byLevenshtein(key, result_yield)
-        result = ""
-        n = 1
-        for i in result_yield:
-            result += "%d.%s\n" % (n, i)
-            n += 1
-        text_output._refresh_text(result)
-        global textlines
-        textlines = text_output.get_cursor_from_index(result)[1]
+        result_yield = newSearch(key, "Saw", levenshtein)
+        text_output.setGenerator(result_yield)
+        text_output.setText()
 
 def on_slider_changed(instance, event):
     value_ratio = 1 - instance.value_normalized
-    text_output.cursor = (0, int(value_ratio * textlines))
+    if value_ratio == 1:
+        try:
+            text_output.setText()
+            slider.value_ratio = 1
+        except AttributeError:
+            pass
+    else:
+        text_output.cursor = (0, int(value_ratio * text_output.text_count))
 
 class RootWidget(StackLayout):
     def __init__(self, **kwargs):
@@ -69,7 +50,28 @@ class RootWidget(StackLayout):
         self.add_widget(checkbox)
         self.add_widget(text_output)
         self.add_widget(slider)
+
+
+class TextBrowser(TextInput):#There can only be 1 TextBrowser
+    def __browser_init__(self):
+        self.text_count = 1
+        self.result = ""
+    
+    def setGenerator(self,generator):
+        self.__browser_init__()
+        self.text_generator = generator
         
+    def setText(self):
+        count = 1
+        for i in self.text_generator:
+            self.result += "%d.%s\n" % (self.text_count, i)
+            self.text_count += 1
+            count += 1
+            if count == 100:
+                break
+        self._refresh_text(self.result)
+        
+
 
 class Sawroeg(App):
 
@@ -118,7 +120,8 @@ if __name__ == '__main__':
     checkbox=CheckBox(width=2, size_hint=(0.2, 0.07))
     checkbox.active=True #Enable Levenshtein Distance
     
-    text_output=TextInput(text="Sawroeg-%s youq Android~\n" % info.version ,size_hint=(0.87,0.93))
+    text_output=TextBrowser(text="Sawroeg-%s youq Android~\n" % info.version ,size_hint=(0.87,0.93))
+    text_output.__browser_init__()
     
     slider = Slider(min=0, max=100, value=100, size_hint=(0.12,0.9),orientation="vertical")
     slider.bind(on_touch_move=on_slider_changed)
