@@ -8,9 +8,14 @@ if python_version().startswith('2'):
 
 import bisect
 
-from sawguq import sawguq
-from sawgeq import sawgeq
-
+try:
+    from sawguq import sawguq
+except ImportError:
+    print("Cannot get sawguq.py")
+try:
+    from sawgeq import sawgeq
+except ImportError:
+    print("Cannot get sawgeq")
 
 def searchWord(key, from_begin=False):
     try:
