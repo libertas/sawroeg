@@ -13,7 +13,6 @@ from kivy.uix.textinput import TextInput
 from kivy.uix.checkbox import CheckBox
 from kivy.uix.stacklayout import StackLayout
 from kivy.uix.slider import Slider
-from time import sleep
 import info
 from new_search import newSearch
 
@@ -34,13 +33,15 @@ def Create_NewSearch(instance):
 
 def on_slider_changed(instance, event):
     value_ratio = 1 - instance.value_normalized
-    if value_ratio == 1:
+    text_output.cursor = (0, int(value_ratio * text_output.text_count))
+
+def on_slider_released(instance, event):
+    value_ratio = 1 - instance.value_normalized
+    if value_ratio >=0.7:
         try:
             text_output.addText()
-            slider.value_ratio = 1
         except AttributeError:
             pass
-    text_output.cursor = (0, int(value_ratio * text_output.text_count))
 
 class RootWidget(StackLayout):
     def __init__(self, **kwargs):
@@ -76,7 +77,6 @@ class TextBrowser(TextInput):#There can only be 1 TextBrowser
             if count == 50:
                 break
         self._refresh_text(self.result)
-        sleep(0.1)
         
 
 
@@ -132,6 +132,7 @@ if __name__ == '__main__':
     
     slider = Slider(min=0, max=100, value=100, size_hint=(0.12,0.9),orientation="vertical")
     slider.bind(on_touch_move=on_slider_changed)
+    slider.bind(on_touch_up=on_slider_released)
     
     try:
         from kivy.properties import BooleanProperty
