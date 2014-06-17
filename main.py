@@ -29,8 +29,10 @@ def Create_NewSearch(instance):
             key = key.decode("utf-8")
         levenshtein = checkbox.active
         result_yield = newSearch(key, "Saw", levenshtein)
+        
         text_output.setGenerator(result_yield)
         text_output.setText()
+
 
 def on_slider_changed(instance, event):
     value_ratio = 1 - instance.value_normalized

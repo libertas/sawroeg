@@ -12,7 +12,6 @@ import sys
 
 from PyQt4 import QtGui
 
-from dictionary import *
 import mainwindow
 import info
 
@@ -22,25 +21,7 @@ try:
 except NameError:
     FileNotFoundError = IOError
 
-
-def newSearch(key, group):
-    if not key:
-        yield ""
-
-    if group == "Saw":
-        result = searchWord(key, False)
-    elif group == "Laeh":
-        result = searchExamples(key)
-    value = ""
-    n = 0
-    if group != "Laeh":
-        for i in result:
-            for j in i[1]:
-                yield j
-    else:
-        for i in result:
-            if not i in value:
-                yield i
+from new_search import newSearch
 
 
 class MainWindow(QtGui.QWidget, mainwindow.Ui_MainWindow):
@@ -85,10 +66,7 @@ class MainWindow(QtGui.QWidget, mainwindow.Ui_MainWindow):
         if python_version().startswith("2"):
             key = unicode(key.toUtf8(), "utf8", "ignore")
         levenshtein = self.levenshtein.isChecked()
-        result_yield = newSearch(key, self.comboBox.currentText())
-        if levenshtein:
-            import accurate_search
-            result_yield = accurate_search.byLevenshtein(key, result_yield)
+        result_yield = newSearch(key, self.comboBox.currentText(), levenshtein)
         result = ""
         n = 1
         for i in result_yield:
