@@ -15,19 +15,12 @@ import tornado.options
 import tornado.web
 
 import dictionary,info
+from new_search import newSearch
 
 try:
     tornado.web.MissingArgumentError
 except AttributeError:
     tornado.web.MissingArgumentError = tornado.web.HTTPError
-
-def getResult(result, start, count):
-    n = 0
-    end = start + count
-    for i in result:
-        if n >= start and n <=end:#the last one is given as a mark,not a item to be shown
-           yield i[1][0]
-        n += 1
 
 class SearchHandler(tornado.web.RequestHandler):
     def get(self):
@@ -37,13 +30,13 @@ class SearchHandler(tornado.web.RequestHandler):
         except (ValueError, tornado.web.MissingArgumentError):
             pass
         has_count = False
-        count = 500
+        count = 100
         try:
             count = max(int(self.get_argument("count")), 1)
             has_count = True
         except (ValueError, tornado.web.MissingArgumentError):
             pass
-        new_engine = False
+        new_engine = True
         try:
             self.get_argument("new_engine")
             new_engine = True
@@ -54,15 +47,10 @@ class SearchHandler(tornado.web.RequestHandler):
             key = self.get_argument("q")
         except tornado.web.MissingArgumentError:
             pass
-        tmp = getResult(dictionary.searchWord(key), start, count)
-        if new_engine:
-            import accurate_search
-            result = accurate_search.byLevenshtein(key, tmp) if key else []
-        else:
-            result = tmp if key else []
+        result_generator = newSearch(key, "Saw", new_engine)
         template_args = {
             "key": key, "start": start, "count": count, "has_count": has_count,
-            "result": result, "version": info.version, "new_engine": new_engine
+            "result": result_generator, "version": info.version, "new_engine": new_engine
         }
         self.render("sawroeg.html", **template_args)
 
