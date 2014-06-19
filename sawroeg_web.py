@@ -38,8 +38,7 @@ class SearchHandler(tornado.web.RequestHandler):
             pass
         
         try:
-            self.get_argument("new_engine")
-            new_engine = True
+            new_engine = self.get_argument("new_engine")
         except tornado.web.MissingArgumentError:
             new_engine = False
         
@@ -47,7 +46,7 @@ class SearchHandler(tornado.web.RequestHandler):
         try:
             key = self.get_argument("q")
         except tornado.web.MissingArgumentError:
-            new_engine = True
+            new_engine = "on"
         
         result_generator = newSearch(key, "Saw", new_engine)
         template_args = {
