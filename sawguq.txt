@@ -10303,7 +10303,7 @@ nuknak　聋聋的
 nuknam　(见ndokleq)　肩胛骨
 nukriep　帐耳
 nuksaj　土纺纱机上的系针带
-num　(见nouq)　闻；臭
+num　(见nyouq)　闻；臭
 num　[方]　物体旋转得很快
 numdu　(见nguddou)　门枢
 numj　(见nungj)　不干爽；未干透
@@ -10653,7 +10653,7 @@ nyop　[方]fwt　束　song ～ byoem　两束头发
 nyopcomz　(见gyoebcomz)　集拢，收集；集中．
 nyouzgau　(见gauvaiz)　牛胶
 nyouj　揉[如把纸揉成团]
-nyouq　[方]mup；supsuq；num　闻；臭
+nyouq　[方]mup；supsuq；num　闻；嗅
 nyouh　尿
 nyouhniuj　小便秘
 nyujnyanq　(见dajlaih)　耍赖
@@ -16649,7 +16649,7 @@ dangz　[方]lunghvaq　(裤)裆
 dangz （见bouq） 塘[路程，十里为一塘]　song ～ roen 二十里路
 dangz (　)　套（锣鼓）；堂
 dangz　糖
-dangzbeng　[方]diengzdaz；diengzcij；dangzgyeuq　拉糖[用黄糖？炼后拉成的]？？白糖也可以做成，只要高温熬煮一定时间，其中的蔗糖成分转化成葡萄糖后，就可以拉成；再继续熬就成焦糖了。——［honghlaj］
+dangzbeng　[方]diengzdaz；diengzcij；dangzgyeuq　拉糖[用黄糖炼后拉成的]白糖也可以做成，只要高温熬煮一定时间，其中的蔗糖成分转化成葡萄糖后，就可以拉成；再继续熬就成焦糖了。——［honghlaj］
 dangzceh （见dangznaed）　水果糖；糖果
 dangzcing　糖精
 Dangzciuz　唐朝
@@ -17928,7 +17928,7 @@ doekndaej　(见gipndaej)　拾遗
 doekndaem　直播
 doekndaiz　(见doekndwi与doekhoengq)　落空
 doekndaw　以内　Hanh youq song ndwen ～ guhbaenz.　限于两个月以内完成。
-doekndwi　[与doekhoengq同]　[方]doekbyaeuq；doekndaiz；doekyouq(原文为doekbyouq，honghlaj参考下文更正)　落空
+doekndwi　[与doekhoengq同]　[方]doekbyaeuq；doekndaiz；doekbyouq　落空
 doeknog　(见doekrog)　偏外；偏靠外
 doeknungz　(见saetfwngz)　失手
 doeknw　(见doekgwnz)　偏上
@@ -17940,7 +17940,7 @@ doeksaet　[方]ndangsaenz　吃惊
 doeksaetmamx　[方]yan；lekmamx；doeksaekvamh　虚惊
 doekseiq　(见okseiq与doekfag)　出世；出娘胎
 doekseng　(见dakseng)　托生；投胎；投生[迷信语]
-doekyouq　(见doekndwi与doekhoengq)　落空
+doekbyouq　(见doekndwi与doekhoengq)　落空
 doem　[与namh同]　土；泥土；土壤
 doembiz　(见namhbiz)　沃土
 doemboenq　[与namhfwnx同]　尘土；尘埃
@@ -21572,7 +21572,7 @@ goengqda　(见goengda)　外祖父
 goengqgaeux　(见lungz)　姨丈[母姐之夫]
 goengqgeq　(见goenggeq)　曾祖父
 goep　青蛙；田鸡　
-goepcwz　[方]goepfan　青蛙名[形似蛤蟆，身体比一般青蛙园，通常生活在水沟中，春季雨后，叫声沉重]
+goepcwz　[方]goepfan　青蛙名[形似蛤蟆，身体比一般青蛙圆，通常生活在水沟中，春季雨后，叫声沉重]
 goepndai 雄蛙　～ dai vih bak　[成语]雄蛙因大叫而招祸致[比喻乱讲话的人，容易招祸]
 goepndoeng　山青蛙[生活在山上或溪水边，肉很好吃]
 goeprangz　一种青蛙[身呈淡绿色]
