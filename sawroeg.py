@@ -10,8 +10,7 @@ if python_version().startswith('2'):
 import re
 import sys
 
-from PyQt4 import QtGui
-
+from PyQt5 import QtCore, QtGui, QtWidgets
 import mainwindow
 import info
 
@@ -24,20 +23,20 @@ except NameError:
 from new_search import newSearch
 
 
-class MainWindow(QtGui.QWidget, mainwindow.Ui_MainWindow):
+class MainWindow(QtWidgets.QMainWindow, mainwindow.Ui_MainWindow):
     def __init__(self, parent=None):
         # get main window
-        QtGui.QWidget.__init__(self)
+        QtWidgets.QWidget.__init__(self)
         self.setupUi(self)
         
         # set window title
         self.setWindowTitle("Saw Roeg %s" % info.version)
 
         # setup icon
-        self.setWindowIcon(QtGui.QIcon("icons/sawroeg.png"))
+        #self.setWindowIcon(QtGui.QIcon("icons/sawroeg.png"))
 
         # move the window to center
-        self.move_to_center()
+        #self.move_to_center()
 
         # setup sawloih
         self.searchingCuengh = False
@@ -100,7 +99,7 @@ class MainWindow(QtGui.QWidget, mainwindow.Ui_MainWindow):
 
 
 if __name__ == "__main__":
-    app = QtGui.QApplication(sys.argv)
+    app = QtWidgets.QApplication(sys.argv)
     window = MainWindow()
     window.show()
     sys.exit(app.exec_())
