@@ -10,7 +10,7 @@ if python_version().startswith('2'):
 import re
 import sys
 
-from PyQt5 import QtCore, QtGui, QtWidgets
+from PyQt5 import QtGui, QtWidgets
 import mainwindow
 import info
 
@@ -33,10 +33,10 @@ class MainWindow(QtWidgets.QMainWindow, mainwindow.Ui_MainWindow):
         self.setWindowTitle("Saw Roeg %s" % info.version)
 
         # setup icon
-        #self.setWindowIcon(QtGui.QIcon("icons/sawroeg.png"))
+        self.setWindowIcon(QtGui.QIcon("icons/sawroeg.png"))
 
         # move the window to center
-        #self.move_to_center()
+        self.move_to_center()
 
         # setup sawloih
         self.searchingCuengh = False
@@ -49,7 +49,7 @@ class MainWindow(QtWidgets.QMainWindow, mainwindow.Ui_MainWindow):
         self.clearText()
 
     def move_to_center(self):
-        screen = QtGui.QDesktopWidget().screenGeometry()
+        screen = QtWidgets.QDesktopWidget().screenGeometry()
         size = self.geometry()
         self.move(
             (screen.width()-size.width())/2,
