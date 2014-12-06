@@ -63,7 +63,10 @@ class TextBrowser(TextInput):#There can only be 1 TextBrowser
 
 
 class Sawroeg(App):
-
+    def on_start(self):
+        from kivy.base import EventLoop
+        EventLoop.window.bind(on_keyboard = hook_keyboard)
+    
     def build(self):
         return RootWidget()
     
@@ -72,6 +75,15 @@ class Sawroeg(App):
     
     def on_resume(self):
         pass
+
+
+def hook_keyboard(self, window, key, *largs):
+    if key == 27:
+        if text_input.text == "":
+            exit()
+        else:
+            text_input._refresh_text("")
+    return True 
 
 
 if __name__ == '__main__':
