@@ -10,46 +10,28 @@ if python_version().startswith('2'):
 import kivy
 from kivy.app import App
 from kivy.uix.textinput import TextInput
-from kivy.uix.checkbox import CheckBox
 from kivy.uix.stacklayout import StackLayout
-from kivy.uix.slider import Slider
 import info
 from new_search import newSearch
 
 
 def Create_NewSearch(instance):
-        slider.value = 100
         key = instance.text
         if key == "":
             text_output._refresh_text("Raiz saw youq gwnz neix ma ra.")
             return False
         if python_version().startswith("2"):
             key = key.decode("utf-8")
-        levenshtein = checkbox.active
+        levenshtein = True
         result_yield = newSearch(key, "Saw", levenshtein)
         
         text_output.setGenerator(result_yield)
-
-
-def on_slider_changed(instance, event):
-    value_ratio = 1 - instance.value_normalized
-    text_output.cursor = (0, int(value_ratio * text_output.text_count))
-
-def on_slider_released(instance, event):
-    value_ratio = 1 - instance.value_normalized
-    if value_ratio >=0.7:
-        try:
-            text_output.addText()
-        except AttributeError:
-            pass
 
 class RootWidget(StackLayout):
     def __init__(self, **kwargs):
         super(RootWidget, self).__init__(**kwargs)
         self.add_widget(text_input)
-        self.add_widget(checkbox)
         self.add_widget(text_output)
-        self.add_widget(slider)
 
 
 class TextBrowser(TextInput):#There can only be 1 TextBrowser
@@ -121,18 +103,11 @@ if __name__ == '__main__':
     #Begin
     textlines=1
     
-    text_input=TextInput(width=100, size_hint=(0.8,0.07), multiline=False) #get input from this widget
+    text_input=TextInput(width=100, size_hint=(1, 0.07), multiline=False) #get input from this widget
     text_input.bind(on_text_validate=Create_NewSearch)
     
-    checkbox=CheckBox(width=2, size_hint=(0.2, 0.07))
-    checkbox.active=True #Enable Levenshtein Distance
-    
-    text_output=TextBrowser(text="Sawroeg-%s youq Android~\n" % info.version ,size_hint=(0.87,0.93))
+    text_output=TextBrowser(text="Sawroeg-%s youq Android~\n" % info.version ,size_hint=(1, 0.93))
     text_output.__browser_init__()
-    
-    slider = Slider(min=0, max=100, value=100, size_hint=(0.12,0.9),orientation="vertical")
-    slider.bind(on_touch_move=on_slider_changed)
-    slider.bind(on_touch_up=on_slider_released)
     
     try:
         from kivy.properties import BooleanProperty
