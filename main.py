@@ -78,7 +78,7 @@ class Sawroeg(App):
 
 
 def hook_keyboard(self, window, key, *largs):
-    if key == 27:
+    if key == 4 or key == 82:
         if text_input.text == "":
             exit()
         else:
