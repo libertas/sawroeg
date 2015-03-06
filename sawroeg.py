@@ -46,7 +46,6 @@ class MainWindow(QtGui.QWidget, mainwindow.Ui_MainWindow):
         self.comboBox.addItem("Saw")  # Word
         self.comboBox.addItem("Laeh")  # Examples
 
-        from sawguq import sawguq
         self.clearText()
 
     def move_to_center(self):
