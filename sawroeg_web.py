@@ -111,6 +111,7 @@ class ApiHandler(tornado.web.RequestHandler):
 if __name__ == "__main__":
     tornado.options.define("debug", default=False, help="enabling debugging features", type=bool)
     tornado.options.define("port", default=7777, help="run on the given port", type=int)
+    tornado.options.define("direct", default=False, help="can be visited directly by outside world", type=bool)
     tornado.options.parse_command_line()
     app_settings = {
         'gzip': True,
@@ -123,7 +124,10 @@ if __name__ == "__main__":
         ("/api", ApiHandler),
         ("/.*", tornado.web.RedirectHandler, {'url': '/sawroeg'})
     ], **app_settings)
-    server = tornado.httpserver.HTTPServer(application)
-    server.bind(tornado.options.options.port, 'localhost')
-    server.start(1)
+    if tornado.options.options.direct:
+        application.listen(tornado.options.options.port)
+    else:
+        server = tornado.httpserver.HTTPServer(application)
+        server.bind(tornado.options.options.port, 'localhost')
+        server.start(1)
     tornado.ioloop.IOLoop.instance().start()
