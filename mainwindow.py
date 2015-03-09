@@ -2,8 +2,8 @@
 
 # Form implementation generated from reading ui file 'mainwindow.ui'
 #
-# Created: Mon Feb  3 20:19:58 2014
-#      by: PyQt4 UI code generator 4.9.3
+# Created: Mon Mar  9 22:55:00 2015
+#      by: PyQt4 UI code generator 4.11.3
 #
 # WARNING! All changes made in this file will be lost!
 
@@ -12,7 +12,16 @@ from PyQt4 import QtCore, QtGui
 try:
     _fromUtf8 = QtCore.QString.fromUtf8
 except AttributeError:
-    _fromUtf8 = lambda s: s
+    def _fromUtf8(s):
+        return s
+
+try:
+    _encoding = QtGui.QApplication.UnicodeUTF8
+    def _translate(context, text, disambig):
+        return QtGui.QApplication.translate(context, text, disambig, _encoding)
+except AttributeError:
+    def _translate(context, text, disambig):
+        return QtGui.QApplication.translate(context, text, disambig)
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
@@ -41,14 +50,6 @@ class Ui_MainWindow(object):
         self.comboBox = QtGui.QComboBox(MainWindow)
         self.comboBox.setGeometry(QtCore.QRect(10, 10, 61, 41))
         self.comboBox.setObjectName(_fromUtf8("comboBox"))
-        self.levenshtein = QtGui.QCheckBox(MainWindow)
-        self.levenshtein.setGeometry(QtCore.QRect(80, 50, 21, 16))
-        self.levenshtein.setText(_fromUtf8(""))
-        self.levenshtein.setChecked(True)
-        self.levenshtein.setObjectName(_fromUtf8("levenshtein"))
-        self.label = QtGui.QLabel(MainWindow)
-        self.label.setGeometry(QtCore.QRect(100, 50, 91, 16))
-        self.label.setObjectName(_fromUtf8("label"))
 
         self.retranslateUi(MainWindow)
         QtCore.QObject.connect(self.lineEdit, QtCore.SIGNAL(_fromUtf8("returnPressed()")), MainWindow.newSearch)
@@ -59,10 +60,9 @@ class Ui_MainWindow(object):
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
     def retranslateUi(self, MainWindow):
-        MainWindow.setWindowTitle(QtGui.QApplication.translate("MainWindow", "Saw Roeg", None, QtGui.QApplication.UnicodeUTF8))
-        self.pushButton.setText(QtGui.QApplication.translate("MainWindow", "&Ra", None, QtGui.QApplication.UnicodeUTF8))
-        self.pushButton_2.setText(QtGui.QApplication.translate("MainWindow", "?", None, QtGui.QApplication.UnicodeUTF8))
-        self.pushButton_3.setText(QtGui.QApplication.translate("MainWindow", "N&daep", None, QtGui.QApplication.UnicodeUTF8))
-        self.pushButton_4.setText(QtGui.QApplication.translate("MainWindow", "&Baet", None, QtGui.QApplication.UnicodeUTF8))
-        self.label.setText(QtGui.QApplication.translate("MainWindow", "Yinxgingz Moq", None, QtGui.QApplication.UnicodeUTF8))
+        MainWindow.setWindowTitle(_translate("MainWindow", "Saw Roeg", None))
+        self.pushButton.setText(_translate("MainWindow", "&Ra", None))
+        self.pushButton_2.setText(_translate("MainWindow", "?", None))
+        self.pushButton_3.setText(_translate("MainWindow", "N&daep", None))
+        self.pushButton_4.setText(_translate("MainWindow", "&Baet", None))
 

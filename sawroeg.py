@@ -65,7 +65,7 @@ class MainWindow(QtGui.QWidget, mainwindow.Ui_MainWindow):
         key = self.lineEdit.text()
         if python_version().startswith("2"):
             key = unicode(key.toUtf8(), "utf8", "ignore")
-        levenshtein = self.levenshtein.isChecked()
+        levenshtein = True  #Use accurate searching method as the only option
         result_yield = newSearch(key, self.comboBox.currentText(), levenshtein)
         result = ""
         n = 1
