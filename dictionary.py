@@ -6,16 +6,16 @@ from platform import python_version
 if python_version().startswith('2'):
     str=unicode
 
-import bisect
+import sqlite3
 
-try:
-    from sawguq import sawguq
-except ImportError:
-    print("Cannot get sawguq.py")
 try:
     from sawgeq import sawgeq
 except ImportError:
     print("Cannot get sawgeq")
+
+cx = sqlite3.connect("sawguq.db")
+cu = cx.cursor()
+    
 
 def searchWord(key, from_begin=False):
     try:
@@ -27,33 +27,16 @@ def searchWord(key, from_begin=False):
 
 def searchWordByZha(key, from_begin=False):
     key = str(key).lower()
-    if from_begin:
-        for i in range(bisect.bisect_left(sawguq, (key,)), len(sawguq)):
-            word = sawguq[i]
-            if not word[0].startswith(key):
-                break
-            yield word
-    else:
-        # Require Python 3.3:
-        # yield from searchWord(key, from_begin=True)
-        # yield from (word for word in sawguq if not word[0].startswith(key)
-        #             and key in word[0])
-        #
-        # Or, use the following:
-        for i in searchWord(key, from_begin=True):
-            yield i
-        for i in (word for word in sawguq if not word[0].startswith(key) and
-                  key in word[0]):
-            yield i
+    cu.execute("""SELECT * FROM sawguq WHERE key like "%%%s%%" """ % key)
+    for i in cu.fetchall():
+        yield (i[0], (i[1],))
 
 
 def searchWordByZh(key, from_begin=False):
     assert from_begin is False
-    key = str(key)
-    for word, descs in sawguq:
-        res_list = [desc for desc in descs if key in desc]
-        if res_list:
-            yield (word, res_list)
+    cu.execute("""SELECT * FROM sawguq WHERE value like "%%%s%%" """ % key)
+    for i in cu.fetchall():
+        yield (i[0], (i[1],))
 
 
 def searchExamples(key):
