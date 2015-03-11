@@ -1,3 +1,0 @@
-title=Sawroeg
-author=Roegrongh
-orientation=portrait
