@@ -17,7 +17,7 @@ with open('sawguq.txt', 'r') as f:
             sawguq[idx].append(word)
         else:
             sawguq[idx] = [word]
-cx = sqlite3.connect("sawguq.db")
+cx = sqlite3.connect("../sawguq.db")
 cu = cx.cursor()
 cu.execute("CREATE TABLE IF NOT EXISTS sawguq (key, value)");
 for word in sorted(sawguq):
