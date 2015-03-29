@@ -37,10 +37,7 @@ class SearchHandler(tornado.web.RequestHandler):
         except (ValueError, tornado.web.MissingArgumentError):
             pass
         
-        try:
-            new_engine = self.get_argument("new_engine")
-        except tornado.web.MissingArgumentError:
-            new_engine = False
+        new_engine = "on"
         
         key = ''
         try:
