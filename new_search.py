@@ -1,14 +1,15 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-from  __future__ import unicode_literals
-
-from platform import python_version
-if python_version().startswith('2'):
-    str=unicode
-    FileNotFoundError=IOError
+from __future__ import unicode_literals
 
 from dictionary import *
 import accurate_search
+
+from platform import python_version
+if python_version().startswith('2'):
+    str = unicode
+    FileNotFoundError = IOError
+
 
 def newSearch(key, group, levenshtein):
     if not key:
@@ -28,5 +29,5 @@ def newSearch(key, group, levenshtein):
                 yield j
     else:
         for i in result:
-            if not i in value:
+            if i not in value:
                 yield i

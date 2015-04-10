@@ -1,11 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-from  __future__ import unicode_literals
-
-from platform import python_version
-if python_version().startswith('2'):
-    str=unicode
-    FileNotFoundError=IOError
+from __future__ import unicode_literals
 
 import re
 import sys
@@ -14,14 +9,17 @@ from PyQt4 import QtGui
 
 import mainwindow
 import info
+from new_search import newSearch
 
+from platform import python_version
+if python_version().startswith('2'):
+    str = unicode
+    FileNotFoundError = IOError
 
 try:
     FileNotFoundError
 except NameError:
     FileNotFoundError = IOError
-
-from new_search import newSearch
 
 
 class MainWindow(QtGui.QWidget, mainwindow.Ui_MainWindow):
@@ -29,7 +27,7 @@ class MainWindow(QtGui.QWidget, mainwindow.Ui_MainWindow):
         # get main window
         QtGui.QWidget.__init__(self)
         self.setupUi(self)
-        
+
         # set window title
         self.setWindowTitle("Saw Roeg %s" % info.version)
 
@@ -64,7 +62,7 @@ class MainWindow(QtGui.QWidget, mainwindow.Ui_MainWindow):
         key = self.lineEdit.text()
         if python_version().startswith("2"):
             key = unicode(key.toUtf8(), "utf8", "ignore")
-        levenshtein = True  #Use accurate searching method as the only option
+        levenshtein = True  # Use accurate searching method as the only option
         result_yield = newSearch(key, self.comboBox.currentText(), levenshtein)
         result = ""
         n = 1
@@ -81,15 +79,15 @@ class MainWindow(QtGui.QWidget, mainwindow.Ui_MainWindow):
 
         try:
             text_about = text_about % (
-                open("README", "r", encoding = "utf-8").read(),
-                open("COPYING", "r", encoding = "utf-8").read()
-                )  #In Python3
+                open("README", "r", encoding="utf-8").read(),
+                open("COPYING", "r", encoding="utf-8").read()
+                )  # In Python3
         except TypeError:
             try:
                 text_about = text_about % (
                     open("README", "r").read().decode('utf-8'),
                     open("COPYING", "r").read().decode('utf-8')
-                    )  #In Python2
+                    )  # In Python2
             except FileNotFoundError:
                 text_about = text_about_default
         except FileNotFoundError:

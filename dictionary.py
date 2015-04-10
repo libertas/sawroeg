@@ -2,10 +2,6 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
 
-from platform import python_version
-if python_version().startswith('2'):
-    str=unicode
-
 import sqlite3
 
 try:
@@ -13,9 +9,14 @@ try:
 except ImportError:
     print("Cannot get sawgeq")
 
+from platform import python_version
+if python_version().startswith('2'):
+    str = unicode
+
+
 cx = sqlite3.connect("sawguq.db")
 cu = cx.cursor()
-    
+
 
 def searchWord(key, from_begin=False):
     try:

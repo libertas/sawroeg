@@ -2,11 +2,6 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
 
-from platform import python_version
-if python_version().startswith('2'):
-    str=unicode
-
-
 import json
 
 import tornado.httpserver
@@ -14,13 +9,19 @@ import tornado.ioloop
 import tornado.options
 import tornado.web
 
-import dictionary,info
+import dictionary
+import info
 from new_search import newSearch
+
+from platform import python_version
+if python_version().startswith('2'):
+    str = unicode
 
 try:
     tornado.web.MissingArgumentError
 except AttributeError:
     tornado.web.MissingArgumentError = tornado.web.HTTPError
+
 
 class SearchHandler(tornado.web.RequestHandler):
     def get(self):
@@ -36,21 +37,23 @@ class SearchHandler(tornado.web.RequestHandler):
             has_count = True
         except (ValueError, tornado.web.MissingArgumentError):
             pass
-        
+
         new_engine = "on"
-        
+
         key = ''
         try:
             key = self.get_argument("q")
         except tornado.web.MissingArgumentError:
             new_engine = "on"
-        
+
         result_generator = newSearch(key, "Saw", new_engine)
         template_args = {
             "key": key, "start": start, "count": count, "has_count": has_count,
-            "result": result_generator, "version": info.version, "new_engine": new_engine
+            "result": result_generator, "version": info.version,
+            "new_engine": new_engine
         }
         self.render("sawroeg.html", **template_args)
+
 
 class ApiHandler(tornado.web.RequestHandler):
     def get(self):
@@ -87,8 +90,8 @@ class ApiHandler(tornado.web.RequestHandler):
             have_more = False
             del result[:start]
         else:
-            have_more = len(result)>start+count
-            result = result[start:start+count]
+            have_more = len(result) > start+count
+            result = result[start:start + count]
         if api_type == 'xml':
             self.set_header("Content-Type", "text/xml; charset=utf-8")
             template_args = {
@@ -106,9 +109,18 @@ class ApiHandler(tornado.web.RequestHandler):
 
 
 if __name__ == "__main__":
-    tornado.options.define("debug", default=False, help="enabling debugging features", type=bool)
-    tornado.options.define("port", default=7777, help="run on the given port", type=int)
-    tornado.options.define("direct", default=False, help="can be visited directly by outside world", type=bool)
+    tornado.options.define(
+        "debug", default=False,
+        help="enabling debugging features", type=bool
+        )
+    tornado.options.define(
+        "port", default=7777,
+        help="run on the given port", type=int
+        )
+    tornado.options.define(
+        "direct", default=False,
+        help="can be visited directly by outside world", type=bool
+        )
     tornado.options.parse_command_line()
     app_settings = {
         'gzip': True,

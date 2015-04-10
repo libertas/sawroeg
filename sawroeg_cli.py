@@ -1,11 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-from  __future__ import unicode_literals
-
-from platform import python_version
-if python_version().startswith('2'):
-    str=unicode
-    FileNotFoundError=IOError
+from __future__ import unicode_literals
 
 try:
     FileNotFoundError
@@ -14,6 +9,12 @@ except NameError:
 
 import info
 from new_search import newSearch
+
+from platform import python_version
+if python_version().startswith('2'):
+    str = unicode
+    FileNotFoundError = IOError
+
 
 def search(key):
     if python_version().startswith("2"):
@@ -29,6 +30,7 @@ def search(key):
     else:
         print(result)
 
+
 def sayBye(rCode):
     print("\nMuengh mwngz dauq ma~")
     exit(rCode)
@@ -41,7 +43,7 @@ if __name__ == "__main__":
             key = input("Raiz saw mwngz siengj ra:")
         except EOFError:
             sayBye(0)
-        if not key in [":q", ":quit", ":deuz", ":d"]:
+        if key not in [":q", ":quit", ":deuz", ":d"]:
             search(key)
         else:
             sayBye(0)

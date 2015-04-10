@@ -1,29 +1,30 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-from  __future__ import unicode_literals
+from __future__ import unicode_literals
 
 from platform import python_version
 if python_version().startswith('2'):
-    str=unicode
-    FileNotFoundError=IOError
+    str = unicode
+    FileNotFoundError = IOError
+
 
 def distance(s, t):
-  m, n = len(s), len(t)
-  if not (m and n):
-    return m or n
+    m, n = len(s), len(t)
+    if not (m and n):
+        return m or n
 
-  matrix = [[0 for i in range(n+1)] for j in range(m+1)]
-  matrix[0] = list(range(n+1))
-  for i in range(m+1):
-    matrix[i][0] = i
+    matrix = [[0 for i in range(n + 1)] for j in range(m + 1)]
+    matrix[0] = list(range(n + 1))
+    for i in range(m + 1):
+        matrix[i][0] = i
 
-  for i in range(m):
-    for j in range(n):
-      cost = int(s[i] != t[j])
-      matrix[i+1][j+1] = min(
-          matrix[i][j+1] + 1, # a.
-          matrix[i+1][j] + 1, # b.
-          matrix[i][j] + cost # c.
-          )
+    for i in range(m):
+        for j in range(n):
+            cost = int(s[i] != t[j])
+            matrix[i + 1][j + 1] = min(
+                matrix[i][j + 1] + 1,  # a.
+                matrix[i + 1][j] + 1,  # b.
+                matrix[i][j] + cost  # c.
+            )
 
-  return matrix[m][n]
+    return matrix[m][n]
