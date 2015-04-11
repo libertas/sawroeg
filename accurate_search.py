@@ -33,8 +33,7 @@ def byLevenshtein(key, result_yield):
                 for tmp in list_tmp:
                     if key in tmp:
                         list_distance.append(Levenshtein.distance(key, tmp))
-                result_list2d.append([min(list_distance), i])
+                result_list2d.append([sum(list_distance) / len(list_distance), i])  # The method above is not perfect,it will not be good at all time.It's left unsolved.
     result_list2d.sort()
-    result = ""
     for i in result_list2d:
         yield i[1]

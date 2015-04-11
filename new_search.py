@@ -22,7 +22,6 @@ def newSearch(key, group, levenshtein):
     elif group == "Laeh":
         result = searchExamples(key)
     value = ""
-    n = 0
     if group != "Laeh":
         for i in result:
             for j in i[1]:
