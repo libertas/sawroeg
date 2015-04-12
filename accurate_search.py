@@ -30,10 +30,18 @@ def byLevenshtein(key, result_yield):
             for j in i[1]:
                 list_tmp = split("[\[\]\（\）\ \；\，\。\,\．]", j)
                 list_distance = []
+                if len(list_tmp) == 2:  # 2 means this entry contains only 1 word
+                    distance = Levenshtein.distance(key, list_tmp[1])
+                    if distance == 0:
+                        list_distance.append(-1)  # -1 means the best matched one
+                    else:
+                        list_distance.append(distance)
+                        continue
                 for tmp in list_tmp:
                     if key in tmp:
                         list_distance.append(Levenshtein.distance(key, tmp))
-                result_list2d.append([sum(list_distance) / len(list_distance), i])  # The method above is not perfect,it will not be good at all time.It's left unsolved.
+                result_list2d.append([min(list_distance), i])
+                # The method above is not so accurate,but it might work better than the previous one
     result_list2d.sort()
     for i in result_list2d:
         yield i[1]
