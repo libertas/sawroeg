@@ -8,6 +8,7 @@ import sys
 from PyQt4 import QtGui
 
 import mainwindow
+import aboutDialog
 import info
 from new_search import newSearch
 
@@ -20,6 +21,35 @@ try:
     FileNotFoundError
 except NameError:
     FileNotFoundError = IOError
+
+
+class myAboutDialog(QtGui.QDialog,  aboutDialog.Ui_Dialog):
+    def __init__(self,  parent = None):
+        QtGui.QWidget.__init__(self)
+        self.setupUi(self)
+        self.title.setText("Sawreog " + info.version)
+        
+        text_about = "%s\n\n%s"
+        text_about_default = """Sawroeg: Sawloih Cuengh-Gun duh Daegroeg"""\
+                             """Email: horizonvei@gmail.com\n"""\
+                             """This software is under GPLv3\n"""
+
+        try:
+            text_about = text_about % (
+                open("README", "r", encoding="utf-8").read(),
+                open("COPYING", "r", encoding="utf-8").read()
+                )  # In Python3
+        except TypeError:
+            try:
+                text_about = text_about % (
+                    open("README", "r").read().decode('utf-8'),
+                    open("COPYING", "r").read().decode('utf-8')
+                    )  # In Python2
+            except FileNotFoundError:
+                text_about = text_about_default
+        except FileNotFoundError:
+            text_about = text_about_default
+        self.content.setText(text_about)
 
 
 class MainWindow(QtGui.QWidget, mainwindow.Ui_MainWindow):
@@ -72,28 +102,7 @@ class MainWindow(QtGui.QWidget, mainwindow.Ui_MainWindow):
         self.textBrowser.setText(result)
 
     def about(self):
-        text_about = "%s\n\n%s"
-        text_about_default = """Sawroeg: Sawloih Cuengh-Gun duh Daegroeg"""\
-                             """Email: horizonvei@gmail.com\n"""\
-                             """This software is under GPLv3\n"""
-
-        try:
-            text_about = text_about % (
-                open("README", "r", encoding="utf-8").read(),
-                open("COPYING", "r", encoding="utf-8").read()
-                )  # In Python3
-        except TypeError:
-            try:
-                text_about = text_about % (
-                    open("README", "r").read().decode('utf-8'),
-                    open("COPYING", "r").read().decode('utf-8')
-                    )  # In Python2
-            except FileNotFoundError:
-                text_about = text_about_default
-        except FileNotFoundError:
-            text_about = text_about_default
-
-        self.textBrowser.setText(text_about)
+        myAboutDialog(parent = self).exec_()
 
 
 if __name__ == "__main__":
