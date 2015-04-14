@@ -59,7 +59,7 @@ class MainWindow(QtGui.QWidget, mainwindow.Ui_MainWindow):
         self.setupUi(self)
 
         # set window title
-        self.setWindowTitle("Saw Roeg %s" % info.version)
+        self.setWindowTitle("Sawroeg %s" % info.version)
 
         # setup icon
         self.setWindowIcon(QtGui.QIcon("icons/sawroeg.png"))
