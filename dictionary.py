@@ -14,7 +14,7 @@ if python_version().startswith('2'):
     str = unicode
 
 
-cx = sqlite3.connect("sawguq.db")
+cx = sqlite3.connect("sawguq.db",  check_same_thread = False)
 cu = cx.cursor()
 
 
