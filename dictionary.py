@@ -3,6 +3,7 @@
 from __future__ import unicode_literals
 
 import sqlite3
+from enviroment import *
 
 try:
     from sawgeq import sawgeq
@@ -14,7 +15,7 @@ if python_version().startswith('2'):
     str = unicode
 
 
-cx = sqlite3.connect("sawguq.db",  check_same_thread = False)
+cx = sqlite3.connect(DB_PATH,  check_same_thread = False)
 cu = cx.cursor()
 
 
