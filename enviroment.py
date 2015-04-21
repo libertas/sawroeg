@@ -7,3 +7,4 @@ if python_version().startswith('2'):
     str = unicode
 
 DB_PATH = "sawguq.db"
+DOWNLOAD_PATH = "./downloads/"

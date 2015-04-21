@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="za">
+    <head>
+        <title>Sawroeg Lizsienq</title>
+    </head>
+    <body>
+        {% for i in files %}
+            <li>
+                <a href="/download/{{ i }}">{{ i }}</a>
+            </li>
+        {% end %}
+    </body>
+</html>

@@ -9,9 +9,12 @@ import tornado.ioloop
 import tornado.options
 import tornado.web
 
+import os
+
 import dictionary
 import info
 from new_search import newSearch
+from enviroment import *
 
 from platform import python_version
 if python_version().startswith('2'):
@@ -53,6 +56,29 @@ class SearchHandler(tornado.web.RequestHandler):
             "new_engine": new_engine
         }
         self.render("sawroeg.html", **template_args)
+
+
+class DownloadPageHandler(tornado.web.RequestHandler):
+    def get(self):
+        template_args = {
+            "files": os.listdir(DOWNLOAD_PATH)
+        }
+        self.render("sawroeg-download.html",  **template_args)
+
+
+class DownloadHandler(tornado.web.RequestHandler):
+    def get(self,  filename):
+        mimes = {
+            '.apk': 'application/vnd.android', 
+            '.zip': 'application/zip'
+        }
+        try:
+            raw = open(DOWNLOAD_PATH + filename, 'rb').read()
+            mime = mimes[filename[-4:]]
+            self.set_header('Content-Type', mime)
+            self.write(raw)
+        except:
+            self.write("Error")
 
 
 class ApiHandler(tornado.web.RequestHandler):
@@ -131,6 +157,9 @@ if __name__ == "__main__":
     application = tornado.web.Application([
         ("/sawroeg", SearchHandler),
         ("/api", ApiHandler),
+        ("/download",  DownloadPageHandler),
+        ("/download/",  DownloadPageHandler),
+        ("/download/(.*)",  DownloadHandler),
         ("/.*", tornado.web.RedirectHandler, {'url': '/sawroeg'})
     ], **app_settings)
     if tornado.options.options.direct:
