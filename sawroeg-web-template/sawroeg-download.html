@@ -4,17 +4,19 @@
         <title>Sawroeg Lizsienq</title>
     </head>
     <body>
-        <p>
+        <h1>
             {{ path }}
-        </p>
-        <li>
-            <a id=uplevelDir>..</a>
-        </li>
-        {% for i in files %}
+        </h1>
+        <hr>
             <li>
-                <a href="/download/{{ i }}">{{ i }}</a>
+                <a id=uplevelDir>../</a>
             </li>
-        {% end %}
+            {% for i in files %}
+                <li>
+                    <a href="/download/{{ i }}">{{ i }}</a>
+                </li>
+            {% end %}
+        <hr>
     </body>
 </html>
 <script>

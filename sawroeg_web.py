@@ -66,6 +66,8 @@ class DownloadHandler(tornado.web.RequestHandler):
             '.zip': 'application/zip', 
             '.doc': 'application/msword'
         }
+        if filename.endswith("/"):
+            filename = filename[:-1]
         try:
             if filename == "":
                 raise IsADirectoryError
@@ -76,11 +78,17 @@ class DownloadHandler(tornado.web.RequestHandler):
         except FileNotFoundError:
             self.write("Error")
         except IsADirectoryError:
-            filenames = os.listdir(DOWNLOAD_PATH + filename)
-            filenames = [filename + '/' + i for i in filenames]
+            files_tmp = os.listdir(DOWNLOAD_PATH + filename)
+            files = []
+            for i in files_tmp:
+                if filename != "":
+                    i = filename + "/" + i
+                if os.path.isdir(DOWNLOAD_PATH  + i):
+                    i += "/"
+                files.append(i)
             template_args = {
                 "path": filename if filename else "/", 
-                "files": filenames
+                "files": files
             }
             self.render("sawroeg-download.html",  **template_args)
 
