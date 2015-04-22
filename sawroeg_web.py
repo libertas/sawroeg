@@ -59,27 +59,28 @@ class SearchHandler(tornado.web.RequestHandler):
         self.render("sawroeg.html", **template_args)
 
 
-class DownloadPageHandler(tornado.web.RequestHandler):
-    def get(self):
-        template_args = {
-            "files": os.listdir(DOWNLOAD_PATH)
-        }
-        self.render("sawroeg-download.html",  **template_args)
-
-
 class DownloadHandler(tornado.web.RequestHandler):
-    def get(self,  filename):
+    def get(self,  filename = ""):
         mimes = {
             '.apk': 'application/vnd.android', 
             '.zip': 'application/zip'
         }
         try:
+            if filename == "":
+                raise IsADirectoryError
             raw = open(DOWNLOAD_PATH + filename, 'rb').read()
             mime = mimes[filename[-4:]]
             self.set_header('Content-Type', mime)
             self.write(raw)
-        except:
+        except FileNotFoundError:
             self.write("Error")
+        except IsADirectoryError:
+            filenames = os.listdir(DOWNLOAD_PATH + filename)
+            filenames = [filename + '/' + i for i in filenames]
+            template_args = {
+                "files": filenames
+            }
+            self.render("sawroeg-download.html",  **template_args)
 
 
 class ApiHandler(tornado.web.RequestHandler):
@@ -158,8 +159,7 @@ if __name__ == "__main__":
     application = tornado.web.Application([
         ("/sawroeg", SearchHandler),
         ("/api", ApiHandler),
-        ("/download",  DownloadPageHandler),
-        ("/download/",  DownloadPageHandler),
+        ("/download",  DownloadHandler),
         ("/download/(.*)",  DownloadHandler),
         ("/.*", tornado.web.RedirectHandler, {'url': '/sawroeg'})
     ], **app_settings)

@@ -8,4 +8,4 @@ if python_version().startswith('2'):
 
 DB_PATH = "sawguq.db"
 DOWNLOAD_PATH = "./downloads/"
-DOWNLOADPAGENAME = ""
+DOWNLOADPAGENAME = "Banj Lizsienq"
