@@ -79,6 +79,7 @@ class DownloadHandler(tornado.web.RequestHandler):
             filenames = os.listdir(DOWNLOAD_PATH + filename)
             filenames = [filename + '/' + i for i in filenames]
             template_args = {
+                "path": filename if filename else "/", 
                 "files": filenames
             }
             self.render("sawroeg-download.html",  **template_args)

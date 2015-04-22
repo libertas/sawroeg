@@ -4,6 +4,12 @@
         <title>Sawroeg Lizsienq</title>
     </head>
     <body>
+        <p>
+            {{ path }}
+        </p>
+        <li>
+            <a id=uplevelDir>..</a>
+        </li>
         {% for i in files %}
             <li>
                 <a href="/download/{{ i }}">{{ i }}</a>
@@ -11,3 +17,10 @@
         {% end %}
     </body>
 </html>
+<script>
+    url = document.URL
+    index = url.lastIndexOf("/")
+    url = url.slice(0, index)
+    console.log(url)
+    document.getElementById("uplevelDir").href = url
+</script>
