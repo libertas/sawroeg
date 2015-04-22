@@ -20,9 +20,12 @@
     </body>
 </html>
 <script>
-    url = document.URL
-    index = url.lastIndexOf("/")
-    url = url.slice(0, index)
-    console.log(url)
-    document.getElementById("uplevelDir").href = url
+    var url = document.URL;
+    for(var i = url.lastIndexOf("/"); i == url.length - 1; i = url.lastIndexOf("/"))
+    {
+        url = url.slice(0, i);
+    }
+    var index = url.lastIndexOf("/");
+    url = url.slice(0, index);
+    document.getElementById("uplevelDir").href = url;
 </script>
