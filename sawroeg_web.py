@@ -63,7 +63,8 @@ class DownloadHandler(tornado.web.RequestHandler):
     def get(self,  filename = ""):
         mimes = {
             '.apk': 'application/vnd.android', 
-            '.zip': 'application/zip'
+            '.zip': 'application/zip', 
+            '.doc': 'application/msword'
         }
         try:
             if filename == "":
