@@ -53,7 +53,8 @@ class SearchHandler(tornado.web.RequestHandler):
         template_args = {
             "key": key, "start": start, "count": count, "has_count": has_count,
             "result": result_generator, "version": info.version,
-            "new_engine": new_engine
+            "new_engine": new_engine, 
+            "downloadPageName": DOWNLOADPAGENAME
         }
         self.render("sawroeg.html", **template_args)
 
