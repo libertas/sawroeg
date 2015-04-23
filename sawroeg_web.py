@@ -89,7 +89,7 @@ class DownloadHandler(tornado.web.RequestHandler):
                 size = os.path.getsize(DOWNLOAD_PATH + i)
                 spaces = " " * (ITEM_LEN - len(i))
                 count = 1
-                while count <= len(xb) and size >= 1024:
+                while count < len(xb) and size >= 1024:
                     count += 1
                     size /= 1024.0
                 size = str(round(size,  1)) + xb[count - 1]
