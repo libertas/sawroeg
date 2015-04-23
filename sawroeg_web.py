@@ -66,6 +66,7 @@ class DownloadHandler(tornado.web.RequestHandler):
             '.zip': 'application/zip', 
             '.doc': 'application/msword'
         }
+        xb = ["B",  "K",  "M"]
         if filename.endswith("/"):
             filename = filename[:-1]
         try:
@@ -80,12 +81,23 @@ class DownloadHandler(tornado.web.RequestHandler):
         except IsADirectoryError:
             files_tmp = os.listdir(DOWNLOAD_PATH + filename)
             files = []
+            spaces = ""
+            size = ""
             for i in files_tmp:
                 if filename != "":
                     i = filename + "/" + i
+                size = os.path.getsize(DOWNLOAD_PATH + i)
+                spaces = " " * (ITEM_LEN - len(i))
+                count = 1
+                while count <= len(xb) and size >= 1024:
+                    count += 1
+                    size /= 1024.0
+                size = str(round(size,  1)) + xb[count - 1]
                 if os.path.isdir(DOWNLOAD_PATH  + i):
                     i += "/"
-                files.append(i)
+                    size = ""
+                    spaces = ""
+                files.append((i,  size,  spaces))
             template_args = {
                 "path": filename if filename else "/", 
                 "files": files

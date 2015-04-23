@@ -11,9 +11,9 @@
             <li>
                 <a id=uplevelDir>../</a>
             </li>
-            {% for i in files %}
+            {% for (i, size, spaces) in files %}
                 <li>
-                    <a href="/download/{{ i }}">{{ i }}</a>
+                    <pre><a href="/download/{{ i }}">{{ i }}</a>{{ spaces }}{{ size }}</pre>
                 </li>
             {% end %}
         <hr>
