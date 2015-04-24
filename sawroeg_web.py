@@ -99,7 +99,7 @@ class DownloadHandler(tornado.web.RequestHandler):
                     spaces = ""
                 files.append((i,  size,  spaces))
             template_args = {
-                "path": filename if filename else "/", 
+                "path": filename,
                 "files": files
             }
             self.render("sawroeg-download.html",  **template_args)
