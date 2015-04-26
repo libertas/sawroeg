@@ -25,6 +25,17 @@ try:
 except AttributeError:
     tornado.web.MissingArgumentError = tornado.web.HTTPError
 
+try:
+    FileNotFoundError
+except NameError:
+    FileNotFoundError = IOError
+
+try:
+    IsADirectoryError
+except NameError:
+    class IsADirectoryError(Exception):
+        def __str__(self):
+            return repr("IsADirectoryError")
 
 class SearchHandler(tornado.web.RequestHandler):
     def get(self):
@@ -70,7 +81,7 @@ class DownloadHandler(tornado.web.RequestHandler):
         if filename.endswith("/"):
             filename = filename[:-1]
         try:
-            if filename == "":
+            if filename == "" or os.path.isdir(DOWNLOAD_PATH + filename):
                 raise IsADirectoryError
             raw = open(DOWNLOAD_PATH + filename, 'rb').read()
             mime = mimes[filename[-4:]]
