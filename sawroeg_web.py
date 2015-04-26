@@ -171,6 +171,10 @@ if __name__ == "__main__":
         "direct", default=False,
         help="can be visited directly by outside world", type=bool
         )
+    tornado.options.define(
+        'ip', default='localhost',
+        help="the ip addres you want to bind", type=str
+        )
     tornado.options.parse_command_line()
     app_settings = {
         'gzip': True,
@@ -189,6 +193,6 @@ if __name__ == "__main__":
         application.listen(tornado.options.options.port)
     else:
         server = tornado.httpserver.HTTPServer(application)
-        server.bind(tornado.options.options.port, 'localhost')
+        server.bind(tornado.options.options.port, tornado.options.options.ip)
         server.start(1)
     tornado.ioloop.IOLoop.instance().start()
