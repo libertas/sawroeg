@@ -10,7 +10,6 @@
 	<link rel="shortcut icon" type="image/x-icon" href="{{ static_url('favicon.ico') }}" />
 </head>
 <body>
-	<div id="topbanner">
 	<div class="page-header text-center"><h1>Sawroeg: Sawloih Cuengh-Gun duh Daegroeg</h1></div>
 	<ul class="nav nav-pills nav-justified">
 		<li><a href="/sawroeg/">Mbaw Naj</a></li>
@@ -18,14 +17,11 @@
 		<li><a href="/download/">{{ downloadPageName }}</a></li>
 		{% end %}
 	</ul>
-	<div id="formcontainer">
 	<form action="?" method="GET">
-	<span id="submitcontainer"><input type="submit" id="btn_submit" class="input_glow" value="Ra" /></span>
-	<span id="qcontainer"><input type="text" id="q" name="q" class="input_glow"{% if key %} value="{{ key }}"{% end %} placeholder="Saw" /></span>
-	{% if has_count %}<input type="hidden" value="{{ count }}" />
-	{% end %}</form>
-	</div>
-	</div>
+		<div class="input-group"><input type="text" id="q" name="q" class="input_glow"{% if key %} value="{{ key }}"{% end %} placeholder="Saw" /></div>
+		{% if has_count %}<input type="hidden" value="{{ count }}" />
+		{% end %}
+	</form>
 	{% set shownextpage=False %}
 	<div id="results">
 	{% if start>0 %}<a href="?q={{ key }}&start={{ max(start-count, 0) }}&count={{ count }}&new_engine={{ new_engine }}">Mbaw gonq ←</a>
