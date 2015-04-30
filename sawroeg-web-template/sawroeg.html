@@ -26,15 +26,21 @@
 		{% end %}
 	</form>
 	{% set shownextpage=False %}
-	<div id="results">
-	{% if start>0 %}<a href="?q={{ key }}&start={{ max(start-count, 0) }}&count={{ count }}&new_engine={{ new_engine }}">Mbaw gonq ←</a>
-	{% end %}{% if key != "" %}<ol{% if start>0 %} start="{{ start+1 }}"{% end %} style="padding-left: {{ (len(str(start+count))+3)/2.0 }}em; margin-left: 0pt">
-	{% for n,desc in enumerate(result) %}<li><div>{{ desc }}</div></li>
-	{% if n==count-1 %}{% set shownextpage=True %}{% break %}{% end %}{% end %}</ol>
-	{% if shownextpage%}<a href="?q={{ key }}&start={{ start+count }}&count={{ count }}&new_engine={{ new_engine }}">Mbaw laeng →</a>
-	{% end %}{% elif key %}<div>Ndi miz liux. :-(</div>
-	{% else %}<div>Raiz saw youq gwnz neix ma ra.</div>
-	{% end %}</div>
+	<div class="panel panel-primary">
+		<div class="panel-heading">
+			<h3 class="panel-title">Dapanq</h3>
+		</div>
+		<div class="panel-body">
+			{% if start>0 %}<a href="?q={{ key }}&start={{ max(start-count, 0) }}&count={{ count }}&new_engine={{ new_engine }}">Mbaw gonq ←</a>
+			{% end %}{% if key != "" %}<ol{% if start>0 %} start="{{ start+1 }}"{% end %} style="padding-left: {{ (len(str(start+count))+3)/2.0 }}em; margin-left: 0pt">
+			{% for n,desc in enumerate(result) %}<li><div>{{ desc }}</div></li>
+			{% if n==count-1 %}{% set shownextpage=True %}{% break %}{% end %}{% end %}</ol>
+			{% if shownextpage%}<a href="?q={{ key }}&start={{ start+count }}&count={{ count }}&new_engine={{ new_engine }}">Mbaw laeng →</a>
+			{% end %}{% elif key %}<div>Ndi miz liux. :-(</div>
+			{% else %}<div>Raiz saw youq gwnz neix ma ra.</div>
+			{% end %}
+		</div>
+	</div>
 	<div id="footer">
 	<hr />
 	<div><a href="https://github.com/libertas/sawroeg" target="_blank">Sawroeg</a> dwg aen hanghmoeg ndeu youq laj <a href="{{ static_url('COPYING.html') }}" target="_blank">GPLv3</a>.</div>
