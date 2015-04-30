@@ -18,7 +18,10 @@
 		{% end %}
 	</ul>
 	<form action="?" method="GET">
-		<div class="input-group"><input type="text" id="q" name="q" class="input_glow"{% if key %} value="{{ key }}"{% end %} placeholder="Saw" /></div>
+		<div class="input-group">
+			<input type="text" id="q" name="q" class="input_glow"{% if key %} value="{{ key }}"{% end %} placeholder="Saw" />
+			<button type="summit" class="btn btn-default">Ra</button>
+		</div>
 		{% if has_count %}<input type="hidden" value="{{ count }}" />
 		{% end %}
 	</form>
