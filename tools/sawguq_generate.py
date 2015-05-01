@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
+# This script should run in the app root
 import sqlite3
 
 sawguq = {}
-with open('sawguq.txt', 'r') as f:
+with open('tools/sawguq.txt', 'r') as f:
     for word in f.read().splitlines():
         word = word.replace('\u3000', '\x20').replace('(', '（').replace(
             ')', '）').strip()
@@ -17,7 +18,7 @@ with open('sawguq.txt', 'r') as f:
             sawguq[idx].append(word)
         else:
             sawguq[idx] = [word]
-cx = sqlite3.connect("../sawguq.db")
+cx = sqlite3.connect("sawguq.db")
 cu = cx.cursor()
 cu.execute("CREATE TABLE IF NOT EXISTS sawguq (key, value)");
 for word in sorted(sawguq):
