@@ -92,13 +92,11 @@ class DownloadHandler(tornado.web.RequestHandler):
         except IsADirectoryError:
             files_tmp = os.listdir(DOWNLOAD_PATH + filename)
             files = []
-            spaces = ""
             size = ""
             for i in files_tmp:
                 if filename != "":
                     i = filename + "/" + i
                 size = os.path.getsize(DOWNLOAD_PATH + i)
-                spaces = " " * (ITEM_LEN - len(i))
                 count = 1
                 while count < len(xb) and size >= 1024:
                     count += 1
@@ -107,8 +105,7 @@ class DownloadHandler(tornado.web.RequestHandler):
                 if os.path.isdir(DOWNLOAD_PATH  + i):
                     i += "/"
                     size = ""
-                    spaces = ""
-                files.append((i,  size,  spaces))
+                files.append((i,  size))
             template_args = {
                 "path": filename,
                 "files": files
