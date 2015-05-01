@@ -13,6 +13,7 @@ import os
 
 import dictionary
 import info
+import users
 from new_search import newSearch
 from enviroment import *
 
@@ -113,6 +114,43 @@ class DownloadHandler(tornado.web.RequestHandler):
             self.render("sawroeg-download.html",  **template_args)
 
 
+class SecureHandler(tornado.web.RequestHandler):
+    def get_current_user(self):
+        user = self.get_secure_cookie("user")
+        if user == None:
+            return None
+        else:
+            return user.decode("utf-8")
+
+
+class LoginHandler(SecureHandler):
+    def get(self):
+        if self.get_current_user() in users.users.keys():
+            self.redirect("/admin")
+        else:
+            self.render("sawroeg-login.html")
+    
+    def post(self):
+        user = self.get_argument("user")
+        if user in users.users.keys():
+            password = self.get_argument("password")
+            if password == users.users[user]:
+                self.set_secure_cookie("user", user)
+                self.redirect("/admin")
+            else:
+                self.redirect("/login")
+        else:
+            self.redirect("/login")
+
+
+class AdminHandler(SecureHandler):
+    def get(self):
+        if  not self.get_current_user() in users.users.keys():
+            self.redirect("/login")
+        else:
+            self.write("Hello,Admin")
+
+
 class ApiHandler(tornado.web.RequestHandler):
     def get(self):
         # I think it is better to copy it twice rather than make it in a func.
@@ -188,13 +226,16 @@ if __name__ == "__main__":
         'gzip': True,
         'debug': tornado.options.options.debug,
         'template_path': 'sawroeg-web-template',
-        'static_path': 'sawroeg-web-static'
+        'static_path': 'sawroeg-web-static', 
+        'cookie_secret': users.secret
     }
     application = tornado.web.Application([
         ("/sawroeg", SearchHandler),
         ("/api", ApiHandler),
         ("/download",  DownloadHandler),
         ("/download/(.*)",  DownloadHandler),
+         ("/login",  LoginHandler),
+         ("/admin",  AdminHandler), 
         ("/.*", tornado.web.RedirectHandler, {'url': '/sawroeg'})
     ], **app_settings)
     if tornado.options.options.direct:
