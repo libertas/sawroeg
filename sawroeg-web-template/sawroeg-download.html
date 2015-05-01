@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="za">
     <head>
+        <link href="/static/bootstrap/css/bootstrap.min.css" rel="stylesheet">
         <title>Sawroeg Lizsienq</title>
     </head>
     <body>
         <h1>
-            <pre>{{ path }}/</pre>
+            <pre>Dieg:{{ path }}/</pre>
         </h1>
         <hr>
             <li>
-                <a id=uplevelDir>../</a>
+                <a id="uplevelDir">../</a>
             </li>
             {% for (i, size, spaces) in files %}
                 <li>
