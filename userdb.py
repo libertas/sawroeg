@@ -18,7 +18,6 @@ def add(word,  content,  dbpath):
     cx = dbs[dbpath]
     cu = cx.cursor()
     cu.execute("CREATE TABLE IF NOT EXISTS sawguq (key, value)")
-    cu.execute("CREATE UNIQUE INDEX IF NOT EXISTS idx_item ON sawguq (key, value)")
     cu.execute("INSERT INTO sawguq VALUES (?, ?)", (word, word + " " + content))
     cx.commit()
 
