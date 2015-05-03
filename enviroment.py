@@ -9,3 +9,5 @@ if python_version().startswith('2'):
 DB_PATH = "sawguq.db"
 DOWNLOAD_PATH = "./downloads/"
 DOWNLOADPAGENAME = "Banj Lizsienq"
+USER_DB_PATH = "userdb.db"
+USER_PREFIX = "(Vunz-raiz)"
