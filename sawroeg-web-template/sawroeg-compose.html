@@ -11,9 +11,11 @@
 
 <body>
 	<div class="container text-center">
-		<div class="page-header text-center"><h1>Guenjleix Sawroeg</h1></div>
-		{% for i in user_dict %}
-			<li><pre>{{ i }}</pre></li>
-		{% end %}
+		<div class="page-header text-center"><h1>Raiz Sawloih</h1></div>
+		<form action="/raiz" method="post">
+			Saw:<input type="text" name="entry"/>
+			Gaijnaeuz:<input type="text" name="discription"/>
+			<button type="summit" class="btn btn-default">Baenz</button>
+		</form>
 	</div>
 </body>

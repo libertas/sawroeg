@@ -15,7 +15,7 @@ if python_version().startswith('2'):
 dbs = {}
 
 
-def newSearch(key, group, levenshtein,  db="default",  dbpath=DB_PATH,  prefix=""):
+def newSearch(key, group="Saw", levenshtein=True,  db="default",  dbpath=DB_PATH,  prefix=""):
     if not key:
         yield ""
     if not db in dbs.keys():

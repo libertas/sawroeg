@@ -14,6 +14,7 @@ import os
 import dictionary
 import info
 import users
+import userdb
 from new_search import newSearch
 from enviroment import *
 
@@ -148,8 +149,17 @@ class AdminHandler(SecureHandler):
         if  not self.get_current_user() in users.users.keys():
             self.redirect("/login")
         else:
-            user_dict = []
+            user_dict = newSearch(key="", dbpath=USER_DB_PATH)
             self.render("sawroeg-admin.html",  user_dict=user_dict)
+
+
+class ComposeHandler(tornado.web.RequestHandler):
+    def get(self):
+        self.render("sawroeg-compose.html")
+
+    def post(self):
+        userdb.add(self.get_argument("entry"),  self.get_argument("discription"))
+        self.redirect("/raiz")
 
 
 class ApiHandler(tornado.web.RequestHandler):
@@ -237,6 +247,8 @@ if __name__ == "__main__":
         ("/download/(.*)",  DownloadHandler),
          ("/login",  LoginHandler),
          ("/admin",  AdminHandler), 
+         ("/raiz",  ComposeHandler), 
+         ("/raiz/",  ComposeHandler), 
         ("/.*", tornado.web.RedirectHandler, {'url': '/sawroeg'})
     ], **app_settings)
     if tornado.options.options.direct:

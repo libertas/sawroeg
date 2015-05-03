@@ -6,6 +6,6 @@ from platform import python_version
 if python_version().startswith('2'):
     str = unicode
 
-users = {}
+users = {'roeg':  '123'}
 
-secret = ""
+secret = "abc"
