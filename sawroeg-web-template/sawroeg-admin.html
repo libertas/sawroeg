@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="za">
+<head>
+	<link href="/static/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Daengloeg</title>
+	<meta name="robots" content="noindex, nofollow" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="shortcut icon" type="image/x-icon" href="{{ static_url('favicon.ico') }}" />
+</head>
+
+<body>
+	<div class="container text-center">
+		<div class="page-header text-center"><h1>Guenjleix Sawroeg</h1></div>
+		{% for i in user_dict %}
+			<li><pre>{{ i[0] }} {{ i[1] }}</pre></li>
+		{% end %}
+	</div>
+</body>

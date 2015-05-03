@@ -148,7 +148,8 @@ class AdminHandler(SecureHandler):
         if  not self.get_current_user() in users.users.keys():
             self.redirect("/login")
         else:
-            self.write("Hello,Admin")
+            user_dict = []
+            self.render("sawroeg-admin.html",  user_dict=user_dict)
 
 
 class ApiHandler(tornado.web.RequestHandler):
