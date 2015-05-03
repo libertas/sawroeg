@@ -151,6 +151,18 @@ class AdminHandler(SecureHandler):
         else:
             user_dict = newSearch(key="", dbpath=USER_DB_PATH)
             self.render("sawroeg-admin.html",  user_dict=user_dict)
+    
+    def post(self):
+        if  not self.get_current_user() in users.users.keys():
+            self.redirect("/login")
+        else:
+            word= self.get_argument("entry")
+            if self.get_argument("command") == "add":
+                word = word.split(" ",  1)
+                userdb.add(word[0],  word[1],  NEW_DB_PATH)
+            elif self.get_argument("command") == "del":
+                userdb.delete(word,  USER_DB_PATH)
+            self.redirect("/admin")
 
 
 class ComposeHandler(tornado.web.RequestHandler):
@@ -158,7 +170,7 @@ class ComposeHandler(tornado.web.RequestHandler):
         self.render("sawroeg-compose.html")
 
     def post(self):
-        userdb.add(self.get_argument("entry"),  self.get_argument("discription"))
+        userdb.add(self.get_argument("entry"),  self.get_argument("discription"),  USER_DB_PATH)
         self.redirect("/raiz")
 
 
