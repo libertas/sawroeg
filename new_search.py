@@ -15,11 +15,11 @@ if python_version().startswith('2'):
 dbs = {}
 
 
-def newSearch(key, group, levenshtein,  db="default",  dbpath=DB_PATH):
+def newSearch(key, group, levenshtein,  db="default",  dbpath=DB_PATH,  prefix=""):
     if not key:
         yield ""
     if not db in dbs.keys():
-        dbs[db] = dictionary(dbpath)
+        dbs[db] = dictionary(dbpath,  prefix)
     if group == "Saw":
         result = dbs[db].searchWord(key, False)
         if levenshtein:
