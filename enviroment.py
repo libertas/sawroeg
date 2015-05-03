@@ -9,4 +9,3 @@ if python_version().startswith('2'):
 DB_PATH = "sawguq.db"
 DOWNLOAD_PATH = "./downloads/"
 DOWNLOADPAGENAME = "Banj Lizsienq"
-ITEM_LEN = 51
