@@ -3,7 +3,6 @@
 from __future__ import unicode_literals
 
 import sqlite3
-from enviroment import *
 
 try:
     from sawgeq import sawgeq
@@ -15,30 +14,34 @@ if python_version().startswith('2'):
     str = unicode
 
 
-cx = sqlite3.connect(DB_PATH,  check_same_thread = False)
-cu = cx.cursor()
+
+class dictionary:
+    def __init__(self,  dbpath, item_prefix=""):
+        self.prefix = item_prefix
+        self.cx = sqlite3.connect(dbpath, check_same_thread = False)
+        self.cu = self.cx.cursor()
 
 
-def searchWord(key, from_begin=False):
-    try:
-        str(key).encode('iso-8859-1')
-    except UnicodeEncodeError:
-        return searchWordByZh(key)
-    return searchWordByZha(key, from_begin=from_begin)
+    def searchWord(self,  key, from_begin=False):
+        try:
+            str(key).encode('iso-8859-1')
+        except UnicodeEncodeError:
+            return self.searchWordByZh(key)
+        return self.searchWordByZha(key, from_begin=from_begin)
 
 
-def searchWordByZha(key, from_begin=False):
-    key = str(key).lower()
-    cu.execute("""SELECT * FROM sawguq WHERE key like "%%%s%%" """ % key)
-    for i in cu.fetchall():
-        yield (i[0], (i[1],))
+    def searchWordByZha(self,  key, from_begin=False):
+        key = str(key).lower()
+        self.cu.execute("""SELECT * FROM sawguq WHERE key like "%%%s%%" """ % key)
+        for i in self.cu.fetchall():
+            yield (i[0], (i[1],))
 
 
-def searchWordByZh(key, from_begin=False):
-    assert from_begin is False
-    cu.execute("""SELECT * FROM sawguq WHERE value like "%%%s%%" """ % key)
-    for i in cu.fetchall():
-        yield (i[0], (i[1],))
+    def searchWordByZh(self,  key, from_begin=False):
+        assert from_begin is False
+        self.cu.execute("""SELECT * FROM sawguq WHERE value like "%%%s%%" """ % key)
+        for i in self.cu.fetchall():
+            yield (i[0], (i[1],))
 
 
 def searchExamples(key):

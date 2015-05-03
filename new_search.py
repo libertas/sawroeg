@@ -3,6 +3,7 @@
 from __future__ import unicode_literals
 
 from dictionary import *
+from enviroment import *
 import accurate_search
 
 from platform import python_version
@@ -11,12 +12,16 @@ if python_version().startswith('2'):
     FileNotFoundError = IOError
 
 
-def newSearch(key, group, levenshtein):
+dbs = {}
+
+
+def newSearch(key, group, levenshtein,  db="default",  dbpath=DB_PATH):
     if not key:
         yield ""
-
+    if not db in dbs.keys():
+        dbs[db] = dictionary(dbpath)
     if group == "Saw":
-        result = searchWord(key, False)
+        result = dbs[db].searchWord(key, False)
         if levenshtein:
             result = accurate_search.byLevenshtein(key, result)
     elif group == "Laeh":
