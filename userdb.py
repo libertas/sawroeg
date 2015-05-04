@@ -9,7 +9,7 @@ from platform import python_version
 if python_version().startswith('2'):
     str = unicode
 
-
+# delete database file from the filesystem online may cause problem
 dbs = {}
 
 def add(word,  content,  dbpath):
