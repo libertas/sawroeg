@@ -26,5 +26,5 @@ def delete(word, content, dbpath):
         dbs[dbpath] = sqlite3.connect(dbpath)
     cx = dbs[dbpath]
     cu = cx.cursor()
-    cu.execute('DELETE FROM sawguq WHERE key="%s" AND value="%s"' % (word, content))
+    cu.execute('DELETE FROM sawguq WHERE key="%s" AND value="%s"' % (word, word + " " + content))
     cx.commit()
