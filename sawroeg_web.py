@@ -170,11 +170,11 @@ class AdminHandler(SecureHandler):
 
 class ComposeHandler(tornado.web.RequestHandler):
     def get(self):
-        self.render("sawroeg-compose.html")
+        self.render("sawroeg-compose.html",  success = False)
 
     def post(self):
         userdb.add(self.get_argument("entry"),  self.get_argument("discription"),  USER_DB_PATH)
-        self.redirect("/raiz")
+        self.render("sawroeg-compose.html",  success=True)
 
 
 class ApiHandler(tornado.web.RequestHandler):
