@@ -21,10 +21,10 @@ def add(word,  content,  dbpath):
     cu.execute("INSERT INTO sawguq VALUES (?, ?)", (word, word + " " + content))
     cx.commit()
 
-def delete(word,  dbpath):
+def delete(word, content, dbpath):
     if not dbpath in dbs.keys():
         dbs[dbpath] = sqlite3.connect(dbpath)
     cx = dbs[dbpath]
     cu = cx.cursor()
-    cu.execute('DELETE FROM sawguq WHERE value="%s"' % word)
+    cu.execute('DELETE FROM sawguq WHERE key="%s" AND value="%s"' % (word, content))
     cx.commit()

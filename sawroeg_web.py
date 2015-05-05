@@ -157,14 +157,14 @@ class AdminHandler(SecureHandler):
             self.redirect("/login")
         else:
             word= self.get_argument("entry")
+            word = word.split(" ",  1)
             if self.get_argument("command") == "add":
-                word = word.split(" ",  1)
                 # add the word selected by the admin to NEW_DB and DB
                 # NEW_DB is used to backup the word,while DB can be used by the software
                 userdb.add(word[0], word[1],  NEW_DB_PATH)
                 userdb.add(word[0], word[1],  DB_PATH)
             elif self.get_argument("command") == "del":
-                userdb.delete(word,  USER_DB_PATH)
+                userdb.delete(word[0], word[1], USER_DB_PATH)
             self.redirect("/admin")
 
 
