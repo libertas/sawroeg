@@ -47,7 +47,7 @@ class SearchHandler(tornado.web.RequestHandler):
         except (ValueError, tornado.web.MissingArgumentError):
             pass
         has_count = False
-        count = 100
+        count = SEARCHING_LIMIT
         try:
             count = max(int(self.get_argument("count")), 1)
             has_count = True

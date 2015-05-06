@@ -12,3 +12,4 @@ DOWNLOADPAGENAME = "Banj Lizsienq"
 USER_DB_PATH = "userdb.db"
 NEW_PREFIX = "(Vunz-raiz)"
 NEW_DB_PATH = "newdb.db"
+SEARCHING_LIMIT = 30
