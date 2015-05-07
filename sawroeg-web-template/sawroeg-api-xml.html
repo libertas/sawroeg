@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<xml xmlns="http://www.w3.org/1999/xhtml">
-{{ ' ' }}<request q="{{ key }}" start="{{ start }}"{% if count is not None %} count="{{ count }}"{% end %} {% if have_more %} more="more"{% end %}>
-{% for word in result %}{{ '  ' }}<word value="{{ word[0] }}">
-{% for desc in word[1] %}{{ '   ' }}<desc><![CDATA[{{ desc }}]]></desc>
-{% end %}{{ '  ' }}</word>
-{% end %}{{ ' ' }}</request>
-</xml>
