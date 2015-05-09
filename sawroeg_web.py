@@ -158,6 +158,10 @@ class AdminHandler(SecureHandler):
         else:
             word= self.get_argument("entry")
             word = word.split(" ",  1)
+            try:
+                word[1]
+            except IndexError:
+                word.append("")
             if self.get_argument("command") == "add":
                 # add the word selected by the admin to NEW_DB and DB
                 # NEW_DB is used to backup the word,while DB can be used by the software
