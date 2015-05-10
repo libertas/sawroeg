@@ -174,11 +174,16 @@ class AdminHandler(SecureHandler):
 
 class ComposeHandler(tornado.web.RequestHandler):
     def get(self):
-        self.render("sawroeg-compose.html",  success = False)
+        self.render("sawroeg-compose.html", message="")
 
     def post(self):
-        userdb.add(self.get_argument("entry"),  self.get_argument("discription"),  USER_DB_PATH)
-        self.render("sawroeg-compose.html",  success=True)
+        key = self.get_argument("entry")
+        discription = self.get_argument("discription")
+        if key != "" and discription != "":
+            userdb.add(key, discription, USER_DB_PATH)
+            self.render("sawroeg-compose.html", message="Gya haeuj bae liux,cingj caj bouxguenj ma yawj.")
+        else:
+            self.render("sawroeg-compose.html", message="Cingj raiz doh bae.")
 
 
 if __name__ == "__main__":
