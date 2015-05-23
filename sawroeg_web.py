@@ -2,8 +2,6 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
 
-import json
-
 import tornado.httpserver
 import tornado.ioloop
 import tornado.options
@@ -11,7 +9,6 @@ import tornado.web
 
 import os
 
-import dictionary
 import info
 import users
 import userdb
