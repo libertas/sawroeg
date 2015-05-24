@@ -38,7 +38,7 @@
 			{% end %}
 			{% if key != "" %}<ol{% if start>0 %} start="{{ start+1 }}"{% end %} style="padding-left: {{ (len(str(start+count))+3)/2.0 }}em; margin-left: 0pt">
 				{% for n,desc in enumerate(result) %}
-					{% if n>start %}<li><div>{{ desc }}</div></li>
+					{% if n>=start %}<li><div>{{ desc }}</div></li>
 					{% end %}
 					{% if n== start+count %}
 						{% set shownextpage=True %}
