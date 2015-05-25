@@ -45,13 +45,14 @@ class dictionary:
 
 
 def searchExamples(key):
+    MAXLEN = 200  # Magic number
     result = ""
     for i in sawgeq:
         string = sawgeq[i]
         tlist = string.rsplit("\n")
         for j in tlist:
             for k in j.split(" "):
-                if key == k:
+                if key == k and len(j) < MAXLEN:
                     result = "%s    --<<%s>>\n" % (j, i)
                     yield result
                     break
