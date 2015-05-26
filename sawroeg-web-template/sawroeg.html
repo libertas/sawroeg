@@ -21,6 +21,13 @@
 	</ul>
 	<form action="?" method="GET">
 		<div class="input-group" style="width:60%; margin:0 auto;">
+			<select name="group" value="{{ group }}" class="selectpicker">
+				<option id="Saw" value="Saw">Saw</option>
+				<option id="Laeh" value="Laeh">Laeh</option>
+			</select>
+			<script>
+				document.getElementById("{{ group }}").selected = "selected";
+			</script>
 			<input type="text" id="q" name="q" class="input_glow"{% if key %} value="{{ key }}"{% end %} placeholder="Saw" />
 			<button type="summit" class="btn btn-default">Ra</button>
 		</div>
@@ -34,7 +41,7 @@
 		</div>
 		<div class="panel-body">
 			{% if start>0 %}
-				<a href="?q={{ key }}&start={{ max(start-count, 0) }}&count={{ count }}&new_engine={{ new_engine }}">Mbaw gonq ←</a>
+				<a href="?q={{ key }}&start={{ max(start-count, 0) }}&count={{ count }}&new_engine={{ new_engine }}&group={{ group }}">Mbaw gonq ←</a>
 			{% end %}
 			{% if key != "" %}<ol{% if start>0 %} start="{{ start+1 }}"{% end %} style="padding-left: {{ (len(str(start+count))+3)/2.0 }}em; margin-left: 0pt">
 				{% for n,desc in enumerate(result) %}
@@ -46,7 +53,7 @@
 					{% end %}
 				{% end %}</ol>
 				{% if shownextpage %}
-					<a href="?q={{ key }}&start={{ start+count }}&count={{ count }}&new_engine={{ new_engine }}">Mbaw laeng →</a>
+					<a href="?q={{ key }}&start={{ start+count }}&count={{ count }}&new_engine={{ new_engine }}&group={{ group }}">Mbaw laeng →</a>
 				{% elif key %}
 					<div>Ndi miz liux. :-(</div>
 					<a href="/raiz">Naenz dieg neix ma raiz sawloih.</a>
