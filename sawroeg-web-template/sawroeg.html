@@ -28,7 +28,7 @@
 			<script>
 				document.getElementById("{{ group }}").selected = "selected";
 			</script>
-			<input type="text" id="q" name="q" class="input_glow"{% if key %} value="{{ key }}"{% end %} placeholder="Saw" style="margin:5px"/>
+			<input type="text" name="q" class="input_glow"{% if key %} value="{{ key }}"{% end %} placeholder="Saw" style="margin:5px"/>
 			<button type="summit" class="btn btn-default">Ra</button>
 		</div>
 		{% if has_count %}<input type="hidden" value="{{ count }}" />
@@ -63,11 +63,10 @@
 			{% end %}
 		</div>
 	</div>
-	<div id="footer">
+
 	<hr />
 	<div><a href="https://github.com/libertas/sawroeg" target="_blank">Sawroeg</a> dwg aen hanghmoeg ndeu youq laj <a href="{{ static_url('COPYING.html') }}" target="_blank">GPLv3</a>.</div>
 	<div><a href="{{ static_url('CREDITS.txt') }}" target="_blank">Gyo'mbaiq</a>.</div>
-	</div>
 	</div>
 </body>
 </html>
