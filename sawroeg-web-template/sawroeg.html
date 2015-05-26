@@ -28,7 +28,7 @@
 			<script>
 				document.getElementById("{{ group }}").selected = "selected";
 			</script>
-			<input type="text" id="q" name="q" class="input_glow"{% if key %} value="{{ key }}"{% end %} placeholder="Saw" />
+			<input type="text" id="q" name="q" class="input_glow"{% if key %} value="{{ key }}"{% end %} placeholder="Saw" style="margin:5px"/>
 			<button type="summit" class="btn btn-default">Ra</button>
 		</div>
 		{% if has_count %}<input type="hidden" value="{{ count }}" />
