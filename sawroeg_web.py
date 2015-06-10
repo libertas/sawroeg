@@ -29,6 +29,7 @@ try:
 except NameError:
     FileNotFoundError = IOError
 
+# For Python 3.3
 try:
     IsADirectoryError
 except NameError:
