@@ -163,7 +163,7 @@ class AdminHandler(SecureHandler):
             self.redirect("/login")
         else:
             word= self.get_argument("entry")
-            word = word.split(" ",  1)
+            word = word.split(" ",  2)  # key, value, email
             try:
                 word[1]
             except IndexError:
@@ -171,10 +171,10 @@ class AdminHandler(SecureHandler):
             if self.get_argument("command") == "add":
                 # add the word selected by the admin to NEW_DB and DB
                 # NEW_DB is used to backup the word,while DB can be used by the software
-                userdb.add(word[0], word[1],  NEW_DB_PATH)
-                userdb.add(word[0], word[1],  DB_PATH)
+                userdb.add(word[0], word[1], word[2], NEW_DB_PATH)
+                userdb.add(word[0], word[1], word[2], DB_PATH)
             elif self.get_argument("command") == "del":
-                userdb.delete(word[0], word[1], USER_DB_PATH)
+                userdb.delete(word[0], word[1], word[2], USER_DB_PATH)
             self.redirect("/admin")
 
 
@@ -185,8 +185,9 @@ class ComposeHandler(tornado.web.RequestHandler):
     def post(self):
         key = self.get_argument("entry")
         discription = self.get_argument("discription")
-        if key != "" and discription != "":
-            userdb.add(key, discription, USER_DB_PATH)
+        email = self.get_argument("email")
+        if key != "" and discription != "" and email != "":
+            userdb.add(key, discription, email, USER_DB_PATH)
             self.render("sawroeg-compose.html", message="Gya haeuj bae liux,cingj caj bouxguenj ma yawj.")
         else:
             self.render("sawroeg-compose.html", message="Cingj raiz doh bae.")
