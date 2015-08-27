@@ -43,7 +43,7 @@ if __name__ == "__main__":
             key = input("Raiz saw mwngz siengj ra:")
         except EOFError:
             sayBye(0)
-        if key not in [":q", ":quit", ":deuz", ":d"]:
+        if key not in [":q", ":quit", ":deuz", ":d",  ""]:
             search(key)
         else:
             sayBye(0)
