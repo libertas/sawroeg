@@ -179,17 +179,26 @@ class AdminHandler(SecureHandler):
 
 class ComposeHandler(tornado.web.RequestHandler):
     def get(self):
-        self.render("sawroeg-compose.html", message="")
+        self.render("sawroeg-compose.html", message="", lastKey="", lastContent="", lastEmail="")
 
     def post(self):
         key = self.get_argument("entry")
         discription = self.get_argument("discription")
         email = self.get_argument("email")
+        list2Render = {}
         if key != "" and discription != "" and email != "":
             userdb.add(key, discription, USER_DB_PATH, email)
-            self.render("sawroeg-compose.html", message="Gya haeuj bae liux,cingj caj bouxguenj ma yawj.")
+            list2Render["message"] = "Gya haeuj bae liux,cingj caj bouxguenj ma yawj."
+            list2Render["lastKey"] = ""
+            list2Render["lastContent"] = ""
+            list2Render["lastEmail"] = ""
+            self.render("sawroeg-compose.html", **list2Render)
         else:
-            self.render("sawroeg-compose.html", message="Cingj raiz doh bae.")
+            list2Render["message"] = "Cingj raiz doh bae."
+            list2Render["lastKey"] = key
+            list2Render["lastContent"] = discription
+            list2Render["lastEmail"] = email
+            self.render("sawroeg-compose.html", **list2Render)
 
 
 if __name__ == "__main__":

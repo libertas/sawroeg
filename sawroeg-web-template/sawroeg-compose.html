@@ -13,11 +13,23 @@
 	<div class="container text-center">
 		<div class="page-header text-center"><h1>Raiz Sawloih</h1></div>
 		<form action="/raiz" method="post">
-			Saw:<input type="text" name="entry"/>
-			Gaijnaeuz:<input type="text" name="discription"/>
-            Email:<input type="text" name="email"/>
-			<button type="summit" class="btn btn-default">Baenz</button>
+			Saw:<input type="text" name="entry" value="{{ lastKey }}"/>
+			Gaijnaeuz:<input type="text" name="discription" value="{{ lastContent }}"/>
+         Email:<input id="email_form" type="text" name="email" value="{{ lastEmail }}"/>
+			<button type="summit" class="btn btn-default" onclick="email_check()">Baenz</button>
 		</form>
 		<font color="#DC143C"><p>{{ message }}</p></font>
 	</div>
 </body>
+
+<script>
+	function email_check() {
+       var email = document.getElementById("email_form").value; 
+       if(!/^\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/.test(email)) {
+              alert("Email Mwngz Ndi Doiq!!");
+              document.getElementById("email_form").focus();
+              return false;
+       }
+       return true;
+	}
+</script>
