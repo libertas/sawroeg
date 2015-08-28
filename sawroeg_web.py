@@ -155,24 +155,23 @@ class AdminHandler(SecureHandler):
         if  not self.get_current_user() in users.users.keys():
             self.redirect("/login")
         else:
-            user_dict = newSearch(key="", dbpath=USER_DB_PATH)
-            self.render("sawroeg-admin.html",  user_dict=user_dict)
+            import sqlite3
+            cx = sqlite3.connect(USER_DB_PATH)
+            cu = cx.cursor()
+            cu.execute("SELECT * FROM sawguq")
+            self.render("sawroeg-admin.html",  user_dict=cu.fetchall())
     
     def post(self):
         if  not self.get_current_user() in users.users.keys():
             self.redirect("/login")
         else:
             word= self.get_argument("entry")
-            word = word.split(" ",  2)  # key, value, email
-            try:
-                word[1]
-            except IndexError:
-                word.append("")
+            word = word.split(" ",  2)
             if self.get_argument("command") == "add":
                 # add the word selected by the admin to NEW_DB and DB
                 # NEW_DB is used to backup the word,while DB can be used by the software
-                userdb.add(word[0], word[1], word[2], NEW_DB_PATH)
-                userdb.add(word[0], word[1], word[2], DB_PATH)
+                userdb.add(word[0], word[1], NEW_DB_PATH, word[2])
+                userdb.add(word[0], word[1], DB_PATH)
             elif self.get_argument("command") == "del":
                 userdb.delete(word[0], word[1], word[2], USER_DB_PATH)
             self.redirect("/admin")
@@ -187,7 +186,7 @@ class ComposeHandler(tornado.web.RequestHandler):
         discription = self.get_argument("discription")
         email = self.get_argument("email")
         if key != "" and discription != "" and email != "":
-            userdb.add(key, discription, email, USER_DB_PATH)
+            userdb.add(key, discription, USER_DB_PATH, email)
             self.render("sawroeg-compose.html", message="Gya haeuj bae liux,cingj caj bouxguenj ma yawj.")
         else:
             self.render("sawroeg-compose.html", message="Cingj raiz doh bae.")
