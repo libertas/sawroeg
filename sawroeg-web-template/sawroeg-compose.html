@@ -27,7 +27,7 @@
        var email = document.getElementById("email_form").value; 
        if(!/^\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/.test(email)) {
               alert("Email Mwngz Ndi Doiq!!");
-              document.getElementById("email_form").focus();
+              document.getElementById("email_form").value="";
               return false;
        }
        return true;
