@@ -21,10 +21,11 @@ with open('tools/sawguq.txt', 'r') as f:
 cx = sqlite3.connect("sawguq.db")
 cu = cx.cursor()
 cu.execute("CREATE TABLE IF NOT EXISTS sawguq (key, value)");
+cu.execute("CREATE UNIQUE INDEX IF NOT EXISTS idx_value ON sawguq (value)")
 for word in sorted(sawguq):
     sawguq[word].sort()
     for i in sawguq[word]:
-        cu.execute("INSERT INTO sawguq VALUES (?, ?)", (word, i))
+        cu.execute("INSERT OR IGNORE INTO sawguq VALUES (?, ?)", (word, i))
 cx.commit()
 cu.close()
 cx.close()
