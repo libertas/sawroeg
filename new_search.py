@@ -21,7 +21,7 @@ def newSearch(key, group="Saw", levenshtein=True,  dbpath=DB_PATH,  prefix=""):
     if not dbpath in dbs.keys():
         dbs[dbpath] = dictionary(dbpath,  prefix)
     if group == "Saw":
-        result = dbs[dbpath].searchWord(key, False)
+        result = dbs[dbpath].searchWord(key)
         if levenshtein:
             result = accurate_search.byLevenshtein(key, result)
     elif group == "Laeh":
@@ -29,6 +29,7 @@ def newSearch(key, group="Saw", levenshtein=True,  dbpath=DB_PATH,  prefix=""):
     value = ""
     if group != "Laeh":
         for i in result:
+            print(i)
             for j in i[1]:
                 yield j
     else:

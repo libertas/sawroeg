@@ -22,25 +22,12 @@ class dictionary:
         self.cu = self.cx.cursor()
 
 
-    def searchWord(self,  key, from_begin=False):
-        try:
-            str(key).encode('iso-8859-1')
-        except UnicodeEncodeError:
-            return self.searchWordByZh(key)
-        return self.searchWordByZha(key, from_begin=from_begin)
-
-
-    def searchWordByZha(self,  key, from_begin=False):
-        key = str(key).lower()
-        self.cu.execute("""SELECT * FROM sawguq WHERE key like "%%%s%%" """ % key)
+    def searchWord(self,  key):
+        sql = 'SELECT * FROM sawguq WHERE key LIKE "%'\
+            + key + '%" OR ' + 'value LIKE "%' + key + '%";'
+        self.cu.execute(sql)
         for i in self.cu.fetchall():
-            yield (i[0], (i[1],))
-
-
-    def searchWordByZh(self,  key, from_begin=False):
-        assert from_begin is False
-        self.cu.execute("""SELECT * FROM sawguq WHERE value like "%%%s%%" """ % key)
-        for i in self.cu.fetchall():
+            print(i)
             yield (i[0], (i[1],))
 
 
