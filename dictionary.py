@@ -23,11 +23,10 @@ class dictionary:
 
 
     def searchWord(self,  key):
-        sql = 'SELECT * FROM sawguq WHERE key LIKE "%'\
-            + key + '%" OR ' + 'value LIKE "%' + key + '%";'
-        self.cu.execute(sql)
+        sql = "SELECT * FROM sawguq WHERE key LIKE ? OR value LIKE ?;"
+        key = "%" + key + "%"
+        self.cu.execute(sql, (key, key))
         for i in self.cu.fetchall():
-            print(i)
             yield (i[0], (i[1],))
 
 
