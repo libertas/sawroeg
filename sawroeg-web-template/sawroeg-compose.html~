@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="za">
+<head>
+	<link href="/static/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Daengloeg</title>
+	<meta name="robots" content="noindex, nofollow" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="shortcut icon" type="image/x-icon" href="{{ static_url('favicon.ico') }}" />
+</head>
+
+<body>
+	<div class="container text-center">
+		<div class="page-header text-center"><h1>Raiz Sawloih</h1></div>
+		<form action="/raiz" method="post">
+			Saw:<input type="text" name="entry" value="{{ lastKey }}"/>
+			Gaijnaeuz:<input type="text" name="discription" value="{{ lastContent }}"/>
+         Email:<input id="email_form" type="text" name="email" value="{{ lastEmail }}"/>
+			<button type="summit" class="btn btn-default" onclick="email_check()">Baenz</button>
+		</form>
+		<font color="#DC143C"><p>{{ message }}</p></font>
+	</div>
+</body>
+
+<script>
+	function email_check() {
+       var email = document.getElementById("email_form").value; 
+       if(!/^\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/.test(email)) {
+              alert("Email Mwngz Ndi Doiq!!");
+              document.getElementById("email_form").focus();
+              return false;
+       }
+       return true;
+	}
+</script>

@@ -1,39 +1,72 @@
 <!DOCTYPE html>
 <html lang="za">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Sawroeg {{ version }}</title>
-<meta name="description" content="Sawroeg: Sawloih Cuengh-Gun duh Daegroeg" />
-<meta name="robots" content="noindex, nofollow" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<link rel="stylesheet" type="text/css" href="{{ static_url('styles.css') }}" />
-<link rel="shortcut icon" type="image/x-icon" href="{{ static_url('favicon.ico') }}" />
+	<link href="/static/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Sawroeg {{ version }}</title>
+	<meta name="description" content="Sawroeg: Sawloih Cuengh-Gun duh Daegroeg" />
+	<meta name="robots" content="noindex, nofollow" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="shortcut icon" type="image/x-icon" href="{{ static_url('favicon.ico') }}" />
 </head>
 <body>
-<div id="topbanner">
-<h1>Sawroeg: Sawloih Cuengh-Gun duh Daegroeg</h1>
-<div id="formcontainer">
-<form action="?" method="GET">
-<span id="submitcontainer"><input type="submit" id="btn_submit" class="input_glow" value="Ra" /></span>
-<span id="qcontainer"><input type="text" id="q" name="q" class="input_glow"{% if key %} value="{{ key }}"{% end %} placeholder="Saw" /></span>
-<div id="newenginecontainer"><input type="checkbox" id="new_engine" name="new_engine"{% if new_engine == "on" %} checked="checked"{% end %} /><label for="new_engine">yinxgingz moq (sawqhengz)</label></div>
-{% if has_count %}<input type="hidden" value="{{ count }}" />
-{% end %}</form>
-</div>
-</div>
-{% set shownextpage=False %}
-<div id="results">
-{% if start>0 %}<a href="?q={{ key }}&start={{ max(start-count, 0) }}&count={{ count }}&new_engine={{ new_engine }}">Mbaw gonq ←</a>
-{% end %}{% if key != "" %}<ol{% if start>0 %} start="{{ start+1 }}"{% end %} style="padding-left: {{ (len(str(start+count))+3)/2.0 }}em; margin-left: 0pt">
-{% for n,desc in enumerate(result) %}<li><div>{{ desc }}</div></li>
-{% if n==count-1 %}{% set shownextpage=True %}{% break %}{% end %}{% end %}</ol>
-{% if shownextpage%}<a href="?q={{ key }}&start={{ start+count }}&count={{ count }}&new_engine={{ new_engine }}">Mbaw laeng →</a>
-{% end %}{% elif key %}<div>Ndi miz liux. :-(</div>
-{% else %}<div>Raiz saw youq gwnz neix ma ra.</div>
-{% end %}</div>
-<div id="footer">
-<hr />
-<div><a href="https://github.com/libertas/sawroeg" target="_blank">Sawroeg</a> dwg aen hanghmoeg ndeu youq laj <a href="{{ static_url('COPYING.html') }}" target="_blank">GPLv3</a>.</div>
-<div><a href="{{ static_url('CREDITS.txt') }}" target="_blank">Gyo'mbaiq</a>.</div>
-</div>
+	<div class="container text-center">
+	<div class="page-header text-center"><h1>Sawroeg: Sawloih Cuengh-Gun duh Daegroeg</h1></div>
+	<ul class="nav nav-pills nav-justified">
+		<li><a href="/sawroeg/">Mbaw Naj</a></li>
+		<li><a href="/raiz/">Raiz Sawloih</a></li>
+		{% if downloadPageName %}
+		<li><a href="/download/">{{ downloadPageName }}</a></li>
+		{% end %}
+	</ul>
+	<form action="?" method="GET">
+		<div class="input-group" style="width:60%; margin:0 auto;">
+			<select name="group" value="{{ group }}" class="selectpicker">
+				<option id="Saw" value="Saw">Saw</option>
+				<option id="Laeh" value="Laeh">Laeh</option>
+			</select>
+			<script>
+				document.getElementById("{{ group }}").selected = "selected";
+			</script>
+			<input type="text" name="q" class="input_glow"{% if key %} value="{{ key }}"{% end %} placeholder="Saw" style="margin:5px"/>
+			<button type="summit" class="btn btn-default">Ra</button>
+		</div>
+		{% if has_count %}<input type="hidden" value="{{ count }}" />
+		{% end %}
+	</form>
+	{% set shownextpage=False %}
+	<div class="panel panel-primary">
+		<div class="panel-heading">
+			<h3 class="panel-title">Dapanq</h3>
+		</div>
+		<div class="panel-body">
+			{% if start>0 %}
+				<a href="?q={{ key }}&start={{ max(start-count, 0) }}&count={{ count }}&new_engine={{ new_engine }}&group={{ group }}">Mbaw gonq ←</a>
+			{% end %}
+			{% if key != "" %}<ol{% if start>0 %} start="{{ start+1 }}"{% end %} style="padding-left: {{ (len(str(start+count))+3)/2.0 }}em; margin-left: 0pt">
+				{% for n,desc in enumerate(result) %}
+					{% if n== start+count %}
+						{% set shownextpage=True %}
+						{% break %}
+					{% end %}
+					{% if n>=start %}<li><div>{{ desc }}</div></li>
+					{% end %}
+				{% end %}</ol>
+				{% if shownextpage %}
+					<a href="?q={{ key }}&start={{ start+count }}&count={{ count }}&new_engine={{ new_engine }}&group={{ group }}">Mbaw laeng →</a>
+				{% elif key %}
+					<div>Ndi miz liux. :-(</div>
+					<a href="/raiz">Gaemh dieg neix ma raiz sawloih.</a>
+				{% end %}
+			{% else %}
+				<div>Raiz saw youq gwnz neix ma ra.</div>
+			{% end %}
+		</div>
+	</div>
+
+	<hr />
+	<div><a href="https://github.com/libertas/sawroeg" target="_blank">Sawroeg</a> dwg aen hanghmoeg ndeu youq laj <a href="{{ static_url('COPYING.html') }}" target="_blank">GPLv3</a>.</div>
+	<div><a href="{{ static_url('CREDITS.txt') }}" target="_blank">Gyo'mbaiq</a>.</div>
+	</div>
 </body>
+</html>

@@ -1,26 +1,54 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-from  __future__ import unicode_literals
-
-from platform import python_version
-if python_version().startswith('2'):
-    str=unicode
-    FileNotFoundError=IOError
+from __future__ import unicode_literals
 
 import re
 import sys
 
 from PyQt5 import QtGui, QtWidgets
 import mainwindow
+import aboutDialog
 import info
+from new_search import newSearch
 
+from platform import python_version
+if python_version().startswith('2'):
+    str = unicode
+    FileNotFoundError = IOError
 
 try:
     FileNotFoundError
 except NameError:
     FileNotFoundError = IOError
 
-from new_search import newSearch
+
+class myAboutDialog(QtWidgets.QDialog,  aboutDialog.Ui_Dialog):
+    def __init__(self,  parent = None):
+        QtWidgets.QWidget.__init__(self)
+        self.setupUi(self)
+        self.title.setText("Sawreog " + info.version)
+        
+        text_about = "%s\n\n%s"
+        text_about_default = """Sawroeg: Sawloih Cuengh-Gun duh Daegroeg"""\
+                             """Email: horizonvei@gmail.com\n"""\
+                             """This software is under GPLv3\n"""
+
+        try:
+            text_about = text_about % (
+                open("README", "r", encoding="utf-8").read(),
+                open("COPYING", "r", encoding="utf-8").read()
+                )  # In Python3
+        except TypeError:
+            try:
+                text_about = text_about % (
+                    open("README", "r").read().decode('utf-8'),
+                    open("COPYING", "r").read().decode('utf-8')
+                    )  # In Python2
+            except FileNotFoundError:
+                text_about = text_about_default
+        except FileNotFoundError:
+            text_about = text_about_default
+        self.content.setText(text_about)
 
 
 class MainWindow(QtWidgets.QMainWindow, mainwindow.Ui_MainWindow):
@@ -28,9 +56,9 @@ class MainWindow(QtWidgets.QMainWindow, mainwindow.Ui_MainWindow):
         # get main window
         QtWidgets.QWidget.__init__(self)
         self.setupUi(self)
-        
+
         # set window title
-        self.setWindowTitle("Saw Roeg %s" % info.version)
+        self.setWindowTitle("Sawroeg %s" % info.version)
 
         # setup icon
         self.setWindowIcon(QtGui.QIcon("icons/sawroeg.png"))
@@ -45,15 +73,14 @@ class MainWindow(QtWidgets.QMainWindow, mainwindow.Ui_MainWindow):
         self.comboBox.addItem("Saw")  # Word
         self.comboBox.addItem("Laeh")  # Examples
 
-        from sawguq import sawguq
         self.clearText()
 
     def move_to_center(self):
         screen = QtWidgets.QDesktopWidget().screenGeometry()
         size = self.geometry()
         self.move(
-            (screen.width()-size.width())/2,
-            (screen.height()-size.height())/2
+            (screen.width()-size.width()) / 2,
+            (screen.height()-size.height()) / 2
         )
 
     def clearText(self):
@@ -64,7 +91,7 @@ class MainWindow(QtWidgets.QMainWindow, mainwindow.Ui_MainWindow):
         key = self.lineEdit.text()
         if python_version().startswith("2"):
             key = unicode(key.toUtf8(), "utf8", "ignore")
-        levenshtein = self.levenshtein.isChecked()
+        levenshtein = True  # Use accurate searching method as the only option
         result_yield = newSearch(key, self.comboBox.currentText(), levenshtein)
         result = ""
         n = 1
@@ -74,28 +101,7 @@ class MainWindow(QtWidgets.QMainWindow, mainwindow.Ui_MainWindow):
         self.textBrowser.setText(result)
 
     def about(self):
-        text_about = "%s\n\n%s"
-        text_about_default = """Sawroeg: Sawloih Cuengh-Gun duh Daegroeg"""\
-                             """Email: horizonvei@gmail.com\n"""\
-                             """This software is under GPLv3\n"""
-
-        try:
-            text_about = text_about % (
-                open("README", "r", encoding="utf-8").read(),
-                open("COPYING", "r", encoding="utf-8").read()
-                )#In Python3
-        except TypeError:
-            try:
-                text_about = text_about % (
-                    open("README", "r").read().decode('utf-8'),
-                    open("COPYING", "r").read().decode('utf-8')
-                    )#In Python2
-            except FileNotFoundError:
-                text_about = text_about_default
-        except FileNotFoundError:
-            text_about = text_about_default
-
-        self.textBrowser.setText(text_about)
+        myAboutDialog(parent = self).exec_()
 
 
 if __name__ == "__main__":

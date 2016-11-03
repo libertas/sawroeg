@@ -1797,37 +1797,6 @@ Mbouj couq ndaej duj va
 Cien fanh bonj saw na
 Mbouj ha Bohroxdoh
 
-
-MOEGLOEG
-
-
-Fwen Nduj
-Bien Daih 1  Rangh Mo Cauh Mbwnndaen
-Bien Daih 2  Rangh Mo Cauh Vunz
-Bien Daih 3  Rangh Mo Cauh Fanh Gaiq
-Cieng Daih 1  Mo Ra Raemx
-Cieng Daih 2  Mo Cauh Feiz
-Cieng Daih 3  Mo Rouh Hoenz Haeux
-Cieng Daih 4  Mo Rouh Hoenz Vaiz Cwz Max
-Cieng Daih 5  Mo Rouh Hoenz Mou
-Cieng Daih 6  Mo Rouh Hoenz Bit Gaeq
-Cieng Daih 7  Mo Rouh Hoenz Bya
-Cieng Daih 8  Mo Cauh Ranz Suen Muengx
-Bien Daih 4  Rangh Mo Cauh Saeq Vuengz
-Bien Daih 5  Rangh Mo Cauh Cih Saw
-Bien Daih 6  Rang Mo Leix Ngeih
-Cieng Daih 1  Mo Doengzlingz
-Cieng Daih 2  Mo Hanqvuengz
-Cieng Daih 3  Mo Byat Nangzbawx
-Cieng Daih 4  Mo Byat Lwgsai
-Cieng Daih 5  Mo Byat Lwgmbwk
-Cieng Daih 6  Mo Souh Geuj Yo Goemq
-Cieng Daih 7  Haeuj Yienh Laeuj
-Bien Daih 6  Rang Mo Bengbwi
-
-
-
-
 FWEN NDUJ
       
 （ 一 ）
@@ -7668,40 +7637,9 @@ Daek laeuj yienh bouxgvang
 Daek laeuj yienh nangzyah
 Yienh gaiq baeuq congznaengh
 Yienh gaiq yah daengqdoengz
+"""
 
------- 2009-4-13 coih baenz"""
-
-sawgeq["MOZ YIZ DAIHVUENGZ"] = """MUZLUZ
-
-Vah Haidaeuz…………………………………………………( 1 )
-Fwen Nduj…………………………………………………….( 1 )
-Cangh Daih 1   Raemx Giengh Dat………………………….( 4 )
-Cangh Daih 2   Laeh Bya……………………………………( 38 )
-Cangh Daih 3   Daeuq Hak Rwix……………………………( 65 )
-Cangh Daih 4   Mied Dig……………………………………( 108 )
-Cangh Daih 5   Dang Hak…………………………………...( 139 )
-Cangh Daih 6   Nik Daengngoenz…………………………..( 157 )
-Cangh Daih 7   Go’ndoeksien……………………………….( 188 )
-Cangh Daih 8   Nyingz Naq…………………………………( 219 )
-Cangh Daih 9   Caux Bingmax………………………………( 244 )
-Cangh Daih 10  Roengz Bya…………………………………( 268 )
-Cangh Daih 11  Bienq Rwi…………………………………..( 291 )
-Fwen Byai……………………………………………………..( 314 )
-
-
-Vah haizdaeuz
-
-Youq biengzcuengh raeuz, miz sam bouh fwenraez riuzcienz ceiq nanz ceiq gvangq. Bouh daih’it dwg BOHROXDOH. Bohroxdoh dwg duzsaenz fanhnaengz goekcoj raeuz, dwg de caux mbwn caux namh, caux vunz caux mbanj, caux reih caux naz, caux doenghgo doenghduz, caux fanh yiengh doxgaiq. Bouh daihngeih dwg BOHBEK. Bohbek dwg bouxmaenh’ak Bouxcuengh raeuz, de caeuq duzbyaj doxdwk doxhoenx, duzbyaj cuengq raemx dumh biengz, dumh daengz vunzbiengz dai caez, dan lwg Bohbek song beixnuengx deuz mingh ndaej lix, doeklaeng gap baenz gvanbaz, biengz cuengh raeuz cij miz vunz cienz roengzdaeuj. Bouh daihsam dwg MOZ YIZ DAIHVUENGZ. Moz Yiz hix dwg yinghyungz Bouxcuengh raeuz, de daiqlingx beixnuengx Bouxcuengh caeuq ndaek vuengzdaeq doxdwk doxdaeuq, deng haih dai le, lij bienqbaenz rwivuengz mbin haeuj gingsingz, bae ndat ngveihda vuengzdaeq caeuq gyoengq hak rwix, ndat da gyoengqde fangz liux bae, yienghok Bouxcuengh raeuz gamj caeuq vunzdig dingjhoenx daengz dai, dai lij dingjhoenx vunzdig cungj singqgwz neix. “Faexndoek cien bi lij ok hanh, Moz Yiz fanh daih lij ok vuengz” gij vah neix, mbouj dan dwg gangj Moz Yiz bonjfaenh, lij dwg gangj Bouxcuengh raeuz douqcwngh daengz daej gij cingsaenz neix.
-Bouh fwenraez neix miz mbangj dawz daeuj guh goj gangj, miz mbangj dawz daeuj guh fwen ciengq, hix miz mbangj cix gangj cix ciengq, youq rangh dieg Dahraemxhoengz heuhguh Moz Yiz daihvuengz, rangh dieg Dahcojyouqgyangh heuhguh Gaemz Saenq Vuengz. Gij swhliuqbwnj de gak cungj gak yiengh, miz dinj miz raez, miz baenz fwenmoekgiek, miz baenz fwencaetcih, lij miz baenz fwenbaiz; miz cienzgangj youq rangh dieg Dahraemxhoengz, hix miz cienzgangj youq rangh dieg Dahcojyouqgyangh, danhseih, gij neiqyungz de cungj ityiengh.
-Bi 1981 nienz, Seqoksaw Minzcuz Gvangjsih dajsuenq aeu sawcuengh daeuj sij baenz bouh fwenraez neix, cobouh sij ok le dizgangh, lij aeu guh cungqdenj daeuj gauj. Bi 1982 nienz, caiq youz Gih Yijveij fuqcujyinq Cinz Yauqdingz dungzciq cauhciz Vangz Yungjsaz Veiz Yijgyangz Veiz Vwnzcinq Lij Sauqging Liuz Ciqgenh haj boux dungzciq daeuj hai’hoih daujlunq geij baez, nginhnaeuz Moz Yiz daihvuengz ndaw bouh fwenraez neix, dwg daiqbiuj gij cingsaenz gamj daeuq gamj siengj Bouxcuengh raeuz, aeu yungh gij cingsaenz neix guh cujdiz swhsiengj daeuj sij baenz bouh fwenraez neix. Doeklaeng, couh ciuq dizgangh aeu fwenbaiz hingzsik daeuj bien baenz cib’it cangh sawndip, daih’it cangh: Raemxgienghdat; daihngeih cangh: Laeh bya; daihsam cangh: Daeuq hak rwix; daihseiq cangh: Mied vunzdig; daihhaj cangh: Guh hak; daihroek cangh: Nik daengngoenz; daihcaet cangh: Go’ndoeksien; daihbet cangh: Nyingz naq; Daihgouj cangh: Caux bingmax; daihcib cangh: Roengz bya; daihcib’it cangh: Bienq rwi. Ginggvaq fanfuk seiq baez, caiq ginggvaq geij baez daujlunq coihgaij, yungh bae buenq bi lai nanz, sij ndaej baenz daih’it gauj lo. Youhcaiq ginggvaq coihgaij baenz liux daihngeih gauj sawndip, lij daj sawndip hoiz sawcuengh, gwnhgiq sawcuengh yauhgiuz coengz neiqyungz yisez hingzsiz gak fuengmienh bae swnj gauj gaij gauj, hix ginggvaq seiq ndwen lai baenzhwnz gujcanq, ciepdaeuj, laebdaeb hai geij baez hoih daujlunq, nginhcaen fukcaz gaij ndei cij dingh roengzdaeuj. Cienz cuj dungzciq daj goek daengz byai cungj aeu “gamj daeuq gamj siengj” gij cujdiz swhsiengj neix daeuj cijdauj, cij guh ndaej baenz yienghneix suijbingz. Daihgya roxnginh gij cujdiz swhsiengj neix, dwg guh ndaej baenz gienh saeh neix diuz muhsim ndeu.
-Bouh fwenraez neix, cungsaed fanjyingj liux gihbwnj cingzcez yenz swhliuq caeuq singzgwz vunz ndaw de, danhseih doiq fwen sei caeuq saeqciet miuzsij, cangh caeuq cez, duenh caeuq duenh, miz haujlai lingh anbaiz gvaq. Aenvih lizsij beiqgingj bouh fwenraez neix, dieg Bouxcuengh raeuz dwg youq buqloz giuzcangj seizgeiz, dieg Bouxgun cix dwg funghgenq seqveiq seizgeiz, Moz Yiz daihvuengz ndaw bouh fwenraez neix dwg buenq vunz buenq saenz, de rox mbin hwnj mbwn, youh rox ndonj roengz namh roengz raengz, doengh gij cingzcez neix couh dwg gij giqdij biujyenq “gamj daeuq gamj siengj” cojcoeng raeuz. Ciuq saed daeuj gangj, dou fanfuk coihgaij gya’goeng, gaenq mauhgvaq cingjleix fanqveiz, vih neix dou mbouj aeu bouxcingjleix daeuj roengz mingzcoh, cix roengz mingzcoh guh bouxsij, aenvih dou dwg daj ndaw biengz ndaej caizliuq daeuj caiq bien  sij gvaq. Danghnaeuz doiq aen minzcuz raeuz miz saek di gungqyenq, sien aeu docih dangjcunghyangh caeuq swqciqgih yinzminz cwngqfuj raeuz hoifuk doihengz sawcuengh, mboujnex, couh mbouj miz bouh fwenraez sawcuengh neix okbanj lo.
-Bouh fwenraez sawcuengh neix hix ciuq Mungz Gvanghcauz dwngj dungzciq aeu sawgun cingjleix gvaq gij megloh daeuj coihgaij bien sij ndaej baenz, youq neix dou cibfaen docih Mungz Gvanghcauz dwngj dungzciq, lij docih gyoengq dungzciq gyoengq baengzyoux gyoengq bouxlaux beixnuengx bangcoh dou haujlai haenx. Linghvaih, bouh fwenraez sawcuengh neix miz maz gezdenj caeuq mbouj deng, angqmuengh daihgya daezok bihbingz, hawj dou gvaqlaeng gaijcingq.
-                                    
-Bouxsij
-1983. 12. 24. youq Namzningz
-
-
-
+sawgeq["MOZ YIZ DAIHVUENGZ"] = """
 FWEN NDUJ
 
 Go’beu raemj gvaq lij ok ngeiq,
@@ -15395,12 +15333,7 @@ Fanh seiq hawj Moz Yiz dang vuengz!
 ------Daegdenz Ranzcung
 Bi 2009 Ndwen5 Ngoenz19 lukhaeuj"""
 
-sawgeq["DAHGYAX CAEUQ DAHBENGZ"] = """DAHGYAX CAEUQ DAHBENGZ
-
-             VAH HAIDAEUZ
- Heiqcuengh baihbaek  youq Cingcauz Cienzlongz  samcib bi(1765nienz) laizyouz youq Gvangjsij Dienzlinz yen , youq Dienzlinz yen ciuhciuh cienz ndaej songbak lai bi .  heiqcuengh baihbaek ciengq \ doeg cungj gangj vahcuengh , coenzvah gyaeu’ndei ,ciengq diuq caeuq yienj duzdwz , yinyoz gujbuz ndei dingq，youq cienzgoz heiqcungj baihndaw gag miz daegsaek . 2006nienz,  heiqcuengh baihbaek ndaej daengz guekgya daih’it baez sij roengz gaep feihvuzgyiz vwnzva yizcanj baujhuq hanghmoeg .bi 2007 ndwen 4 ngoenz 27 daengz 30hauh ,cunghgung dienzlinz yen veij . yen yinzminz cwngfuj banh baenz daih’it baez Gvangjsij  heiqcuengh baihbaek vwnzva yisuzcez .  《dahgyax caeuq dahbengz》  couh deng deuz   heiqcuengh baihbaek conzdungj cezmuz ndeu .
-Vunz:Dahgyax,Dahbengz,Cauyeh,Mehbengz,Bohgyax gap gyoengqvunz. 
-
+sawgeq["DAHGYAX CAEUQ DAHBENGZ"] = """
 Ciengz daih’it  
                  Ngamj doxbungz     
 Bohgyax: Haemz gou mingh mbouj ndei,samcib bi baz gvaq.

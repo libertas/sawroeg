@@ -1,32 +1,37 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-from  __future__ import unicode_literals
+from __future__ import unicode_literals
+
+from dictionary import *
+from enviroment import *
+import accurate_search
 
 from platform import python_version
 if python_version().startswith('2'):
-    str=unicode
-    FileNotFoundError=IOError
+    str = unicode
+    FileNotFoundError = IOError
 
-from dictionary import *
-import accurate_search
 
-def newSearch(key, group, levenshtein):
+dbs = {}
+
+
+def newSearch(key, group="Saw", levenshtein=True,  dbpath=DB_PATH,  prefix=""):
     if not key:
         yield ""
-
+    if not dbpath in dbs.keys():
+        dbs[dbpath] = dictionary(dbpath,  prefix)
     if group == "Saw":
-        result = searchWord(key, False)
+        result = dbs[dbpath].searchWord(key)
         if levenshtein:
             result = accurate_search.byLevenshtein(key, result)
     elif group == "Laeh":
         result = searchExamples(key)
     value = ""
-    n = 0
     if group != "Laeh":
         for i in result:
             for j in i[1]:
                 yield j
     else:
         for i in result:
-            if not i in value:
+            if i not in value:
                 yield i

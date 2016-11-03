@@ -2,8 +2,7 @@
 
 # Form implementation generated from reading ui file 'mainwindow.ui'
 #
-# Created: Sun Nov 23 14:52:59 2014
-#      by: PyQt5 UI code generator 5.3.2
+# Created by: PyQt5 UI code generator 5.7
 #
 # WARNING! All changes made in this file will be lost!
 
@@ -25,25 +24,17 @@ class Ui_MainWindow(object):
         self.pushButton.setGeometry(QtCore.QRect(260, 10, 51, 41))
         self.pushButton.setObjectName("pushButton")
         self.pushButton_2 = QtWidgets.QPushButton(MainWindow)
-        self.pushButton_2.setGeometry(QtCore.QRect(380, 20, 31, 28))
+        self.pushButton_2.setGeometry(QtCore.QRect(380, 17, 31, 21))
         self.pushButton_2.setObjectName("pushButton_2")
         self.pushButton_3 = QtWidgets.QPushButton(MainWindow)
-        self.pushButton_3.setGeometry(QtCore.QRect(420, 10, 51, 41))
+        self.pushButton_3.setGeometry(QtCore.QRect(420, 10, 71, 41))
         self.pushButton_3.setObjectName("pushButton_3")
         self.pushButton_4 = QtWidgets.QPushButton(MainWindow)
-        self.pushButton_4.setGeometry(QtCore.QRect(320, 10, 51, 41))
+        self.pushButton_4.setGeometry(QtCore.QRect(310, 10, 61, 41))
         self.pushButton_4.setObjectName("pushButton_4")
         self.comboBox = QtWidgets.QComboBox(MainWindow)
         self.comboBox.setGeometry(QtCore.QRect(10, 10, 61, 41))
         self.comboBox.setObjectName("comboBox")
-        self.levenshtein = QtWidgets.QCheckBox(MainWindow)
-        self.levenshtein.setGeometry(QtCore.QRect(80, 50, 21, 16))
-        self.levenshtein.setText("")
-        self.levenshtein.setChecked(True)
-        self.levenshtein.setObjectName("levenshtein")
-        self.label = QtWidgets.QLabel(MainWindow)
-        self.label.setGeometry(QtCore.QRect(100, 50, 91, 16))
-        self.label.setObjectName("label")
 
         self.retranslateUi(MainWindow)
         self.lineEdit.returnPressed.connect(MainWindow.newSearch)
@@ -60,5 +51,4 @@ class Ui_MainWindow(object):
         self.pushButton_2.setText(_translate("MainWindow", "?"))
         self.pushButton_3.setText(_translate("MainWindow", "N&daep"))
         self.pushButton_4.setText(_translate("MainWindow", "&Baet"))
-        self.label.setText(_translate("MainWindow", "Yinxgingz Moq"))
 

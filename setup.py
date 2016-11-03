@@ -5,35 +5,37 @@ import sys
 import getopt
 import info
 
+
 def print_help():
     print("""Usage:%s [-h|-H] [--help|--prefix|--pyname|--remove]""" % sys.argv[0])
 
+
 if os.name == "posix":
     try:
-        opts, args = getopt.getopt(sys.argv[1:], "hH", ["help", "prefix=","pyname=","remove"])
+        opts, args = getopt.getopt(sys.argv[1:], "hH", ["help", "prefix=", "pyname=", "remove"])
     except getopt.GetoptError:
         print("Option Error")
         exit()
-    
-    #default settings
+
+    # default settings
     python_name = "python3"
     prefix = "/usr/local/"
     REMOVE = False
-    
-    for opt,result in opts:
+
+    for opt, result in opts:
         if opt in ("--remove"):
-            REMOVE=True
-        
-        if opt in ("-h","-H","--help"):
+            REMOVE = True
+
+        if opt in ("-h", "-H", "--help"):
             print_help()
             exit()
-        
+
         if opt in ("--prefix="):
-            prefix=result
-        
+            prefix = result
+
         if opt in ("--pyname="):
-            python_name=result
-    
+            python_name = result
+
     if REMOVE:
         os.system("rm -fr /opt/sawroeg")
         os.system("rm %s/bin/sawroeg %s/share/applications/sawroeg.desktop" % (prefix, prefix))
@@ -44,7 +46,7 @@ if os.name == "posix":
         os.system('echo "cd /opt/sawroeg/\n%s /opt/sawroeg/sawroeg.py" > %s/bin/sawroeg' % (python_name, prefix))
         os.system("chmod +rx /opt/sawroeg")
         os.system("chmod +x %s/bin/sawroeg" % prefix)
-elif os.name == "nt":#Build-only
+elif os.name == "nt":  # Build-only
     if len(sys.argv) == 1:
         os.system("setup.py build")
     else:
