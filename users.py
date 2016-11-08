@@ -8,4 +8,3 @@ if python_version().startswith('2'):
 
 users = {}
 
-secret = ""

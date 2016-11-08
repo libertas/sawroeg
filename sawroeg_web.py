@@ -7,7 +7,9 @@ import tornado.ioloop
 import tornado.options
 import tornado.web
 
+import base64
 import os
+import uuid
 
 import info
 import users
@@ -224,7 +226,7 @@ if __name__ == "__main__":
         'debug': tornado.options.options.debug,
         'template_path': 'sawroeg-web-template',
         'static_path': 'sawroeg-web-static', 
-        'cookie_secret': users.secret
+        'cookie_secret': base64.b64encode(uuid.uuid1().bytes + uuid.uuid1().bytes)
     }
     application = tornado.web.Application([
         ("/sawroeg", SearchHandler),
