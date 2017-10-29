@@ -83,7 +83,9 @@ class DownloadHandler(tornado.web.RequestHandler):
         mimes = {
             '.apk': 'application/vnd.android', 
             '.zip': 'application/zip', 
-            '.doc': 'application/msword'
+            '.doc': 'application/msword',
+            '.pdf': 'application/pdf',
+            '.db': 'application/octet-stream'
         }
         xb = ["B",  "K",  "M"]
         if filename.endswith("/"):
