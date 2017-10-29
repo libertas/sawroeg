@@ -2,67 +2,53 @@
 
 # Form implementation generated from reading ui file 'mainwindow.ui'
 #
-# Created: Mon Mar  9 22:55:00 2015
-#      by: PyQt4 UI code generator 4.11.3
+# Created by: PyQt5 UI code generator 5.7
 #
 # WARNING! All changes made in this file will be lost!
 
-from PyQt4 import QtCore, QtGui
-
-try:
-    _fromUtf8 = QtCore.QString.fromUtf8
-except AttributeError:
-    def _fromUtf8(s):
-        return s
-
-try:
-    _encoding = QtGui.QApplication.UnicodeUTF8
-    def _translate(context, text, disambig):
-        return QtGui.QApplication.translate(context, text, disambig, _encoding)
-except AttributeError:
-    def _translate(context, text, disambig):
-        return QtGui.QApplication.translate(context, text, disambig)
+from PyQt5 import QtCore, QtGui, QtWidgets
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
-        MainWindow.setObjectName(_fromUtf8("MainWindow"))
+        MainWindow.setObjectName("MainWindow")
         MainWindow.resize(494, 347)
         MainWindow.setMinimumSize(QtCore.QSize(0, 0))
         MainWindow.setMaximumSize(QtCore.QSize(494, 347))
-        self.lineEdit = QtGui.QLineEdit(MainWindow)
+        self.lineEdit = QtWidgets.QLineEdit(MainWindow)
         self.lineEdit.setGeometry(QtCore.QRect(80, 10, 171, 41))
-        self.lineEdit.setObjectName(_fromUtf8("lineEdit"))
-        self.textBrowser = QtGui.QTextBrowser(MainWindow)
+        self.lineEdit.setObjectName("lineEdit")
+        self.textBrowser = QtWidgets.QTextBrowser(MainWindow)
         self.textBrowser.setGeometry(QtCore.QRect(10, 70, 471, 271))
-        self.textBrowser.setObjectName(_fromUtf8("textBrowser"))
-        self.pushButton = QtGui.QPushButton(MainWindow)
+        self.textBrowser.setObjectName("textBrowser")
+        self.pushButton = QtWidgets.QPushButton(MainWindow)
         self.pushButton.setGeometry(QtCore.QRect(260, 10, 51, 41))
-        self.pushButton.setObjectName(_fromUtf8("pushButton"))
-        self.pushButton_2 = QtGui.QPushButton(MainWindow)
-        self.pushButton_2.setGeometry(QtCore.QRect(380, 20, 31, 28))
-        self.pushButton_2.setObjectName(_fromUtf8("pushButton_2"))
-        self.pushButton_3 = QtGui.QPushButton(MainWindow)
-        self.pushButton_3.setGeometry(QtCore.QRect(420, 10, 51, 41))
-        self.pushButton_3.setObjectName(_fromUtf8("pushButton_3"))
-        self.pushButton_4 = QtGui.QPushButton(MainWindow)
-        self.pushButton_4.setGeometry(QtCore.QRect(320, 10, 51, 41))
-        self.pushButton_4.setObjectName(_fromUtf8("pushButton_4"))
-        self.comboBox = QtGui.QComboBox(MainWindow)
+        self.pushButton.setObjectName("pushButton")
+        self.pushButton_2 = QtWidgets.QPushButton(MainWindow)
+        self.pushButton_2.setGeometry(QtCore.QRect(380, 17, 31, 21))
+        self.pushButton_2.setObjectName("pushButton_2")
+        self.pushButton_3 = QtWidgets.QPushButton(MainWindow)
+        self.pushButton_3.setGeometry(QtCore.QRect(420, 10, 71, 41))
+        self.pushButton_3.setObjectName("pushButton_3")
+        self.pushButton_4 = QtWidgets.QPushButton(MainWindow)
+        self.pushButton_4.setGeometry(QtCore.QRect(310, 10, 61, 41))
+        self.pushButton_4.setObjectName("pushButton_4")
+        self.comboBox = QtWidgets.QComboBox(MainWindow)
         self.comboBox.setGeometry(QtCore.QRect(10, 10, 61, 41))
-        self.comboBox.setObjectName(_fromUtf8("comboBox"))
+        self.comboBox.setObjectName("comboBox")
 
         self.retranslateUi(MainWindow)
-        QtCore.QObject.connect(self.lineEdit, QtCore.SIGNAL(_fromUtf8("returnPressed()")), MainWindow.newSearch)
-        QtCore.QObject.connect(self.pushButton_3, QtCore.SIGNAL(_fromUtf8("clicked()")), MainWindow.close)
-        QtCore.QObject.connect(self.pushButton_2, QtCore.SIGNAL(_fromUtf8("clicked()")), MainWindow.about)
-        QtCore.QObject.connect(self.pushButton_4, QtCore.SIGNAL(_fromUtf8("clicked()")), MainWindow.clearText)
-        QtCore.QObject.connect(self.pushButton, QtCore.SIGNAL(_fromUtf8("clicked()")), MainWindow.newSearch)
+        self.lineEdit.returnPressed.connect(MainWindow.newSearch)
+        self.pushButton_3.clicked.connect(MainWindow.close)
+        self.pushButton_2.clicked.connect(MainWindow.about)
+        self.pushButton_4.clicked.connect(MainWindow.clearText)
+        self.pushButton.clicked.connect(MainWindow.newSearch)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
     def retranslateUi(self, MainWindow):
-        MainWindow.setWindowTitle(_translate("MainWindow", "Saw Roeg", None))
-        self.pushButton.setText(_translate("MainWindow", "&Ra", None))
-        self.pushButton_2.setText(_translate("MainWindow", "?", None))
-        self.pushButton_3.setText(_translate("MainWindow", "N&daep", None))
-        self.pushButton_4.setText(_translate("MainWindow", "&Baet", None))
+        _translate = QtCore.QCoreApplication.translate
+        MainWindow.setWindowTitle(_translate("MainWindow", "Saw Roeg"))
+        self.pushButton.setText(_translate("MainWindow", "&Ra"))
+        self.pushButton_2.setText(_translate("MainWindow", "?"))
+        self.pushButton_3.setText(_translate("MainWindow", "N&daep"))
+        self.pushButton_4.setText(_translate("MainWindow", "&Baet"))
 
