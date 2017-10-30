@@ -5,8 +5,7 @@ from __future__ import unicode_literals
 import re
 import sys
 
-from PyQt4 import QtGui
-
+from PyQt5 import QtGui, QtWidgets
 import mainwindow
 import aboutDialog
 import info
@@ -23,9 +22,9 @@ except NameError:
     FileNotFoundError = IOError
 
 
-class myAboutDialog(QtGui.QDialog,  aboutDialog.Ui_Dialog):
+class myAboutDialog(QtWidgets.QDialog,  aboutDialog.Ui_Dialog):
     def __init__(self,  parent = None):
-        QtGui.QWidget.__init__(self)
+        QtWidgets.QWidget.__init__(self)
         self.setupUi(self)
         self.title.setText("Sawreog " + info.version)
         
@@ -52,10 +51,10 @@ class myAboutDialog(QtGui.QDialog,  aboutDialog.Ui_Dialog):
         self.content.setText(text_about)
 
 
-class MainWindow(QtGui.QWidget, mainwindow.Ui_MainWindow):
+class MainWindow(QtWidgets.QMainWindow, mainwindow.Ui_MainWindow):
     def __init__(self, parent=None):
         # get main window
-        QtGui.QWidget.__init__(self)
+        QtWidgets.QWidget.__init__(self)
         self.setupUi(self)
 
         # set window title
@@ -77,7 +76,7 @@ class MainWindow(QtGui.QWidget, mainwindow.Ui_MainWindow):
         self.clearText()
 
     def move_to_center(self):
-        screen = QtGui.QDesktopWidget().screenGeometry()
+        screen = QtWidgets.QDesktopWidget().screenGeometry()
         size = self.geometry()
         self.move(
             (screen.width()-size.width()) / 2,
@@ -90,8 +89,6 @@ class MainWindow(QtGui.QWidget, mainwindow.Ui_MainWindow):
 
     def newSearch(self):
         key = self.lineEdit.text()
-        if python_version().startswith("2"):
-            key = unicode(key.toUtf8(), "utf8", "ignore")
         levenshtein = True  # Use accurate searching method as the only option
         result_yield = newSearch(key, self.comboBox.currentText(), levenshtein)
         result = ""
@@ -106,7 +103,7 @@ class MainWindow(QtGui.QWidget, mainwindow.Ui_MainWindow):
 
 
 if __name__ == "__main__":
-    app = QtGui.QApplication(sys.argv)
+    app = QtWidgets.QApplication(sys.argv)
     window = MainWindow()
     window.show()
     sys.exit(app.exec_())
