@@ -87,7 +87,8 @@ class DownloadHandler(tornado.web.RequestHandler):
             '.zip': 'application/zip', 
             '.doc': 'application/msword',
             '.pdf': 'application/pdf',
-            '.db': 'application/octet-stream'
+            '.db': 'application/octet-stream',
+            '.txt': 'text/plain'
         }
         xb = ["B",  "K",  "M"]
         if filename.endswith("/"):
