@@ -83,12 +83,12 @@ class SearchHandler(tornado.web.RequestHandler):
 class DownloadHandler(tornado.web.RequestHandler):
     def get(self,  filename = ""):
         mimes = {
-            '.apk': 'application/vnd.android', 
-            '.zip': 'application/zip', 
-            '.doc': 'application/msword',
-            '.pdf': 'application/pdf',
-            '.db': 'application/octet-stream',
-            '.txt': 'text/plain'
+            'apk': 'application/vnd.android', 
+            'zip': 'application/zip', 
+            'doc': 'application/msword',
+            'pdf': 'application/pdf',
+            'db': 'application/octet-stream',
+            'txt': 'text/plain'
         }
         xb = ["B",  "K",  "M"]
         if filename.endswith("/"):
@@ -97,7 +97,13 @@ class DownloadHandler(tornado.web.RequestHandler):
             if filename == "" or os.path.isdir(DOWNLOAD_PATH + filename):
                 raise IsADirectoryError
             raw = open(DOWNLOAD_PATH + filename, 'rb').read()
-            mime = mimes[filename.split(".")[-1]]
+            ext = filename.split(".")[-1]
+            mime = ''
+            if ext in mimes.keys():
+                mime = mimes[ext]
+            else:
+                mime = 'application/octet-stream'
+            
             self.set_header('Content-Type', mime)
             self.write(raw)
         except FileNotFoundError:
