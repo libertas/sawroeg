@@ -97,7 +97,7 @@ class DownloadHandler(tornado.web.RequestHandler):
             if filename == "" or os.path.isdir(DOWNLOAD_PATH + filename):
                 raise IsADirectoryError
             raw = open(DOWNLOAD_PATH + filename, 'rb').read()
-            mime = mimes[filename[-4:]]
+            mime = mimes[filename.split(".")[-1]]
             self.set_header('Content-Type', mime)
             self.write(raw)
         except FileNotFoundError:
