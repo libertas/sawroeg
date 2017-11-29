@@ -1,9 +1,20 @@
 #!/usr/bin/env python3
 # This script should run in the app root
 import sqlite3
+import sys
+
+help_msg = "Usage: python3 sawguq_generate.py [input.txt] [output.db]"
+
+if len(sys.argv) != 3:
+    print(help_msg)
+    exit(-1)
+
+inputFile = sys.argv[1]
+outputFile = sys.argv[2]
+
 
 sawguq = {}
-with open('tools/sawguq.txt', 'r') as f:
+with open(inputFile, 'r') as f:
     for word in f.read().splitlines():
         word = word.replace('\u3000', '\x20').replace('(', '（').replace(
             ')', '）').strip()
@@ -18,7 +29,7 @@ with open('tools/sawguq.txt', 'r') as f:
             sawguq[idx].append(word)
         else:
             sawguq[idx] = [word]
-cx = sqlite3.connect("sawguq.db")
+cx = sqlite3.connect(outputFile)
 cu = cx.cursor()
 cu.execute("CREATE TABLE IF NOT EXISTS sawguq (key, value)");
 cu.execute("CREATE UNIQUE INDEX IF NOT EXISTS idx_value ON sawguq (value)")
@@ -29,3 +40,5 @@ for word in sorted(sawguq):
 cx.commit()
 cu.close()
 cx.close()
+
+print("Success")
