@@ -1130,9 +1130,9 @@ raizra　(见fuemx)　天将黑；黄昏
 raizraemx　(见raizlaej)　(脸上的)雀斑
 raizreih　(见mbwnmomj)　黎明；拂晓
 raizrok　土织布机上的卷纱筒
-raix　[MK]ronj　倒；腾[把物品倾出或倒到另一容器]
+raix　ronj　倒；腾[把物品倾出或倒到另一容器]
 raix　斟(酒)
-raix　[MK]　不自主地拉出大小便；大小便憋不住　ruegrueg raixraix　上吐下泻
+raix　不自主地拉出大小便；大小便憋不住　ruegrueg raixraix　上吐下泻
 raixcaix　很；十分；非常[放在形容词后]　ndei ～　好得很
 raiq　滩[指浅水滩]
 raih　[方]lwenz　蔓延;攀延[滕类]
@@ -6575,7 +6575,7 @@ lot　[方]mieg　皮肤被擦破
 lot　遗漏
 lot　[方]byud；byod　失手[如握物不稳失手脱出]　
 lot　(见yot)　物体因捆得不紧而松散掉落
-lot [MK]　扒(裤子)(扒上衣用gej)　lot faj vaq bouxde　扒他的裤子。faj vaq mwngz lot lo.　你的裤子掉下来啦。
+lot 扒(裤子)(扒上衣用gej)　lot faj vaq bouxde　扒他的裤子。faj vaq mwngz lot lo.　你的裤子掉下来啦。
 lotbad　(见doeklauq)　①扑空　②失机
 lotdoih　[方]biengq；diuqdoih　掉队；落伍
 lotfwngz　(见saetfwngz)　失手
