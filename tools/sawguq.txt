@@ -4186,10 +4186,10 @@ habhaeux　饭盒
 habhaw　[方]　壮族歌圩[马山一带的说法]
 habhoz　满意
 hableix　合理
-habmingh　[方]habbetcih　合命；合八字 
+habmingh　[方]habbetcih　合命；合八字
 habndang　合身
 habrengz　协力
-habseiz　[方]dawzseiz;dengseiz;ngamqseiz　适时 
+habseiz　[方]dawzseiz;dengseiz;ngamqseiz　适时
 habsim　合心；称心
 habsuenq　[方]gvaqsuenq　合算，划得来
 habyungh　适用；合用
@@ -4244,7 +4244,7 @@ haekfug　克服
 haekhawz　(见mbaek)　砍
 haekhawz　(见gekhaek)　隔阂
 haeknyienh　(见gagnyienh)　自愿
-haeksak　[方]　敲诈勒索 
+haeksak　[方]　敲诈勒索
 haeksat　冷酷
 haeksat　[方]　苛刻
 haeksix　(见hwzsi)　黑市
@@ -4264,7 +4264,7 @@ haemzrangq　[方]　苦苦的[指味道]
 haemx　(见gyaen)　密合
 haemq　(见swt)　理睬　Mwngz gaej ～ de.　你别理睬他
 haemq　(见cam)　问
-haemq　[方]hingh　比较；稍微　Yiengh neix ～ ndei．这样比较好。　Bingh ～ ndei di lo!　病稍好一点了!　 
+haemq　[方]hingh　比较；稍微　Yiengh neix ～ ndei．这样比较好。　Bingh ～ ndei di lo!　病稍好一点了!　
 haemq　[方]　斗[指把木器、榫儿斗起来，即将木器各个部件安装起来]
 haemqheq　(见swt)　理睬
 haemqyaz　[方]　求仙[一种迷信做法，通过巫婆求仙]
@@ -4282,7 +4282,7 @@ haen　啼　Gaeq ～ lu．鸡啼了。
 haen　①紧　Diuz cag neix beng ndaej ～ raixcaix．这条绳子拉得很紧。　②(手头)紧;(经济)困难
 haen　(见vaiq)　快
 haen　(见gyaen)　形容绳子打得很结实
-haenbaenzfeiz　[方]　非常紧迫　 
+haenbaenzfeiz　[方]　非常紧迫　
 haenbingj　[方]　紧绷绷的
 haenrmamx　[方]haenmanq　鸡在夜间提前啼叫
 haenmanq　(见haenmamx)　鸡在夜间提前啼叫
@@ -4370,7 +4370,7 @@ haeuremj　[方]haeurengj；ik　焦臭　　
 haeurengj　(见haeuremj)　焦臭　
 haeusauq　(见 haeu'nyid )　(禽类)尾椎的臭味
 haeusing　腥臭；腥臊
-haeuzdaeng　[方]daengciuq;gingqdaeng;daengdoeng;caudaeng　灯罩 
+haeuzdaeng　[方]daengciuq;gingqdaeng;daengdoeng;caudaeng　灯罩
 haeuj　进；入
 haeuj　安装　～ yiuz　装窑　～ bakcae　安犁嘴
 haeuj　(见mazfung)　麻疯
@@ -4496,9 +4496,9 @@ haeuxvaeng　鸭脚粟[谷物类，颗粒小，红色]
 haeuxyangzdok　[方]haeuxmaexdangz；seihaeuxdaeq　米花糖[玉米做成的食品]
 haeuxyangz　(见megmax)　高梁
 haeuxyangz　[方]haeuxdaeq；megsuek；haeuxmaex；yiengzmaex；haeuxyawh　玉米
-haeuxyawz　(见yizliengz)　余粮 
+haeuxyawz　(见yizliengz)　余粮
 haeuxyawh　(见haeuxyangz)　玉米
-haeuxywngh　(见yizliengz)　余粮 
+haeuxywngh　(见yizliengz)　余粮
 haeuq　(见biuz)　小瓢
 haeuh　(见caj)　等；等候
 haeuhdaiz　后台
@@ -4511,7 +4511,7 @@ hagseng　[方]lwghag　学生
 hagsiengq　(见siengqgya)　神气十足；摆架子
 hai　[方]hae；hoicae；sawjci；cae　开支
 hai　(见ronghndwen)　月亮
-hai　开　～ dou　开门　Va ～ lo．花开了。　 
+hai　开　～ dou　开门　Va ～ lo．花开了。　
 hai　驾驶；开动　～ giceh　驾驶汽车　～ gihgi　开动机器
 hai　垦；开垦　～ diegfwz　开垦荒地　～ naz ～ reih　开田造地　　＼
 hai　[方]giengq　排(水)　～ raemx ndaw naz okbae．　把田里的水排出去。
@@ -4529,7 +4529,7 @@ haida　①公开(做)　②明知故犯，明目张胆
 haidaeuz　(见codaeuz)　开始；起初；初头，开头
 haidaiz　开台；开幕[指演戏]
 haideuh　(见dailix)　好歹
-haidin　(见hwnjdin)　起程；出发；起步　 
+haidin　(见hwnjdin)　起程；出发；起步　
 haidoeng　①开通　②思想开展，明白事理
 haidoengh　开动
 haifaez　(见satsoq)　完蛋
@@ -4686,7 +4686,7 @@ haungat　[方]haugyat　难看的白色[较大的面积或范围]
 haunget　难看的白色[小面积或小范围]
 haunyo　[方]biegneu　皓白　bwn'gyaeuj ～　头发皓自
 hausak　雪白[面积或范围较大]　　
-hausek　雪白[面积或范围较小]　 
+hausek　雪白[面积或范围较小]　
 hauz　①( )毫　②丝毫
 hauz　[方]　淡而无味[一般指没有放油盐的青菜的味道]
 hauz　(见cauz)　嘈;嘈杂;喧哗；吵闹
@@ -4767,14 +4767,14 @@ heiq　[方]yiek；yok　契约
 heiq　[与youheiq同]　[方]gwnheiq；haeuheiq　①忧愁　②担忧；顾虑
 heiqban　戏班
 heiqci　汽车
-heiqciengz　剧场 
+heiqciengz　剧场
 heiqcuenj　(见baeg)　气喘
 heiqdaeng　汽灯
 heiqdaiz　剧台；戏台
 heiqdieg　地契
 heiqdoengz　气筒
 heiqduenz　剧团
-heiqgaed　气短 
+heiqgaed　气短
 heiqgaenj　急躁；暴躁；性急
 heiqgiuz　气球
 heiqhaeu　臭味；臭气
@@ -5159,9 +5159,9 @@ hoizbak　还嘴
 hoizcaen　[方]　送回礼
 hoizcauj　[方]mbaijyiengj；doiqmbiengj；nyaijmbiengj　反刍[通称倒嚼]
 hoizcin　回春；(天气)变暖
-hoizcoenz　(见hoizdap)　回答 
-hoizdap　[方]hoizcoenz　回答 
-hoizgyaq　还价 
+hoizcoenz　(见hoizdap)　回答
+hoizdap　[方]hoizcoenz　回答
+hoizgyaq　还价
 hojzheiq　(见dauqndiu)　苏醒
 hoizhoenx　还击
 hoizlaex　回送礼物
@@ -5289,7 +5289,7 @@ huj　(见cit)　灸
 huj　中医指的内热
 huj　[方]　狼狈；下不了台
 huj　[方]　恼怒；愤怒
-hujbam　(见mijraq)　烟尘 
+hujbam　(见mijraq)　烟尘
 hujdengdeng　[方]　暴跳如雷；气势汹汹；怒冲冲
 hujgeiq　伙伴；伙计；工友
 hujhaemz　[方]　愤恨
@@ -5312,7 +5312,7 @@ huqyienh　现货
 huhluz　(见lwggyoux)　葫芦
 hub　[方]cap　①拃[张开大拇指和食指来量长度]　②拃(　)[量词，表示张大拇指和食指两端问的距离，约五寸长]
 hud　(见vat)　挖
-huengh　(见haenq)　(火焰)高；(火力)旺 
+huengh　(见haenq)　(火焰)高；(火力)旺
 huep　(见yup)　胆寒；害怕； 胆怯
 huet　(见lumj)　象；似；仿佛
 huetdoengz　(见lumjbaenz)　好象；比如；例如；似乎
@@ -5343,9 +5343,9 @@ hw　(见ngw)　模仿别人说话或行动的特点[目的是取笑别人]
 hw　嘿[语气词，说明某事或表示警告]　　
 hw　[方]呀；啊[表示夸张]
 hwzbanj　黑板
-hwzsi　[方]hawlaeb；haeksix　黑市　 
+hwzsi　[方]hawlaeb；haeksix　黑市　
 hwq　(见hanh)　汗　　
-hwqndangj　(见hanhheu)　冷汗；盗汗　 
+hwqndangj　(见hanhheu)　冷汗；盗汗　
 hwet　[方]yiu　腰
 hwetgoz　(见laenggungq)　驼背
 hwetgyad　[方]laeng'yat；laeng'yid　腰骨脱臼
@@ -5353,7 +5353,7 @@ hwetraez　[方]adgyad　懒洋洋的；腰长[形容人懒洋洋的]
 hwg　(见haenz)　痕迹
 hwiz　[方]　随便招呼
 hwk　①颚　②鳃
-hwk　[方]hawq　吓唬，恐吓；恫吓　 
+hwk　[方]hawq　吓唬，恐吓；恫吓　
 hwkgwnz　上颚
 hwkheuj　(见nohheuj)　龈；齿龈
 hwklaj　下颚
@@ -5379,7 +5379,7 @@ hwnjheiq　[方]　积极　guh hong ～ raixcaix　工作很积极
 hwnjmax　上马
 hwnjmoengj　[方]hwnjmouj　发霉[程度比hwnjmwt重]
 hwnjmoiz　(见fatmwt)　发霉
-hwnjmouj　(见hwnjmoengj)　发霉 
+hwnjmouj　(见hwnjmoengj)　发霉
 hwnjmwt　[与fatmwt同]　[方]dwnqmot　发霉 [程度比hwnjmoengj轻]
 hwnjndang　起身
 hwnjnyaemh　[方]　上任
@@ -5423,7 +5423,7 @@ iem　[方]dub；dok　阉　（dub;dok一般用于阉牛－[honghlaj]）
 iemmengq　(见gaeqgapseng)　没阉净的鸡
 iemj　(见ienj)　秤皮[盛物过秤的工具]　　
 iemjsae　(见gipsae)　螺丝帽
-iemq　[方]mieg;yaenx　渗透(出来) 
+iemq　[方]mieg;yaenx　渗透(出来)
 ien　烟；烟草
 ienbegduj　[方]　烟草的一种[俗称白土烟，叶比一般烟叶尖．味很香]
 ienbenj　(见iennamh)　鸦片　　
@@ -5439,7 +5439,7 @@ ien'gya　冤家
 ienhoenz　冤魂
 ienmbaw　叶子烟
 ienmbaw　烟叶
-ienmbaw　(见ienseng)　生烟　 
+ienmbaw　(见ienseng)　生烟　
 ienmbawhenj　[方]　烟草之一种[收后晒干，叶呈黄色，烟味较浓]
 iennaez　(见iennamh)　鸦片
 iennamh　[方]iennaez；ienbenj；iendoj　鸦片
@@ -5517,7 +5517,7 @@ iu　淘气；(小孩)调皮
 iu　(见ndiengq)　翘(起);撅　～ rieng　翘起尾巴
 iu　[方]iuseiq;laeuqsiengq;sienggyaq　嚣张
 iu　[方]cuz;diek ciuz　邀请；邀约
-iu　么[“一”的别名(只能单用，不能组合成数词，也不能带量词，旧时指色子和骨牌中的一点，现在说数字时也用来用来代替“一”)]　～、ngeih、sam　么 、二、三 
+iu　么[“一”的别名(只能单用，不能组合成数词，也不能带量词，旧时指色子和骨牌中的一点，现在说数字时也用来用来代替“一”)]　～、ngeih、sam　么 、二、三
 iucij　(见mak)　肾脏[俗称腰子]　　
 iucing　妖精
 iucingj　约请
@@ -5550,7 +5550,7 @@ lajlab　[方]　腊月底[旧历十二月底]
 lajmbanj　(见gwnzmbanj)　乡下;农村
 lajmbwn　[方]dienyah；lajdeih；dawjfax　天下
 lajnamh　地下
-lajndang　[方]　本身[谦称] 
+lajndang　[方]　本身[谦称]
 lajroq　[方]yiemhgai；yiemhswenz　屋檐下
 lajyaem　阴间；黄泉；地狱
 lax　抚摸
@@ -5566,7 +5566,7 @@ lah　[方]uqlih；banh；gyuek；samj　传染
 lah　(见mwnh)　辣[指柚子表皮内的汁液味]
 lah　(见youz)　游玩;散步
 lahbyoengq　(见yawjronz)　看透
-lahhai　(见mauhyiemj)　冒险　 
+lahhai　(见mauhyiemj)　冒险　
 lahleiz　[方]gei；domj;aengei;soemqraez　饭箕[装米、饭用的]
 lahleizbwnh　(见geibwnh)　粪箕
 lahlungj　拉拢
@@ -5606,7 +5606,7 @@ laeh　惯例
 laeh　例子
 laeh　[方]　剥落
 laeh　(见diq)　卸(下)
-laeh　(见raih)　爬 
+laeh　(见raih)　爬
 laeh　(见banh)　爬[许多虫到处爬行]
 laeh　(见liz)　黏不住；脱胶
 laeh　(见dwk)　放(水进田)；灌(田水)；灌溉
@@ -5727,7 +5727,7 @@ laep　浓厚[烟雾、云层很浓]
 laep　[方]mbij　闭(眼)
 laep　[方]ndaem　黑，黑暗；昏暗　mbwn ～ lu　天黑了。
 laep　[方]gyaiz；aen'gyangj　大蔑筐[装木炭、瓷器用]
-laep　(见ndaek)　(睡)熟；(睡)着　ninz ～　睡着 
+laep　(见ndaek)　(睡)熟；(睡)着　ninz ～　睡着
 laepda　[方]laepha　盲目
 laepha　(见laepda)　盲目
 laeplaq　[方]　分辨不清
@@ -5836,7 +5836,7 @@ lanbaex　(见bawxlan)　孙媳　　
 lanbawx　(见bawxlan)　孙媳　　
 lancaiz　(见lansai)　孙子
 lancaiz　(见lansai)　侄儿
-landaeuz　孙　 
+landaeuz　孙　
 langwiz　[方]lingjgwiz;goyezlan；goyilan;goyelan；lanjgwiz　孙女婿
 lanhgwiz　侄女婿
 lanluz　(见bawxlan)　孙媳
@@ -5853,7 +5853,7 @@ lansai　[方]lanmbauq；lancaiz　侄儿
 lansai　[方]lanmbauq；lancaiz　孙子
 lansau　(见lanmbwk)　孙女　　
 lansauq　(见lanmbwk)　侄女
-lanvaiqseng　(见lanvaihseng)　外孙 
+lanvaiqseng　(见lanvaihseng)　外孙
 lanvaihseng　[方] lan；lanvaiqseng；lanlwgmbwk；vaiqseng；vaihseng；lanranzrog　外孙　　
 lanz　(见riengh)　栏　～ vaiz　牛栏　～ mou　猪栏
 Lanz　蓝[姓]
@@ -5863,7 +5863,7 @@ lanzcienh　卑贱，下贱，低贱
 lanzgan　(见lanzganh)　栏杆
 lanzganj　(见lanzgan)　栏杆　　
 lanzganh　[方]lanzgan；lanzganj　栏杆
-lanzgiuz　篮球 
+lanzgiuz　篮球
 lanzswj　(见daeuxbah)　女唐装上衣的右襟
 lanjgwiz　(见langwiz)　孙女婿　　
 lanxgyanj　(见rubrab)　马虎　
@@ -5967,7 +5967,7 @@ lauxgimj　(见lauxginj)　襟兄弟　　
 lauxginj　[方]lauxgimj；gaemj；lauxgaemq；lauxginq　襟兄弟　
 lauxginq　(见lauxginj)　襟兄弟
 lauxgvemgvem　[方]　龙钟
-lauxhangz　(见sughangz)　内行；熟手；擅长　 
+lauxhangz　(见sughangz)　内行；熟手；擅长　
 lauxheiz　[方]anax　祖母的妹妹
 lauxlienh　老练
 lauxlig　(见liggaeuq)　阴历；农历；旧历　
@@ -6573,7 +6573,7 @@ lot　(见biq)　逃脱；逃掉
 lot　(见doiq)　退(色)，掉(色)
 lot　[方]mieg　皮肤被擦破
 lot　遗漏
-lot　[方]byud；byod　失手[如握物不稳失手脱出]　 
+lot　[方]byud；byod　失手[如握物不稳失手脱出]　
 lot　(见yot)　物体因捆得不紧而松散掉落
 lot [MK]　扒(裤子)(扒上衣用gej)　lot faj vaq bouxde　扒他的裤子。faj vaq mwngz lot lo.　你的裤子掉下来啦。
 lotbad　(见doeklauq)　①扑空　②失机
@@ -6730,7 +6730,7 @@ lundiu　论调
 lunzhan　沦陷
 lunx　[方]noz　玉米穗轴[俗称玉米心]
 lwnhnaeuz　[方]gax　告诉
-lungz　龙 
+lungz　龙
 lungz　①父母之兄　②对比自己父母年长的男性的尊称
 lungz　[方]yeq　伯父
 lungz　[方]bohheiz；goengqgaeux；lungzgwiz；goengguq；dahgwiz　姨夫[母姐之夫]
@@ -6808,7 +6808,7 @@ lwgbyuz　(见lwggyoux)　葫芦
 lwgcaenh　(见yaep)　一会儿；一下子
 lwgcengz　(见makningzmungx)　柠檬果
 lwgcengh　(见lwggeuh)　挖墙打洞和撬物用的一种短钢钎
-lwgceu　(见lwgmanh)　辣椒　 
+lwgceu　(见lwgmanh)　辣椒　
 lwgceudaengj　(见lwgmanhdingjmbwn)　朝天椒[又名指天椒]
 lwgcid　(见maxdaez)　荸荠[俗称马蹄]
 lwgciengx　[方]loegciengx；lwgho　养子；养女
@@ -7366,7 +7366,7 @@ makyenq　(见makmaenj)　李子
 makyid　[方]makham　野果名[俗称牛甘果或余甘果]
 makyouzgyaeuq　(见makgyaeuq)　桐果[又称桐油果]
 makyungz　[方]gaemgaet；lwgswj；makcej；makgimgaet；makginghgiz；mauzsiucaiz　西红柿
-mamx　胰[人或动物体内的腺体之一，在胃的后下方，形状像牛舌。也叫胰腺，俗称蚂蟥肝] 
+mamx　胰[人或动物体内的腺体之一，在胃的后下方，形状像牛舌。也叫胰腺，俗称蚂蟥肝]
 man　[方]baengzdagaeq；baijdagaeq　壮锦
 man　方格花土布[用土织机成，用来做被里]
 man　[方]ngauz；ban；fag　板(枪机)
@@ -7650,7 +7650,7 @@ mbiengmbetmbet　[方]歪歪斜斜的
 mbiengmbeumbeu　歪歪斜斜的
 mbiengj　[方]fiengx　()边；一半　song ～ cungj hai dou　两边都开门　Aen makbug ndeu raeuz gwn boux ～. 这个柚子我们各吃一半。
 mbiengj　[方]　一边；一面
-mbiengjgvaz　(见baihgvaz)　右边 
+mbiengjgvaz　(见baihgvaz)　右边
 mbiengjmbai　破竹不正；锯板不匀
 mbiengjnamz　(见baihnamz)　南方；南部；南边
 mbienjswix　(见baihswix)　左边
@@ -9308,7 +9308,7 @@ nditlaplap　[方]　湿漉漉的
 nditndat　阳光；烈日
 ndiu　①(睡)一觉　ninz ndaej ～ ndeu　睡了一觉　②(睡)醒　De ～ lo．他醒了。
 ndiuj　[方]　愤恨
-ndiuj　闹别扭 
+ndiuj　闹别扭
 ndo　[方]ngongq　疙瘩[如人的头部被打肿]
 ndo　(见ndolaeuj)　酒曲；酒饼
 ndo　(见gaeuq)　够；足；满足
@@ -9418,7 +9418,7 @@ ndongqda　(见haimingz)　①公然；明打明(做；要)　②公开；明摆
 ndot　(用嘴)　吸
 ndot　偷偷溜走
 ndotdeuz　(见ndonjdeuz)　溜走；逃跑
-ndouq　(见ndoet)　嘬；喝；饮；吸；吮 
+ndouq　(见ndoet)　嘬；喝；饮；吸；吮
 ndu　(见ciengx)　牧；放牧
 ndu　(见ndw)　圆形物体正中凹下的一点
 nduj　[方]　①开头；初，头(一个)　②头[放在量词或量词化的名词后表示头的意思]
@@ -9455,7 +9455,7 @@ ndungqcim　(见mbokcim)　针筒　
 ndungqfojraemx　(见doengzset)　水枪
 ndupdauq　(害怕而)退后；退缩
 ndupduj　(见bomz)　隐藏；潜伏
-ndut　(见cit)　灸 
+ndut　(见cit)　灸
 ndw　[方]ndi；ndu　圆形物体正中凹下的一点　～ rek　锅头的中心点　～ muengx　网的中心点　
 ndw　(见gaenq)　瓜果的蒂
 ndwj　(见ndwet)　妖冶；风流；轻浮[指女人]
@@ -10858,7 +10858,7 @@ ong　[方]　吧[表示婉劝或征求同意，是有礼貌的说法]　Ngoenzc
 onggo　[方]　表示赞成对方　～! Yienghneix couh ndei lo．对!这样就好了。
 ongq　(见cingz)　坛子
 op　(见mbuep)　用木棍狠狠地打
-ou　(见lamz)　蓝色 
+ou　(见lamz)　蓝色
 a　乌鸦　[与roegga同]
 a　呀　Caezgya vaiq daeuj ～！大家快来呀!
 a　(见le)　呢 [语气词，表示疑问]
@@ -15064,7 +15064,7 @@ cingqfaenz　正文
 cingqgai　正街；大街
 cingqging　正经；端庄正派　Boux vunz neix ～ ．这个人端庄正派。
 cingqhangq　真正
-cingqhangh　[方]　①故意　②特意　③真正　 
+cingqhangh　[方]　①故意　②特意　③真正　
 cingqheiq　①正直；正气；正经　②真正；正式
 cingqhoq　(见cingqhuq)　正品
 cingqhoiq　[方]coiq　我们[在领导或长者面前自称]
@@ -16009,7 +16009,7 @@ daejsaekwk　哽咽
 daejsebseb　[方]　哭泣
 daejsipsip　[方]　抽泣
 daejswdswd　[方]　哭得泪流满面
-daejww　[方]　嚎啕大哭 
+daejww　[方]　嚎啕大哭
 daejyak　(见lekdungx)　忍饥；忍饿
 daex　(见dakdaih)　招待
 daeq　剃
@@ -16668,14 +16668,14 @@ danxsaeh　[方]cizdanz　随便　Mwngz bae gai， ～ cawx di byaek ndeu ma nd
 danq　氮
 danq　称颂；赞美
 danq　炭；木炭
-danq　[方]vah'w；haeujw 叹（气） 
+danq　[方]vah'w；haeujw 叹（气）
 danq （见gienq） 劝；劝告
 danq （见duenz）　猜
 danq （见nai）　安慰
 danqheiq　叹气；长叹；感叹
 danh （见bauq）　涌
-danh　弹动 
-danh　颠簸[指车船] 
+danh　弹动
+danh　颠簸[指车船]
 danhfanz　[方]fanzdwg；daqfamz　凡是；大凡
 danhseih　[与hoeng、dandwg同]　但是
 dang　[方]　但是；不过
@@ -20623,13 +20623,13 @@ geizlaenz　麒麟
 geizlaeng　后期
 geizmiuq　奇妙
 geizsam　棋名[俗称三棋]
-geizseiq　棋名[俗称四棋，象跳棋一样] 
+geizseiq　棋名[俗称四棋，象跳棋一样]
 geizyinx　棋迷
 geij　己[天干的第六位]
 geij　几　Miz ～ boux vunz daeuj.　有几个人来。
 geij　(见haex)　屎；大便
 geijhoz　几何；不易　～ ndaej raen naj　不易见面　　
-geijlai　多少；多么 
+geijlai　多少；多么
 geijseiz　几时　　
 geix　(见gvaqniemh)　挂念; 想念；惦记
 geiq　①记　②记性，记忆
@@ -20642,7 +20642,7 @@ geiqcuengq　存放;寄存
 geiqdai　[方]　死记
 geiqdoeg　毒计　
 geiqhauh　记号；标记　
-geiqlwnh　计议　 
+geiqlwnh　计议　
 geiqmaenh　牢记；记住　Lauxsae son raeuz aeu ～ vah Mauz cujsiz.　老师要我们牢记毛主席的话。
 geiqmaeuz　计谋　　
 geiqmboek　[方]　死记
@@ -20674,12 +20674,12 @@ gemz　(见ruemx)　火炼
 gemzhoengzfeiz　(见nepfeiz)　火钳
 gemj　面颊；脸颊
 gemj　①减　②裁减　
-gemjcanj　减产　 
-gemjsoq　减数　 
+gemjcanj　减产　
+gemjsoq　减数　
 gemjgaeu　[方]goknaj；ngongqnaj　颧骨
 gemjmbaeu　减轻
 gemjmienx　减免
-gemjmou　(见ngazgvanmou)　痄腮[即流行性腮腺炎]　 
+gemjmou　(见ngazgvanmou)　痄腮[即流行性腮腺炎]　
 gemjnoix　[方]gemjsiuj　减少；压缩　　
 gemjsiuj　(见gemjnoix)　减少
 gemx　[方]　稍冷
@@ -20735,7 +20735,7 @@ geng　耕
 geng　(见ndangj)　干涸
 geng　(见gyaengj)　冻僵
 gengget　(小的物体)硬硬的　　
-genggyaenggyaeng　硬硬的[指较大的东西] 
+genggyaenggyaeng　硬硬的[指较大的东西]
 gengmyangx　(见gonz)　对分[向别人佃田地或租牲口。 以后按成果平分，各取一半]
 gengz　(见nyeng)　歪,倒
 gengx　(见goenhhoz)　项圈 [用银制成]
@@ -20749,11 +20749,11 @@ gengh　(见gvaek)　敲[以手指节击物]　 Mbouj ndaej ～ gyaeuj　lwgnyez
 gengh　(见yeu)　身高而瘦
 gep　[方]dip；gip　片　～ vax ndeu 一片瓦
 gep　[方]baj　( )块(板)
-gep　(见gop)　镶(边)　～ haiz　镶鞋边 
+gep　(见gop)　镶(边)　～ haiz　镶鞋边
 gep　信管[粉枪触火帽]
-gep　(见reb)　谷壳 
+gep　(见reb)　谷壳
 gepnaeu　(见gaetdep)　按扣
-gepsae　[方]蚬，扁螺 
+gepsae　[方]蚬，扁螺
 get　(见in)　①痛　②爱惜;疼爱
 get　(味道)浓;醇
 get　(见dep)　　(慢条斯理地)小饮(酒)
@@ -20764,11 +20764,11 @@ geuz　[方]gauqcienj　剪刀
 geuz　(见eu)　(身子)单薄; 瘦弱
 geuj　[方]gyuj　缠；绕(绳子)
 geujfafa　[方]giujywd　旋风一团团的卷起
-geujin　[方]ndaemq;leq　绞痛 
+geujin　[方]ndaemq;leq　绞痛
 geujnangnang　[方]githeuz　缠手缠脚的
 geux　嚼
 geux　(见niuj)　( )纽（棉纱)
-geuuxbyopbyop　[方]　嚼脆东西的声音 
+geuuxbyopbyop　[方]　嚼脆东西的声音
 geuxmuemmuem　[方]　缺齿的的人咀嚼食物的样子
 geuq　(见gemh)　山坳[狭窄 的山口]
 geuqfaenz　(见geuqheuj)　熟睡后，无意的磨咬牙齿
@@ -20808,13 +20808,13 @@ gij　(见gawj)　推举
 gijdoh　(见gaeh)　忌妒
 gijgueng　饲料　(与swzliu 同)　　
 gijgvangq　面积
-gijgwn　食品，食物 
+gijgwn　食品，食物
 gijlaeng　(见gijmaz)　啥；什么，甚么
 gijlai　[方]doyawz　多余
 gijlawz　哪些
 gijliz　纪律
 gijmaz　[方]gijlaeng；caemjdoh；lohyawz；maz；gaiqmaz　啥；甚么；什么
-gijmaj　起码 
+gijmaj　起码
 gijndei　优点　　
 gijsieng　伤势　　
 gijyi　起义　　
@@ -20887,7 +20887,7 @@ gienq　腱；腱子
 gienh　[方]　打谷用的谷围
 gienh　( )件(事情、工作)
 gieng　①争理　②和人争东西
-gieng　(见hing)　姜 
+gieng　(见hing)　姜
 gieng　(见hinghenj)　黄姜
 gienghenj　(见hinghenj)　黄姜
 giengmax　[方]sieg　马缰
@@ -20978,7 +20978,7 @@ gimqfung　(见fatfung)　婴儿的破伤风[俗称脐风或四六风]　　
 gimqgeih　禁忌　　
 gimqgviq　(见siuqrumz)　吹口哨　　
 gimh　(见geih)　忌讳　　
-ginlengh　(见dinghvaen)　定婚　 
+ginlengh　(见dinghvaen)　定婚　
 ginswenz　(见dingj)　继承；过房；过继
 ginz　[方]　接(抛掷来的物条)
 ginz　琴
@@ -20988,8 +20988,8 @@ ginjswenz　(见hwnjranz)　入赘[俗称上门]
 ginqliengx　①讲话生动　②说话深奥，不易理解
 ginh　军[部队编制之一]
 ginhdanz　(与suengj同)　[方]cung；gaq；ganggaq；gimguenq；yak　金坛[装骸骨用的]　　
-ginhdui　军队　 
-ginhfaz　军阀　 
+ginhdui　军队　
+ginhfaz　军阀　
 ginhgiz　(见geizbing)　军旗
 ginhsuz　军属　　
 ginhsw　军事
@@ -21029,7 +21029,7 @@ gingq　(见naih)　耐
 gingqbingz　镜屏[作礼物用的镜子]
 gingqda　[方]nganxciuq；nganxgingq；giengqha；giengqda；yangzgingq　眼镜
 gingqdaeng　(见haeuzdaeng)　灯罩
-gingqeiq　敬意 
+gingqeiq　敬意
 gingqlaex　[与ginglij同]　敬礼
 gingqrwz　耳膜
 gingh　(见cengqgenz)　硬挺；勉强支撑
@@ -21045,12 +21045,12 @@ gip　急；紧急；急切
 gtp　[方]gyuen　没收(家产)
 gip　(见gep)　片
 gip　(见gaek)　(性)；急；焦急
-gipdoek　(见gipndaej)　拾遗　 
+gipdoek　(见gipndaej)　拾遗　
 gipgaeu　经纱上梳[织布工序之一]
 giphaeujrwz　(见dawzhaeujrwz)　重视；注意；入耳
 giphwnjrwz　(见dawzhaeujrwz)　重视；注意；入耳
 gipndaej　[方]doekndaej；gipdoek；ndaejdoek　拾遗
-gipngvahgwnz　(见famuh)　磨盖 
+gipngvahgwnz　(见famuh)　磨盖
 gipsae　[方]iemjsae　螺丝帽
 gipsingq　[方]　寄生树　
 git　[方]　吉利
@@ -21153,7 +21153,7 @@ gocaeusaux　草药名[高如菊花，有花无果，可治小孩耳朵出脓病
 gocamz　[方] go'gyaed;gorimh　靛青[小叶的]
 gocamxcienz　植物名[叶似李树叶，干和叶背皆有白色绒毛，生于野外]
 gocehmaxcienz　(见majcenzswj)　马钱子[药名]
-gocijcwz　(见go'nguxcauj)　五加皮树 
+gocijcwz　(见go'nguxcauj)　五加皮树
 gociqhongz　[方] 荆棘名[刺很长，叶嫩、红色，可做药用]
 gocieg　[方]goyaxgyoij;gyoijndoeng　野芭蕉
 gociengzseng　[方] 落地生根草 [草药名]
@@ -21174,7 +21174,7 @@ godag　[方]godagcenz　灌木名[叶呈红色，可做羊的饲料]
 godagcenz　(见godag)　灌木名
 godaih　大哥　　
 godaihgam　灌木的一种[叶大而光滑，可作药材]
-godan　[方]go'gyau　丹竹 [节很长，皮薄]　 
+godan　[方]go'gyau　丹竹 [节很长，皮薄]　
 godan　(见fwz)　孤单
 godanq　颂歌　　
 godangz　课堂　
@@ -21198,7 +21198,7 @@ godumhgai　(见gonengznuengx)　桑树
 godumhgingq　草木植物[茎青、藤状、粗如筷子，叶青黄色，果可吃]
 godumhvaiz　草莓之一种，[藤状，茎有刺，叶背呈灰 白色，有细毛，结红粒状的果实，味酸甜，比“dumhgaeq”大]
 godungxmou　鸦胆子[木本植物，茎青色、有白点、光滑，果黑色、形圆，可治痢疾]
-gofaex　乔木 
+gofaex　乔木
 gofaexgeq　(见danzyangh)　檀香
 gofaexrang　(见danzyangh)　檀香
 gofaengh　野芋头[生在水边，可作饲料]
@@ -21251,7 +21251,7 @@ gohaenzcaengh　植物名[枝簇生，叶茂密、椭园形，果大如黄豆，
 gohaenznaz　草名[多生在田边，可作药用]
 gohaizdaej　(见golinxvaiz)　仙人掌
 gohat　小草名[多生在河边，可用来编织扇子]
-gohauxgyaeq　藤名[无叶，生于荆棘中，其藤细长，色青，多浆，浆如蛋清，可用来与水、石灰及牛屎拌合后，抿涂竹磨]　 
+gohauxgyaeq　藤名[无叶，生于荆棘中，其藤细长，色青，多浆，浆如蛋清，可用来与水、石灰及牛屎拌合后，抿涂竹磨]　
 gohaw　[方]　壮族歌墟 [上林一带的说法]
 gohofangz　石蒜[中草药名]
 gohozbongz　浮萍的一种[叶 茎皆园，根有毛，黑色，可作饲料]　　
@@ -21260,7 +21260,7 @@ gohon　[方]go'mbinj；gofug　席草　　
 gohuq　(见vamiuz)　庄稼；农作物；禾苗
 gohung　树名[叶有四个指头宽，皮紫黄色，果可吃，木质红，可作染料]
 go'iemjsae　野菜名[叶厚、椭 园形，秆紫红色，丛生在墙上或菜园里，可拿来腌酸菜]
-go'ien　篱竹　 
+go'ien　篱竹　
 go'ien　树名[干高大，是很好的建筑材料]　　
 go'iethoh　草本植物名[叶小而长，茎长，成节，节中空，多生在水边，可作药用了]
 go'imoq　(见lwggwizmoq)　新郎
@@ -21286,7 +21286,7 @@ golwgbyok　灌木名[叶呈品字形，树高五尺许，果白色,可吃]
 golwgdop　草本植物名[叶圆，果空，小孩爱采来玩]
 golwgleizbya　(见goleizroeg)　野梨[果比拇指稍大，可吃，比一般的梨子涩口]
 golwgrou　草本植物名 [高二、三尺，叶似芦苇叶，茎有节，结有珍珠般的颗粒，小孩常把他们穿成一串串的拿来玩耍]
-gomaxlienzan　地榆 [草药名] 
+gomaxlienzan　地榆 [草药名]
 gomak　果树　　
 gomakgingq　杏树
 gomakgyaeuq　(见gogyaeuq)　桐油树
@@ -21295,7 +21295,7 @@ gomaknaeuq　藤名[茎青黑 色，叶青色，叶面光滑，无花，有果�
 gomamx　(见golinxvaiz)　仙人掌
 gombej　树名[叶上有斑点， 果成熟后，呈黑色]
 go'mbinj　(见gohon)　席草
-go'mbu　[与go'ngaeux同]　荷　 
+go'mbu　[与go'ngaeux同]　荷　
 gomez　[方]gone　水藻[总称]
 gomezseicauj　水生植物名[叶细小，形似蜈蚣，蔓生在河里]
 gomegsieng　野荞麦　　
@@ -21406,7 +21406,7 @@ gozci　国际
 gozcicujyi　国际主义
 gozcuh　(见hozgyongx)　气管　　
 gozgaeb　(见dungxgaeb)　度量小
-gozgemgem　(腰)弯弯的 
+gozgemgem　(腰)弯弯的
 gozgeng　(见lengzgeng)　固执
 gozgiz　国旗
 gozging　国庆
@@ -21481,7 +21481,7 @@ goekrwz　耳根　　
 goeksi　(见canghfwen)　歌手[指山歌、民歌的歌手]　
 goem　[方]saiq　损失；亏损
 goembonj　(见siedbonj)　亏本；折本　　
-goemmingh　(见vutmingh)　丧命；牺牲　 
+goemmingh　(见vutmingh)　丧命；牺牲　
 goemz　(见ngaem)　俯(首)
 goemz　(见raeh)　(听、视觉)敏锐
 goemz　(见vez)　(在水中)摸
@@ -21509,7 +21509,7 @@ goendok　(见godok)　灌木之一种[生于园篱边，高六、七尺，茎�
 goenmonh　(见bwndauz)　汗毛；寒毛；毫毛
 goenz　(见daemj)触；碰；撞；抵
 goenzmbued　(见bwnsomz)　禽类换毛后生的短毛
-goenj　嘈杂；喧哗；吵闹　 
+goenj　嘈杂；喧哗；吵闹　
 goenj　捆；绑(人)
 goenj　(水)沸；(水)滚；煮开 Raemx ～ lu．水沸了。
 goenj　(见guj)　( )股(棉纱)
@@ -21634,8 +21634,8 @@ goet　①骨　②骸骨；尸骨
 goet　(见hoed)　搅；搅拌
 goetcaw　疮名[多生在小腿上，易复发]
 goetcienh　[方]ndokcienh　下贱，贱骨头　　
-goetgangq　[方]gyaq；dokgog；gyap；dokgyaq　骨架[骨头架子]　 
-goetheiq　骨气　 
+goetgangq　[方]gyaq；dokgog；gyap；dokgyaq　骨架[骨头架子]　
+goetheiq　骨气　
 goethoi　骨灰
 goethoi　(见youzhoi)　油灰[石灰和桐油的混合物]
 goetlungz　(见lungzgoet)　龙骨树[干上有刺；浆白色]
@@ -21749,7 +21749,7 @@ gouqdauq　[方]gyaeuqhoiz　挽回
 gouganq　(见gouq)　救；救护　　
 gouqgingq　究竟
 gouqgip　急救；救急
-gouqgyaq　(见gouqqhaen)　救济　 
+gouqgyaq　(见gouqqhaen)　救济　
 gouqhaen　[方]gouq；gouqgyaq；gyaeuqgaenj　～ bouxhoj　救济贫民
 gouqsing　救星
 gouqyiemj　救脸；抢险
@@ -22220,9 +22220,9 @@ gvangqgumgum　宽宽的
 gvangqlangh　辽阔；宽广；宽阔[比gvangq宽的程度要大些]
 gvangqluemx　[方]　宽宽的
 gvangqmyangmyang　面积很宽广[多指房屋、河流、布面等]
-gvangqnoemnoem　[方]　宽宽的 
-gvangh　[方] 跳[从高处跳下] 
-gvangh　[方] 奔跑 
+gvangqnoemnoem　[方]　宽宽的
+gvangh　[方] 跳[从高处跳下]
+gvangh　[方] 奔跑
 gvanghmingz　光明
 gvanghyungz　光荣
 gvat　捕(鱼)[用拦江网两人拉着捕]
@@ -22252,7 +22252,7 @@ gvex　[方]veg；vex；dinx　吐(奶)
 gveq　(见viq)　扒[如鸡扒圾土]
 gved　[方]gyad　小孩还不会走路时，两手顶住地面，用屁股慢慢地移动着
 gved　(见mbaet)　(源泉)枯竭　　
-gved　(见hot)　(用力)刮[用刀口平刮]　 
+gved　(见hot)　(用力)刮[用刀口平刮]　
 gveigawj　规矩；纪律
 gveijbajheiq　鬼把戏
 gveijgeiq　诡计
@@ -22376,7 +22376,7 @@ gwgmboedmboed　[方]　稠稠的
 gwgngwtngwt　[方]　稠稠的
 gwimawq　(见lwggwizmoq)　新郎
 gwiznuengx　(见nuengxgwiz)　妹夫
-gwih　骑　 
+gwih　骑　
 gwn　①吃；喝；饮食　②(植物)吸收(养料)
 gwn　(见cit)　抽(烟)；吸(烟)
 gwnbid　(见gwnboih)　背地吃；私自吃
@@ -22408,7 +22408,7 @@ gwnlex　(见dinghvaeu)　定婚
 gwnndwi　[方]gwnhoengq　白吃；空吃
 gwnngaenz　(见gwncienz)　贪污
 gwnngoebngoeb　方　一大口一大口地吃
-gwnngomh　(见mywnh)　(工作)容易 
+gwnngomh　(见mywnh)　(工作)容易
 gwnnywjsang　[方]　①挑剔吃穿　②见异思迁，这山望着那山高
 gwnrengz　费力；吃力
 gwnvi　[方]siedvi；sieddaej　吃亏
@@ -22461,10 +22461,10 @@ gyasei　家具；家私
 gyavaiq　加快
 gyaz　[方]cah　堵塞[多指用荆棘堵住篱笆或园边的漏洞]　　
 gyaz　(见dub)　耙(水田)[指耙第一次；把大的土块耙碎]　　
-gyazfeiz　钾肥 
+gyazfeiz　钾肥
 gyaznya　(见byozrum)　草丛
 gyaj　秧；秧苗
-gyaj　假；不真实　 
+gyaj　假；不真实　
 gyajbauq　虚报；假报
 gyajcang　[方]cang　伪装;假装　　
 gyajcomj　[方]gyajsomx　将剩下下的秧苗插在一起，以备补植用
@@ -22492,7 +22492,7 @@ gyaq　()架(飞机)　song ～ feihgih　两架飞机
 gyaq　(　)辆　～ danci ndeu　一辆单车
 gyaq　(见gyaqcienz)　价；价钱；价目；价格
 gyaq　(见goetgangq)　骨架[骨头架子]
-gyaq　[方]　用横条架成未铺板的楼架 
+gyaq　[方]　用横条架成未铺板的楼架
 gyaqcang　嫁妆
 gyaqciq　[方]gyaqseiq；gacae；gyaetnyaed；lek；lig　漂亮；精致
 gyaqcienz　[方]gyaq　价；价钱，价目；价格
@@ -22594,7 +22594,7 @@ gyaeng　[方]haeng　囚；关； 监禁　～ mou　关猪
 gyaeng　(见rom)　蓄(水)；贮(水)
 gyaeng　[方]　储存；装，留[指液体]
 gyaengz　(见gaeu)　抓(痒)；搔(痒)
-gyaengj　[方]geng；ndaj　冻僵　 
+gyaengj　[方]geng；ndaj　冻僵　
 gyaengj　(见gyangq)　犟；固执；不服劝导
 gyaengj　(见manz)　顽皮
 gyaengj　(见anj)　怔；愣
@@ -22667,7 +22667,7 @@ gyaeuqhoiz　(见gouqdauq)　挽回
 gyaeuh　[方]　拉(人)　　
 gyaeuh　(见gyaeuq)　抖动；摇动
 gyaeuh　(见caeu)　抽；拈
-gyaeuh　(见loenq)　落；脱落　 
+gyaeuh　(见loenq)　落；脱落　
 gyaeuh　(见laeh与gyaep)　追；赶；驱逐
 gyaeuhmiz　[方]　固有
 gyag　(见gvaek)　敲[以手指节击物]　Mbouj ndaej ～ gyaeuj lwgnyez．不能敲小孩的头。
@@ -22731,7 +22731,7 @@ gyang　(见gvaiz)　晏　　
 gyangbaq　[方]rogndoi；gyangndongj　山野
 gyangbuenz　(见gyanghongh)　院子，院落
 gyangdangq　(见ding)　厅堂
-gyandien　露天 
+gyandien　露天
 gyangdien　(见diencingj)　天井
 gyangdoengh　[方]rogndoi；gwnzndoi　野外
 gyangfwngz　手心
@@ -23097,7 +23097,6 @@ gywngz　(见mboengq)　大竹筒
 第二 daihngeih
 第二次 mbat daihngeih
 第二次 baez daihngeih
-Second World War Baez Daihngeih lajmbwn Hoenxciengq Hung
 嘣{关门声} gyumx
 搓{双手猛} gaenx
 钓{鱼} ep
@@ -23182,24 +23181,17 @@ Second World War Baez Daihngeih lajmbwn Hoenxciengq Hung
 八哥 roeggeuq
 八哥嘴 {比喻能言善辩或油嘴滑舌}bakroeggeuq
 八角 batgak
-九{数} gouj
+九 {数}gouj
 九 gouj
 九八佬 canghyouzyaz
 几 {数}geij
 几 geij
 几百 geij bak
 几点 geij diemj
-几点建议 geij diemj genyi
-几点意见 geij diemj yigen
-几点重要问题 geij diemj vwndiz hungnaek
 几多 bienhlaw
 几多 geijlai
 几个 geij aen
 几个 geij boux
-几个小组 geij aen siujcuj
-几何 gihhoz
-几何 gijhoz
-几何学 gijhozyoz
 拔尖儿 gaucieng
 板儿爷 goeng rag ci
 板儿爷 boux rag ci
@@ -23208,9 +23200,9 @@ Second World War Baez Daihngeih lajmbwn Hoenxciengq Hung
 差点儿 ca didi
 差劲儿 ca
 差劲儿 yaez
-打嗝儿 呃逆saekwk
+打嗝儿 saekwk
 打嗝儿 saekiek
-打嗝儿 嗳气wix
+打嗝儿 wix
 打嗝儿 wed
 打嗝儿 imqwed
 大伙儿 caezgya
@@ -23256,7 +23248,7 @@ Second World War Baez Daihngeih lajmbwn Hoenxciengq Hung
 刀柄 gaenzcax
 刀柄 gaenzmid
 刀匠 canghcax
-又 {副}{you} youh
+又 {副} youh
 又 caiq
 又宽又大 loengz lailai
 朝三暮四 sam boek seiq bienq
@@ -23298,20 +23290,9 @@ Second World War Baez Daihngeih lajmbwn Hoenxciengq Hung
 亏本 laemq
 亏本 laemqbonj
 亏本 goem
-亏本额 siedbonjngeg
-便士 bensw
-波士顿 Bohswdun
-博士 bozsw
-博士后 bozswhou
-博士生 bozswswngh
-布鲁士 Bujlujsw
 大力士 bouxrengzhung
 大力士 bouxrengzloet
 大力士 bouxrengzhoengh
-斗士 dousw
-护士 husw
-罢工 bagungh
-罢工 baqgoeng
 白班工作 honggyangngoenz
 半工半读 buenqguhhong buenq doegsaw
 帮工 banggoeng
@@ -23333,7 +23314,7 @@ Second World War Baez Daihngeih lajmbwn Hoenxciengq Hung
 国土 diegguek
 才 caiz
 才 cij
-才 才能够cij
+才、才能够 cij
 才 表示前不久ngamq
 才 表示数量小、次数少 ngamq
 才德 caizdaek
@@ -23397,7 +23378,7 @@ Second World War Baez Daihngeih lajmbwn Hoenxciengq Hung
 丈夫 bouxgvan
 丈夫 goenggvan
 丈夫 gvan
-丈夫 引称gvan
+丈夫 （引）称gvan
 丈夫 {方}boh
 丈夫 雅称bouxsai
 参与 caeuqfaenh
@@ -23420,7 +23401,6 @@ Second World War Baez Daihngeih lajmbwn Hoenxciengq Hung
 千难万险 haujlai yungyiemj
 千秋万代 cien bi fanh daih
 千山万水 cien gyae fanh gyae
-千万 ciengeiz
 千辛万苦 ciensim fanhhoj
 千言万语 cien coenz fanh coenz
 千真万确 cien caen fanh caen
@@ -23516,7 +23496,7 @@ Second World War Baez Daihngeih lajmbwn Hoenxciengq Hung
 单个人 boux vunz ndeu
 单个人 boux vunz dog
 高个 sangsumx
-个 {量} 实物的量词aen个
+个{量} 实物的量词aen个
 个 aen
 个 boux
 个 laeq
@@ -23647,20 +23627,8 @@ Second World War Baez Daihngeih lajmbwn Hoenxciengq Hung
 摆门面 cangnajmienh
 摆门面 {方}baijnaj
 摆门面 guhnaj
-北门 baekmonz
-霸权主义 bagenzcujyi
-柏拉图主义 Bwzlahduzcujyi
-拜金主义 baiginhcujyi
-保护主义 baujhucujyi
-背信弃义 byonj
-本本主义 bwnjbwnjcujyi
-本位主义 bwnjveicujyi
 本义 bonjeiq
-博爱主义 bozaicujyi
 不义之财 cienzya
-达尔文主义 dazwjvwnzcujyi
-大汉族主义 daih hancuzcujyi
-安史之乱 Anh Sij Buenqluenh
 凹凸之路 lohgengz lohgangh
 百分之百 bak faenh cih bak
 百分之百 bak faenh bak
@@ -23691,9 +23659,6 @@ Second World War Baez Daihngeih lajmbwn Hoenxciengq Hung
 安分守己 lauxlaux saedsaed
 固执己见 gaemhmengz
 固执己见 gaemhgiengz
-利己主义 ligijcujyi
-舍己为公 sij geij vih goeng
-舍己为人 sij geij vih goeng
 自己 {加在人称代词前}faenh
 自己 bonjfaenh
 自己 bouhfaenh
@@ -23760,8 +23725,6 @@ Second World War Baez Daihngeih lajmbwn Hoenxciengq Hung
 对小女孩的爱称 dahniq
 儿女 lwg
 儿女们 gyoengq lwg
-发廊女 fazlangz lwgmbwk
-发廊女 lwgmbwk fazlangz
 抚育子女 ganq lwg
 父女 bohlwg
 妇女 caeuzyah
@@ -23787,7 +23750,7 @@ Second World War Baez Daihngeih lajmbwn Hoenxciengq Hung
 迎刃而解 riengz bakcax baesetset
 补习 boujhag
 补习 bujsiz
-封门{壮族农村的一种习俗。人们认为家里将要遇到不祥之兆时，请道公来做道，避免鬼神骚扰，在规定的时间里，除家人之外，一般不给陌生人进家门} fungranz
+封门 {壮族农村的一种习俗。人们认为家里将要遇到不祥之兆时，请道公来做道，避免鬼神骚扰，在规定的时间里，除家人之外，一般不给陌生人进家门} fungranz
 复习 un
 见习 gensiz
 见习 yawjhag
@@ -23806,13 +23769,11 @@ Second World War Baez Daihngeih lajmbwn Hoenxciengq Hung
 交叉 camca
 交叉 doxca
 交叉 gyauca
-交叉性 gyauhcahsing
 相交叉 dox gyauca
 出马 okmax
 出马 oknaj
 河马 hozmaj
 荷马 Hozmaj
-荷马史诗 Hozmaj Sijsih
 故乡 diegcoj
 家乡 diegseng
 家乡 ranzmbanj
@@ -23850,7 +23811,6 @@ Second World War Baez Daihngeih lajmbwn Hoenxciengq Hung
 国王 guekvuengz
 君王 ginhvangz
 老王 laujvangz
-联合王国 lenzhoz vangzgoz
 联合王国 lienzhab vuengzguek
 龙王 lungzvuengz
 打井 vatcingj
@@ -23870,11 +23830,6 @@ Second World War Baez Daihngeih lajmbwn Hoenxciengq Hung
 避开 回避biet～这个问题不讲
 避开 biet gienh saeh neix mbouj gangj
 避开 躲开ndoj deuz
-遍地开花 dauqcawq hai va
-遍地开花 gizgiz gauj hwnjdaeuj
-不可开交 {忙得～}nyaengq raixcaix
-不可开交 lumj gijmaz nei
-不可开交 dangqmaz
 敞开 byaengqhai
 敞开 byaengq
 敞开 hai gvangq
@@ -23883,7 +23838,6 @@ Second World War Baez Daihngeih lajmbwn Hoenxciengq Hung
 吃不开 guh mbouj doeng
 吃得开 hengz ndaej doing
 吃得开 guh ndaej doeng
-车夫 fouragci
 抽功夫 caenx ok seizgan
 船夫 canghruz
 船夫 {方}bouxruz
@@ -23949,7 +23903,6 @@ Second World War Baez Daihngeih lajmbwn Hoenxciengq Hung
 扎 {动}cug{方} buk
 扎根 doekrag
 扎根 roengzrag
-扎实 {工作、学问}实在
 扎实 塌实lauxlauxsaedsaed
 扎实 maenhsaed
 扎实 net
@@ -23989,7 +23942,6 @@ Second World War Baez Daihngeih lajmbwn Hoenxciengq Hung
 百折不挠 baenzbaenz mbouj doiqlaeng
 百折不挠 baenzbaenz mbouj nyinhsaw
 办不到 banh mbouj daengz
-必不可免 mienx mbouj ndaej
 必不可少 noix mbouj ndaej
 老太太 daxbuz
 老太太 vunzlaux
@@ -24035,7 +23987,6 @@ Second World War Baez Daihngeih lajmbwn Hoenxciengq Hung
 驴友 doih youz
 密友 lauxyoux
 密友 baengzyoux ndei
-女朋友 yahdoengz
 朋友 baengzyoux
 朋友 youxdoih
 阿司匹林 ahswhbizlinz
@@ -24070,7 +24021,7 @@ Second World War Baez Daihngeih lajmbwn Hoenxciengq Hung
 巨资 cienzloet
 大牙 槽牙faenzvaiz
 大牙 heujvaiz
-大牙 门牙faenzdou
+门牙 faenzdou
 大牙 heujdou
 换牙 vuenh heuj
 换牙 rieg heuj
@@ -24098,7 +24049,6 @@ Second World War Baez Daihngeih lajmbwn Hoenxciengq Hung
 比较 beijgyauq
 比较 两物或两种事物相比较doxbeij
 比较 beij
-地区互助政策 gij cwngcwz gvendaengz gak dieg doxbang
 互 dox
 互补 dox dembouj
 互补 doxbouj
@@ -24113,7 +24063,6 @@ Second World War Baez Daihngeih lajmbwn Hoenxciengq Hung
 互利 doxik
 互利 doxleih
 关切 gvansim
-曼切斯特 Mancezswhdwz
 密切 maedcaed
 密切 maedciet
 目空一切 dasang
@@ -24171,18 +24120,15 @@ Second World War Baez Daihngeih lajmbwn Hoenxciengq Hung
 当日 dangngoenz
 当日 ngoenzde
 度日 gvaqngoenz
-法制日报 fazci yizbau
 各项日常工作 gak hangh ngoenznaengz gunghcoz
 工作日 ngoenzguhhong
 工作日 ngoenzhong
-暗中 在秘密中
 暗中 在暗地里 caegcaeg
 暗中 laeglemx
 暗中 秘密地
 暗中 背地里 raeblaeng
 暗中 boihlaeng
 暗中唆使 yoeg
-八中全会 Bet Cungh Cenzvei
 百发百中 nyingz bak baez deng bak baez
 百发百中 baezbaez nyingz deng
 初中 cuhcungh
@@ -24224,8 +24170,6 @@ Second World War Baez Daihngeih lajmbwn Hoenxciengq Hung
 吃午饭 gwn haeuxringz
 端午节 ngux nyied co ngux
 端午节 {方} duenngux
-甲午 Gyazvuj
-甲午战争 Gyazvuj Cancwngh
 晌午 banringz
 上午 banhaet
 午 地支第七位ngux
@@ -24308,17 +24252,14 @@ Second World War Baez Daihngeih lajmbwn Hoenxciengq Hung
 上升 swng
 上升 hwnj
 上升 doxhwnj
-升 公制容量的单位swng
-升 提高swng升一级～mbaek ndeu
-升 由低往高移动hwnj 太阳daengngoenz～
+升 （公制容量的单位） swng
+升 （由低往高移动）hwnj 太阳升 daengngoenz～
 拔苗助长 yut miuz hawj sang
 班长 banhcangj
 保长 baujcangj
 保增长、保民生、保稳定 bauj demmaj、bauj gwndaenj、bauj onjdingh
 保增长、保民生、保稳定 bauj demmaj、bauj minzswngh、bauj onjdingh
 博采众长 gij ndei cix aeu
-部长 bouxbuqcangj
-参谋长 canhmouzcangj
 长 {生长}dok
 长 raez
 长 raezrangh
@@ -24353,7 +24294,7 @@ Second World War Baez Daihngeih lajmbwn Hoenxciengq Hung
 奴仆的工作 hong hoiq
 仆 {名}hoiq
 仆 vunzsawj
-仆 向前仆倒daengj hoemj
+仆 向前仆倒 daengj hoemj
 仆从 动词用gaen rieng
 仆从 laeng
 仆从 gaen hangx
@@ -24435,12 +24376,7 @@ Second World War Baez Daihngeih lajmbwn Hoenxciengq Hung
 反常 mbouj lumj bingzciengz
 反刍 hoizcauj
 跟{介词} laeng
-简介 genjgai
-蒋介石 Ciengj Gaisiz
-介绍 gaisau
-介绍人 gaisauyinz
 介意 dawzhaeujrwz
-卡介苗 gajgaimyauz
 媒介 moiz
 煞有介事 lumj cingqcaen nei
 向{介词} laeng
@@ -24454,7 +24390,6 @@ Second World War Baez Daihngeih lajmbwn Hoenxciengq Hung
 父母 bohmeh
 父亲 boh
 父亲 daxboh
-父权 fugenz
 父体 ndangboh
 父子 bohlwg
 继父 bohlaeng
@@ -24546,7 +24481,6 @@ Second World War Baez Daihngeih lajmbwn Hoenxciengq Hung
 八月 单独用于回答哪个月时用ndwen bet
 八月 连年月日一起用时用bet nyied
 长年累月 bi daeb bi
-嫦娥探月工程 Gunghcwngz Cangzngoz Damq Ronghndwen
 出月 rim ndwen
 出月 gvaq ndwen
 单月 ndwen ndeu
@@ -24664,15 +24598,9 @@ Second World War Baez Daihngeih lajmbwn Hoenxciengq Hung
 称为 cwngguh
 成为 baenz
 成为 bienqbaenz
-大有可为 daih miz guhdaeuz
-大有作为 guh ndaej daihsaeh
-大有作为 daihbaj hong guh
-胡作非为 doeng gauj sae gauj
-胡作非为 luenh gauj
 化公为私 ciemqaeu gij goenggya
 化险为夷 bienq yung’yiemj baenz ancienz
 混为一谈 gyaux hwnjdaeuj
-坚持以人为本 genhciz aeu vunz guh goek
 搏斗 buekhoenx
 搏斗 doxbuek
 动物用角相斗 doxdaemj
@@ -24682,9 +24610,6 @@ Second World War Baez Daihngeih lajmbwn Hoenxciengq Hung
 斗胆 mbeilaux
 斗笠 gyaep
 斗争 daeuq
-斗争 doucwngh
-斗志 douci
-发扬艰苦奋斗的精神 fazyangz gij cingsaenz ganhoj haenqrengz guh
 回忆 ngeixdauq
 回忆录 sawdauqngeix
 记忆 ndaejgeiq
@@ -24720,8 +24645,6 @@ Second World War Baez Daihngeih lajmbwn Hoenxciengq Hung
 佃户 ranzguhgonz
 佃户 hohguhmyangx
 钉子户 hohnga’ngangq
-个人账户 aen canghu bonjfaenh{swhgeij}
-个体户 godijhu
 拜认 baiqnyinh
 辨认 nyinh
 承认 cingznyinh
@@ -24759,9 +24682,6 @@ Second World War Baez Daihngeih lajmbwn Hoenxciengq Hung
 角尺 cikgok
 曲尺 gakcik
 市尺 cik
-英尺 yinghcik
-英尺 yinghciz
-鼓励支持和引导 gujli cihciz caeuq dazyinx
 牵引 rag
 牵引 beng
 索引 sozyinj
@@ -24821,13 +24741,11 @@ Second World War Baez Daihngeih lajmbwn Hoenxciengq Hung
 建国以来 laeb guek doxdaeuj
 可以 gojyij
 可以 ndaej
-可以 好
-可以 不坏ndei
-可以 能够ndaej
-应允 允许hawj
-应允 答应dapwngq
+可以、能够 ndaej
+应允、允许 hawj
+应允、答应 dapwngq
 应允 han
-允 {yun}hawj
+允 hawj
 允诺 hawj
 允许 cinjhawj
 允许 hawj
@@ -24837,7 +24755,6 @@ Second World War Baez Daihngeih lajmbwn Hoenxciengq Hung
 赋予 gyauhawj
 赋予 hawj
 给予 hawj
-给予得力保障 daezhawj baujcwng daeklig
 给予者 bouxhawj
 给予者 bouxsoengqhawj
 寄予 dak hawj
@@ -24863,7 +24780,7 @@ Second World War Baez Daihngeih lajmbwn Hoenxciengq Hung
 劝说 gienqnaeuz
 双 两个sueng
 双 加倍的sueng～料sueng liuh～份sueng faenh
-双 量词，用于成对fouq
+双 量词，用于成对 fouq
 双 doiq
 双 gouh
 双百市场工程 gij gunghcwngz song bak aen hawciengz
@@ -24892,20 +24809,12 @@ Second World War Baez Daihngeih lajmbwn Hoenxciengq Hung
 玉米粥 haeuxyangzcuk
 玉器商 canghnyawh
 玉石 nyawh
-党刊 dangjganh
-党刊 gij ganhvuz aen dangj
-发刊词 fazganhswz
-季刊 giganh
-刊 {名}
 刊登 daengh
 暗示 {用手势} yaepfwngz
 暗示 vadfwngz
 暗示 {用眼色} yaepda
 表示 biujsiq
-风险提示书 fung yiemj dizsisuh
 告示 gauqseih
-告示 gausi
-公示 gunghsi
 揭示 biengjloh
 警示 gingjsi
 唠唠叨叨{表示不满} damzbyoenxbyoenx
@@ -24921,7 +24830,6 @@ Second World War Baez Daihngeih lajmbwn Hoenxciengq Hung
 末 {动} 末尾sat byai
 末 byai
 末 doeklaeng
-末 末予soiq
 末端 donhbyai
 末端 gyaeujbyai
 末段 duenhsat
@@ -25011,7 +24919,6 @@ Second World War Baez Daihngeih lajmbwn Hoenxciengq Hung
 扑灭 扑灭火ndaep
 扑灭 扑灭蚊蝇cawz
 扒 {动} 一般指用工具扒或者扒平baz
-扒 刨
 扒 挖saiq
 扒 扒开，如鸡扒saiq
 扒 抓着可依附的东西bamq
@@ -25074,9 +24981,6 @@ Second World War Baez Daihngeih lajmbwn Hoenxciengq Hung
 春节 cieng
 春节 cietcieng
 春节期间 luengqcieng
-调节 diuzcez
-调节税 diuzcezsui
-儿童节 wzdungzcez
 二十四节气 ngeihcib seiq ciet
 二十四节气 ngeihcib seiq aen cietheiq
 保基本 bauj goekgaen
@@ -25084,10 +24988,8 @@ Second World War Baez Daihngeih lajmbwn Hoenxciengq Hung
 本国 guek raeuz
 本会 bonjhoih
 词汇 sawloih
-词汇 swzvei
 汇{动} geiq
 汇{动} {方}fak
-汇报 veibau
 汇报 bauq
 汇报稿 veibaugauj
 汇报会 veibauvei
@@ -25096,9 +24998,6 @@ Second World War Baez Daihngeih lajmbwn Hoenxciengq Hung
 汇编 gyonjbien
 汇编 veibenh
 昂头 ngiengxgyaeuj
-帮头 bangdaeuz
-包工头 baugoengdaeuz
-包头 Bauhdouz
 布头 baengzgyaeuj
 布头 {方}boiqlingz
 布头 零碎布块 baengzsoiq
@@ -25125,16 +25024,8 @@ Second World War Baez Daihngeih lajmbwn Hoenxciengq Hung
 穴 动物的窝rongz
 穴 墓穴gumz
 其它 gijwnq
-其它 gizyawz
-其它规定 gizyawz gvidingh
-其它经济成分 gizyawz ginghci cingzfaenh
-其它重要资料 gizyawz cung yau swhliu
 它 de
-它的背后印有卡号 mbiengj baihlaeng de yaenq miz gajhauh
 它们 gyoengqde
-第八届河洛文化国际研讨会 aen hoih daihbet gaiq hozloz vwnzva gozci yenzdaujvei
-检讨 genjdauj
-理论研讨会 lijlun yenzdaujvei
 商讨 damqyaeng
 商讨 ngeixyaeng
 商讨 yaenglwnh
@@ -25176,8 +25067,6 @@ Second World War Baez Daihngeih lajmbwn Hoenxciengq Hung
 军礼 ginhlij
 礼 {名}laex
 礼 laex
-礼拜天 ngoenzlijbai
-礼拜天 ngoenz singhgiz
 教训 roxhit
 教训 从错误或失败中取得认识hit
 教训 教育训戒gyauq {son}
@@ -25187,7 +25076,6 @@ Second World War Baez Daihngeih lajmbwn Hoenxciengq Hung
 必要 bietdingh aeu
 不必 gaej
 审讯 saemj
-声讯台 swnghsindaiz
 通讯 doengsaenq
 通讯处 diegdoengsaenq
 刑讯 hwnjhingz
@@ -25205,13 +25093,11 @@ Second World War Baez Daihngeih lajmbwn Hoenxciengq Hung
 登记簿 bouhdaenghgeiq
 惦记 gvaqniemh
 一劳永逸 dwgrengz mbat ndeu, cwxcaih baenz seiq
-永 {yong} ciengxlwenx
+永 ciengxlwenx
 永别 ciengxlwenx doxbiek
 永不瞑目 dai da mbouj laep
 永垂不朽 ciengxlwenx mbouj nduk
 永垂不朽 louz mingz fanh daih
-永动机 yungjdunggih
-永福 Yungjfuz
 永恒 ciengxlwenx mbouj bienq
 永久 久nanz
 永久 {方}naih
@@ -25266,12 +25152,10 @@ Second World War Baez Daihngeih lajmbwn Hoenxciengq Hung
 鹅卵石 rinmaxluenx
 鹅卵石 rin gyaeq
 番石榴 maknimhenj
-非化石能源 gij nwngzyenz mbouj dwg vasiz bienqbaenz
 花石 rinraiz
 滑石 vazsiz
 化石 rinvaqsiz
 化石 rin gyap
-化石能源 vaqsig nwngzyenz
 基石 ringiek
 白布 baengzhau
 摆布 baijbouh
@@ -25323,7 +25207,6 @@ Second World War Baez Daihngeih lajmbwn Hoenxciengq Hung
 东岸 hamqdoeng
 东北部 baihdoengbaek
 卡 {动}gaz
-卡(bus, credit, debit etc) kawd
 卡 gaz
 卡脖子 nyaenj saihoz
 北 baek
@@ -25422,9 +25305,6 @@ Second World War Baez Daihngeih lajmbwn Hoenxciengq Hung
 花甲 loegcib
 花甲 va gyap
 甲 {名} gyap
-甲醇 gyazcunz
-甲肝 binghgyazganh
-甲肝 gyazganh
 甲骨文 sawndokfw
 申 地支第九位saen
 申报 bauq
@@ -25455,8 +25335,6 @@ Second World War Baez Daihngeih lajmbwn Hoenxciengq Hung
 肥田粉 feizdenzfwnj
 福田 Fuzdenz
 耕田 dwknaz
-旱涝保收高标准农田 gij reihnaz biucinj sang rengx dumh bauj sou
-旱涝保收高标准农田 gij reihnaz biuhcinj sang mbwnrengx raemxdumh cungj baujcwng soucingz haenx
 旱田 nazrengx
 案由 anqyouz
 不由自主 mbouj youz mwngz
@@ -25493,7 +25371,7 @@ Second World War Baez Daihngeih lajmbwn Hoenxciengq Hung
 兄辈 banbeix
 兄长 {对男性朋友的尊称} beix
 兄弟 beixnuengx
-兄弟 弟弟，称呼年纪比自己小的男子daegnuengx
+兄弟 弟弟，称呼年纪比自己小的男子 daegnuengx
 大喊大叫 daih swenj daih hemq
 大喊大叫 swenjswenj hemqhemq
 喊叫 hemq
