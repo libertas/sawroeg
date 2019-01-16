@@ -25555,7 +25555,6 @@ gywngz　(见mboengq)　大竹筒
 其他人 vunzyawz
 他 {代}de
 他 de
-他方 linghfueng
 他人 bouxwnq
 他日 daengzcog
 他日 cograwz
@@ -25601,16 +25600,13 @@ gywngz　(见mboengq)　大竹筒
 忘乎所以 ndaeng gon dwk gijmaz cungj lumz liux
 微乎其微 iqetet
 微乎其微 gig siuj gig siuj
-论丛 luncungz
 树丛 byozfaex
 杂草丛生状 nyah
 调令 diuling
 冬令 seizdoeng
 法令 faplingh
-戒严令 gaiyenzling
 禁令 gimqlingh
 禁令 gimqlingq
-禁令 ginling
 备用 bwhyungh
 并用 giemyungh
 不用 gaejyungh
@@ -25703,8 +25699,6 @@ gywngz　(见mboengq)　大竹筒
 处 lengq
 冬 {名} doeng
 冬 doeng
-冬虫夏草 dunghcungz-yacauj
-冬虫夏草 dunghcungzyacauj
 冬菇 raetnae
 冬菇 {方} yiengsaenq
 冬季 seizdoeng
@@ -25758,7 +25752,6 @@ gywngz　(见mboengq)　大竹筒
 饥荒 caihaih
 闹饥荒 souh cai
 闹饥荒 souh rengx dumh
-班主任 banhcujyin
 宾主 bouxhek bouxcawj
 宾主 hekcawj
 财主 caizcawj
@@ -25901,8 +25894,6 @@ gywngz　(见mboengq)　大竹筒
 出发 cuzfaz
 出发 hwnjdin
 出发 haidin
-避孕环 cezyuzvanz
-避孕环 biyinvanz
 怀孕 daiqndang
 怀孕 mizndang
 怀孕 {方}daiqndang
@@ -25943,8 +25934,6 @@ gywngz　(见mboengq)　大竹筒
 倒台 roengzdaiz
 登台 hwnj gwnz daiz daeuj
 登台 hwnj gwnz daiz bae
-电视台 densidaiz
-电台 dendaiz
 互相矛盾 dox mauzdun
 矛 {名}nangx
 矛 {方}lem
@@ -25984,8 +25973,6 @@ gywngz　(见mboengq)　大竹筒
 酒母 ndolaeuj
 酒母 {方}bingjlaeuj
 扶老携幼 fuz laux aemq daiq lwg
-妇幼 fuyou
-妇幼保健 fuyou baujgen
 老幼 laux oiq
 老幼 lauxoiq
 年幼 nienznomj
@@ -26026,20 +26013,13 @@ gywngz　(见mboengq)　大竹筒
 迎接{同ciepcoux} couxciep
 准备{同caepcawq} caepcwk
 等式 daengjsik
-低碳消费模式 yiengh siufeiq muzsik danqnoix
 定式 dinghsik
-发展方式 fazcanj fuengsik
-方程式 fanghcwngzsiz
 方式 fuengsik
 分布式 faenbouhsik
-分布式能源系统 faenbouhsik hidungj nwngzyenz
-分子式 fwnhswjsiz
 附属模式 vunqsikbengx
 复式 fuksik
-复式 fuzsiz
 格式 gek
 格式 geksik
-格式 gwzsiz
 鞭刑 hingzbienfad
 毒刑 hingz doeg
 服刑 naenghlauz
@@ -26048,7 +26028,6 @@ gywngz　(见mboengq)　大竹筒
 减刑 gemjhingz
 酷刑 hingznaek
 量刑 lienghhingz
-量刑 lienghingz
 免刑 mbouj deng buenqcoih
 免刑 mienx hingz
 判刑 buenq hingz
@@ -26105,7 +26084,6 @@ gywngz　(见mboengq)　大竹筒
 吃老本 henxgoek
 吃老本 henx lauxbonj
 大老婆 yahlaux
-返老还童 laux bienq hoiq
 告老 gauqlaux
 固执 不爽直ngaeknye
 固执 争执不休nyangq
@@ -26201,10 +26179,8 @@ gywngz　(见mboengq)　大竹筒
 朴素 mbaet gwn mbaet daenj
 朴直 lauxsaed
 朴直 soh
-补偿机制 gihci boizbouj
 趁机 swngzgei
 乘机 swngzgei
-传导机制 gihci cienzyinx
 粗纺机 aenyot maeco
 待机 caj seizgei
 待机 deq seizgei
@@ -26268,9 +26244,7 @@ gywngz　(见mboengq)　大竹筒
 厌学 mbwq hag
 不在 mbouj youq
 冲在前面 roemx bae gaxgonq
-处在 cawqyouq
 存在 mizyouq
-存在论 cunzcailun
 好在 {连} haujcaij
 好在 caeklaiq
 还在 lij youq
@@ -26287,7 +26261,6 @@ gywngz　(见mboengq)　大竹筒
 百 bak
 百般 baez doek baez
 百般 yienghyiengh
-百科 bwzgoh
 保存 yo
 残存 lamq
 残存 lw
@@ -26386,7 +26359,6 @@ gywngz　(见mboengq)　大竹筒
 传达告知 daengqdaengz
 达 {动}daengz
 达标 hab biucinj
-达标率 bijliz hab biucinj
 达成 gangjbaenz
 达成 yaengbaenz
 达成 dinghbaenz
@@ -26438,16 +26410,9 @@ gywngz　(见mboengq)　大竹筒
 夹生饭 ndaen
 夹生饭 {方}ndaemqndaeq
 夹生饭 ceuh
-城际轨道 diuz gveijdau lienzciep singz caeuq singz
 接轨 ciepgveij
-上轨道 hwnj cingqloh
-转轨 cienjgveij
 驱邪 gyaep fangz
 驱邪 log fangz
-歪门邪道 不正当的途径loh mbouj cingqdangq
-歪门邪道 坏点子cawjeiq rwix
-邪 {形}不正当mbouj cingqdangq
-邪 邪气sez
 邪财 cienzya
 邪道 roenloeng
 邪道 roenloek
@@ -26460,9 +26425,7 @@ gywngz　(见mboengq)　大竹筒
 筹划 couzveh
 出谋划策 ra cawjeiq ok geiqmaeuz
 分划 faenveh
-规划 gveihva
 规划 gviveh
-规划区 gveihvagih
 迈 yamq
 迈步 yamq
 迈步 yamqdin
@@ -26488,9 +26451,9 @@ gywngz　(见mboengq)　大竹筒
 甚至 couhlienz
 甚至 engqlij
 甚至 lienz
-甚至 lienz我们村不但青年～老年人都来学习壮文。Ndaw mbanj raeuz mboujdanh bouxcoz lienz bouxlaux cungj daeuj hag Sawcuengh.
+甚至 lienz 我们村不但青年～老年人都来学习壮文。Ndaw mbanj raeuz mboujdanh bouxcoz lienz bouxlaux cungj daeuj hag Sawcuengh.
 甚至 vanzlij
-甚至 vanzlij这篇文章他不但能背～能默写出来。Bien faenzcieng neix de mboujdanh boih ndaej vanzlij maegsij ndaej.
+甚至 vanzlij 这篇文章他不但能背～能默写出来。Bien faenzcieng neix de mboujdanh boih ndaej vanzlij maegsij ndaej.
 无微不至 yienghyiengh ciuqgoq daengz
 夏至 hahceiq
 彼此 song mbiengj
@@ -26509,19 +26472,13 @@ gywngz　(见mboengq)　大竹筒
 此刻 mwhneix
 此起彼伏 neix hwnj haenx roengz
 此起彼伏 giz hwnj giz roengz
-贞观 Cinhgvanh
 拜师 baiqsae
 拜师 daeuzsae
 厨师 bouxcawz
 厨师 canghcawz
 大师 daihsae
-导师 daujswh
-独立师 duzlizswh
 法师 fapsae
 风水师 canghyawjdieg
-副工程师 fugunghcwngzswh
-副师{级} fuswh
-副师长 fuswhcangj
 尘 faenx
 尘 {方}boenq
 尘肺病 binghbwtfaenx
@@ -26561,14 +26518,13 @@ gywngz　(见mboengq)　大竹筒
 不光 mboujgag
 道光 Daugvangh
 灯光 ronghdaeng
-电光源 den gvanghyenz
 丢光 vutsat
 发光 fazgvangh
 风光 gingjsaek
 观光 gvanhgvangh
-光 一点不剩，完了liux
-光 光亮rongh
-光 光滑wenq
+光 一点不剩，完了 liux
+光 光亮 rongh
+光 光滑 wenq
 光 lwenq
 光彩 miznaj
 光彩 光荣miznaj
@@ -26607,14 +26563,13 @@ gywngz　(见mboengq)　大竹筒
 呕吐 rueg
 呕吐 {方}sag
 倾吐 gangjcaenh
-吐{动} 呕吐rueg
-吐 东西从咀里吐出来haiz
+吐{动} 呕吐 rueg
+吐 东西从咀里吐出来 haiz
 吐 吐口水biq
 吐 {方}byoq
 吐 daeuq
 吐口水 biqmyaiz
 吐露 laeuh
-吐鲁番 Dulujfanh
 吐沫 biq myaiz
 吐气 okheiq
 吐血 rueg lwed
@@ -26717,13 +26672,11 @@ gywngz　(见mboengq)　大竹筒
 了吗 luma
 吗 {助} 用在句末表示疑问lwi
 吗 ha
-吗啡 majfeih
 船帆 gangfung
 帆 gangfung
 帆布 fanzbu
 帆布 {方} fanzboiq
 帆船 ruzgangfung
-上岁数 miz nienzgeij
 岁 {量} bi
 岁 bi
 岁数 bisoq
@@ -26742,7 +26695,6 @@ gywngz　(见mboengq)　大竹筒
 带回 raekma
 带回 dazma
 带回 dawzma
-对不愿回答的问题 doiq gij vwndiz mbouj nyienh hoizdap de
 发回 fatma
 返回 dauq
 返回 fukdauq
