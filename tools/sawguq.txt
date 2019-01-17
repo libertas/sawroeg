@@ -25757,8 +25757,6 @@ gywngz　(见mboengq)　大竹筒
 财主 caizcawj
 菜市 diengzhaw
 菜市 hawbyaek
-草市{伦敦} aen hawcaujsi
-常熟市 Cangzsuz Si
 城市 hawsingz
 把...竖立在面前 daengjnaj
 标新立异 mboujdoengz vunz mbouj doengz doih
@@ -25798,7 +25796,6 @@ gywngz　(见mboengq)　大竹筒
 半岛 buenqdauj
 半点 saekdi
 半吊子 bouxhamxhawz
-半封建 buenqfunghgenq
 辽阔 gvangqlangh
 辽阔 gvangqmangxmangx
 断奶 gekcij
@@ -25819,27 +25816,22 @@ gywngz　(见mboengq)　大竹筒
 奶名 {方} cohnauq
 奶名 coh iq
 奶名 cohsaeq
-白奴 begnoz
+白奴 hoiqhau
+黑奴 hoiqndaem
 房奴 hoiqranz
 孩奴 hoiqlwg
-黑奴 hwznuz
 家奴 hoiqranz
 家奴 hoiqnoz
 节奴 hoiqciet
 卡奴 hoiq mbawgaj
-农奴 noengznoz
-农奴 nungznuz
-农奴制 nungznuzci
+农奴 hoiqdajndaem
 奴 hoiq
-奴隶 bouxnoz
 奴隶 hoiq
 奴隶 hoiqnoz
-奴隶 nuzli
 倍加 gya baenz doeb
 补加 boujgya
 参加 caeuqfaenh
 参加 camgya
-费加罗 Feigyahloz
 附加 bengxgya
 附加 fouqbengx
 附加 fouqgya
@@ -25847,11 +25839,7 @@ gywngz　(见mboengq)　大竹筒
 附加刑 hingzbengxgya
 感召 gamjciu
 感召力 gamjciulig
-号召 haucauh
-号召 haucau
 号召 heuh
-号召力 haucauhliz
-号召力 haucauliz
 召 {动}heuh
 召唤 ciuheuh
 召唤 heuh
@@ -25923,9 +25911,8 @@ gywngz　(见mboengq)　大竹筒
 对 对待、朝着、对面doiq
 对 投合dawz
 对 ngamj
-对 相合
-对 正确deng
-对 量词doiq
+对 正确 deng
+对 量词 doiq
 补台 boujdaiz
 拆台 cekdaiz
 出台 okdaiz
@@ -25991,7 +25978,6 @@ gywngz　(见mboengq)　大竹筒
 粉丝 faenjsaeq
 钢丝床 congzganghswh
 凉丝丝 liengzseuseu
-螺丝 lozswh
 螺丝 sae
 络丝机 aen geujsei
 藕断丝连 ngaeux goenq sei lij rangh
@@ -26058,7 +26044,6 @@ gywngz　(见mboengq)　大竹筒
 打折扣 dajciet
 打折扣 gaeugemj
 克扣 gaeu
-克扣 gwzgou
 扣 复盖gaemj
 扣 扣扣子haeuj
 扣 扣门daep
@@ -26196,33 +26181,25 @@ gywngz　(见mboengq)　大竹筒
 当过 danggvaq
 顶过 dingxgvaq
 大臣 daihcaenz
-功臣 gunghcinz
 奸臣 gancaenz
-君臣 ginhcinz
-不再 mbouj caiq
 再 {方}deuh
 再次 ngeih baez
 再得到 dauqndaej
 再度 baez daihngeih
-再度 caiq baez
-再发力 caiq haenqrengz
-再发力 caiq roengzrengz
+再度 dauq baez
+再发力 dauq haenqrengz
+再发力 dauq roengzrengz
 东西 doxgaiq
 东西 huqcingz
-东西 物品doenghyiengh
+东西 doenghyiengh
+物品 doenghyiengh
 东西 方位doengsae
 按压 naenxnap
 按压 nyaenxat
 打压 gaemh’at
 打压 noegnaenx
-电压 denyaz
-高血压 gauhhezyaz
-高血压 hezyaz sang
-高血压 hezyazsang
-高血压病 binghhezyazsang
 高压 dok haenq
 高压 gaemh haenq
-高压 gauhyaz
 黑压压 laepcupcup
 积压 at
 积压 {方}dong
@@ -26245,7 +26222,6 @@ gywngz　(见mboengq)　大竹筒
 不在 mbouj youq
 冲在前面 roemx bae gaxgonq
 存在 mizyouq
-好在 {连} haujcaij
 好在 caeklaiq
 还在 lij youq
 健在 cangq
@@ -26253,7 +26229,7 @@ gywngz　(见mboengq)　大竹筒
 健在 lijlix
 箭在弦上 naq daengz bak gung
 箭在弦上 vah daengz byai linx
-病有所医 bingh ndaej yw
+病有所医 bingh ndaej gijyw
 持有 dawzmiz
 持有 gaemmiz
 绰绰有余 daihdaih youxyawz
@@ -26286,8 +26262,6 @@ gywngz　(见mboengq)　大竹筒
 而后 gaenlaeng
 扉页 yiebfeihyez
 首页 yiebdaeuz
-网页 vangjyez
-网页 vangjyieb
 页 {名、量}bienj {yieb}
 页 mbaw
 页 yieb
@@ -26298,8 +26272,6 @@ gywngz　(见mboengq)　大竹筒
 页面 yiebmienh
 页数 mbawsoq
 页数 yiebsoq
-页岩气 yeznganzgi
-页岩气 rin gyap heiq
 缸匠 canghgang
 花匠 canghndaemva
 花匠 canghva
@@ -26309,13 +26281,11 @@ gywngz　(见mboengq)　大竹筒
 篾匠 canghluihduk
 木匠 canghfaex
 木匠 {方}cangh dajdoq
-木匠 moegciengh
 泥水匠 canghcaepranz
 泥水匠 {方} canghnaezsij
 泥水匠 canghgik
 皮匠 canghhaiznaeng
 皮匠 canghnaeng
-浮夸 fouzgvah
 浮夸 gangjmauh
 浮夸 gangjmboeng
 夸 {动}haenh
@@ -26417,7 +26387,6 @@ gywngz　(见mboengq)　大竹筒
 邪道 roenloeng
 邪道 roenloek
 邪恶 yakrwix
-邪教 sezgyau
 邪路 roenloeng
 邪路 roenloek
 策划 rauveh
@@ -26439,7 +26408,6 @@ gywngz　(见mboengq)　大竹筒
 年迈 geq
 年迈 laux
 毕 完全cungj
-毕 完结
 毕 完成sat
 毕竟 dauqdaej
 完毕 sat
@@ -26489,11 +26457,10 @@ gywngz　(见mboengq)　大竹筒
 望尘莫及 mbouj gib
 翅尖 byaifwed
 风口浪尖 bakrumz byailangh
-钢笔尖 bakgangbit
+钢笔尖 bakbitgang
 尖 {形}soem
 尖顶 dingj
 尖端 byai soem
-尖端产品 canjbinj gisuz ceiq sang
 尖刻{的话} ndongjndat
 尖利 尖锐soem
 尖利 锋利raeh
@@ -26545,7 +26512,6 @@ gywngz　(见mboengq)　大竹筒
 当初 codaeuz
 当初 {方}haihij
 当初 gwqnduj
-趁早 swnhcaeux
 迟早 caeuxlaeng
 过早 gvaqcaeux
 及早 ganjcaeux
@@ -26721,8 +26687,6 @@ gywngz　(见mboengq)　大竹筒
 刚才 dihdaej
 刚才 cajbaenh, caeuxhet
 刚才 laxbaenh
-法则 fazcwz
-分则 fwnhcwz
 否则 mboujmiz
 否则 mboujne
 工作总则 gunghcoz cungjcwz
@@ -26750,11 +26714,9 @@ gywngz　(见mboengq)　大竹筒
 半年 buenqbi
 长年 ciengznienz
 长年 baenzbi
-成年 cwngznenz
 成年 分指男baenzmbauq 女baenzsau
 成年 泛指baenzvunz
 大后年 biriengh
-大年初一 ciengnyied coit
 大年夜 haemhndaep
 当先 baegonq
 当先 byaij gaxgonq
@@ -26795,7 +26757,6 @@ gywngz　(见mboengq)　大竹筒
 小竹笼 raep
 胸有成竹 ndaw sim miz daej
 真竹 goroed
-竹 {名}
 竹 {方} go ndoek
 竹 gocuk
 竹 gobeu
@@ -26833,7 +26794,6 @@ gywngz　(见mboengq)　大竹筒
 罢休 {方}sim mbouj laemx
 罢休 dingz fwngz
 罢休 cuengq fwngz
-带薪休假制度 aen cidu yietnaiq lingx cienzhong
 喋喋不休 raemh
 喋喋不休 raemh bae raemh dauq
 喋喋不休 {方} raemhraex
@@ -26841,10 +26801,9 @@ gywngz　(见mboengq)　大竹筒
 甘休 nyienh fug
 落伍 doeklaeng
 入伍 dang bing
-伍 同伙的人doih
-伍 数字haj
-打埋伏 比喻隐藏物资、人力或隐瞒问题yaemmuenz
-打埋伏 预先隐藏，待时行动bomz
+伍 同伙的人 doih
+伍 数字 haj
+打埋伏 预先隐藏，待时行动 bomz
 打埋伏 demq
 倒伏 laemx
 伏 {动} boemz
