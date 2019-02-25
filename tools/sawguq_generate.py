@@ -3,14 +3,19 @@
 import sqlite3
 import sys
 
-help_msg = "Usage: python3 sawguq_generate.py [input.txt] [output.db]"
+help_msg = "Usage: python3 sawguq_generate.py (-f)[input.txt] [output.db]"
 
-if len(sys.argv) != 3:
+if len(sys.argv) == 3:
+    force = False
+    inputFile = sys.argv[1]
+    outputFile = sys.argv[2]
+elif len(sys.argv) == 4 and sys.argv[1] == "-f":
+    force = True
+    inputFile = sys.argv[2]
+    outputFile = sys.argv[3]
+else:
     print(help_msg)
     exit(-1)
-
-inputFile = sys.argv[1]
-outputFile = sys.argv[2]
 
 
 sawguq = {}
@@ -23,7 +28,10 @@ with open(inputFile, 'r') as f:
         try:
             idx, content = word.split(' ', 1)
         except ValueError:
-            raise ValueError('Misformed line: %s' % repr(word))
+            if force:
+                continue
+            else:
+                raise ValueError('Misformed line: %s' % repr(word))
         idx = idx.strip('-').lower()
         if idx in sawguq:
             sawguq[idx].append(word)
