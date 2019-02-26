@@ -28730,11 +28730,9 @@ gywngz　(见mboengq)　大竹筒
 忘我 mbouj siengj daengz bonjfaenh
 惟我独尊 dan bonjfaenh ak
 我 {代}gou
-我国 guek raeuz
 我们{不包括说话的对方在内的} dou
 我们 gyoengqraeuz
 我们 raeuz
-我们的党 dangj raeuz
 自我 gag bonjfaenh
 自我 {方}ndanggaeuq
 自我改造 gag gaij ndei
@@ -28766,16 +28764,16 @@ gywngz　(见mboengq)　大竹筒
 秃 {尾}没有尖端 gud
 秃 {树}没有枝叶
 秃 {方}gyuh
-秃 {形}{人}没有头发、山没有草木ndoq
-秃 物体失去尖端maeuz
+秃 {形}{人}没有头发、山没有草木 ndoq
+秃 物体失去尖端 maeuz
 秃顶 gyaeujndoq
 秃子 goenggyaeujndoq
 俊秀 gyaeundei
 俊秀 {方}gyaeu
 俊秀 giengh
-清秀 女的baenzsau
+清秀 女的 baenzsau
 清秀 saundei
-清秀 男的baenzmbauq
+清秀 男的 baenzmbauq
 清秀 mbauqndei
 山明水秀 gingjcaeq gyaeu ndei
 山明水秀 bya heu raemx saw
@@ -28802,10 +28800,7 @@ gywngz　(见mboengq)　大竹筒
 每年 bibi
 每年 moixbi
 每人 gakvunz
-标兵 biubing
 兵 bing
-兵痞 binggeq
-兵事 bingsaeh
 兵营 ranzbing
 低估 gujdaemq
 估 {动}guj
@@ -28813,11 +28808,10 @@ gywngz　(见mboengq)　大竹筒
 估 gyaqguj
 估计 gujgeiq
 估计 guj
-估计 {方}nanq
+估计 {方} nanq
 估计 gyaq guj
 估计 gyaqguj
 估计到 guj daengz
-估价 guhgya
 估价 guhgyaq
 估价 gujgyaq
 估量 gujliengh
@@ -28828,12 +28822,11 @@ gywngz　(见mboengq)　大竹筒
 草体 saw’gyauj
 大体 daihdaej
 得体 habngamj
-独联体 Duzlenzdij
 断面水体 najraemxgat
-何尝 {副}baenzlawz
-何等 什么样的yiengh lawz
-何等 多么geijlai
-何妨 {副}mboujfuengz
+何尝 {副} baenzlawz
+何等 什么样的 yiengh lawz
+何等 多么 geijlai
+何妨 {副} mboujfuengz
 何况 {连}hozgvang
 何况 gangj naeuz
 何况 hozgvangq
@@ -28854,7 +28847,7 @@ gywngz　(见mboengq)　大竹筒
 伸手 iet fwngz
 伸手 ietfwngz
 伸缩 iet rwt
-伸缩 比喻在数量或规模上作有限的或局部的变动soengdoengh
+伸缩 比喻在数量或规模上作有限的或局部的变动 soengdoengh
 伸腰 iet hwet
 伸展 mbe gvangq
 伸展 ietlangh
@@ -28867,16 +28860,16 @@ gywngz　(见mboengq)　大竹筒
 操作 hai
 操作 dawz
 创作 dajcauh cozbinj
-大作 敬辞saw ndei
+大作 敬辞 saw ndei
 大作 faencieng ndei
 大作 cozbinj ndei
-大作 猛然发生yiengj rekroeb
+大作 猛然发生 yiengj rekroeb
 大作 daengz rekroeb
 大作 hwnj rekroeb
 伯 lungz
 伯 daxlungz
 伯 bohlungz
-孤苦伶 仃guhgyax hoj
+孤苦伶仃 guhgyax hoj
 过伶仃洋 gvaq lingzdinghyangz
 口齿伶俐 bakraeh
 口齿伶俐 bakraeuz
