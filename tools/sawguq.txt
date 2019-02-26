@@ -26844,14 +26844,9 @@ gywngz　(见mboengq)　大竹筒
 案件 anqgienh
 案件 anq
 案件 diuzanq
-部件 buqgienh
-承办件 cingzbanhgienh
-答复件 gienhdapfuk
-大件 daihgienh
 大件 gienhhung
 大件 gaiqhung
 附件 fouqgienh
-附件 fugen
 出任 okdaeuj dang
 担任 dang
 担任 nyaemh
@@ -26861,7 +26856,6 @@ gywngz　(见mboengq)　大竹筒
 独任 boux dog dangnyaemh
 放任 cuengqlangh
 放任自流 cuengqlangh
-负责任 fucwzyin
 哀伤 simcieg
 悲伤 siengsim
 遍体鳞伤 daengxndang sieng
@@ -26870,23 +26864,14 @@ gywngz　(见mboengq)　大竹筒
 挫伤 noegsieng
 挫伤 损伤 sieng
 负伤 deng sieng
-副伤寒 binghfusanghhanz
 工伤 goengsieng
 工伤 hongsieng
 骨伤 ndoksieng
 击伤 nyingz sieng
 杀伤 hoenx sieng hoenx dai
-半价 buenqgyaq
-半价 dingzgyaq
-保护价 baujhohgyaq
-报价 bauqgyaq
-标价 biugyaq
-标价 dajgyaq
-差价 ca gyaq
-出价 okgyaq
-打价 核算价格dajgyaq
+打价 核算价格 dajgyaq
 打价 suenq gyaqcienz
-打价 还价gangjgyaq
+打价 还价 gangjgyaq
 打价 boizgyaq
 代价 daiqgyaq
 凑份子 cop cienzfaenh
@@ -26916,8 +26901,7 @@ gywngz　(见mboengq)　大竹筒
 仿制 ciuqguh
 模仿 ciuq
 模仿 {方}ciuqei
-模仿 mozfangj
-模仿 模仿声音lw
+模仿 模仿声音 lw
 相仿 ca mbouj lai
 相仿 doxlumj
 相仿 {方} doxhuet
@@ -26944,37 +26928,23 @@ gywngz　(见mboengq)　大竹筒
 虚伪 gyaj
 虚伪 guh gyaj
 作伪 guh gyaj
-道路自信 gagsaenq diuzloh
-独立自主 doglaeb gag guhcawj
 独自 gag
-独自 gagdog
-改过自新 dauqcungz guhvunz
 各自 gag
-各自 bonjfaenh
-各自 {方}swhgeij
 出血 oklwed
-出血性 cuzhezsing
 儿童白血病 binghlwedhau lwgnyez
 膏血 lauz caeuq lwed
 膏血 lwed hanh
 供血权 gienzgunglwed
-骨血 goetyied
-骨血 goetyiet
 活血 {中医名词}lwedvaij
 活血 {中医名词}lwedbyaij
 侧向 ngengcoh
 朝向 yiengqcoh
-导向 daujyang
-导向性 daujyangsing
 定向 dinghyiengq
-定向 ding yang
 定向招录 dinghyiengq ciuaeu
 动向 doenghyiengq
-动向 dung yang
 方{向} fueng
 方向 fuengyiengq
 方向 fueng yiengq
-方向性 fanghyangsing
 滚滚向前 baehoho
 横向 hwngzyang
 横向 vengzyiengq
@@ -27004,8 +26974,8 @@ gywngz　(见mboengq)　大竹筒
 保兑行 {aen} ngaenzhangz bauj hawj
 暴行 guh yak guh rwix
 本行 bonjhangz
-不行 {不中用}mbouj baenz
-不行 {不好}mbouj ndei
+不行 {不中用} mbouj baenz
+不行 {不好} mbouj ndei
 不行 mbouj ndaej
 步行 byaij
 步行 byaijdin
@@ -27014,19 +26984,14 @@ gywngz　(见mboengq)　大竹筒
 舟 {名}ruz
 安全 ancienz
 安全 onj
-安全部 ancienzbuq
-安全理事会 Ancienz Lijswvei
-安全套 ancienzdauq
-安全线 ancienzsienq
 保全 baujcienz
-财产保全 caizcanj baujcienz
 成全 bang
 暗杀 amqgaj
 残杀 gaj
 刺杀 ndaemqgaj
-刺杀 指用枪刺和敌人拼杀yoek
+刺杀 指用枪刺和敌人拼杀 yoek
 刺杀 doxyoek
-刺杀 指用武器暗杀amqgaj
+刺杀 指用武器暗杀 amqgaj
 刺杀 caeggaj
 打杀 hoenxgaj
 毒杀 doeggaj
@@ -27041,35 +27006,23 @@ gywngz　(见mboengq)　大竹筒
 凑合 couqcop
 多样联合 lai yiengh lienzhab
 符合 fukhab
-符合 fuzhoz
 符合 hab
 符合 doxhab
 符合 {方} ngamj
 前兆 ciuqdaeuz
-先兆 ciudouz
-预兆 ciudaeuz
-兆头 ciudaeuz
-兆瓦 cauvaj
-征兆 ciudaeuz
 企图 dajsuenq
 企稳 ndwnmaenh
-企业 giyez
-企业法 giyezfaz
-大众 daihcungq
-大众 cungqvunz
 大众 vunzlai
 大众创新 vunzlai cauhmoq
 大众创业 vunzlai cauhnieb
 当众 dangqnaj vunzlai
 观众 bouxyawj
-观众 gvanhcung
 膀爷 goenglohgengz
 膀爷 daeglohgengz
 膀爷 ndaeklohgenz
 大爷 goenglaux
 姑老爷 lwggwiz
 姑老爷 {方}gojyez
-官爷 hakyez
 老大爷 goeng vunzlaux
 老天爷 mbwn
 老爷 lauxyez
@@ -27135,30 +27088,27 @@ gywngz　(见mboengq)　大竹筒
 意旨 eiq
 旨意 cawjeiq
 担负 rapdawz
-担负 担负工作guh
-担负 担负责任rap
-担负 担负费用ok
+担负 担负工作 guh
+担负 担负责任 rap
+担负 担负费用 ok
 负 {动} 背aemq
 负 小于“零”
 负 负伤dwg
 负 deng
-负 负债dawz
-负担 fudanh
+负 负债 dawz
 负担 rap
 负担 rapdawz
 负荷 rapdawz
-负面 fumen
 负能量 rengzhaih
 负能量 rengzrwix
-地方各级组织 deihfueng gak gaep cujciz
 各 gak
 各奔前程 gak boux gak bae
 各别 对人gak boux gak
 各别 对物gak aen gak
 各方面 fuengfueng
 各方面 gak fuengmienh
-各个 对人gak boux
-各个 对物gak aen
+各个 对人 gak boux
+各个 对物 gak aen
 各国 gak guek
 各级 gak gaep
 各界 gak gyaiq
@@ -27257,12 +27207,12 @@ gywngz　(见mboengq)　大竹筒
 亦步亦趋 riengz vunz byaij
 亦步亦趋 riengz laeng vunz
 亦手空拳 fwngzbyouq
-刘 (last name) liuz
-齐 一致doengz
+刘 (姓) liuz
+齐 一致 doengz
 齐 整齐caez
 齐 caez cingj
-齐 达到同样高度bingz
-齐 齐全caez
+齐 达到同样高度 bingz
+齐 齐全 caez
 齐备 bwhndei
 齐备 caezcienz
 齐备 yiengh yiengh miz
@@ -27275,7 +27225,6 @@ gywngz　(见mboengq)　大竹筒
 递交 ndenqhawj
 递交 ndenqgyau
 层次 caengz
-层次 cwngzsw
 初次 baez daih it
 初次分配 faenboiq baez daih it
 次{品} yaez
@@ -27286,7 +27235,7 @@ gywngz　(见mboengq)　大竹筒
 次等 daengj daihngeih
 次等 ngeihdaengj
 次品 huqyaez
-白衣 buhbieg
+白衣 buhhau
 裁衣 caizbuh
 衬衣 buhndaw
 衬衣 {方}swjaem
@@ -27300,10 +27249,11 @@ gywngz　(见mboengq)　大竹筒
 改{衣服} gaij
 更衣 rieg buh
 节衣缩食 mbaet gwn mbaet daenj
-晾衣服 langh bu凉把热的东西放一会儿，使温度降低langh
+晾衣服 langh buh
+凉 把热的东西放一会儿，使温度降低langh
 财产 gyadaej
 产 出产 ok
-产 生仔人的叫seng动物的叫roengz
+产 生仔 人的叫 seng， 动物的叫roengz
 产 财产 gyadangq
 产 reihnaz
 产 rokranz gyasaeh
@@ -27348,11 +27298,6 @@ gywngz　(见mboengq)　大竹筒
 查问 cazcam
 从严问责 coengzyiemz caz cwzyin
 反问 dauq cam
-反问 fanjvwn
-反问法 fanjvwnfaz
-访问 fangjvwn
-顾问 guvwn
-顾问组 guvwncuj
 闯 {动} roemx
 闯祸 cauxhux
 闯进 roemxhaeuj
@@ -27376,7 +27321,6 @@ gywngz　(见mboengq)　大竹筒
 并购 cawxaeu gyan gyoeb
 并购 cawxgyoeb
 并购 gyoebcawx
-并肩 肩挨着肩bingzbaiz
 并肩 mbaq daemj mbaq
 并肩 行动一致caez
 并举 doengzcaez
@@ -27388,12 +27332,9 @@ gywngz　(见mboengq)　大竹筒
 大米 haeux
 大米 haeuxsan
 大米 haeuxbieg
-弗拉基米尔 Fuzlahgihmijwj
-毫米 hauzmij
 花生米 duhdoem {duhnamh}
 粳米 haeuxsuen
 厘米 leizmeix
-厘米 lizmij
 灯 daeng
 灯草 daengcauj
 灯笼 daengloengz
@@ -27403,7 +27344,6 @@ gywngz　(见mboengq)　大竹筒
 灯罩 {方}daengciuq
 灯罩 gingqdaeng
 点灯 diemjdaeng
-电灯 dendwngh
 黑灯瞎火 laepcup
 红灯 daenghoengz
 盗汗 hanhheu
@@ -27446,7 +27386,7 @@ gywngz　(见mboengq)　大竹筒
 泡汤 guhndwi
 泡汤 guhhoengq
 清汤 raemxdang hoengq
-帮倒忙 yiedbang yied nyaengq
+帮倒忙 yied bang yied nyaengq
 帮忙 bangcoengh
 帮忙 bang
 帮忙 bangfwngz
@@ -27460,7 +27400,6 @@ gywngz　(见mboengq)　大竹筒
 大兴 daihhwng
 复兴 dauqhwng
 复兴 fukhwng
-复兴 fuzhingh
 高兴 angq
 高兴 gauhingq
 高兴 sim angq
@@ -27473,8 +27412,6 @@ gywngz　(见mboengq)　大竹筒
 把守 bajsouj
 把守 dawzsouj
 保守 baujsouj
-保守党 baujsoujdangj
-防守 fuengzhen
 防守 souj
 防守 fuengzsouj
 固守 soujmaenh
@@ -27497,9 +27434,7 @@ gywngz　(见mboengq)　大竹筒
 安放 cuengqonj
 安放 cuengq
 安好 onjndei
-安徽 Anhveih
 摆事实、讲道理 baij saehsaed、gangj dauhleix
-对讲机 duigyangjgih
 好讲 ndei gangj
 讲 gangj
 讲出 gangjok
@@ -27518,8 +27453,6 @@ gywngz　(见mboengq)　大竹筒
 少许 di ndeu
 跳{形容许多鱼、虾一起跳} saetroebroeb
 些许 di
-行政许可 hingzcwng hijgoj
-行政许可法 hingzcwng hijgoj faz
 许 {动}准许hawj
 许多 daihbaj
 许多 haujlai
@@ -27580,7 +27513,7 @@ gywngz　(见mboengq)　大竹筒
 迅速 动作快 riengj
 迅速 {方}seuqdangq
 迅速 linj
-迅速 多指工作速度快bieng
+迅速 多指工作速度快 bieng
 费尽心机 caenhsim
 竭尽 yunghcaenh
 筋疲力尽 naet
@@ -27596,8 +27529,6 @@ gywngz　(见mboengq)　大竹筒
 尽管 连词cungjcinj
 尽管 couhcinj
 尽管 daj dingh
-波导 bohdauj
-超导 cauhdauj
 导 {动}daz
 导 yinx
 导 dauj
@@ -27625,8 +27556,6 @@ gywngz　(见mboengq)　大竹筒
 孙女婿 langwiz
 孙文 Sunh Vwnz
 孙媳妇 bawxlan
-孙中山 Sunh Cunghsanh
-孙子 Sunhswj
 孙子 lansai
 孙子 daeglan
 上阵 bae hoenxciengq
@@ -27666,7 +27595,6 @@ gywngz　(见mboengq)　大竹筒
 防备 {方} donj
 防病 fuengzbingh
 防潮 re cumx
-防城港 Fangzcwngzgangj
 汉奸 hangenh
 奸{形} gan
 奸滑 ganvad
@@ -27726,8 +27654,7 @@ gywngz　(见mboengq)　大竹筒
 姨妈 {方}daxheiz
 姨妈 mehheiz
 唱戏 ciengqheiq
-地方戏 heiqbonjdeih
-地方戏 heiqbonjdieg
+地方戏 heiqdiegneix
 调戏 daeuq
 儿戏 lexhe
 鬼把戏 gveijbajheiq
@@ -27741,15 +27668,12 @@ gywngz　(见mboengq)　大竹筒
 羽 bwn
 羽毛 bwn
 羽毛 {方}goen
-羽毛球 yijmauzgiuz
 羽扇 beizbwn
 悲观 doeknaiq
 悲观 simnaiq
 参观 cazyawj
 参观 yawj
-参观 canhgvanh
 参观 ngonz
-发展观 fazcanjgvanh
 改观 bienq ndei
 观 yawj
 观 {方}ciuq
@@ -27778,14 +27702,12 @@ gywngz　(见mboengq)　大竹筒
 互相买卖 dox gaicawx
 兼买 giemcawx
 买 {动}cawx
-买办 maijban
 买方 mbiengjcawx
 买官 cawxguen
 买进 cawxhaeuj
 买来的地 diegcawx
 买卖 gaicawx
 买卖活动 gaicawx hozdungz
-买受人 maijsouyinz
 买者 bouxcawx
 发红 fathoengz
 分红 faenhoengz
@@ -27794,19 +27716,14 @@ gywngz　(见mboengq)　大竹筒
 粉红 maeq
 红{形} hoengz
 红{形} nding
-红白喜事 hoengz beg saeh
 红榜 buengjhoengz
 红豆 maklimz
-光纤 gvanghsenh
-碳纤维 dansenhveiz
-纤维 senhveiz
 班级 ban
 本级 bonjgaep
 部级 buqgaep
 层级 caengzgaep
 超级 ciugaep
 初级 cogaep
-村级 cunhgaep
 等级 daengjgaep
 低级 gaepdaemq
 调级 diuzgaep
@@ -27828,22 +27745,15 @@ gywngz　(见mboengq)　大竹筒
 拜寿 baiqsouh
 长寿 gyaeu
 长寿 {方} souhyienz
-长寿 naihsouh
-长寿 souhlaux
-人寿 yinzsou
 寿 {名}gyaeu
 寿 {方}saeuh
-寿 saeuhyienz
-寿 saeuhlaux
-寿 naihsaeuh
 寿辰 ngoenzseng
-寿辰 lauxsouh
 寿辰 {方} ngoenzgoen
 寿辰 ngoenz ndaej
 摆弄 baijloengh
 摆弄 loengh
 搬弄是非 daehbaklai
-拨弄 拨弄火盆里的火炭ndau
+拨弄 拨弄火盆里的火炭 ndau
 拨弄 拨弄琴弦danz
 嘲弄 loengh
 调弄 loengh
@@ -27892,11 +27802,11 @@ gywngz　(见mboengq)　大竹筒
 鲸吞 gyan
 狼吞虎咽 gwnguk
 狼吞虎咽 ndwnj luem
-狼吞虎咽 {方}gvamz
+狼吞虎咽 {方} gvamz
 侵吞 ciemqgwn
-侵吞 暗中非法占有yaemaeu
+侵吞 暗中非法占有 yaemaeu
 侵吞 gyangwn
-侵吞 用武力吞并别国ciemq
+侵吞 用武力吞并别国 ciemq
 忍气吞声 naenxheiq
 忍气吞声 nyaenxheiq
 忍气吞声 nyaenx sing nyaenx heiq
@@ -27940,12 +27850,9 @@ gywngz　(见mboengq)　大竹筒
 扶 fuz
 扶 ruzrex
 扶持 bangfuz
-扶持 fuzciz
 扶持 fuzrex
 扶持 rex
 扶持 {方} raeuz
-扶持 fuz
-督抚 duzfuj
 抚 lumh
 抚摩 lumh
 抚养 ciengx
@@ -27954,12 +27861,11 @@ gywngz　(见mboengq)　大竹筒
 抚育 ganq
 抚育 ganqciengx
 坛 口小中间大的biengx
-坛 扁而圆的boemh
+坛 扁而圆的 boemh
 坛坛罐罐 rekrek vanjvanj
 坛坛罐罐 daizdaiz daengqdaengq
 坛子 口小中间大的biengx
 坛子 扁而圆的 boemh
-发展高科技 fazcanj gauhgohgi
 高技能 dinfwngz rem ak
 败坏 损害haih
 败坏 破坏vaih
@@ -27971,17 +27877,13 @@ gywngz　(见mboengq)　大竹筒
 坏 rwix
 坏 yaez
 坏 vaih
-坏 腐烂naeuh
+坏 腐烂 naeuh
 坏处 vaihcawq
 坏蛋 vunzvaih
 坏蛋 vunzrwix
 坏分子 vunzvaih
 坏分子 vunzrwix
-打扰 gaujcauj
-打扰 gaujyauj
 烦扰 simnyap
-烦扰 gaujcauj
-干扰 ganhyauj
 干扰 gauxca
 搅扰 cau
 搅扰 gauxca
@@ -28029,12 +27931,10 @@ gywngz　(见mboengq)　大竹筒
 扯 {方}cij
 扯 nengh
 扯 caj
-胡扯 doeng cej sae cej
 拉扯 bengrag
 拉拉扯扯 beng bae beng dauq
 牵扯 nangq
 瞎扯 luenh gangj
-闲扯 doeng cej sae cej
 闲扯 gangjgoj
 相扯 doxrag
 坝址 diegfai
@@ -28057,7 +27957,6 @@ gywngz　(见mboengq)　大竹筒
 包抄 gvaengxhumx
 查抄 cau
 抄 cau
-抄家 caugya
 抄家 saeujranz
 抄录 cau
 抄录 cauloeg
@@ -28073,12 +27972,7 @@ gywngz　(见mboengq)　大竹筒
 拦洪坝 fai
 水坝 fai
 淤地坝 fai laengz naez
-贡 gung
-贡献 gunghawj
-贡献 gungyen
-贡献率 gungyenliz
 反攻 fanjgung
-反攻倒算 fanjgungh daujsuenq
 攻 {动} gung
 攻打 hoenx
 攻打 dwk
@@ -28142,7 +28036,6 @@ gywngz　(见mboengq)　大竹筒
 孝敬 hauqgingq
 均等 doxbingz
 均等 doxdaengj
-均等化 ginhdwngjva
 均衡 bingzyaenx
 均衡 ginhhwngz
 平均 bingzyaenx
@@ -28164,8 +28057,6 @@ gywngz　(见mboengq)　大竹筒
 弃暗投明 biek roen vang byaj roen cingq
 情投意合 habsim hab eiq
 情投意合 hab eiq habhoz
-社会投资 ndawbiengz douzswh
-社会投资 sevei douzswh
 坟 {名} moh
 坟 {方} deih
 坟 doenz
@@ -28184,7 +28075,6 @@ gywngz　(见mboengq)　大竹筒
 抗辩 dingjbuek
 抗病 dingjbingh
 抗大 gangda
-抗毒素 gangduzsu
 抗旱 dingjrengx
 抗旱 ganghan
 弹坑 gumzcaqdanq
@@ -28248,9 +28138,9 @@ gywngz　(见mboengq)　大竹筒
 别扭 baetniuj
 闹别扭 baetniuj
 闹别扭 ndiuj
-扭 {动}掉转veq
-扭 拧断euj
-扭 揪住niuj
+扭 {动}掉转 veq
+扭 拧断 euj
+扭 揪住 niuj
 扭回 niujdauq
 扭亏 niuj gveih
 扭捏 言谈不大方{一般指女子}
@@ -28289,15 +28179,14 @@ gywngz　(见mboengq)　大竹筒
 把 {不定数词}baj 有百～人来 Miz bak baj vunz daeuj.
 把 {把柄}gaenz
 把 dawz
-把 用手握住dawz
+把 用手握住 dawz
 把 gaem
-把 看守baj
-把 给小孩把屎尿siq
-把 量词1．指一般工具，如刀、锄等fag
-把 量词2．一般指禾、菜等gaem bog
-把 量词 3．指扇子gaiq
-把柄 器物上便于用手拿的部分gaenz
-把柄 比喻可以被人用来进行要挟的过失或错误等bajbingq
+把 看守 baj
+把 给小孩把屎尿 siq
+把 量词 1．指一般工具，如刀、锄等 fag
+把 量词 2．一般指禾、菜等 gaem bog
+把 量词 3．指扇子 gaiq
+把柄 器物上便于用手拿的部分 gaenz
 把持 baulamx
 报 bauq
 报备 bauqbwh
@@ -28305,7 +28194,6 @@ gywngz　(见mboengq)　大竹筒
 报答 bauqdap
 报单 bauqdan
 报到 bauqdaengz
-报到系统 baudau hidungj
 报道 baudau
 报道 bauqnaeuz
 报恩 bauqaen
@@ -28313,10 +28201,9 @@ gywngz　(见mboengq)　大竹筒
 冷却 gyoet
 冷却 {方}caep
 冷却 langh caep
-却 后退doiq
-却 推辞doi
-却 doiswz
-却 表示转折dauq
+却 后退 doiq
+却 推辞 doi
+却 表示转折 dauq
 却 dauqfanj
 推却 doi
 退却 doiq
@@ -28326,7 +28213,7 @@ gywngz　(见mboengq)　大竹筒
 打劫 ciengjgiep
 浩劫 cainanh
 浩劫 daihnanh
-劫 {动}giep
+劫 {动} giep
 劫财 duedcaiz
 劫夺 dued
 劫夺 {方}lut
@@ -28354,27 +28241,23 @@ gywngz　(见mboengq)　大竹筒
 白花花 haucakcak
 白花花 hausaksak
 菜花 byaekreuz
-菜花 va’byaek
+菜花 va'byaek
 雌花 vameh
 弹棉花 gungfaiq
 肚花猪 moudungxva
-桂花 Gveivah
-桂花 gveiqva
-桂花 va gveiq
-桂花 va gviq
+桂花 va'gveiq
+桂花 va'gviq
 荷花 myokngaeux
-荷花 va ngaeux {va mbu}
+荷花 va'ngaeux {va'mbu}
 芹菜 byaekginzcaiq
 芬 hom
 芬芳 homfwtfwt
 芬芳 rangrwtrwt
-芬兰 Fwnhlanz
-芬斯顿 Fwnhswhdun
 苍白 haunyo
 苍翠 heuloeg
 苍翠 heusausau
-苍茫 {夜色}laepcup
-苍茫 {宽阔}langhlup
+苍茫 {夜色} laepcup
+苍茫 {宽阔} langhlup
 苍蝇 duznengznyaen
 苍蝇 nengznyaek
 苍蝇 nengznyaen
@@ -28409,9 +28292,6 @@ gywngz　(见mboengq)　大竹筒
 酬劳 cienzsinhoj
 酬劳 cienzdwgrengz
 代劳 bangguh
-阿克苏 Ahgwzsuh
-埃塞克斯 Aihsaigwzswh
-成克杰 Cwngz Gwzgez
 秤杆 ganjcaengh
 杆 {名}ganj
 杆 {名、量}名词用ganj
@@ -28419,7 +28299,6 @@ gywngz　(见mboengq)　大竹筒
 杆秤 caenghganj
 杆菌 ganjgin
 杆子 ganj
-价格杠杆 gyagwz gangganj
 栏杆 baengh
 磨的拉杆 ganjmuh
 旗杆 geizganj
@@ -28433,16 +28312,11 @@ gywngz　(见mboengq)　大竹筒
 抬杠 euqvang
 抬杠 euqraeh
 抬杠 euqrengx
-杜 阻塞saek {caet}
-杜邦 dubangh
+杜 阻塞 saek {caet}
 杜鹃 roegdinghgeng
 杜鹃 {方} roeglanxvaiz
 杜鹃 roegcoigoeng
 杜绝 gimqraeg
-杜林 Dulinz
-杜鲁门 Dulujmwnz
-杜牧 Du Muz
-杜松子酒 laeujdusunghswj
 材 caiz
 材积 caizciz
 材料 caizliuh
@@ -28451,10 +28325,8 @@ gywngz　(见mboengq)　大竹筒
 成材 baenzliuh
 蠢材 hukcaeq
 蠢材 gikcaeq
-发言材料 fazyenz caizliu
 钢材 gang
 钢材 gangcaiz
-钢材 ganghcaiz
 村 {名}mbanj
 村道 roenmbanj
 村里的事情 saehmbanj
@@ -28468,10 +28340,6 @@ gywngz　(见mboengq)　大竹筒
 登峰造极 benz hwnj dingjbya
 登峰造极 daengz giz ceiq sang
 地极 gyaeuj deihgiuz
-多极 dohgiz
-多极化 dohgizva
-积极 cizgiz
-积极分子 cizgiz fwnswj
 极 {副}gig
 极大 daihdaih
 极大 gig daih
@@ -28519,7 +28387,6 @@ gywngz　(见mboengq)　大竹筒
 结束 sat
 结束 satlaeng
 结束日 ngoenzsat
-结束语 vahgiet
 结束语 vahsat
 拘束 gawsuk
 拘束 suksouj
@@ -28528,13 +28395,12 @@ gywngz　(见mboengq)　大竹筒
 蚕豆 duhbap
 臭豆腐 daeuhfouhhaeu
 大豆 duhhenj
-豆 {名duh
+豆 {名} duh
 豆 lwgduh
 豆豉 daeuhseih
 豆腐 daeuhfouh
 豆腐乳 ciengqdaeuhfouh
-豆荚 duhfaek
-豆浆 douciengh
+豆荚 faekduh
 豆浆 gienghduh
 豆酱 ciengqduh
 豆酱 {方} yenzciz
@@ -28547,20 +28413,14 @@ gywngz　(见mboengq)　大竹筒
 美丽 gyaeu ndei
 美丽 {方}gyaeu
 看医生 yawjbingh
-老中医 laujcunghyih
-留医 liuzyih
 全科医生 boux canghyw rox yw gak cungj bingh
-全科医生 canghyw cenzgoh
 诞辰 ngoenzseng
 时辰 saenzgeiz
 时辰 seizsaenz
 星辰 ndaundeiq
-鼓励 gujli
 激励 gik
 激励 gikcoi
 激励 gikleih
-激励 gizli
-奖励 ciengjli
 奖励 dajciengj
 勉励 yienqmienx
 自励 gag yienqmienx
@@ -28569,19 +28429,17 @@ gywngz　(见mboengq)　大竹筒
 矢口否认 laihdai mbouj nyinh
 是否 dwg mbouj dwg
 是否 dwglwi
-一票否决制 gij cidu biuq dog foujgez
 偿还 dienz
 偿还 dienzboiz
 发还 fatdauq
 返还 fanjvanz
-还 {副}lij
-还 {动}归还boiz
+还 {副} lij
+还 {动} 归还 boiz
 还 lij
-还 返回dauq
+还 返回 dauq
 还本 vanzboij
 还本 vanzbonj
 攻歼 hoenxgaj
-歼 {动}
 围歼 humx hwnj daeuj dwkraeg
 本来 bonjlaiz
 本来 {方}bonjmaz
@@ -28603,27 +28461,19 @@ gywngz　(见mboengq)　大竹筒
 接连 lienzlienz
 接连不断 laeblaeb-daebdaeb
 连 lienz
-连 军队编制单位lienz
-连 包括在内lienz
+连 军队编制单位 lienz
 连 daiq
-连 连接lienz
 连 rangh
 连 连续lienz
 连 laebdaeb
 步 yamq
-步兵 bubingh
-步兵营 bubinghyingz
 步步 yamqyamq
 步枪 cungqraez
 步骤 bouhloh
 步子 yamq
 步子 yamqdin
 初步 cobouh
-攻坚 gunggan
 攻坚 gunggeng
-攻坚 gunggien
-攻坚 gunghgenh
-攻坚战 gunghgenhcan
 很坚固 gaenjdwt
 坚 maenh
 坚持 dingj
@@ -28633,11 +28483,10 @@ gywngz　(见mboengq)　大竹筒
 旱地 diegrengx
 旱地 reih
 旱季 seizrengx
-旱路 {陆地上的交通路线}gwnzhawq
+旱路 {陆地上的交通路线} gwnzhawq
 旱路 roen gwnz hawq
 旱路 {方}lohmboek
 旱灾 mbwnrengx
-旱作农业 gij nungzyez ndaem doenghgo naih rengx
 盯 {动} cim
 盯 {方} ciengh
 盯 cimyawj
@@ -28654,7 +28503,6 @@ gywngz　(见mboengq)　大竹筒
 呈送 geiqhawj
 呈送 bauqsoengq
 呈现 yienh
-辞呈 swzcingz
 挨时间 ngaiznyed
 挨时间 磨洋工 ngaizhong
 按时 ciuqseiz
@@ -28671,7 +28519,6 @@ gywngz　(见mboengq)　大竹筒
 补助 bangbouj
 扶助 bang
 辅助 bangbouj
-辅助 fujcu
 城里 ndaw singz
 城里人 vunzhaw
 痴呆 mwnh
@@ -28718,32 +28565,28 @@ gywngz　(见mboengq)　大竹筒
 紧紧围绕 hopndaet
 皮围裙 doxnaeng
 突围 cung okbae
-土围子 {旧时保护村庄的围墙}ciengzcab
-哎呀 {叹}aiya
+土围子 {旧时保护村庄的围墙} ciengzcab
+哎呀 {叹} aiya
 呀 {助词}a 大家快来～。caezgya vaiq daeuj a.
-呀 {叹}ya
+呀 {叹} ya
 吨 dunh
 补足 bouj gaeuq
 补足 boujgaeuq
 不足 mboujgaeuq
 不足 mboujcuk
 不足道 mbouj suenq gijmaz
-草根足球 gij cuzgiuz gyoengq beksingq dwk
 缠足 ciemxdin
 充足 cuk
 充足 cungcuk
 捶胸顿足 mboengj aek mboengj ai
 邮 geiq
 邮 {方}fak
-老年男子 goeng vunz
 男 儿子lwgsai
 男 daeglwg
 男 {方}lwgmbauq
 男 男性sai
 男 boux sai男孩daeg
 男 mbauq
-男当家 goengcawj
-男导师 daujswhsai
 男孩 lwgmbauq
 男孩 lwgnyezsai
 男孩 lwgsai
@@ -28752,7 +28595,6 @@ gywngz　(见mboengq)　大竹筒
 困境 hojcawq
 困倦 naet
 困苦 haemzhoj
-困难 gunnanz
 困难 hoj
 贫困 hoj
 贫困 hojndoq
@@ -28760,7 +28602,6 @@ gywngz　(见mboengq)　大竹筒
 贫困地 dieghoj
 贫困地区 dieggungz
 贫困地区 dieggungzhoj
-贫困线 gungzhojsienq
 吵 cauz
 吵架 doxceng
 吵闹 cengnauh
@@ -28812,19 +28653,12 @@ gywngz　(见mboengq)　大竹筒
 吹嘘 cejfoxfox
 吹嘘 cejoenxoenx
 呜 {象声}
-呜呼 叹词，表示叹息eiyo
-呜呼 指死亡dai
+呜呼 叹词，表示叹息 eiyo
+呜呼 指死亡 dai
 呜咽 daejfwtfwt
 一呜惊人 baez guh couh okmingz
 果吧 diemqmak
-果吧 bouqgojbah
-泡吧 baubah
 书吧 bouqsaw
-书吧 sawbah
-水吧 raemxbah
-陶吧 naezbah
-网吧 vangjbah
-氧吧 yangjbah
 吼{动} {h6u}rongx
 吼{动} maenj
 吼{动} rongx
@@ -28842,16 +28676,10 @@ gywngz　(见mboengq)　大竹筒
 岗 {方}ndeuq
 岗 geuq
 岗 ngoz
-岗位 ganghvei
-岗位 gangjvei
-岗位 gangvih
 岗子 geng
 岗子 {方}ndeuq
 岗子 geuq
 岗子 ngoz
-鹤岗 Hozgangh
-鹤岗市 Hozgangh Si
-换岗 vuenhgang
 结帐 gietsoq
 赖帐 dajlaih
 赖帐 laihdai
@@ -28862,7 +28690,6 @@ gywngz　(见mboengq)　大竹筒
 认帐 nyinh
 赊帐 si soq
 算帐 suenq soq
-台帐赛 daizcangsai
 蚊帐 riep
 蚊帐顶 dingjriep
 财 caiz
@@ -28871,7 +28698,6 @@ gywngz　(见mboengq)　大竹筒
 穿针 cincim
 打针 dajcim
 顶针 dingjcim
-防疫针 fangzyizcinh
 蜂针 laez
 海底捞针 ndaw haij vax cim
 见缝插针 miz hoengq couh ndonj
@@ -41392,14 +41218,12 @@ gywngz　(见mboengq)　大竹筒
 凋零 loenq
 零{数} lingz
 零 lingz
-零部件 lingzbugen
 零吃 saejdaeuz
 零点 lingzdiemj
 零丁 lingzding
 零工 honglingz
 零工 lingzgoeng
 零花 lingzyungh
-零件 lingzgen
 零件 lingzgienh
 雾 mok
 雾 {方}mojlox
