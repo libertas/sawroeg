@@ -31894,7 +31894,7 @@ gywngz　(见mboengq)　大竹筒
 窗帘 yiemzcueng
 窗帘 {方} yiemzgeuq
 帘 yiemz
-帘 {方}lienz
+帘 {方} lienz
 帘子 yiemz
 门帘 yiemzdou
 查实 cazsaed
@@ -31911,7 +31911,6 @@ gywngz　(见mboengq)　大竹筒
 厚实 netna
 测试 rausawq
 尝试 sawq
-试 {动} 试验
 试 尝试 sawq
 试 sawq
 试 考试 gauj
@@ -31927,7 +31926,7 @@ gywngz　(见mboengq)　大竹筒
 诗 seifaen
 诗歌 fwensei
 诗歌 sei
-诗歌 seifaen
+诗歌 seifwen
 诗经 seiging
 诗人 canghfwensei
 唐诗 Dangzsei
@@ -31947,7 +31946,7 @@ gywngz　(见mboengq)　大竹筒
 长房 daeuzfuengz
 厨房 funghdajcawj
 厨房 ranzdajcawj
-厨房 ranzcauq {方}bakcauq
+厨房 ranzcauq  {方} bakcauq
 厨房 baksaeuq
 厨房 ranzcaz
 厨房 ranzsaeuq
@@ -31955,7 +31954,6 @@ gywngz　(见mboengq)　大竹筒
 诚恳 caensim caen eiq
 诚心 caensim
 诚心诚意 caensim caen eiq
-诚信 cwngzsin
 诚信 lauxsaed souj saenqyungh
 诚意 caen eiq
 虔诚 goenggingq caencingz
@@ -31966,11 +31964,11 @@ gywngz　(见mboengq)　大竹筒
 长衫 buhraez
 汗衫 buhdakhanh
 汗衫 buhndaw
-衫 单上衣buhbeu
+衫 单上衣 buhbeu
 鄙视 yawjsiuj
 鄙视 yawj mbouj hwnj
 短视 dagaeb
-白话 {指空口讲白话}gangjndwi
+白话 {指空口讲白话} gangjndwi
 不像话 mbouj baenzvah
 不像话 mbouj baenzcoenz
 不像话 mbouj lumj
@@ -31983,12 +31981,12 @@ gywngz　(见mboengq)　大竹筒
 答话 hoizvah
 答话 hanvah
 答话 hoizdap
-诞 出生seng
+诞 出生 seng
 诞 okseng
 诞 doekseng
 诞 doekfag
 诞 okseiq
-诞 生日ngoenzseng
+诞 生日 ngoenzseng
 诞生 seng
 诞生 okseng
 诞生 doekseng
@@ -31996,13 +31994,11 @@ gywngz　(见mboengq)　大竹筒
 诞生 okseiq
 查询 cam
 探询 cam
-询问 征求意见cam
-询问 打听damq
+询问 征求意见 cam
+询问 打听 damq
 询问者 bouxcam
 质询 faekcam
 咨询 cam
-咨询 swhsinz
-咨询会 swhsinzvei
 该 wnggai
 该当 wngdang
 该死 habdai
@@ -32010,20 +32006,20 @@ gywngz　(见mboengq)　大竹筒
 活该 hab
 应该 wngdang
 应该 wnggai
-应该 {方}hab
+应该 {方} hab
 未详 mbouj rox cingcuj
 详 {事情}清楚cingcuj
-详 {形} 详细ciengzsaeq
+详 {形} 详细 ciengzsaeq
 详尽 ciengzsaeq
 搭建 daphwnq
 肃 caem
-肃 {方}dingh
+肃 {方} dingh
 登录 daenghloeg
 附录 fouqloeg
 记录 geiq
 记录 geiqloeg
-录 {动}cau
-录 {方}daengz
+录 {动} cau
+录 {方} daengz
 录放 loegcuengq
 定居 youqdingh
 粉刷 daz
@@ -32033,12 +32029,10 @@ gywngz　(见mboengq)　大竹筒
 洗刷 catswiq
 洗刷 swiq
 洗刷 cat
-牙刷 yazcat
 牙刷 gaiqcatheuj
 印刷 dajyaenq
 印刷 yaenq
 印刷 yaenqsaz
-印刷 yinsaz
 卑躬屈膝 roengzhoq bungjbau
 卑躬屈膝 yahcienh
 不屈 mboujfug
@@ -32046,33 +32040,31 @@ gywngz　(见mboengq)　大竹筒
 叫屈 heuh ien
 宁死不屈 dai mbouj fug
 宁死不屈 dai cungj mbouj fug
-屈 {动}弯曲goz
-屈 委屈ienvuengj
+屈 {动} 弯曲 goz
+屈 委屈 ienvuengj
 屈从 utcoengz
 屈服 fug
 屈辱 deng ienuengj sainaj
 屈膝 gvih
-弦 {乐器上发音的线}yienz
+弦 {乐器上发音的线} yienz
 承办 ciepguh
 承办人 bouxciepguh
 承包 bau
 孤本 cekdog
 孤本 guhbwnj
 孤单 fwz
-孤单 {方}godan
+孤单 {方} godan
 孤独 gadog
 孤独者 bouxgyax
 孤儿 lwggyax
-孤儿院 guh wzyen
 孤家寡人 bouxdog bouxdon
 孤立 godog
 孤立 golaeb
-孤立 guhliz
 孤零零 gadog
 孤零零 gyaxgedged
-降 {动}投降douzyangz
-降 {动}水位下降mboek
-降 doiq温度下降doiq
+降 {动} 投降 douzyangz
+降 {动} 水位下降 mboek
+降 温度下降doiq
 降低 doekdaemq
 降低 gyangqdaemq
 降低 roengzdaemq
@@ -32091,36 +32083,31 @@ gywngz　(见mboengq)　大竹筒
 表妹 dahnuengxbiuj
 姐妹 beixnuengx
 金妹{山歌对唱中称情妹} nuengxgim
-妹 {名}nuengx
+妹 {名} nuengx
 妹 dahnuengx
 妹夫 nuengxgwiz
 妹妹 dahnuengx
 妹妹 daxnuengx
-伊妹儿 denswj youzgen
 银妹{山歌对唱中称情妹} nuengxngaenz
-慈姑 sawzguh
 慈姑 lwgheuj
-大姑子 {即丈夫的姐姐}mehgux
-大姑子 {方}mehgo
-姑 {名}gux
-姑 {方}go
-姑夫 guhcang
-姑夫 {方}bohgo
+大姑子 {即丈夫的姐姐} mehgux
+大姑子 {方} mehgo
+姑 {名} gux
+姑 {方} go
+姑夫 {方} bohgo
 姑夫 bohniengq
 姑姑 gux
-姑姑 {方}doxgo
-表姐 biujcej
+姑姑 {方} doxgo
 表姐 cejbiuj
 大姐 cejlaux
 大姐 cejdaih
-姐 {名}cej
+姐 {名} cej
 姐 daxcej
 姐夫 cejfou
-姐夫 {方}beixyez
+姐夫 {方} beixyez
 姐姐 cej
 姐姐 daxcej
 姐姐 dahcej
-三姐 Sanhcej
 百姓 beksingq
 老百姓 beksingq
 同姓 doengzsingq
@@ -32132,26 +32119,24 @@ gywngz　(见mboengq)　大竹筒
 开始 haidaeuz
 开始 hainduj
 善始善终 daj goek daengz byai cungj guh ndei
-始 {动}起头hwnj最初goek
+始 {动} 起头 hwnj; 最初 goek
 始 haidaeuz
-始 副词，与才同cij
+始 副词，与才同 cij
 始末 goek byai
 始终 daj gyaeuj daengz rieng
 始祖 goengcoj
 有始无终 miz gyaeuj mbouj miz rieng
 有始有终 miz gyaeuj miz rieng
-原始 yenzsij
-原始 最初的codaeuz
+原始 最初的 codaeuz
 原始 haidaeuz
-原始 最古老的ciuhnduj
-驾 {动}{驾驶} hai
+原始 最古老的 ciuhnduj
+驾 {动} {驾驶} hai
 驾驶 hai
 驾驶员 bouxhaici
-驾驶员 指飞机驾驶员 bouxhaifeihgih
 酒驾 gwn laeuj haici
 醉驾 laeujfiz haici
 参 gyahaeuj
-参 人参caem
+参 人参 caem
 艰苦 dwgrengz
 艰苦 sinhoj
 艰苦 ganhoj
@@ -32160,19 +32145,12 @@ gywngz　(见mboengq)　大竹筒
 艰难 hojnanz
 艰深 laeg
 艰险 yungyiemj
-边界线 bien gyaiqsienq
 搓线 laenzmae
 底线 daejsienq
-东线 dunghsen
 兜底线 souj daejsienq
-短线 donjsen
 二线 ngeihsienq
-防线 fangzsen
 防线 fuengzsienq
-放射线 fangsesen
-教练 gyaulen
 教练 gyauqlienh
-老教练员 laujgyaulenyenz
 老练 cug
 老练 lauxlienh, lauxsouj
 练 {动} lienh
@@ -32186,24 +32164,22 @@ gywngz　(见mboengq)　大竹筒
 细 {形} saeq
 细 iq
 细 saeq
-细胞 sibauh
 细分 faensaeq
 细分 saeqfaen
-驶 开动hai
-驶 车飞快地跑fwt
-驶 马飞快地跑biu
+驶 开动 hai
+驶 车飞快地跑 fwt
+驶 马飞快地跑 biu
 行驶 byaij
 编织 dajsan
 编织 san
 纺织 daemj
 纺织 daemjrok
-纺织 fangjciz
 临终 yaek dai
 临终 yaek goenqcaw
 临终 laemz dai
 年终 nienzdaej
-善终 把事情的最后阶段做完做好guh sat guh ndei
-善终 正常死亡dai ndei
+善终 把事情的最后阶段做完做好 guh sat guh ndei
+善终 正常死亡 dai ndei
 送终 soengqdai
 月终 nyieddaej
 终 satbyai
@@ -32213,13 +32189,11 @@ gywngz　(见mboengq)　大竹筒
 派驻 baijcap
 驻 {动} youq
 驻 cap
-驻地 cudi
 驻地 diegcap
 驻地 diegyouq
 驻守 capsouj
 驻守 souj
-驻外使馆 sijgvanj capyouq guekrog
-驼 {指背弯曲}laenggungq
+驼 {指背弯曲} laenggungq
 驼背 gumqgaeuz
 驼背 laenggungq
 驼背 hwet goz
@@ -32235,12 +32209,10 @@ gywngz　(见mboengq)　大竹筒
 籍贯 diegranz
 连贯 doxrangh
 连贯 doxswnj
-节奏 cezcou
-奏 {动}唱ciengq
-奏 陈述意见或说明事情lwnh
+奏 {动} 唱 ciengq
+奏 陈述意见或说明事情 lwnh
 奏 bauq
 奏捷 ndaej hingz
-奏效 miz yaugoj
 奏效 diuz
 春 {名} cin
 春 seizcin
@@ -32248,23 +32220,21 @@ gywngz　(见mboengq)　大竹筒
 春播 seizcin doekceh
 春分 cinfaen
 春耕 ndaemcin
-帮 动词bang
-帮 量词gyoengq
+帮 动词 bang
+帮 量词 gyoengq
 帮 bang
-山珍海味 lukyungz haij cinh
 珍爱 inmaij
 珍爱 in gyaez
 珍宝 bauj
 珍藏 yo
 珍藏 cangz
-珍藏 {方}diem
+珍藏 {方} diem
 珍贵 dijbauj
 珍贵物品 huqdij
-珍妮机 cinhnizgih
 珍品 doxgaiq dijbauj
 珍视 yawjnaek
 珍视 insik
-珍视 {方}yawjdij
+珍视 {方} yawjdij
 玻璃 bohliz
 玻璃 gingq
 病毒 binghdoeg
@@ -32283,27 +32253,22 @@ gywngz　(见mboengq)　大竹筒
 大型 hung
 大中型 hungrauh
 定型 dinghhingz
-挂 {动}venj
-挂 {方}hoij
+挂 {动} venj
+挂 {方} hoij
 挂 venj
 挂彩 deng sieng
-挂车 gvaceh
-挂钩 gvagouh
 挂钩 venjngaeu
-挂号 gvahau
 挂号 gvaqhauh
-挂靠 gvagau
 挂靠 gvaqgauq
 挂名 venj mingzdaeuz
 挂名 venj coh
 挂名 venjmingz
 查封 cazfung
 查封 fung
-封{信} {量}fung
+封{信} {量} fung
 封 fung
 封闭 fung
 封闭 fungbix
-封闭 funghbi
 封闭 fungsaek
 封存 funglouz
 封底 fungdaej
@@ -32314,12 +32279,12 @@ gywngz　(见mboengq)　大竹筒
 秉持 gaemdawz
 秉持 gaemmiz
 操持 guenj
-持 {动}dawz
+持 {动} dawz
 持 gaem
 持 guenj
 持家 guenjgya
 持家 guhgya
-持续lienzdaemh laemxdaemh
+持续 lienzdaemh laemxdaemh
 单项 hanghdog
 颈项 hoz
 立项 laeb hangh
@@ -32333,26 +32298,19 @@ gywngz　(见mboengq)　大竹筒
 垮 loemq
 垮 lak
 垮台 roengzdaiz
-挎 把东西挎在肩头、脖子或腰间beq
-挎 用胳膊弯起挂东西venj
+挎 把东西挎在肩头、脖子或腰间 beq
+挎 用胳膊弯起挂东西 venj
 挎包 daehbeq
-长城 cangzcingz
-长城 cangzcwngz
-长城 Cangzcwngz
 城 singz
 城堡 singzbauj
-城徽 cwngzveih
-挠 {动}用手指轻地抓nyauj
-挠 阻止byah
+挠 {动} 用手指轻地抓 nyauj
+挠 阻止 byah
 挠 lanz
 挠救 gouq
 阻挠 laengz
 阻挠 lanzlaengz
-财政 caizcwng
-打摆子政策 cwngcwz bibuengq
 大政 goengsaeh hungnaek
 赴 bae
-开赴 gaihfu
 前赴后继 baihnaj cung baihlaeng riengz
 挡 daengj
 挡 lanz
@@ -32366,31 +32324,27 @@ gywngz　(见mboengq)　大竹筒
 栏挡 dangj
 遮挡 baexdangj
 遮挡 cwdangj
-遮挡 dangj
-挺 伸直或凸出：挺{胸}enj
-挺 挺着脖子iet
-挺 挺香
-挺 很gig挺拔sang nengneng
+挺 伸直或凸出：挺{胸} enj
+挺 挺着脖子 iet
+挺 挺拔 sang nengneng
 挺立 daengj
 挺身而出 ndwn ok bae
 挺身而出 ndwn ok daeuj
 挺胸 enjaek
-硬挺 {勉强支撑}dingjgeng
+硬挺 {勉强支撑} dingjgeng
 硬挺 cengqgengz
 直挺挺 sohrwdrwd
 直挺挺 {方} sohnoengnoeng
 包括 bau
 包括 baudaengz
 包括 baugvat
-方括号 fanghgozhau
-概括 gaigoz
 概括 gyonj hwnjdaeuj
 总括 gyonj hwnjdaeuj
-拴 {动}器物上可以开关的机件lwggit枪拴gaepgaeu
-拴 用绳子绕在物体上再打上结lamh
-拾 “十”的大写cib
-拾 捡gip
-拾 {方}yaeb
+拴 器物上可以开关的机件 lwggit; 枪拴 gaepgaeu
+拴 用绳子绕在物体上再打上结 lamh
+拾 “十”的大写 cib
+拾 捡 gip
+拾 {方} yaeb
 拾金不昧 gip ndaej cienz mbouj aeu
 拾取 gip
 拾遗 gipdoek
@@ -32398,15 +32352,15 @@ gywngz　(见mboengq)　大竹筒
 收拾 sousib
 高挑 sangseuq
 挑 {动} deuq
-挑 {方}diu
+挑 {方} diu
 挑 gvit
 挑 gviq
 挑 bongq
-挑 {动}挑选genj
+挑 {动} 挑选 genj
 挑 yoek
-挑 担子rap
-挑 挑东西rap
-挑 挑剔deu
+挑 担子 rap
+挑 挑东西 rap
+挑 挑剔 deu
 挑 deudik
 挑担 dawzrap
 挑动 deuq
@@ -32414,9 +32368,8 @@ gywngz　(见mboengq)　大竹筒
 挑动 soengxnyoengx
 暗指 amqceij
 大姆指 mehfwngz
-家居{指家庭居室} gyaranz
 脚指头 lwgdin
-脚指头 {方}yienghdin
+脚指头 {方} yienghdin
 脚指头 niuxga
 戒指 haebfwngz
 戒指 {方}litfwngz
@@ -32429,49 +32382,49 @@ gywngz　(见mboengq)　大竹筒
 垫子 mbawdemh
 坐垫 diemhnaengh
 挣 {动} ndengj-
-挣 用力使自己摆脱束缚cak{方}cangh
+挣 用力使自己摆脱束缚 cak  {方} cangh
 挣 sangj
-挣 用劳动换取ndaej
+挣 用劳动换取 ndaej
 挣钱 cauhcienz
 挣钱 ra cienz
 挣钱 dozcienz
 挣脱 cugcak
-挣脱 {方}faenq
+挣脱 {方} faenq
 挣脱 fiengz
 挣脱 gyod
 挣扎 guengzcak
-挣扎 用力较大cugcak
-挣扎 用力较小cak
+挣扎 用力较大 cugcak
+挣扎 用力较小 cak
 挤 {动、形} caenx
-挤 {方}nyeq
+挤 {方} nyeq
 挤 nep
 挤 nap
 挤 ngaemh
 挤 ned
 挤 yaed
 挤 laemx
-挤 拥挤ndaet
-挤 挤压nyaenj
-挤 {方}nap
+挤 拥挤 ndaet
+挤 挤压 nyaenj
+挤 {方} nap
 挤 caenj
 挤进 caenxhaeuj
 挤压 daemhcaenx
 比拼 beijbuek
-拼 {动}gyoeb
+拼 {动} gyoeb
 拼 gyonj
 拼凑 souliemx
 拼凑 gap
 拼爹 beij boh ak
 拼命 buekmingh
-拼死 {副}buek dai
+拼死 {副} buek dai
 拼死拼活 buekdai bueklix
 七拼八凑 doeng beng sae beng
 善于拼搏 maenhbuek
 相互拼搏 doxbuek
 耳挖子 fagyaekrwz
-挖 {动}泛指挖vat
+挖 {动}泛指挖 vat
 挖 指挖洞 ven
-挖 用尖的木头挖gud
+挖 用尖的木头挖 gud
 挖补 vetbouj
 挖补 vatbouj
 挖出 vatok
@@ -32484,18 +32437,15 @@ gywngz　(见mboengq)　大竹筒
 挖肉补疮 dub gu daeuj fong rek
 挖通 vatdoeng
 按 auq
-按键 angen
-按揭 angez
 按揭 anqgiet
 按脉 dinghmeg
-按脉 {方}damqmeg
+按脉 {方} damqmeg
 按脉 gaernmeg
 按脉 dawzmeg
 按摩馆 bouqanqmoh
 按摩馆 bouqanqmoz
 按摩馆 bouqsoengndang
-发挥 fazveih
-挥 {动}vad
+挥 {动} vad
 挥动 vad
 挥发 fwi
 挥发 siu
@@ -32504,20 +32454,19 @@ gywngz　(见mboengq)　大竹筒
 挥手 vad fwngz
 挥舞 vad
 挥舞 foux
-挪 {动}{nu6}doenq
-挪 {方}sut
+挪 {动}doenq
+挪 {方} sut
 挪 nod
 挪动 doenq
-挪动 {方}nod
+挪动 {方} nod
 挪动 sut
 挪动 noddoengh
 挪动 nodned
 挪动 senjnod
 挪借 noizciq
-挪借 {方}nodciq
-挪威 Nozveih
+挪借 {方} nodciq
 挪用 noizyungh
-挪用 {方}nodyungh
+挪用 {方} nodyungh
 推挪 doinod
 某 {代} moux
 倾向{某一边} ngengcoh
@@ -32529,15 +32478,15 @@ gywngz　(见mboengq)　大竹筒
 过甚 gvaqlai
 过甚 gvaqmauh
 甚 {副} gig
-甚而 {连}lienz
+甚而 {连} lienz
 太甚 daiqgvaq
 推荐 gawj
 村巷 luengqmbanj
 街巷 honghhaw
 深巷 honghlaeg
 下巷 hongh laj
-巷 {名}gehhongh
-巷 {方}honghgvaengh
+巷 {名} gehhongh
+巷 {方} honghgvaengh
 巷 luengqgvaengh
 巷 gemh
 巷 roq
@@ -32546,24 +32495,23 @@ gywngz　(见mboengq)　大竹筒
 中间的巷子 luengq gyang
 背带 nda
 背带 sainda
-城市带 cwngzsidai
-带 动词：携带物件daiq
+带 动词：携带物件 daiq
 带 raek
-带 名词：带子sai
+带 名词：带子 sai
 带 cag
-带 看管小孩dawz
+带 看管小孩 dawz
 带 guenj
-带 附带bengxdaiq
+带 附带 bengxdaiq
 带 fouqdaiq
 带班 daiqban
 草 go nywj
 草 nywj
-草 {方}nyaj
+草 {方} nyaj
 草案 caujanq
-草包 {比喻没有才能的人}bou
+草包 {比喻没有才能的人} bou
 草包 vunzbou
 草草 rubrab
-草草 {方}lujlaj
+草草 {方} lujlaj
 草地 diegnywj
 草地 doenghnywj
 草稿 caujgauj
@@ -32587,7 +32535,6 @@ gywngz　(见mboengq)　大竹筒
 荒凉 fwzrwg
 荒乱 laebluenh
 荒乱 luenhlab lab
-荒漠化 vanghmozva
 荒漠植被 gij doenghgo cwgoemq diegfwz
 白茫茫 hausaksak
 黑茫茫 laepcupcup
@@ -32595,16 +32542,16 @@ gywngz　(见mboengq)　大竹筒
 迷迷茫茫 maezmaezmuenhmuenh
 渺茫 hoj raen
 渺茫 mbouj miz muengh
-荡 摆动bi
+荡 摆动 bi
 荡 bibuengq
-荡 游荡louz
+荡 游荡 louz
 荡 cet
 荡 louzcet
 荡涤 dongj
 荡涤 swiq
 荡涤 dongjswiq
-荡漾 较大的fubfab
-荡漾 较小的fubfed
+荡漾 较大的 fubfab
+荡漾 较小的 fubfed
 涤荡 dongjswiq
 涤荡 saegsauz
 涤荡 dongjsauz
@@ -32613,22 +32560,17 @@ gywngz　(见mboengq)　大竹筒
 繁荣 hoengh
 繁荣 mwnhoengh
 光荣 miznaj
-光荣榜 gvanghyungzbangj
-汉荣 hanyungz
-荣 {形} 草木茂盛mwn
-荣 光荣yungz
+荣 {形} 草木茂盛 mwn
+荣 光荣 yungz
 荣 yungz daeuz
 荣华 yungzdaeuz
 荣华 yungzvaz
-荣辱观 yungzyuzgvanh
 病故 binghdai
 多发{事故} lai fat
-故 原来的gaeuq
-故 故意daegdaengq
-故 死亡dai
+故 原来的 gaeuq
+故 故意 daegdaengq
+故 死亡 dai
 故地 dieggaeuq
-故地 gudi
-故宫 gugungh
 故居 ranzgaeuq
 故居 ranzcoj
 故人 baengzyoux gaeuq
@@ -32639,7 +32581,6 @@ gywngz　(见mboengq)　大竹筒
 胡椒 hozceu
 胡椒粉 faenj hozceu
 胡椒粉 mbahuzciuh
-胡锦涛 Huz Ginjdauh
 胡来 luenhdaeuj
 胡乱 laebluenh
 胡乱 luenh
@@ -32660,22 +32601,22 @@ gywngz　(见mboengq)　大竹筒
 干枯 reuqroz
 干枯 roz
 干枯 gyo
-枯 {形}植物枯reuq
+枯 {形}植物枯 reuq
 枯 roz
-枯 水源枯竭mbaet
+枯 水源枯竭 mbaet
 枯 {方} dwt
 枯 gvaed
-枯 芝麻、大豆、油茶等榨油后的渣滓gu
+枯 芝麻、大豆、油茶等榨油后的渣滓 gu
 枯饼 gu
 枯饼 youzgu
-枯槁 草木枯槁gyo
-枯槁 面容憔悴ho
+枯槁 草木枯槁 gyo
+枯槁 面容憔悴 ho
 枯黄 reuq henj
 枯黄 henj roz
 柄 gaenz
-柄 {方}dam
+柄 {方} dam
 柄 ganh
-柄 把柄bingq
+柄 把柄 bingq
 剑柄 gaenzgiemq
 磨柄 genmuh
 枪柄 gaenzcungq
@@ -32687,13 +32628,11 @@ gywngz　(见mboengq)　大竹筒
 栋 aen
 栋 {方} gan
 栋 doengh
-栋才 dungcaiz
 栋梁 liengz
 栋梁 loz
 长相 yienghsiengq
-长相 {方}mwiq
-丞相 cwngzsieng
-互相 {副}dox
+长相 {方} mwiq
+互相 {副} dox
 暗查 amqcaz
 查 caz
 查案 cazanq
@@ -32701,11 +32640,10 @@ gywngz　(见mboengq)　大竹筒
 查办 yawjbanh
 查点 cazdiemj
 查点 diemj
-查尔斯 Cazwjswh
 柏 go bek
 柏树 go bek
 柳 {名} goliux
-柳 {方}goliuxsawh
+柳 {方} goliuxsawh
 柳 golinghliux
 柳树 goliux
 顶梁柱 saeumeh
