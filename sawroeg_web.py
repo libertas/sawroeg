@@ -62,20 +62,20 @@ class SearchHandler(tornado.web.RequestHandler):
         except tornado.web.MissingArgumentError:
             new_engine = "on"
 
-        groupList = ["Saw", "Laeh"]
         try:
             group = self.get_argument("group")
             if not group in groupList:
                 raise tornado.web.MissingArgumentError
         except tornado.web.MissingArgumentError:
-            group = "Saw"
-        result_generator = newSearch(key, group, new_engine)
+            group = groupList[0]
+        result_generator = newSearch(key, group, new_engine, groupDB[group])
         template_args = {
             "key": key, "start": start, "count": count, "has_count": has_count,
             "result": result_generator, "version": info.version,
             "new_engine": new_engine, 
             "downloadPageName": DOWNLOADPAGENAME,
-            "group": group
+            "group": group,
+            "groupList": groupList
         }
         self.render("sawroeg.html", **template_args)
 

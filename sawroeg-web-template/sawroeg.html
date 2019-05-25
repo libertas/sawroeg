@@ -22,8 +22,11 @@
 	<form action="?" method="GET">
 		<div class="input-group" style="width:60%; margin:0 auto;">
 			<select name="group" value="{{ group }}" class="selectpicker">
-				<option id="Saw" value="Saw">Saw</option>
-				<option id="Laeh" value="Laeh">Laeh</option>
+<!--				<option id="Saw" value="Saw">Saw</option>-->
+<!--				<option id="Laeh" value="Laeh">Laeh</option>-->
+				{% for item_name in groupList %}
+				<option id="{{ item_name }}" value="{{ item_name }}">{{ item_name }}</option>
+				{% end %}
 			</select>
 			<script>
 				document.getElementById("{{ group }}").selected = "selected";

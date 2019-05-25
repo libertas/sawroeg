@@ -16,8 +16,7 @@ if python_version().startswith('2'):
 
 
 class dictionary:
-    def __init__(self,  dbpath, item_prefix=""):
-        self.prefix = item_prefix
+    def __init__(self,  dbpath):
         self.cx = sqlite3.connect(dbpath, check_same_thread = False)
         self.cu = self.cx.cursor()
 
