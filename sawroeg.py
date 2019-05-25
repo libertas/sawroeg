@@ -9,6 +9,7 @@ from PyQt5 import QtGui, QtWidgets
 import mainwindow
 import aboutDialog
 import info
+from enviroment import *
 from new_search import newSearch
 
 from platform import python_version
@@ -70,8 +71,8 @@ class MainWindow(QtWidgets.QMainWindow, mainwindow.Ui_MainWindow):
         self.searchingCuengh = False
 
         # setup comboBox
-        self.comboBox.addItem("Saw")  # Word
-        self.comboBox.addItem("Laeh")  # Examples
+        for item_name in groupList:
+            self.comboBox.addItem(item_name)
 
         self.clearText()
 
@@ -89,8 +90,8 @@ class MainWindow(QtWidgets.QMainWindow, mainwindow.Ui_MainWindow):
 
     def newSearch(self):
         key = self.lineEdit.text()
-        levenshtein = True  # Use accurate searching method as the only option
-        result_yield = newSearch(key, self.comboBox.currentText(), levenshtein)
+        group = self.comboBox.currentText()
+        result_yield = newSearch(key, group, dbpath=groupDB[group])
         result = ""
         n = 1
         for i in result_yield:
