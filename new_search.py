@@ -13,9 +13,11 @@ if python_version().startswith('2'):
 
 
 dbs = {}
+tokenizers = {groupList[0]: accurate_search.cuengh_tokenizer,
+              groupList[1]: accurate_search.bouyei_tokenizer}
 
 
-def newSearch(key, group="Saw", levenshtein=True,  dbpath=DB_PATH):
+def newSearch(key, group="Saw", accurate=True,  dbpath=DB_PATH):
     if not key:
         yield ""
     if not dbpath in dbs.keys():
@@ -25,8 +27,9 @@ def newSearch(key, group="Saw", levenshtein=True,  dbpath=DB_PATH):
         result = searchExamples(key)
     else:
         result = dbs[dbpath].searchWord(key)
-        if levenshtein:
-            result = accurate_search.byLevenshtein(key, result)
+        if accurate:
+            tokenizer = tokenizers[group]
+            result = accurate_search.byWordsAndLevenshtein(key, result, tokenizer)
 
     value = ""
     if group == "Laeh":
