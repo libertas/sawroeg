@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 import re
 import sys
 
-from PyQt5 import QtGui, QtWidgets
+from PyQt5 import QtCore, QtGui, QtWidgets
 import mainwindow
 import aboutDialog
 import info
@@ -104,6 +104,7 @@ class MainWindow(QtWidgets.QMainWindow, mainwindow.Ui_MainWindow):
 
 
 if __name__ == "__main__":
+    QtCore.QCoreApplication.setAttribute(QtCore.Qt.AA_EnableHighDpiScaling)
     app = QtWidgets.QApplication(sys.argv)
     window = MainWindow()
     window.show()
