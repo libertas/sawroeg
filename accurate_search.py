@@ -60,7 +60,11 @@ def byWordsAndLevenshtein(key, result_yield, tokenizer):
                     l_distances = [l_distance,]
                     break
                 l_distances.append(l_distance)
-            result_list2d.append([sum(l_distances) / len(l_distances), i])
+            try:
+                dis = float(sum(l_distances)) / float(len(l_distances))
+            except ZeroDivisionError:
+                dis = float("inf")
+            result_list2d.append([dis , i])
     else:
         for i in result_yield:
             w_distance = wordsSimilarity(tokenizer.tokenize(key), tokenizer.tokenize(i[0]))
