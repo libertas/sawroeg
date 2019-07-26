@@ -39,9 +39,17 @@ wordsSimilarity = Dict.wordsSimilarity
 isStringChinese = Dict.isStringChinese
 languageFilter = Dict.languageFilter
 
+
 WORD_TIMES = 1000
 Max_Ch_Word_Length = 7
 
+
+def filter_func(s):
+    s = re.sub("\\[[^\\]]+\\]", "", s)
+    s = re.sub("（[^）]*\\）", "", s)
+    s = re.sub("<[^>]*>", "", s)
+    s = re.sub("\\{[^\\}]*\\}", "", s)
+    return s
 
 def byWordsAndLevenshtein(key, result_yield, tokenizer):
     issc = isStringChinese(key)
@@ -49,7 +57,7 @@ def byWordsAndLevenshtein(key, result_yield, tokenizer):
 
     if issc:
         for i in result_yield:
-            parts = re.split("[ ，；。]+", languageFilter(i[1][0], issc))
+            parts = re.split("[ ，；。]+", languageFilter(filter_func(i[1][0]), issc))
             l_distances = []
             for part in parts:
                 if part == "" or\
