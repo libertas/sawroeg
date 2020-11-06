@@ -17,6 +17,19 @@ else:
     print(help_msg)
     exit(-1)
 
+def getType(c):
+    if c in {" ", "-"} or (c >= 'a' and c <= 'z') or (c >= 'A' and c <= 'Z') or (c >= '0' and c <= '9'):
+        return 0
+    return 1
+
+def split(s):
+    s = s.strip()
+    c = s[0]
+    keyType = getType(c)
+    i = 0
+    while i < len(s) and getType(s[i]) == keyType:
+        i += 1
+    return s[:i].strip(), s[i:].strip()
 
 sawguq = {}
 with open(inputFile, 'r') as f:
@@ -25,13 +38,14 @@ with open(inputFile, 'r') as f:
             ')', '）').strip()
         if not word:
             continue
-        try:
-            idx, content = word.split(' ', 1)
-        except ValueError:
+
+        idx, content = split(word)
+        if (len(idx) == 0 or len(content) == 0):
             if force:
                 continue
             else:
                 raise ValueError('Misformed line: %s' % repr(word))
+
         idx = idx.strip('-').lower()
         if idx in sawguq:
             sawguq[idx].append(word)
