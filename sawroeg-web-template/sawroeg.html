@@ -4,14 +4,14 @@
 	<link href="/static/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>Sawroeg {{ version }}</title>
-	<meta name="description" content="Sawroeg: Sawloih Cuengh-Gun duh Daegroeg" />
+	<meta name="description" content="Sawroeg" />
 	<meta name="robots" content="noindex, nofollow" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<link rel="shortcut icon" type="image/x-icon" href="{{ static_url('favicon.ico') }}" />
 </head>
 <body>
 	<div class="container text-center">
-	<div class="page-header text-center"><h1>Sawroeg: Sawloih Cuengh-Gun duh Daegroeg</h1></div>
+	<div class="page-header text-center"><h1>Sawroeg</h1></div>
 	<ul class="nav nav-pills nav-justified">
 		<li><a href="/sawroeg/">Mbaw Naj</a></li>
 		<li><a href="/raiz/">Raiz Sawloih</a></li>
@@ -22,8 +22,6 @@
 	<form action="?" method="GET">
 		<div class="input-group" style="width:60%; margin:0 auto;">
 			<select name="group" value="{{ group }}" class="selectpicker">
-<!--				<option id="Saw" value="Saw">Saw</option>-->
-<!--				<option id="Laeh" value="Laeh">Laeh</option>-->
 				{% for item_name in groupList %}
 				<option id="{{ item_name }}" value="{{ item_name }}">{{ item_name }}</option>
 				{% end %}
