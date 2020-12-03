@@ -41,10 +41,12 @@ with open(inputFile, 'r') as f:
 
         idx, content = split(word)
         if (len(idx) == 0 or len(content) == 0):
+            e = 'Misformed line: %s' % repr(word)
             if force:
+                print(e)
                 continue
             else:
-                raise ValueError('Misformed line: %s' % repr(word))
+                raise ValueError(e)
 
         idx = idx.strip('-').lower()
         if idx in sawguq:
