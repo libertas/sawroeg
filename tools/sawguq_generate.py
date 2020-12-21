@@ -34,8 +34,8 @@ def split(s):
 sawguq = {}
 with open(inputFile, 'r') as f:
     for word in f.read().splitlines():
-        word = word.replace('\u3000', '\x20').replace('(', '（').replace(
-            ')', '）').strip()
+        word = word.replace('\u3000', '\x20').replace("\xa0", "\x20")
+            .replace('(', '（').replace(')', '）').strip()
         if not word:
             continue
 
