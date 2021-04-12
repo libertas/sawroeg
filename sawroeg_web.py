@@ -71,7 +71,7 @@ class SearchHandler(tornado.web.RequestHandler):
         result_generator = newSearch(key, group, new_engine, groupDB[group])
         template_args = {
             "key": key, "start": start, "count": count, "has_count": has_count,
-            "result": result_generator, "version": info.version,
+            "result": result_generator,
             "new_engine": new_engine, 
             "downloadPageName": DOWNLOADPAGENAME,
             "group": group,
