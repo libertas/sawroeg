@@ -1,4 +1,4 @@
-#! /bin/sh
+#! /bin/bash
 
 rm -f sawguq.db
 python3 sawguq_generate.py -f sawcaux.txt sawguq.db
