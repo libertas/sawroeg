@@ -1421,7 +1421,6 @@ roegguj　(见roeggyaeujmeuz)　猫头鹰
 roegguhvaek　白面水鸡[常住在近水地方，身灰黑，尾巴下面羽毛呈红色]
 roeggumj　鹌鹑[身有花斑，常在田塍边觅食，人近身时才起飞]
 roeggumjmeij　鹌鹑[比roeggumj小]
-roeggungjcoz　孔雀
 roeggut　红毛鸡[常在荆棘和茅草间，毛褐色，重半斤左右，叫声gutgut]
 roeggvaekfeiz　鸟名[比麻雀小，羽毛火红色，生活在芭芒中]
 roeggvaetliuq　(见roegmauh)　太平鸟
@@ -3700,7 +3699,7 @@ vied　(见naih)　越…越…　[多用在感觉和体会方面]
 vienz　(见byoemcienj)　刘海[妇女或儿童垂往前额的短发]
 vienz　(见yienz)　丸
 vienzfaenh　(见yienz)　姻缘;缘份
-vienzmaz　(见yenzlaiz)　原来
+vienzmaz　(见yienzlaiz)　原来
 vienq　(见hamzien)　含冤
 vienqcaq　(见yienqloeng)　抱恨
 vieng　(见caem)　静；沉静；寂静；清静；沉寂
@@ -5533,7 +5532,7 @@ laiz　(见raiz)　①麻(脸)　naj ～　麻脸　②花纹
 laizbeg　(见raizhau)　斑白
 laizda　(见fuemx)　天将黑；黄昏
 laizlah　(见fuemx)　天将黑；黄昏
-laizlawz　(见yenzlaiz)　原来
+laizlawz　(见yienzlaiz)　原来
 laizlig　来历
 laizlwnh　(见doenx)　欲吐
 laizyouz　来由；来历，棍通
@@ -6428,7 +6427,7 @@ lumzbongh　[方]　气泡
 lumzgaeq　鸡胰腺[鸡内脏之一，俗称鸡灵]
 lumzgoek　[方]　忘本
 lumzlangh　健忘
-lumj　[方]huet；gauh；swz；humj；luj　象；似；仿佛　Faqnaj lwgnyez neix ～ dahboh de．这孩子的面貌象他父亲。～ gungqsaeu laj gaq nei [成语]象井底之蛙[见识不广]
+lumj　[方]huet；gauh；swz；humj；luj　象；似；仿佛　Faqnaj lwgnyez neix ～ dahboh de．这孩子的面貌象他父亲。～ gungqsou laj gaq nei [成语]象井底之蛙[见识不广]
 lumj　(见dumh)　(大水)淹；淹没
 lumj　(见byuz)　昆虫聚集一团
 lumjbaenz　[方]huetdoengz；caemhdangq；beijbaenz；beijsiengq　好象，比如；例如；似乎
@@ -10346,7 +10345,7 @@ nyujnyanq　(见dajlaih)　耍赖
 nyub　[方]nyomx　浸一浸[把东西浸到水里，马上拿起来]
 nyued　(见simlaemx)　甘心
 nyuedbingj　[方]　月饼
-nyuenz　(见yenzlaiz)　原来
+nyuenz　(见yienzlaiz)　原来
 nyuengx　(见cok)　唆使
 nyuknyak　不修边幅，吊儿郎当[指行为]
 nyuknyak　[方]麻烦；烦琐；(事情)难办
@@ -11395,8 +11394,6 @@ banringzgvaq　［方］baenzlengzgvaq;gvaqlingz;lajbyonghngoenz　下午
 banz　（见henz）　①旁边；边沿　②附近
 banz　［方］bad　陡［坡度较小］
 banz　［方］camh　盘子［大碟子］
-Banz　盘（姓）
-banj　版
 banj　（见bau）　（）包
 banj　（见baez）　（）次；（）遍；（）趟
 banj　（见bup）　（往墙上）摔（泥浆）
@@ -13063,7 +13060,6 @@ byauz　[方]sangq；haih；fauz　雨由大连渐变小
 byaux　[方]byoux　锅里的水因沸腾而溢出
 byauq　[与fat同]　雨从屋外打进房里
 byauh　(见led)　篱笆
-byauhcunjyinh　标准音
 byawz　(见bouxlawz)　谁；哪个；何人
 byoz　[方]congz　丛　song～oen　两丛荆棘
 byoz　(见gyok)　在一个屯里依自然条件而自成一个部分的若干家房子
@@ -13175,10 +13171,9 @@ cabau　[方]aenbou　沙煲
 caceij　(见saeceij)　狮子
 cacoemj　赶紧；急忙
 cadau　[方]ca'gvi　一种赌博方式
-cadan　炸弹
 caga　(见samca)　三叉[古代武器名]
 cagaenj　[与gaemndaet同]　[方]gaenxmaenx；gyaenj　抓紧
-ca'gvi　(见cadan)　一种睹博方式（抓阄-[honghlaj]）
+ca'gvi　一种睹博方式（抓阄-[honghlaj]）
 camux　(见nax)　舅母[母弟之妻]
 ca'nyinz　(见hwnjgeuq)　抽筋
 casoz　[方]　现世[出丑；丢脸]
@@ -15544,14 +15539,10 @@ dah　[方]deh；ningz　①女[指青少年或幼年]　②对同辈或小辈�
 dah　(见lungz)　姑父[父姐之夫]
 dah　(见dazdex)　①教小孩学走路　②扶小孩走路
 dahbiz　胖子[指年青的女子和女孩]
-Dahcangzgyangh　长江
-Dahcojgyangh　左江
-Dahdaduhoz　大渡河
 dahgwiz　(见lungz)　姨丈[母姐之夫]
 dahhaij　(见dahmbwn)　银河
 Dahhoengz　(与Dahraemxhoengz同)　红水河
 dahhoiq　[方]lauxbaeh；mojcaij　丫头；婢女
-Dahhwzlungzgyangh　黑龙江
 dahlaenj　曾孙女
 dahlan　侄孙女
 dahmbwn　[方]dahhaij；lohnag　银河
@@ -15564,15 +15555,13 @@ dahraix　[方]gwhraix　真的；真正的；实在的 Ngoenzcog gou bae ～ �
 dahraix　果然
 dahsau　少女
 dahsien　仙女
-Dahvangzhoz　黄河
-Dahyougyangh　右江
 dab　重叠
 dab　(见ut)　弯[动词]
 dab　()座(高大的房子)
 dab　(见dieb)　蹬；踏
 dabdaz　[方]　耙子[用来耙谷子]
 dad　[方] vat；maeng；caeh；gaeuh　掷；摔
-dae　(见dih)　锑
+dae　锑
 dae　(见cae)　犁头
 daez　题；题目
 daez　堤
@@ -16488,7 +16477,7 @@ dauhleix　道理；理由
 dauhloh　道路
 dauhloh　(见daeuzloh)　①头路；门路　②事情；工作
 daw　肉茧；茧子；趼子[手掌或脚掌上因摩擦而生成的厚皮]
-daw　肫；胗子[禽类、鸟类的胃]　dae
+daw　肫；胗子[禽类、鸟类的胃]
 daw　(见swnx)　芋头或红薯煮熟后，肉质不松
 daw　(见nwnj)　被虫咬或被鞭打后，皮肤所起的红疙瘩或血痕
 daw　(见cid)　结实
@@ -19334,7 +19323,6 @@ gaqgiuz　[方]ciepgiuz　架福桥[旧时的一种迷信风习]
 gaqlaiq　(见caeklaiq)　幸亏；好在；幸而；幸好
 gaqyiemhranz　(见saufueng)　承住屋檐的横梁
 gah　问(价钱)
-gah　(见dih)　的[用于抽象的形容词后面或长修饰语里]
 gah　(见gij)　不定量词　～ neix　这些　～ haenx　那些　～ gwn　吃的
 gahgumhrwmh　[方]　默然，不声不响
 gahlaeg　(见caeg)　偷；盗窃；剽窃　②强盗；土匪；贼
@@ -21439,15 +21427,12 @@ gunghoh　(见hoh)　贺；庆贺；庆祝；祝贺
 gungmbwt　(见mbongjmbwt)　蜣螂
 gungroengz　攻克；攻下
 gungsienq　(见danzvangz)　弹簧
-gungsiuhse　供销社
 gung'wngq　供应
-gung'yen　[方]hawj　贡献
 gungz　[方]daemdaenx　尽头；绝路；穷途，末路
 gungz　(见geu)　(　)件(衣服)
 gungzgeuj　(见hojndoq)　清贫；赤贫
 gungj　①弓形；拱　②弯[动词]　～ hwet　弯腰
 gungj　(见goeng)　祖父
-gungjcoz　孔雀
 gungjcoj　(见goenggeq)　曾祖父
 gungjngaungau　弯弯的[人为的]
 gungx　[方]gex；guggeh；gox；goeg　角落
@@ -22165,7 +22150,6 @@ gyangngoenz　(见daengngoenz)　太阳
 gyangsim　中心[物体的中心]
 gyangz　[方]gangz；gongz　哼；呻吟
 gyangz　(见cangz)　两
-gyangzgenh　强奸
 gyangznaek　[方]gongznaek　哀叹
 gyangznaek　[方]cangznaek　叹(气)　[与danq同]
 gyangjbex　(见baeh)　讽刺；讥讽，指桑骂槐
@@ -38885,7 +38869,7 @@ mbaetmbeuj {小孩} 闹脾气、生气的样子
 蜜蜂 duzrwi
 蜜蜂 rwi
 蜜糖 dangzrwi
-甜言蜜语 vah unq van van
+甜言蜜语 vah unq vah van
 粉嫩 maeqsisi
 力气小 rengzoiq
 嫩 [形] oiq
@@ -42160,8 +42144,6 @@ daraeh 看问题看得准
 燎原 coemh ndoi
 燎原 dawz bya
 燎原 lag
-版本 banjbonj
-版权 banjgienz
 牛脾气 beizheiq vaiz
 牢牢抓住 dawzndaet
 特征 daegcwng
